@@ -34,3 +34,10 @@ doc/api/
 
 # Generated bridge glue (regenerate with flutter_rust_bridge_codegen)
 app/lib/src/rust/
+
+# محتوای همگام‌شده (make content-sync) — یک منبعِ حقیقت بیشتر نداریم
+app/assets/content/
+
+# قلم‌ها پروانه‌ی جدا دارند (make fonts)
+design/fonts/*.ttf
+design/fonts/*.otf

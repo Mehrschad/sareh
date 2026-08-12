@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: راهنمای افزودن واژه
+    url: https://github.com/mehrschad/sareh/blob/main/docs/CONTENT_GUIDE.md
+    about: پیش از پیشنهادِ واژه این را بخوانید
+  - name: خط قرمزهای اخلاقی
+    url: https://github.com/mehrschad/sareh/blob/main/docs/ETHICS.md
+    about: اگر چیزی در اپ حس کرد که فشار می‌آورد

@@ -1,0 +1,19 @@
+name: ایراد
+description: چیزی آن‌طور که باید کار نمی‌کند
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: چه شد؟
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: چه انتظار داشتید؟
+  - type: input
+    id: device
+    attributes:
+      label: دستگاه و نسخه
+      placeholder: اندروید ۱۴ · سره ۰٫۱٫۰

@@ -1,0 +1,72 @@
+name: sareh
+description: واژه‌هایی که فارسی از یاد برد — اپلیکیشن متن‌باز و آفلاین‌اولِ آموزش واژگان سره.
+publish_to: none
+version: 0.1.0
+
+environment:
+  # withValues، TextScaler و switch expression‌ها همه به این کف نیاز دارند.
+  sdk: ">=3.6.0 <4.0.0"
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # مدیریت وضعیت — بدون context، قابل‌آزمون (بخش ۹٫۱)
+  flutter_riverpod: ^2.5.1
+  # مسیریابی اعلانی
+  go_router: ^14.6.0
+  # پایگاه داده‌ی محلی، آفلاین‌اول
+  drift: ^2.20.0
+  sqlite3_flutter_libs: ^0.5.24
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  # خواندن محتوای YAML همراهِ اپ
+  yaml: ^3.1.2
+  # انیمیشن‌های ساده‌ی زنجیره‌ای
+  flutter_animate: ^4.5.0
+  meta: ^1.15.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  drift_dev: ^2.20.0
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # `make content-sync` محتوای ریشه‌ی مخزن را اینجا می‌گذارد. خودِ پوشه در
+    # git نیست تا محتوا یک منبعِ حقیقت بیشتر نداشته باشد.
+    - assets/content/
+    - assets/content/words/
+    - assets/content/lessons/
+    - assets/content/corpus/
+
+  shaders:
+    - shaders/nur.frag
+
+  # قلم‌ها با `make fonts` گرفته می‌شوند؛ در مخزن نیستند چون پروانه‌شان جداست.
+  # گلزار: SIL OFL · وزیرمتن: SIL OFL · استعداد: SIL OFL
+  fonts:
+    - family: Vazirmatn
+      fonts:
+        - asset: ../design/fonts/Vazirmatn-Regular.ttf
+          weight: 400
+        - asset: ../design/fonts/Vazirmatn-Medium.ttf
+          weight: 500
+        - asset: ../design/fonts/Vazirmatn-SemiBold.ttf
+          weight: 600
+        - asset: ../design/fonts/Vazirmatn-Bold.ttf
+          weight: 700
+    - family: Gulzar
+      fonts:
+        - asset: ../design/fonts/Gulzar-Regular.ttf
+    - family: Estedad
+      fonts:
+        - asset: ../design/fonts/Estedad-Regular.ttf
+          weight: 400
+        - asset: ../design/fonts/Estedad-Bold.ttf
+          weight: 700
