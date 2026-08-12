@@ -1,0 +1,30 @@
+id: mahiche-azole
+sare: ماهیچه
+loan: عضله
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /mɒːhiːˈtʃe/
+definition: بافتِ کشنده‌ی تن که جنبش می‌آورد
+english: muscle
+register: دانشی
+frequency_rank: 1470
+difficulty: 3
+examples:
+- sare: ماهیچه‌اش گرفت.
+  loan: عضله‌اش گرفت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «ماهیچه»
+- source: فرهنگ فارسی معین
+  ref: مدخل «ماهیچه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- تن
+- ماهیچه‌ای
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -1,0 +1,30 @@
+id: azmayesh-tajrobe
+sare: آزمایش
+loan: تجربه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʔɒːzmɒːˈjeʃ/
+definition: آزمودنِ سامان‌مند برای یافتنِ پاسخ
+english: experiment
+register: دانشی
+frequency_rank: 620
+difficulty: 2
+examples:
+- sare: آزمایش را دوباره انجام داد.
+  loan: تجربه را دوباره انجام داد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آزمایش»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «آزمایش»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- آزمایشگاه
+- آزمودن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -1,0 +1,31 @@
+id: hamsar-zowj
+sare: همسر
+loan: زوج
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /hæmˈsæɾ/
+definition: کسی که با او پیوندِ زناشویی بسته‌ای
+english: spouse
+register: رسمی
+frequency_rank: 810
+difficulty: 2
+examples:
+- sare: همسرش پزشک است.
+  loan: زوجش پزشک است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «همسر»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «همسر»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- زناشویی
+- سر
+- هم
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -1,0 +1,30 @@
+id: niyakan-ajdad
+sare: نیاکان
+loan: اجداد
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /niːjɒːˈkɒːn/
+definition: پدرانِ پیشینِ یک تبار
+english: ancestors
+register: ادبی
+frequency_rank: 1710
+difficulty: 4
+examples:
+- sare: نیاکانمان اینجا زیستند.
+  loan: اجدادمان اینجا زیستند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نیا»
+- source: شاهنامه فردوسی
+  book: پادشاهی کیقباد
+roots:
+  pahlavi: niyāg
+  avestan: null
+related:
+- تبار
+- نیا
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

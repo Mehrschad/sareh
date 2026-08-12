@@ -1,0 +1,30 @@
+id: angize-moharrek
+sare: انگیزه
+loan: محرّک
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʔænɡiːˈze/
+definition: آنچه کسی را به کاری برمی‌انگیزد
+english: motive
+register: رسمی
+frequency_rank: 410
+difficulty: 2
+examples:
+- sare: انگیزه‌اش روشن بود.
+  loan: محرّکش روشن بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «انگیزه»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «انگیزه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- انگیختن
+- برانگیزنده
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -1,0 +1,31 @@
+id: sarnevesht-taqdir
+sare: سرنوشت
+loan: تقدیر
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /sæɾneˈveʃt/
+definition: آنچه برای کسی رقم خورده است
+english: destiny
+register: ادبی
+frequency_rank: 950
+difficulty: 2
+examples:
+- sare: سرنوشتش دگرگون شد.
+  loan: تقدیرش دگرگون شد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سرنوشت»
+- source: شاهنامه فردوسی
+  book: داستان رستم و سهراب
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- بخت
+- سر
+- نوشتن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -1,0 +1,30 @@
+id: tanha-faqat
+sare: تنها
+loan: فقط
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /tænˈhɒː/
+definition: بی‌بیش از آن؛ همین و بس
+english: only
+register: گفتاری
+frequency_rank: 40
+difficulty: 1
+examples:
+- sare: تنها یک واژه ماند.
+  loan: فقط یک واژه ماند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «تنها»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «تنها»
+roots:
+  pahlavi: tanhā
+  avestan: null
+related:
+- تک
+- یگانه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

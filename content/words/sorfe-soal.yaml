@@ -1,0 +1,30 @@
+id: sorfe-soal
+sare: سرفه
+loan: سعال
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /soɾˈfe/
+definition: بیرون‌راندنِ تندِ هوا از گلو
+english: cough
+register: گفتاری
+frequency_rank: 1660
+difficulty: 3
+examples:
+- sare: سرفه‌اش شب‌ها بدتر است.
+  loan: سعالش شب‌ها بدتر است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سرفه»
+- source: فرهنگ فارسی معین
+  ref: مدخل «سرفه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- سرفیدن
+- گلو
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

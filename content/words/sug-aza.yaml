@@ -1,0 +1,30 @@
+id: sug-aza
+sare: سوگ
+loan: عزا
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /suːɡ/
+definition: اندوهِ مرگِ کسی و آیینِ آن
+english: mourning
+register: ادبی
+frequency_rank: 1180
+difficulty: 3
+examples:
+- sare: به سوگ نشستند.
+  loan: به عزا نشستند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سوگ»
+- source: شاهنامه فردوسی
+  book: داستان سیاوش
+roots:
+  pahlavi: sōg
+  avestan: null
+related:
+- سوگوار
+- سوگواری
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

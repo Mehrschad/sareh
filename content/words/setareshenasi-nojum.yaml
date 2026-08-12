@@ -1,0 +1,30 @@
+id: setareshenasi-nojum
+sare: ستاره‌شناسی
+loan: نجوم
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /setɒːɾeʃenɒːˈsiː/
+definition: دانشِ ستارگان و آسمان
+english: astronomy
+register: دانشی
+frequency_rank: 1720
+difficulty: 4
+examples:
+- sare: ستاره‌شناسیِ کهنِ ایران نامور بود.
+  loan: نجومِ قدیمِ ایران نامور بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «ستاره‌شناسی»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «ستاره‌شناسی»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- اختر
+- ستاره
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

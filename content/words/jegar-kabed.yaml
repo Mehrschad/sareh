@@ -1,0 +1,30 @@
+id: jegar-kabed
+sare: جگر
+loan: کبد
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /dʒeˈɡæɾ/
+definition: اندامِ بزرگِ پالاینده در شکم
+english: liver
+register: دانشی
+frequency_rank: 1380
+difficulty: 3
+examples:
+- sare: جگرش بیمار است.
+  loan: کبدش بیمار است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «جگر»
+- source: شاهنامه فردوسی
+  book: داستان رستم و سهراب
+roots:
+  pahlavi: jagar
+  avestan: null
+related:
+- جگرگوشه
+- دل
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

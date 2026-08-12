@@ -1,0 +1,30 @@
+id: namayesh-teatr
+sare: نمایش
+loan: تئاتر
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /næmɒːˈjeʃ/
+definition: هنرِ بازنمودنِ داستان بر صحنه
+english: theatre
+register: رسمی
+frequency_rank: 1070
+difficulty: 3
+examples:
+- sare: نمایشِ تازه‌ای بر صحنه رفت.
+  loan: تئاترِ تازه‌ای بر صحنه رفت.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «نمایش»
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نمایش»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- نمایشنامه
+- نمودن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

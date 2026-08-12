@@ -1,0 +1,31 @@
+id: sarzanesh-malamat
+sare: سرزنش
+loan: ملامت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /sæɾzæˈneʃ/
+definition: نکوهشِ کسی برای کارِ نادرست
+english: reproach
+register: ادبی
+frequency_rank: 1220
+difficulty: 3
+examples:
+- sare: سرزنشش نکردند.
+  loan: ملامتش نکردند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سرزنش»
+- source: فرهنگ فارسی معین
+  ref: مدخل «سرزنش»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- زدن
+- سر
+- نکوهش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

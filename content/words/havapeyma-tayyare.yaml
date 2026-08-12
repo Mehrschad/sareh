@@ -1,0 +1,31 @@
+id: havapeyma-tayyare
+sare: هواپیما
+loan: طیاره
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /hævɒːpejˈmɒː/
+definition: گردونه‌ی پرنده‌ی بال‌ثابت
+english: airplane
+register: رسمی
+frequency_rank: 470
+difficulty: 2
+examples:
+- sare: هواپیما نشست.
+  loan: طیاره نشست.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «هواپیما»
+- source: فرهنگ فارسی معین
+  ref: مدخل «هواپیما»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- بالگرد
+- هوا
+- پیمودن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

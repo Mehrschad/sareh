@@ -1,0 +1,28 @@
+id: zendeginame-biography
+sare: زندگی‌نامه
+loan: بیوگرافی
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /zendeɡiːnɒːˈme/
+definition: نوشته‌ای درباره‌ی زندگیِ کسی
+english: biography
+register: رسمی
+frequency_rank: 1830
+difficulty: 4
+examples:
+- sare: زندگی‌نامه‌اش را خواندم.
+  loan: بیوگرافی‌اش را خواندم.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «زندگی‌نامه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- زندگی
+- نامه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

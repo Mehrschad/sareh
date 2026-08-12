@@ -1,0 +1,30 @@
+id: delsuzi-tarahhom
+sare: دلسوزی
+loan: ترحّم
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /delsuːˈziː/
+definition: سوختنِ دل برای رنجِ دیگری
+english: compassion
+register: رسمی
+frequency_rank: 1460
+difficulty: 3
+examples:
+- sare: دلسوزی‌اش راست بود.
+  loan: ترحّمش راست بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دلسوزی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «دلسوز»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- دل
+- سوختن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

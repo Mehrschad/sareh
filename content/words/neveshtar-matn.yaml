@@ -1,0 +1,30 @@
+id: neveshtar-matn
+sare: نوشتار
+loan: متن
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /neveʃˈtɒːɾ/
+definition: آنچه نوشته شده؛ گونه‌ی نوشته‌ی زبان
+english: text
+register: دانشی
+frequency_rank: 240
+difficulty: 2
+examples:
+- sare: نوشتارت را خواندم.
+  loan: متنت را خواندم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نوشتار»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «نوشتار»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- نوشتن
+- گفتار
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

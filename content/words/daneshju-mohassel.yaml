@@ -1,0 +1,30 @@
+id: daneshju-mohassel
+sare: دانشجو
+loan: محصّل
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /dɒːneʃˈdʒuː/
+definition: کسی که در دانشگاه دانش می‌آموزد
+english: student
+register: رسمی
+frequency_rank: 640
+difficulty: 2
+examples:
+- sare: دانشجویِ سالِ دوم است.
+  loan: محصّلِ سالِ دوم است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دانشجو»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «دانشجو»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- جستن
+- دانش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

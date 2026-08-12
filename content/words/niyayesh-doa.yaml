@@ -1,0 +1,30 @@
+id: niyayesh-doa
+sare: نیایش
+loan: دعا
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /niːjɒːˈjeʃ/
+definition: سخن‌گفتن با ایزد؛ خواندنِ او
+english: prayer
+register: ادبی
+frequency_rank: 1090
+difficulty: 3
+examples:
+- sare: به نیایش ایستاد.
+  loan: به دعا ایستاد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نیایش»
+- source: شاهنامه فردوسی
+  book: دیباچه
+roots:
+  pahlavi: niyāyišn
+  avestan: null
+related:
+- ستایش
+- نیایشگاه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

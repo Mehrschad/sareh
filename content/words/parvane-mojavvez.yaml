@@ -1,0 +1,30 @@
+id: parvane-mojavvez
+sare: پروانه
+loan: مجوّز
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /pæɾvɒːˈne/
+definition: برگه‌ی رسمیِ اجازه‌ی کاری
+english: permit
+register: رسمی
+frequency_rank: 1010
+difficulty: 3
+examples:
+- sare: پروانه‌ی کار گرفت.
+  loan: مجوّزِ کار گرفت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پروانه»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «پروانه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- اجازه‌نامه
+- پروا
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

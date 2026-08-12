@@ -1,0 +1,30 @@
+id: abrizgah-toalet
+sare: آبریزگاه
+loan: توالت
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /ʔɒːbriːzˈɡɒːh/
+definition: جایگاهِ پاکیزگیِ تن
+english: lavatory
+register: رسمی
+frequency_rank: 1800
+difficulty: 4
+examples:
+- sare: آبریزگاه آن سوست.
+  loan: توالت آن سوست.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آبریز»
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «آبریزگاه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- آبریز
+- دستشویی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

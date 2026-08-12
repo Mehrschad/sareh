@@ -1,0 +1,30 @@
+id: ravan-ruh
+sare: روان
+loan: روح
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ræˈvɒːn/
+definition: بخشِ ناپیدای آدمی؛ جانِ اندیشنده
+english: psyche
+register: ادبی
+frequency_rank: 420
+difficulty: 3
+examples:
+- sare: روانش آسوده باد.
+  loan: روحش آسوده باد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «روان»
+- source: شاهنامه فردوسی
+  book: دیباچه
+roots:
+  pahlavi: ruwān
+  avestan: urvan-
+related:
+- جان
+- روان‌شناسی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

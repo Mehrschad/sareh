@@ -1,0 +1,30 @@
+id: zaman-vaqt
+sare: زمان
+loan: وقت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /zæˈmɒːn/
+definition: گذرِ پیوسته‌ی هستی؛ هنگام
+english: time
+register: رسمی
+frequency_rank: 35
+difficulty: 1
+examples:
+- sare: زمانی نداریم.
+  loan: وقتی نداریم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «زمان»
+- source: فرهنگ فارسی معین
+  ref: مدخل «زمان»
+roots:
+  pahlavi: zamān
+  avestan: null
+related:
+- هنگام
+- گاه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

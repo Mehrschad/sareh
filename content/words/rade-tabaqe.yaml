@@ -1,0 +1,30 @@
+id: rade-tabaqe
+sare: رده
+loan: طبقه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ræˈde/
+definition: گروهی از چیزهای هم‌سان در یک سامانه
+english: class
+register: دانشی
+frequency_rank: 1010
+difficulty: 3
+examples:
+- sare: در رده‌ی نخست جای گرفت.
+  loan: در طبقه‌ی اول جای گرفت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «رده»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «رده»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- رده‌بندی
+- گونه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

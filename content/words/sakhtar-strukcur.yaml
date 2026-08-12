@@ -1,0 +1,30 @@
+id: sakhtar-strukcur
+sare: ساختار
+loan: استروکتور
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /sɒːxˈtɒːɾ/
+definition: چگونگیِ چیده‌شدنِ بخش‌های یک کل
+english: structure
+register: دانشی
+frequency_rank: 610
+difficulty: 3
+examples:
+- sare: ساختارِ جمله را بشکاف.
+  loan: استروکتورِ جمله را بشکاف.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «ساختار»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «ساختار»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- ساخت
+- ساختن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

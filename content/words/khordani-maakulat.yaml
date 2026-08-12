@@ -1,0 +1,30 @@
+id: khordani-maakulat
+sare: خوردنی
+loan: مأکولات
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /xoɾdæˈniː/
+definition: آنچه خورده می‌شود
+english: edibles
+register: رسمی
+frequency_rank: 1860
+difficulty: 4
+examples:
+- sare: خوردنی‌ها را چیدند.
+  loan: مأکولات را چیدند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «خوردنی»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «خوردنی»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- خوراک
+- خوردن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

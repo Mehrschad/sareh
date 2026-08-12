@@ -1,0 +1,31 @@
+id: dastgah-machine
+sare: دستگاه
+loan: ماشین
+loan_origin: فرانسه
+pos: اسم
+acceptance: زنده
+ipa: /dæstˈɡɒːh/
+definition: ساختِ مکانیکی که کاری را انجام می‌دهد
+english: machine
+register: رسمی
+frequency_rank: 500
+difficulty: 2
+examples:
+- sare: دستگاه از کار افتاد.
+  loan: ماشین از کار افتاد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دستگاه»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «دستگاه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- ابزار
+- دست
+- گاه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

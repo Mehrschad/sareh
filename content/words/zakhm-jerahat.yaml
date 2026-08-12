@@ -1,0 +1,30 @@
+id: zakhm-jerahat
+sare: زخم
+loan: جراحت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /zæxm/
+definition: شکافی که بر تن پدید می‌آید
+english: wound
+register: رسمی
+frequency_rank: 560
+difficulty: 2
+examples:
+- sare: زخمش را بستند.
+  loan: جراحتش را بستند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «زخم»
+- source: فرهنگ فارسی معین
+  ref: مدخل «زخم»
+roots:
+  pahlavi: zaxm
+  avestan: null
+related:
+- زخمی
+- زخم‌بند
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

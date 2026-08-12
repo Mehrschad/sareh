@@ -1,0 +1,30 @@
+id: niki-kheyr
+sare: نیکی
+loan: خیر
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /niːˈkiː/
+definition: کارِ خوب و سودمند
+english: goodness
+register: ادبی
+frequency_rank: 810
+difficulty: 2
+examples:
+- sare: نیکی کن و در دجله انداز.
+  loan: خیر کن و در دجله انداز.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نیکی»
+- source: شاهنامه فردوسی
+  book: دیباچه
+roots:
+  pahlavi: nēkīh
+  avestan: null
+related:
+- بدی
+- نیک
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

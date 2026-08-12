@@ -1,0 +1,30 @@
+id: peykare-mojassame
+sare: پیکره
+loan: مجسّمه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /pejkæˈɾe/
+definition: تندیسِ ساخته‌شده از سنگ یا فلز
+english: statue
+register: رسمی
+frequency_rank: 1620
+difficulty: 4
+examples:
+- sare: پیکره‌ی فردوسی در توس است.
+  loan: مجسّمه‌ی فردوسی در توس است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پیکره»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «پیکره»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- تندیس
+- پیکر
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

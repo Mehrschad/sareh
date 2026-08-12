@@ -1,0 +1,29 @@
+id: ari-bale
+sare: آری
+loan: بلی
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /ʔɒːˈɾiː/
+definition: پاسخ مثبت به پرسش
+english: 'yes'
+register: رسمی
+frequency_rank: 30
+difficulty: 1
+examples:
+- sare: آری، شنیدم.
+  loan: بلی، شنیدم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آری»
+- source: فرهنگ فارسی معین
+  ref: مدخل «آری»
+roots:
+  pahlavi: ārē
+  avestan: null
+related:
+- آره
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

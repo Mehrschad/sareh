@@ -1,0 +1,30 @@
+id: faramushi-nesyan
+sare: فراموشی
+loan: نسیان
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /fæɾɒːmuːˈʃiː/
+definition: از یاد رفتن
+english: forgetfulness
+register: ادبی
+frequency_rank: 1490
+difficulty: 3
+examples:
+- sare: فراموشی‌اش بیشتر شد.
+  loan: نسیانش بیشتر شد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «فراموشی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «فراموش»
+roots:
+  pahlavi: frāmuštan
+  avestan: null
+related:
+- فراموش
+- یاد
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

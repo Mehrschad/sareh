@@ -1,0 +1,30 @@
+id: khodpasandi-takabbor
+sare: خودپسندی
+loan: تکبّر
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /xodpæsænˈdiː/
+definition: خود را برتر از دیگران دانستن
+english: arrogance
+register: ادبی
+frequency_rank: 1580
+difficulty: 4
+examples:
+- sare: خودپسندی زمینش زد.
+  loan: تکبّر زمینش زد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «خودپسند»
+- source: فرهنگ فارسی معین
+  ref: مدخل «خودپسندی»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- خودپسند
+- فروتنی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

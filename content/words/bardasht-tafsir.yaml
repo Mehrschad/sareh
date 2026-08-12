@@ -1,0 +1,30 @@
+id: bardasht-tafsir
+sare: برداشت
+loan: تفسیر
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bæɾˈdɒːʃt/
+definition: آنچه کسی از سخنی می‌فهمد
+english: interpretation
+register: رسمی
+frequency_rank: 790
+difficulty: 3
+examples:
+- sare: برداشتِ من چیز دیگری بود.
+  loan: تفسیرِ من چیز دیگری بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «برداشت»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «برداشت»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- برداشتن
+- دریافت
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

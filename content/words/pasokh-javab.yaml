@@ -1,0 +1,30 @@
+id: pasokh-javab
+sare: پاسخ
+loan: جواب
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /pɒːˈsox/
+definition: آنچه در برابر پرسش گفته می‌شود
+english: answer
+register: رسمی
+frequency_rank: 105
+difficulty: 1
+examples:
+- sare: پاسخت را شنیدم.
+  loan: جوابت را شنیدم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پاسخ»
+- source: فرهنگ فارسی معین
+  ref: مدخل «پاسخ»
+roots:
+  pahlavi: passox
+  avestan: null
+related:
+- پاسخ‌گو
+- پرسش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

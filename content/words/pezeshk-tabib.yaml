@@ -1,0 +1,30 @@
+id: pezeshk-tabib
+sare: پزشک
+loan: طبیب
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /peˈzeʃk/
+definition: کسی که بیماران را درمان می‌کند
+english: physician
+register: رسمی
+frequency_rank: 310
+difficulty: 2
+examples:
+- sare: پزشک را دیدی؟
+  loan: طبیب را دیدی؟
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پزشک»
+- source: فرهنگ فارسی معین
+  ref: مدخل «پزشک»
+roots:
+  pahlavi: bizešk
+  avestan: null
+related:
+- دامپزشک
+- پزشکی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

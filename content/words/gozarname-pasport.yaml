@@ -1,0 +1,30 @@
+id: gozarname-pasport
+sare: گذرنامه
+loan: پاسپورت
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /ɡozæɾnɒːˈme/
+definition: دفترچه‌ی رسمیِ گذر از مرز
+english: passport
+register: رسمی
+frequency_rank: 640
+difficulty: 2
+examples:
+- sare: گذرنامه‌ات را بردار.
+  loan: پاسپورتت را بردار.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «گذرنامه»
+- source: فرهنگ فارسی معین
+  ref: مدخل «گذرنامه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- روادید
+- گذر
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

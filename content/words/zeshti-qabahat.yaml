@@ -1,0 +1,30 @@
+id: zeshti-qabahat
+sare: زشتی
+loan: قباحت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /zeʃˈtiː/
+definition: ناخوش‌آیندی؛ ناشایستگی
+english: ugliness
+register: ادبی
+frequency_rank: 1690
+difficulty: 4
+examples:
+- sare: زشتیِ این کار روشن است.
+  loan: قباحتِ این کار روشن است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «زشتی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «زشت»
+roots:
+  pahlavi: zišt
+  avestan: null
+related:
+- زشت
+- زیبایی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

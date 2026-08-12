@@ -1,0 +1,95 @@
+id: khan-3-ezhdeha
+khan: 3
+guardian: اژدها
+realm: خانه و خوراک
+stations:
+- id: khan-3-ezhdeha-manzel-1
+  title: منزلِ 1
+  exercises:
+  - گزینش
+  - جفت‌ساز
+  - جای‌گزینی
+  - شنیدار
+  words:
+  - bamdad-sobh
+  - ashpazkhane-matbakh
+  - bam-saqf
+  - yakhchal-ferizer
+  - shirini-halva
+  - kashane-manzel
+  - shamgah-asr
+  - nimruz-zohr
+- id: khan-3-ezhdeha-manzel-2
+  title: منزلِ 2
+  exercises:
+  - گزینش
+  - واژه‌چین
+  - نویسش
+  - داستانک
+  words:
+  - bastar-ferash
+  - rakht-lebas
+  - cheshme-manba
+  - garmabe-hammam
+  - sara-emarat
+  - kuy-mahalle
+  - mive-samar
+  - jam-livan
+- id: khan-3-ezhdeha-manzel-3
+  title: منزلِ 3
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - ریشه‌یاب
+  - تیر آرش
+  words:
+  - nushidani-mashrubat
+  - jame-albese
+  - balesh-motakka
+  - shurba-sup
+  - chub-khashab
+  - ganje-komod
+  - chashni-advie
+  - khan-sofre
+- id: khan-3-ezhdeha-manzel-4
+  title: منزلِ 4
+  exercises:
+  - جفت‌ساز
+  - بیت‌یاب
+  - گزینش
+  - نویسش
+  words:
+  - avand-zarf
+  - ahangar-haddad
+  - abrizgah-toalet
+  - piyale-estekan
+  - khordani-maakulat
+  - khakrube-ashqal
+  - kuze-jarre
+  - eshkub-tabaqe
+- id: khan-3-ezhdeha-manzel-5
+  title: منزلِ 5
+  exercises:
+  - گزینش
+  - داستانک
+  - شنیدار
+  - واژه‌چین
+  words:
+  - torshi-khall
+  - kafche-qashoq
+  - khaligar-tabbakh
+  - darudgar-najjar
+  - atashdan-ojaq
+  - miyansara-hayat
+  - abzan-van
+  - gostardani-farsh
+boss:
+  id: khan-3-ezhdeha-negahban
+  title: نگهبانِ خان — اژدها
+  word_count: 12
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - بیت‌یاب
+  - تیر آرش
+  pass_ratio: 0.8

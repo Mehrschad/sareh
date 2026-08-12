@@ -1,0 +1,30 @@
+id: chub-khashab
+sare: چوب
+loan: خشب
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /tʃuːb/
+definition: ماده‌ی سختِ تنه‌ی درخت
+english: wood
+register: دانشی
+frequency_rank: 1690
+difficulty: 3
+examples:
+- sare: در از چوب است.
+  loan: در از خشب است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «چوب»
+- source: فرهنگ فارسی معین
+  ref: مدخل «چوب»
+roots:
+  pahlavi: čōb
+  avestan: null
+related:
+- درودگر
+- چوبی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -1,0 +1,30 @@
+id: dard-alam
+sare: درد
+loan: الم
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /dæɾd/
+definition: آزارِ تن یا جان
+english: pain
+register: ادبی
+frequency_rank: 400
+difficulty: 2
+examples:
+- sare: دردش آرام گرفت.
+  loan: المش آرام گرفت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «درد»
+- source: شاهنامه فردوسی
+  book: داستان رستم و سهراب
+roots:
+  pahlavi: dard
+  avestan: null
+related:
+- دردمند
+- دردناک
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

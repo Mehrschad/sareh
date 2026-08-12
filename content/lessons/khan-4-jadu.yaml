@@ -1,0 +1,111 @@
+id: khan-4-jadu
+khan: 4
+guardian: جادو
+realm: کار و پیشه
+stations:
+- id: khan-4-jadu-manzel-1
+  title: منزلِ 1
+  exercises:
+  - گزینش
+  - جفت‌ساز
+  - جای‌گزینی
+  - شنیدار
+  words:
+  - didgah-nazar
+  - gozaresh-raport
+  - sazman-tashkilat
+  - angize-moharrek
+  - karbar-user
+  - peyman-qarardad
+  - darkhast-taqaza
+  - bonyad-asas
+- id: khan-4-jadu-manzel-2
+  title: منزلِ 2
+  exercises:
+  - گزینش
+  - واژه‌چین
+  - نویسش
+  - داستانک
+  words:
+  - dastgah-machine
+  - samane-system
+  - paziresh-qabul
+  - dastavard-movaffaqiat
+  - abzar-alat
+  - pishine-sabeqe
+  - pishe-shoql
+  - narmafzar-software
+- id: khan-4-jadu-manzel-3
+  title: منزلِ 3
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - ریشه‌یاب
+  - تیر آرش
+  words:
+  - rayaname-email
+  - neshast-jalase
+  - daramad-ayedi
+  - ziyan-zarar
+  - faravarde-mahsul
+  - sarparast-raees
+  - dastmozd-hoquq
+  - tarnama-website
+- id: khan-4-jadu-manzel-4
+  title: منزلِ 4
+  exercises:
+  - جفت‌ساز
+  - بیت‌یاب
+  - گزینش
+  - نویسش
+  words:
+  - anjoman-majma
+  - kala-jens
+  - kharidar-moshtari
+  - gozarvaje-password
+  - forushgah-maqaze
+  - farayand-process
+  - chekide-kholase
+  - bahre-manfaat
+- id: khan-4-jadu-manzel-5
+  title: منزلِ 5
+  exercises:
+  - گزینش
+  - داستانک
+  - شنیدار
+  - واژه‌چین
+  words:
+  - karmaye-energy
+  - karamad-moasser
+  - bazkhord-feedback
+  - parvane-mojavvez
+  - hanjar-qaede
+  - sakhtafzar-hardware
+  - rahnemud-dasturolamal
+  - gerdehamaei-conference
+- id: khan-4-jadu-manzel-6
+  title: منزلِ 6
+  exercises:
+  - جای‌گزینی
+  - گزینش
+  - تیر آرش
+  - بیت‌یاب
+  words:
+  - govahiname-sanad
+  - sarresid-mowed
+  - dabir-monshi
+  - hamvand-ozv
+  - bayegani-arshiv
+  - bahrevari-randeman
+  - tarnegar-weblog
+  - namaye-index
+boss:
+  id: khan-4-jadu-negahban
+  title: نگهبانِ خان — جادو
+  word_count: 12
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - بیت‌یاب
+  - تیر آرش
+  pass_ratio: 0.8

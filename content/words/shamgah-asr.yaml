@@ -1,0 +1,30 @@
+id: shamgah-asr
+sare: شامگاه
+loan: عصر
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʃɒːmˈɡɒːh/
+definition: پایانِ روز؛ هنگامِ فرو رفتنِ خورشید
+english: evening
+register: ادبی
+frequency_rank: 1010
+difficulty: 3
+examples:
+- sare: شامگاه بازمی‌گردد.
+  loan: عصر بازمی‌گردد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «شامگاه»
+- source: فرهنگ فارسی معین
+  ref: مدخل «شامگاه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- شام
+- گاه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

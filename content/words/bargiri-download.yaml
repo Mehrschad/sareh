@@ -1,0 +1,28 @@
+id: bargiri-download
+sare: بارگیری
+loan: دانلود
+loan_origin: انگلیسی
+pos: اسم
+acceptance: نوساخته
+ipa: /bɒːɾɡiːˈɾiː/
+definition: گرفتنِ داده از شبکه به دستگاه خود
+english: download
+register: دانشی
+frequency_rank: 690
+difficulty: 2
+examples:
+- sare: بارگیری تمام شد.
+  loan: دانلود تمام شد.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «بارگیری»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- بار
+- بارگذاری
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

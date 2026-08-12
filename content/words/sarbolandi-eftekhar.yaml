@@ -1,0 +1,30 @@
+id: sarbolandi-eftekhar
+sare: سربلندی
+loan: افتخار
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /sæɾbolænˈdiː/
+definition: بالیدن به کارِ نیکِ خویش
+english: pride
+register: رسمی
+frequency_rank: 1130
+difficulty: 3
+examples:
+- sare: مایه‌ی سربلندی‌مان است.
+  loan: مایه‌ی افتخارمان است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سربلند»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «سربلندی»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- بالیدن
+- سربلند
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

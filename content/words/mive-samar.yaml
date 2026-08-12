@@ -1,0 +1,30 @@
+id: mive-samar
+sare: میوه
+loan: ثمر
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /miːˈve/
+definition: بارِ خوردنیِ درخت
+english: fruit
+register: ادبی
+frequency_rank: 1370
+difficulty: 3
+examples:
+- sare: میوه‌ی درخت رسید.
+  loan: ثمرِ درخت رسید.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «میوه»
+- source: فرهنگ فارسی معین
+  ref: مدخل «میوه»
+roots:
+  pahlavi: mēwag
+  avestan: null
+related:
+- بار
+- میوه‌فروش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

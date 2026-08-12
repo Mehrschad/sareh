@@ -1,0 +1,111 @@
+id: khan-1-shir
+khan: 1
+guardian: شیر
+realm: واژه‌های هرروزه
+stations:
+- id: khan-1-shir-manzel-1
+  title: منزلِ 1
+  exercises:
+  - گزینش
+  - جفت‌ساز
+  - جای‌گزینی
+  - شنیدار
+  words:
+  - sepas-tashakkor
+  - dorud-salam
+  - ari-bale
+  - zaman-vaqt
+  - tanha-faqat
+  - bedrud-khodahafez
+  - besyar-ziad
+  - aknun-alan
+- id: khan-1-shir-manzel-2
+  title: منزلِ 2
+  exercises:
+  - گزینش
+  - واژه‌چین
+  - نویسش
+  - داستانک
+  words:
+  - nam-esm
+  - dorost-sahih
+  - bakhsh-qesmat
+  - aqaz-shoru
+  - payan-akhar
+  - pasokh-javab
+  - porsesh-soal
+  - vaje-kalame
+- id: khan-1-shir-manzel-3
+  title: منزلِ 3
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - ریشه‌یاب
+  - تیر آرش
+  words:
+  - asan-rahat
+  - khorak-qaza
+  - puzesh-ozrkhahi
+  - shayad-ehtemalan
+  - sepas-baadan
+  - pishtar-qablan
+  - hamishe-daeman
+  - nemune-mesal
+- id: khan-1-shir-manzel-4
+  title: منزلِ 4
+  exercises:
+  - جفت‌ساز
+  - بیت‌یاب
+  - گزینش
+  - نویسش
+  words:
+  - nadorost-qalat
+  - shomar-tedad
+  - hengam-mowqe
+  - hargez-abadan
+  - didar-molaqat
+  - rah-tariq
+  - neveshtar-matn
+  - goftogu-mokaleme
+- id: khan-1-shir-manzel-5
+  title: منزلِ 5
+  exercises:
+  - گزینش
+  - داستانک
+  - شنیدار
+  - واژه‌چین
+  words:
+  - khodro-otomobil
+  - zadruz-tavallod
+  - neshani-adres
+  - parvande-file
+  - rayane-computer
+  - andak-qalil
+  - agahi-elan
+  - havapeyma-tayyare
+- id: khan-1-shir-manzel-6
+  title: منزلِ 6
+  exercises:
+  - جای‌گزینی
+  - گزینش
+  - تیر آرش
+  - بیت‌یاب
+  words:
+  - gozarname-pasport
+  - bargiri-download
+  - payamresan-messenger
+  - pushe-folder
+  - bargozari-upload
+  - peyvast-zamime
+  - yarane-subsid
+  - balgard-helikopter
+boss:
+  id: khan-1-shir-negahban
+  title: نگهبانِ خان — شیر
+  word_count: 12
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - بیت‌یاب
+  - تیر آرش
+  pass_ratio: 0.8

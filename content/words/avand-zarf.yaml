@@ -1,0 +1,30 @@
+id: avand-zarf
+sare: آوند
+loan: ظرف
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /ʔɒːˈvænd/
+definition: هر چیزی که چیزی را در خود گیرد
+english: vessel
+register: دانشی
+frequency_rank: 1580
+difficulty: 4
+examples:
+- sare: آوندها را بشوی.
+  loan: ظرف‌ها را بشوی.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آوند»
+- source: فرهنگ فارسی معین
+  ref: مدخل «آوند»
+roots:
+  pahlavi: āwand
+  avestan: null
+related:
+- آوندی
+- پیمانه
+audio: null
+status: proposed
+contributors:
+- sareh-seed

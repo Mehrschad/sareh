@@ -1,0 +1,30 @@
+id: keshvar-mamlekat
+sare: کشور
+loan: مملکت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /keʃˈvæɾ/
+definition: سرزمینی با مرز و فرمانروایی
+english: country
+register: رسمی
+frequency_rank: 260
+difficulty: 2
+examples:
+- sare: کشورش را دوست دارد.
+  loan: مملکتش را دوست دارد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «کشور»
+- source: شاهنامه فردوسی
+  book: پادشاهی کیخسرو
+roots:
+  pahlavi: kišwar
+  avestan: null
+related:
+- مرز
+- کشوری
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

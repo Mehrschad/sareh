@@ -1,0 +1,30 @@
+id: darkhast-taqaza
+sare: درخواست
+loan: تقاضا
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /dæɾxɒːˈst/
+definition: خواستنِ چیزی از کسی به‌ روشنی
+english: request
+register: رسمی
+frequency_rank: 460
+difficulty: 2
+examples:
+- sare: درخواستت را فرستادم.
+  loan: تقاضایت را فرستادم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «درخواست»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «درخواست»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- خواستن
+- خواهش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

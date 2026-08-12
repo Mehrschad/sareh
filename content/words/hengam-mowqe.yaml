@@ -1,0 +1,30 @@
+id: hengam-mowqe
+sare: هنگام
+loan: موقع
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /henˈɡɒːm/
+definition: لحظه یا بازه‌ای که کاری در آن رخ می‌دهد
+english: moment
+register: رسمی
+frequency_rank: 205
+difficulty: 2
+examples:
+- sare: هنگامِ رفتن است.
+  loan: موقعِ رفتن است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «هنگام»
+- source: شاهنامه فردوسی
+  book: پادشاهی کیقباد
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- زمان
+- گاه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

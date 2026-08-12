@@ -1,0 +1,30 @@
+id: vaje-kalame
+sare: واژه
+loan: کلمه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /vɒːˈʒe/
+definition: کوچک‌ترین یکای معنادار زبان
+english: word
+register: دانشی
+frequency_rank: 145
+difficulty: 1
+examples:
+- sare: این واژه پارسی است.
+  loan: این کلمه پارسی است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «واژه»
+- source: فرهنگ فارسی معین
+  ref: مدخل «واژه»
+roots:
+  pahlavi: wāžag
+  avestan: null
+related:
+- واژه‌نامه
+- واژگان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

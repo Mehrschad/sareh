@@ -1,0 +1,30 @@
+id: pishe-shoql
+sare: پیشه
+loan: شغل
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /piːˈʃe/
+definition: کاری که کسی از آن نان می‌خورد
+english: occupation
+register: رسمی
+frequency_rank: 580
+difficulty: 2
+examples:
+- sare: پیشه‌اش درودگری است.
+  loan: شغلش نجاری است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پیشه»
+- source: فرهنگ فارسی معین
+  ref: مدخل «پیشه»
+roots:
+  pahlavi: pēšag
+  avestan: null
+related:
+- پیشه‌ور
+- کار
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

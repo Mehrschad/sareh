@@ -1,0 +1,30 @@
+id: chashni-advie
+sare: چاشنی
+loan: ادویه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /tʃɒːʃˈniː/
+definition: افزودنیِ خوش‌مزه‌کننده‌ی خوراک
+english: seasoning
+register: گفتاری
+frequency_rank: 1740
+difficulty: 3
+examples:
+- sare: چاشنی‌اش کم است.
+  loan: ادویه‌اش کم است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «چاشنی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «چاشنی»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- چاشت
+- چشیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

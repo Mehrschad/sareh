@@ -1,0 +1,30 @@
+id: delhore-eztarab
+sare: دلهره
+loan: اضطراب
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /delhoˈɾe/
+definition: بی‌قراریِ دل از بیمِ ناشناخته
+english: anxiety
+register: رسمی
+frequency_rank: 1170
+difficulty: 3
+examples:
+- sare: دلهره رهایش نمی‌کرد.
+  loan: اضطراب رهایش نمی‌کرد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دلهره»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «دلهره»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- دل
+- هراس
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

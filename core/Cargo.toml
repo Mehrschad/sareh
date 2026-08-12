@@ -1,0 +1,17 @@
+[package]
+name = "sareh-core"
+description = "هسته‌ی سره — FSRS، نرمال‌سازی فارسی، جست‌وجوی فازی و اعتبارسنجی محتوا"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[lib]
+name = "sareh_core"
+# staticlib/cdylib are what flutter_rust_bridge links against on
+# iOS/Android/desktop; rlib keeps `cargo test` and the tools crate working.
+crate-type = ["lib", "staticlib", "cdylib"]
+
+[dependencies]
+serde = { workspace = true }
+serde_yaml = { workspace = true }

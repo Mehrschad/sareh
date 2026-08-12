@@ -1,0 +1,30 @@
+id: neshast-jalase
+sare: نشست
+loan: جلسه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /neˈʃæst/
+definition: گردهماییِ چند تن برای گفت‌وگو
+english: session
+register: رسمی
+frequency_rank: 610
+difficulty: 2
+examples:
+- sare: نشستِ فردا لغو شد.
+  loan: جلسه‌ی فردا لغو شد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نشست»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «نشست»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- نشستن
+- گردهمایی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

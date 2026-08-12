@@ -1,0 +1,30 @@
+id: agahi-elan
+sare: آگهی
+loan: اعلان
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʔɒːɡæˈhiː/
+definition: خبری که همگان را از چیزی آگاه می‌کند
+english: announcement
+register: رسمی
+frequency_rank: 430
+difficulty: 2
+examples:
+- sare: آگهیِ کار را دیدم.
+  loan: اعلانِ کار را دیدم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آگهی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «آگهی»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- آگاه
+- آگاهی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

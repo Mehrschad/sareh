@@ -1,0 +1,30 @@
+id: sepah-qoshun
+sare: سپاه
+loan: قشون
+loan_origin: ترکی
+pos: اسم
+acceptance: زنده
+ipa: /seˈpɒːh/
+definition: گروهِ رزمندگانِ سازمان‌یافته
+english: army
+register: ادبی
+frequency_rank: 1330
+difficulty: 3
+examples:
+- sare: سپاه به راه افتاد.
+  loan: قشون به راه افتاد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سپاه»
+- source: شاهنامه فردوسی
+  book: داستان رستم و اسفندیار
+roots:
+  pahlavi: spāh
+  avestan: null
+related:
+- سپاهی
+- سپهسالار
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

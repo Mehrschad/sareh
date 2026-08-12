@@ -1,0 +1,30 @@
+id: khorak-qaza
+sare: خوراک
+loan: غذا
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /xoˈɾɒːk/
+definition: آنچه خورده می‌شود
+english: food
+register: گفتاری
+frequency_rank: 190
+difficulty: 1
+examples:
+- sare: خوراک آماده است.
+  loan: غذا آماده است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «خوراک»
+- source: فرهنگ فارسی معین
+  ref: مدخل «خوراک»
+roots:
+  pahlavi: xwarāk
+  avestan: null
+related:
+- خوردن
+- خورش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

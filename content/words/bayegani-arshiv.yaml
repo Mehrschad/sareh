@@ -1,0 +1,30 @@
+id: bayegani-arshiv
+sare: بایگانی
+loan: آرشیو
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /bɒːjeɡɒːˈniː/
+definition: جایگاهِ نگاهداشتِ سامان‌مندِ پرونده‌ها
+english: archive
+register: رسمی
+frequency_rank: 1360
+difficulty: 3
+examples:
+- sare: در بایگانی جست‌وجو کن.
+  loan: در آرشیو جست‌وجو کن.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «بایگانی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «بایگانی»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- بایگان
+- پرونده
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -1,0 +1,30 @@
+id: negargari-miniatur
+sare: نگارگری
+loan: مینیاتور
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /neɡɒːɾɡæˈɾiː/
+definition: هنرِ نگاشتنِ نگاره‌های ریزِ ایرانی
+english: Persian miniature
+register: ادبی
+frequency_rank: 2200
+difficulty: 5
+examples:
+- sare: نگارگریِ ایرانی جهانی است.
+  loan: مینیاتورِ ایرانی جهانی است.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «نگارگری»
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نگارگر»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- نگار
+- نگاشتن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

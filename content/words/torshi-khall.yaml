@@ -1,0 +1,30 @@
+id: torshi-khall
+sare: ترشی
+loan: خلّ
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /toɾˈʃiː/
+definition: خوردنیِ خوابانده در سرکه
+english: pickle
+register: گفتاری
+frequency_rank: 2010
+difficulty: 4
+examples:
+- sare: ترشی کنارِ خوراک بگذار.
+  loan: خلّ کنارِ غذا بگذار.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «ترشی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «ترشی»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- ترش
+- سرکه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

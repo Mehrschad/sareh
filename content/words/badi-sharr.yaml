@@ -1,0 +1,30 @@
+id: badi-sharr
+sare: بدی
+loan: شرّ
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bæˈdiː/
+definition: کارِ زشت و زیان‌بار
+english: evil
+register: ادبی
+frequency_rank: 1220
+difficulty: 3
+examples:
+- sare: بدی را با نیکی پاسخ داد.
+  loan: شرّ را با خیر پاسخ داد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بدی»
+- source: شاهنامه فردوسی
+  book: داستان رستم و سهراب
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- بد
+- نیکی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

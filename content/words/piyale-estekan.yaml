@@ -1,0 +1,30 @@
+id: piyale-estekan
+sare: پیاله
+loan: استکان
+loan_origin: روسی
+pos: اسم
+acceptance: زنده
+ipa: /piːjɒːˈle/
+definition: جامِ کوچکِ نوشیدن
+english: small cup
+register: ادبی
+frequency_rank: 1830
+difficulty: 4
+examples:
+- sare: پیاله‌ای چای بیاور.
+  loan: استکانی چای بیاور.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پیاله»
+- source: فرهنگ فارسی معین
+  ref: مدخل «پیاله»
+roots:
+  pahlavi: payālag
+  avestan: null
+related:
+- جام
+- ساغر
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

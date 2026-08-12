@@ -1,0 +1,30 @@
+id: dust-rafiq
+sare: دوست
+loan: رفیق
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /duːst/
+definition: کسی که با او پیوندِ مهر داری
+english: friend
+register: گفتاری
+frequency_rank: 300
+difficulty: 1
+examples:
+- sare: دوستِ دیرینم است.
+  loan: رفیقِ دیرینم است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دوست»
+- source: شاهنامه فردوسی
+  book: داستان بیژن و منیژه
+roots:
+  pahlavi: dōst
+  avestan: null
+related:
+- دشمن
+- دوستی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

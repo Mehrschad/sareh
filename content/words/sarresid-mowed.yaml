@@ -1,0 +1,30 @@
+id: sarresid-mowed
+sare: سررسید
+loan: موعد
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /sæɾɾeˈsiːd/
+definition: زمانی که کاری باید در آن به پایان برسد
+english: deadline
+register: رسمی
+frequency_rank: 1240
+difficulty: 3
+examples:
+- sare: سررسیدش فردا است.
+  loan: موعدش فردا است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سررسید»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «سررسید»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- رسیدن
+- سر
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

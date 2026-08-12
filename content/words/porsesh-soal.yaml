@@ -1,0 +1,30 @@
+id: porsesh-soal
+sare: پرسش
+loan: سؤال
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /poɾˈseʃ/
+definition: آنچه برای دانستن می‌پرسند
+english: question
+register: رسمی
+frequency_rank: 110
+difficulty: 1
+examples:
+- sare: پرسشی داری؟
+  loan: سؤالی داری؟
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پرسش»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «پرسش»
+roots:
+  pahlavi: pursišn
+  avestan: null
+related:
+- پرسمان
+- پرسیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -1,0 +1,31 @@
+id: khordegiri-enteqad
+sare: خرده‌گیری
+loan: انتقاد
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /xoɾdeɡiːˈɾiː/
+definition: گرفتنِ کاستی‌های کار یا سخنِ کسی
+english: criticism
+register: رسمی
+frequency_rank: 1400
+difficulty: 3
+examples:
+- sare: خرده‌گیریِ سازنده سودمند است.
+  loan: انتقادِ سازنده سودمند است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «خرده‌گیر»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «خرده‌گیری»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- خرده
+- نکوهش
+- گرفتن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

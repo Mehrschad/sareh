@@ -1,0 +1,96 @@
+id: khan-6-arzhang
+khan: 6
+guardian: ارژنگ
+realm: مهر و اندوه
+stations:
+- id: khan-6-arzhang-manzel-1
+  title: منزلِ 1
+  exercises:
+  - گزینش
+  - جفت‌ساز
+  - جای‌گزینی
+  - شنیدار
+  words:
+  - dust-rafiq
+  - niyaz-ehtiyaj
+  - mehr-mohabbat
+  - yad-khatere
+  - dusti-refaqat
+  - anduh-qam
+  - tars-khof
+  - mehrabani-lotf
+- id: khan-6-arzhang-manzel-2
+  title: منزلِ 2
+  exercises:
+  - گزینش
+  - واژه‌چین
+  - نویسش
+  - داستانک
+  words:
+  - doshman-adoo
+  - delbastegi-alaqe
+  - arezu-tamanna
+  - zibaei-jamal
+  - hamsar-zowj
+  - ashti-solh
+  - afsus-heyf
+  - bakhshesh-afv
+- id: khan-6-arzhang-manzel-3
+  title: منزلِ 3
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - ریشه‌یاب
+  - تیر آرش
+  words:
+  - setayesh-tahsin
+  - sharm-haya
+  - bordbari-tahammol
+  - delavari-shojaat
+  - peyvand-ezdevaj
+  - khorsandi-rezayat
+  - sarbolandi-eftekhar
+  - bim-vahshat
+- id: khan-6-arzhang-manzel-4
+  title: منزلِ 4
+  exercises:
+  - جفت‌ساز
+  - بیت‌یاب
+  - گزینش
+  - نویسش
+  words:
+  - delhore-eztarab
+  - sug-aza
+  - setiz-nezaa
+  - sarzanesh-malamat
+  - naumidi-yaas
+  - kine-edavat
+  - jodaei-talaq
+  - forutani-tavazo
+- id: khan-6-arzhang-manzel-5
+  title: منزلِ 5
+  exercises:
+  - گزینش
+  - داستانک
+  - شنیدار
+  - واژه‌چین
+  words:
+  - tanhaei-ozlat
+  - khordegiri-enteqad
+  - hamdeli-sampati
+  - delsuzi-tarahhom
+  - faramushi-nesyan
+  - shadkami-saadat
+  - khodpasandi-takabbor
+  - zeshti-qabahat
+  - bozdeli-jobn
+boss:
+  id: khan-6-arzhang-negahban
+  title: نگهبانِ خان — ارژنگ
+  word_count: 12
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - بیت‌یاب
+  - تیر آرش
+  pass_ratio: 0.8

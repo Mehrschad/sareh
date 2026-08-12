@@ -1,0 +1,30 @@
+id: yadman-banayadbud
+sare: یادمان
+loan: بنای یادبود
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /jɒːdˈmɒːn/
+definition: ساخته‌ای که یادِ کسی یا رخدادی را نگاه می‌دارد
+english: monument
+register: رسمی
+frequency_rank: 2050
+difficulty: 4
+examples:
+- sare: یادمانِ شهیدان را ساختند.
+  loan: بنای یادبودِ شهیدان را ساختند.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «یادمان»
+- source: لغت‌نامه دهخدا
+  ref: مدخل «یاد»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- یاد
+- یادگار
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

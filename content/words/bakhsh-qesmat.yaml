@@ -1,0 +1,30 @@
+id: bakhsh-qesmat
+sare: بخش
+loan: قسمت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bæxʃ/
+definition: پاره‌ای از یک کل
+english: part
+register: رسمی
+frequency_rank: 78
+difficulty: 1
+examples:
+- sare: این بخش را بخوان.
+  loan: این قسمت را بخوان.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بخش»
+- source: فرهنگ فارسی معین
+  ref: مدخل «بخش»
+roots:
+  pahlavi: baxš
+  avestan: null
+related:
+- بخشیدن
+- بهر
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

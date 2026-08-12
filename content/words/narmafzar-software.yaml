@@ -1,0 +1,29 @@
+id: narmafzar-software
+sare: نرم‌افزار
+loan: سافت‌ور
+loan_origin: انگلیسی
+pos: اسم
+acceptance: نوساخته
+ipa: /næɾmʔæfˈzɒːɾ/
+definition: برنامه‌ای که بر رایانه اجرا می‌شود
+english: software
+register: دانشی
+frequency_rank: 590
+difficulty: 2
+examples:
+- sare: نرم‌افزارش را به‌روز کرد.
+  loan: سافت‌ورش را به‌روز کرد.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «نرم‌افزار»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- افزار
+- سخت‌افزار
+- نرم
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

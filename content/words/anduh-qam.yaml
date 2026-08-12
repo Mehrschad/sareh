@@ -1,0 +1,30 @@
+id: anduh-qam
+sare: اندوه
+loan: غم
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʔænˈduːh/
+definition: سنگینیِ دل از رنج یا از دست‌دادن
+english: sorrow
+register: ادبی
+frequency_rank: 590
+difficulty: 2
+examples:
+- sare: اندوهش را پنهان کرد.
+  loan: غمش را پنهان کرد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «اندوه»
+- source: شاهنامه فردوسی
+  book: داستان سیاوش
+roots:
+  pahlavi: andōh
+  avestan: null
+related:
+- اندوهگین
+- دریغ
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

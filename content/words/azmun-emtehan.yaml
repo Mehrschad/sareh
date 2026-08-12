@@ -1,0 +1,30 @@
+id: azmun-emtehan
+sare: آزمون
+loan: امتحان
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʔɒːzˈmuːn/
+definition: سنجشی که دانستن یا توانستن را می‌آزماید
+english: exam
+register: رسمی
+frequency_rank: 390
+difficulty: 2
+examples:
+- sare: آزمونِ پایانی نزدیک است.
+  loan: امتحانِ نهایی نزدیک است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آزمون»
+- source: فرهنگ فارسی معین
+  ref: مدخل «آزمون»
+roots:
+  pahlavi: āzmōn
+  avestan: null
+related:
+- آزمایش
+- آزمودن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -1,0 +1,30 @@
+id: nevisande-moallef
+sare: نویسنده
+loan: مؤلّف
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /neviːsænˈde/
+definition: کسی که کتاب یا نوشته پدید می‌آورد
+english: author
+register: رسمی
+frequency_rank: 690
+difficulty: 2
+examples:
+- sare: نویسنده‌ی کتاب زنده است.
+  loan: مؤلّفِ کتاب زنده است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نویسنده»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «نویسنده»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- نوشتار
+- نوشتن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

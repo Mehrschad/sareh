@@ -1,0 +1,30 @@
+id: bakht-shans
+sare: بخت
+loan: شانس
+loan_origin: فرانسه
+pos: اسم
+acceptance: زنده
+ipa: /bæxt/
+definition: روزگارِ یار یا ناسازگار
+english: fortune/luck
+register: ادبی
+frequency_rank: 1010
+difficulty: 3
+examples:
+- sare: بختش بلند بود.
+  loan: شانسش بلند بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بخت»
+- source: شاهنامه فردوسی
+  book: پادشاهی بهرام گور
+roots:
+  pahlavi: baxt
+  avestan: null
+related:
+- بدبخت
+- خوشبخت
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

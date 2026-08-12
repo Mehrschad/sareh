@@ -1,0 +1,30 @@
+id: gozaresh-raport
+sare: گزارش
+loan: راپورت
+loan_origin: روسی
+pos: اسم
+acceptance: زنده
+ipa: /ɡozɒːˈɾeʃ/
+definition: بازگوییِ سامان‌مندِ آنچه رخ داده
+english: report
+register: رسمی
+frequency_rank: 360
+difficulty: 2
+examples:
+- sare: گزارشت را بده.
+  loan: راپورتت را بده.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «گزارش»
+- source: فرهنگ فارسی معین
+  ref: مدخل «گزارش»
+roots:
+  pahlavi: wizārišn
+  avestan: null
+related:
+- گزاردن
+- گزارشگر
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

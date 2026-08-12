@@ -1,0 +1,28 @@
+id: rayaname-email
+sare: رایانامه
+loan: ایمیل
+loan_origin: انگلیسی
+pos: اسم
+acceptance: نوساخته
+ipa: /rɒːjɒːnɒːˈme/
+definition: نامه‌ای که با رایانه و شبکه فرستاده می‌شود
+english: email
+register: دانشی
+frequency_rank: 600
+difficulty: 2
+examples:
+- sare: رایانامه‌ات را دیدم.
+  loan: ایمیلت را دیدم.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «رایانامه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- رایانه
+- نامه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

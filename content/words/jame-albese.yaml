@@ -1,0 +1,30 @@
+id: jame-albese
+sare: جامه
+loan: البسه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /dʒɒːˈme/
+definition: پوشاک؛ آنچه بر تن می‌کنند
+english: garment
+register: ادبی
+frequency_rank: 1560
+difficulty: 3
+examples:
+- sare: جامه‌های نو خرید.
+  loan: البسه‌ی نو خرید.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «جامه»
+- source: شاهنامه فردوسی
+  book: پادشاهی جمشید
+roots:
+  pahlavi: jāmag
+  avestan: null
+related:
+- جامه‌دان
+- رخت
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

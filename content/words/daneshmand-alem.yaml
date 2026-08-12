@@ -1,0 +1,30 @@
+id: daneshmand-alem
+sare: دانشمند
+loan: عالم
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /dɒːneʃˈmænd/
+definition: کسی که دانشِ بسیار دارد
+english: scholar
+register: رسمی
+frequency_rank: 520
+difficulty: 2
+examples:
+- sare: دانشمندی بزرگ بود.
+  loan: عالمی بزرگ بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دانشمند»
+- source: شاهنامه فردوسی
+  book: پادشاهی نوشین‌روان
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- دانا
+- دانش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

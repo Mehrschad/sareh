@@ -1,0 +1,30 @@
+id: faravarde-mahsul
+sare: فرآورده
+loan: محصول
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /fæɾɒːvæɾˈde/
+definition: آنچه از فرآیندِ ساخت بیرون می‌آید
+english: product
+register: رسمی
+frequency_rank: 660
+difficulty: 2
+examples:
+- sare: فرآورده‌ی تازه‌ای دارند.
+  loan: محصولِ تازه‌ای دارند.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «فرآورده»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «فرآورده»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- فرآوردن
+- فرآیند
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

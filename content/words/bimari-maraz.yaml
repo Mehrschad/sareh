@@ -1,0 +1,30 @@
+id: bimari-maraz
+sare: بیماری
+loan: مرض
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /biːmɒːˈɾiː/
+definition: به‌هم‌خوردنِ کارِ تن یا روان
+english: illness
+register: رسمی
+frequency_rank: 250
+difficulty: 2
+examples:
+- sare: بیماری‌اش دراز کشید.
+  loan: مرضش دراز کشید.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بیماری»
+- source: فرهنگ فارسی معین
+  ref: مدخل «بیمار»
+roots:
+  pahlavi: wēmār
+  avestan: null
+related:
+- بیمار
+- بیمارستان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

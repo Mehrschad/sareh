@@ -1,0 +1,30 @@
+id: yarane-subsid
+sare: یارانه
+loan: سوبسید
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /jɒːɾɒːˈne/
+definition: کمکِ مالیِ دولت برای ارزان‌کردن کالا
+english: subsidy
+register: رسمی
+frequency_rank: 850
+difficulty: 3
+examples:
+- sare: یارانه واریز شد.
+  loan: سوبسید واریز شد.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «یارانه»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «یارانه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- یار
+- یاری
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

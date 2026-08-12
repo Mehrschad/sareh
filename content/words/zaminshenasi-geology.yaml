@@ -1,0 +1,28 @@
+id: zaminshenasi-geology
+sare: زمین‌شناسی
+loan: ژئولوژی
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /zæmiːnʃenɒːˈsiː/
+definition: دانشِ ساختار و تاریخِ زمین
+english: geology
+register: دانشی
+frequency_rank: 1810
+difficulty: 4
+examples:
+- sare: زمین‌شناسی کارِ میدانی می‌خواهد.
+  loan: ژئولوژی کارِ میدانی می‌خواهد.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «زمین‌شناسی»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- زمین
+- شناختن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

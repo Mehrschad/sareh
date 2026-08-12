@@ -1,0 +1,30 @@
+id: forushgah-maqaze
+sare: فروشگاه
+loan: مغازه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /foɾuːʃˈɡɒːh/
+definition: جایی که کالا می‌فروشند
+english: store
+register: گفتاری
+frequency_rank: 920
+difficulty: 2
+examples:
+- sare: به فروشگاه رفتم.
+  loan: به مغازه رفتم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «فروشگاه»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «فروشگاه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- بازار
+- فروختن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

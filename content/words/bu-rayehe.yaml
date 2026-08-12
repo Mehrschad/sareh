@@ -1,0 +1,30 @@
+id: bu-rayehe
+sare: بو
+loan: رایحه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /buː/
+definition: آنچه با بینی دریافته می‌شود
+english: scent
+register: ادبی
+frequency_rank: 700
+difficulty: 2
+examples:
+- sare: بویِ خوشی می‌آید.
+  loan: رایحه‌ی خوشی می‌آید.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بو»
+- source: فرهنگ فارسی معین
+  ref: مدخل «بو»
+roots:
+  pahlavi: bōy
+  avestan: null
+related:
+- بویا
+- بویایی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

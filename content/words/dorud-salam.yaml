@@ -1,0 +1,32 @@
+id: dorud-salam
+sare: درود
+loan: سلام
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /doˈɾuːd/
+definition: واژه‌ی خوشامد و تهنیت هنگام دیدار
+english: greetings
+register: گفتاری
+frequency_rank: 20
+difficulty: 1
+examples:
+- sare: درود بر تو.
+  loan: سلام بر تو.
+- sare: درود، بامدادت خوش.
+  loan: سلام، صبحت بخیر.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «درود»
+- source: فرهنگ فارسی معین
+  ref: مدخل «درود»
+roots:
+  pahlavi: drōd
+  avestan: null
+related:
+- بدرود
+- درودگفتن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

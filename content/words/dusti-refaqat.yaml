@@ -1,0 +1,30 @@
+id: dusti-refaqat
+sare: دوستی
+loan: رفاقت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /duːsˈtiː/
+definition: پیوندِ مهرآمیزِ دو تن
+english: friendship
+register: گفتاری
+frequency_rank: 560
+difficulty: 2
+examples:
+- sare: دوستی‌شان دیرینه است.
+  loan: رفاقتشان دیرینه است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دوستی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «دوستی»
+roots:
+  pahlavi: dōstīh
+  avestan: null
+related:
+- دوست
+- دوستدار
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

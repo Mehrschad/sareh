@@ -1,0 +1,30 @@
+id: balesh-motakka
+sare: بالش
+loan: متّکا
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bɒːˈleʃ/
+definition: آنچه هنگام خفتن زیر سر می‌نهند
+english: pillow
+register: گفتاری
+frequency_rank: 1620
+difficulty: 3
+examples:
+- sare: بالشش را جابه‌جا کرد.
+  loan: متّکایش را جابه‌جا کرد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بالش»
+- source: فرهنگ فارسی معین
+  ref: مدخل «بالش»
+roots:
+  pahlavi: bāliš
+  avestan: null
+related:
+- بستر
+- خواب
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

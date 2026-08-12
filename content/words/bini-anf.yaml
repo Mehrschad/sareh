@@ -1,0 +1,30 @@
+id: bini-anf
+sare: بینی
+loan: انف
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /biːˈniː/
+definition: اندامِ بوییدن در میانِ چهره
+english: nose
+register: دانشی
+frequency_rank: 1610
+difficulty: 4
+examples:
+- sare: بینی‌اش گرفته است.
+  loan: انفش گرفته است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بینی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «بینی»
+roots:
+  pahlavi: wēnīg
+  avestan: null
+related:
+- بو
+- بویایی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

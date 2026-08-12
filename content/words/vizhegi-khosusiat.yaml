@@ -1,0 +1,30 @@
+id: vizhegi-khosusiat
+sare: ویژگی
+loan: خصوصیت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /viːʒeˈɡiː/
+definition: آنچه چیزی را از دیگران جدا می‌کند
+english: characteristic
+register: دانشی
+frequency_rank: 450
+difficulty: 2
+examples:
+- sare: ویژگیِ برجسته‌اش شکیب است.
+  loan: خصوصیتِ برجسته‌اش صبر است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «ویژه»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «ویژگی»
+roots:
+  pahlavi: wižag
+  avestan: null
+related:
+- ویژه
+- ویژه‌کار
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

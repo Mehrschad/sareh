@@ -1,0 +1,28 @@
+id: namaye-index
+sare: نمایه
+loan: ایندکس
+loan_origin: انگلیسی
+pos: اسم
+acceptance: نوساخته
+ipa: /næmɒːˈje/
+definition: فهرستِ راه‌نمایِ یافتنِ درون‌مایه
+english: index
+register: دانشی
+frequency_rank: 1590
+difficulty: 4
+examples:
+- sare: نمایه‌ی کتاب کامل است.
+  loan: ایندکسِ کتاب کامل است.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «نمایه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- فهرست
+- نمودن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -1,0 +1,30 @@
+id: gostardani-farsh
+sare: گستردنی
+loan: فرش
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /ɡostæɾdæˈniː/
+definition: آنچه بر زمین می‌گسترند
+english: floor covering
+register: ادبی
+frequency_rank: 2500
+difficulty: 5
+examples:
+- sare: گستردنی را پهن کن.
+  loan: فرش را پهن کن.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «گستردنی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «گستردن»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- بستر
+- گستردن
+audio: null
+status: proposed
+contributors:
+- sareh-seed

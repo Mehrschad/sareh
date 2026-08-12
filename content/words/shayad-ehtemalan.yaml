@@ -1,0 +1,30 @@
+id: shayad-ehtemalan
+sare: شاید
+loan: احتمالاً
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /ʃɒːˈjæd/
+definition: نشانه‌ی امکان و نه یقین
+english: perhaps
+register: گفتاری
+frequency_rank: 96
+difficulty: 2
+examples:
+- sare: شاید فردا بیاید.
+  loan: احتمالاً فردا می‌آید.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «شاید»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «شاید»
+roots:
+  pahlavi: šāyēd
+  avestan: null
+related:
+- شایستن
+- شایگان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

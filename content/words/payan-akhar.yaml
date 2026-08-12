@@ -1,0 +1,30 @@
+id: payan-akhar
+sare: پایان
+loan: آخر
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /pɒːˈjɒːn/
+definition: جایی که چیزی به سر می‌رسد
+english: end
+register: رسمی
+frequency_rank: 100
+difficulty: 1
+examples:
+- sare: تا پایانِ داستان بمان.
+  loan: تا آخرِ داستان بمان.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پایان»
+- source: فرهنگ فارسی معین
+  ref: مدخل «پایان»
+roots:
+  pahlavi: pāyān
+  avestan: null
+related:
+- فرجام
+- پایانی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -1,0 +1,30 @@
+id: pust-bashare
+sare: پوست
+loan: بشره
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /puːst/
+definition: لایه‌ی بیرونیِ تن
+english: skin
+register: دانشی
+frequency_rank: 1160
+difficulty: 3
+examples:
+- sare: پوستش آفتاب‌سوخته بود.
+  loan: بشره‌اش آفتاب‌سوخته بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پوست»
+- source: فرهنگ فارسی معین
+  ref: مدخل «پوست»
+roots:
+  pahlavi: pōst
+  avestan: null
+related:
+- پوسته
+- پوستین
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

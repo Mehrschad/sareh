@@ -1,0 +1,30 @@
+id: nemudar-graf
+sare: نمودار
+loan: گراف
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /nemuːˈdɒːɾ/
+definition: نمایشِ دیداریِ داده‌ها
+english: chart
+register: دانشی
+frequency_rank: 1140
+difficulty: 3
+examples:
+- sare: نمودارِ رشد بالا رفت.
+  loan: گرافِ رشد بالا رفت.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «نمودار»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «نمودار»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- نما
+- نمودن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

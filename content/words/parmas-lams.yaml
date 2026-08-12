@@ -1,0 +1,32 @@
+id: parmas-lams
+sare: پرماس
+loan: لمس
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /pæɾˈmɒːs/
+definition: دست ساییدن بر چیزی؛ برخورد پوست با چیزی
+english: touch
+register: ادبی
+frequency_rank: 340
+difficulty: 3
+examples:
+- sare: انگشتانش را بر تارهای ساز پرماس کرد.
+  loan: انگشتانش را بر تارهای ساز لمس کرد.
+- sare: پرماسِ سنگ سرد بود.
+  loan: لمسِ سنگ سرد بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پرماس»
+- source: فرهنگ فارسی معین
+  ref: مدخل «پرماسیدن»
+roots:
+  pahlavi: parmāsītan
+  avestan: null
+related:
+- بساوش
+- پرماسیدن
+audio: null
+status: proposed
+contributors:
+- sareh-seed

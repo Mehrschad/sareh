@@ -1,0 +1,30 @@
+id: rakht-lebas
+sare: رخت
+loan: لباس
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ræxt/
+definition: پوشاکِ تن
+english: clothes
+register: گفتاری
+frequency_rank: 1090
+difficulty: 3
+examples:
+- sare: رختش را پوشید.
+  loan: لباسش را پوشید.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «رخت»
+- source: فرهنگ فارسی معین
+  ref: مدخل «رخت»
+roots:
+  pahlavi: raxt
+  avestan: null
+related:
+- رختخواب
+- پوشاک
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

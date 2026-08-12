@@ -1,0 +1,30 @@
+id: niyaz-ehtiyaj
+sare: نیاز
+loan: احتیاج
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /niːˈjɒːz/
+definition: آنچه بی‌آن نمی‌توان بود
+english: need
+register: رسمی
+frequency_rank: 330
+difficulty: 2
+examples:
+- sare: نیازی نیست.
+  loan: احتیاجی نیست.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نیاز»
+- source: فرهنگ فارسی معین
+  ref: مدخل «نیاز»
+roots:
+  pahlavi: niyāz
+  avestan: null
+related:
+- بی‌نیاز
+- نیازمند
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

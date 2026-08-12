@@ -1,0 +1,30 @@
+id: ravesh-metod
+sare: روش
+loan: متد
+loan_origin: فرانسه
+pos: اسم
+acceptance: زنده
+ipa: /ræˈveʃ/
+definition: راهِ سامان‌یافته‌ی انجامِ کار
+english: method
+register: دانشی
+frequency_rank: 420
+difficulty: 2
+examples:
+- sare: روشِ تازه‌ای یافت.
+  loan: متدِ تازه‌ای یافت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «روش»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «روش»
+roots:
+  pahlavi: rawišn
+  avestan: null
+related:
+- رفتن
+- روند
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

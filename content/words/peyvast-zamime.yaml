@@ -1,0 +1,30 @@
+id: peyvast-zamime
+sare: پیوست
+loan: ضمیمه
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /pejˈvæst/
+definition: آنچه به نامه یا نوشته‌ای افزوده می‌شود
+english: attachment
+register: رسمی
+frequency_rank: 820
+difficulty: 3
+examples:
+- sare: پیوست را نگاه کن.
+  loan: ضمیمه را نگاه کن.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «پیوست»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «پیوست»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- پیوستن
+- پیوند
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

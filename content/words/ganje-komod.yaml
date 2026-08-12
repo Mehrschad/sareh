@@ -1,0 +1,30 @@
+id: ganje-komod
+sare: گنجه
+loan: کمد
+loan_origin: فرانسه
+pos: اسم
+acceptance: زنده
+ipa: /ɡænˈdʒe/
+definition: جایگاهِ چوبیِ نهادنِ جامه و ابزار
+english: cupboard
+register: گفتاری
+frequency_rank: 1710
+difficulty: 3
+examples:
+- sare: در گنجه گذاشتم.
+  loan: در کمد گذاشتم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «گنجه»
+- source: فرهنگ فارسی معین
+  ref: مدخل «گنجه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- گنج
+- گنجینه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

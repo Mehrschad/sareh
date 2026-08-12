@@ -1,0 +1,30 @@
+id: shosh-riye
+sare: شش
+loan: ریه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʃoʃ/
+definition: اندامِ دم‌گرفتن در سینه
+english: lung
+register: دانشی
+frequency_rank: 1350
+difficulty: 3
+examples:
+- sare: شش‌هایش پر از دود بود.
+  loan: ریه‌هایش پر از دود بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «شش»
+- source: فرهنگ فارسی معین
+  ref: مدخل «شش»
+roots:
+  pahlavi: suš
+  avestan: null
+related:
+- دم
+- سینه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

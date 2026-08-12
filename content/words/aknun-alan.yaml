@@ -1,0 +1,30 @@
+id: aknun-alan
+sare: اکنون
+loan: الآن
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /ʔækˈnuːn/
+definition: در همین زمان؛ هم‌اینک
+english: now
+register: رسمی
+frequency_rank: 60
+difficulty: 1
+examples:
+- sare: اکنون آماده‌ام.
+  loan: الآن آماده‌ام.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «اکنون»
+- source: فرهنگ فارسی معین
+  ref: مدخل «اکنون»
+roots:
+  pahlavi: ēdōn
+  avestan: null
+related:
+- هم‌اکنون
+- کنون
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

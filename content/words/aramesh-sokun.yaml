@@ -1,0 +1,30 @@
+id: aramesh-sokun
+sare: آرامش
+loan: سکون
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʔɒːɾɒːˈmeʃ/
+definition: بی‌آشوبیِ درون
+english: calm
+register: رسمی
+frequency_rank: 470
+difficulty: 2
+examples:
+- sare: آرامشش را بازیافت.
+  loan: سکونش را بازیافت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آرامش»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «آرامش»
+roots:
+  pahlavi: ārāmišn
+  avestan: null
+related:
+- آرام
+- آرمیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

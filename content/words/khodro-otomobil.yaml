@@ -1,0 +1,30 @@
+id: khodro-otomobil
+sare: خودرو
+loan: اتومبیل
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /xodˈɾo/
+definition: گردونه‌ی موتوردارِ زمینی
+english: automobile
+register: رسمی
+frequency_rank: 300
+difficulty: 2
+examples:
+- sare: خودرویت کجاست؟
+  loan: اتومبیلت کجاست؟
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «خودرو»
+- source: فرهنگ فارسی معین
+  ref: مدخل «خودرو»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- خود
+- رو
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

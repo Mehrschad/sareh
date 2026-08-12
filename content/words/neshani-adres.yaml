@@ -1,0 +1,30 @@
+id: neshani-adres
+sare: نشانی
+loan: آدرس
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /neʃɒːˈniː/
+definition: آگاهیِ جایِ یافتنِ کس یا جایی
+english: address
+register: رسمی
+frequency_rank: 330
+difficulty: 2
+examples:
+- sare: نشانی‌ات را بفرست.
+  loan: آدرست را بفرست.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «نشانی»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «نشانی»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- نشان
+- نشانه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -1,0 +1,30 @@
+id: marz-hadd
+sare: مرز
+loan: حدّ
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /mæɾz/
+definition: خطِ جداکننده‌ی دو سرزمین
+english: border
+register: رسمی
+frequency_rank: 1050
+difficulty: 3
+examples:
+- sare: از مرز گذشتند.
+  loan: از حدّ گذشتند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «مرز»
+- source: شاهنامه فردوسی
+  book: پادشاهی کیخسرو
+roots:
+  pahlavi: marz
+  avestan: null
+related:
+- مرزبان
+- کشور
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

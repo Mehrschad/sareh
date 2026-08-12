@@ -1,0 +1,30 @@
+id: delavari-shojaat
+sare: دلیری
+loan: شجاعت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /deliːˈɾiː/
+definition: بی‌باکی در برابر خطر
+english: bravery
+register: ادبی
+frequency_rank: 1060
+difficulty: 3
+examples:
+- sare: دلیری‌اش زبانزد شد.
+  loan: شجاعتش زبانزد شد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دلیری»
+- source: شاهنامه فردوسی
+  book: داستان رستم و سهراب
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- دل
+- دلیر
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

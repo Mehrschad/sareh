@@ -1,0 +1,30 @@
+id: khan-sofre
+sare: خوان
+loan: سفره
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /xɒːn/
+definition: گستردنیِ خوراک؛ میزِ چیده‌ی خوردن
+english: dining spread
+register: ادبی
+frequency_rank: 1150
+difficulty: 4
+examples:
+- sare: خوان گستردند.
+  loan: سفره گستردند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «خوان»
+- source: شاهنامه فردوسی
+  book: داستان بیژن و منیژه
+roots:
+  pahlavi: xwān
+  avestan: null
+related:
+- خوان‌سالار
+- خوردن
+audio: null
+status: proposed
+contributors:
+- sareh-seed

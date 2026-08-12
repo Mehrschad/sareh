@@ -1,0 +1,30 @@
+id: eshkub-tabaqe
+sare: اشکوب
+loan: طبقه
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /ʔeʃˈkuːb/
+definition: هر لایه از لایه‌های روی‌هم‌نهاده‌ی ساختمان
+english: storey
+register: ادبی
+frequency_rank: 1960
+difficulty: 4
+examples:
+- sare: اشکوبِ دوم خالی است.
+  loan: طبقه‌ی دوم خالی است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «اشکوب»
+- source: فرهنگ فارسی معین
+  ref: مدخل «اشکوب»
+roots:
+  pahlavi: aškōb
+  avestan: null
+related:
+- اشکوبه
+- کاخ
+audio: null
+status: proposed
+contributors:
+- sareh-seed

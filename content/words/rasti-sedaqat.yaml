@@ -1,0 +1,30 @@
+id: rasti-sedaqat
+sare: راستی
+loan: صداقت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /rɒːsˈtiː/
+definition: دروغ‌نگفتن؛ هم‌سازیِ گفتار و کردار
+english: truthfulness
+register: ادبی
+frequency_rank: 700
+difficulty: 2
+examples:
+- sare: راستی را پیشه کن.
+  loan: صداقت را پیشه کن.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «راستی»
+- source: شاهنامه فردوسی
+  book: پادشاهی نوشین‌روان
+roots:
+  pahlavi: rāstīh
+  avestan: null
+related:
+- دروغ
+- راست
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

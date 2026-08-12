@@ -1,0 +1,30 @@
+id: gahshomar-taqvim
+sare: گاه‌شمار
+loan: تقویم
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /ɡɒːhʃoˈmɒːɾ/
+definition: سامانه‌ی شمردن و بخش‌کردنِ روزها
+english: calendar
+register: دانشی
+frequency_rank: 1310
+difficulty: 3
+examples:
+- sare: گاه‌شمارِ خورشیدی دقیق است.
+  loan: تقویمِ شمسی دقیق است.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «گاه‌شمار»
+- source: لغت‌نامه دهخدا
+  ref: مدخل «گاه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- شمردن
+- گاه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -1,0 +1,30 @@
+id: dabir-monshi
+sare: دبیر
+loan: منشی
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /dæˈbiːɾ/
+definition: کسی که نوشتن و نگاهداشتِ نوشته‌ها بر عهده‌ی اوست
+english: secretary
+register: ادبی
+frequency_rank: 1270
+difficulty: 3
+examples:
+- sare: دبیرِ انجمن نامه را خواند.
+  loan: منشیِ مجمع نامه را خواند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دبیر»
+- source: شاهنامه فردوسی
+  book: پادشاهی نوشین‌روان
+roots:
+  pahlavi: dibīr
+  avestan: null
+related:
+- دبیرستان
+- دبیره
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -1,0 +1,30 @@
+id: bordbari-tahammol
+sare: بردباری
+loan: تحمّل
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /boɾdbɒːˈɾiː/
+definition: تاب‌آوردنِ سختی بی‌آنکه بشکنی
+english: tolerance
+register: رسمی
+frequency_rank: 1020
+difficulty: 3
+examples:
+- sare: بردباری‌اش مرا شرمنده کرد.
+  loan: تحمّلش مرا شرمنده کرد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بردبار»
+- source: فرهنگ فارسی معین
+  ref: مدخل «بردباری»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- بردبار
+- شکیبایی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

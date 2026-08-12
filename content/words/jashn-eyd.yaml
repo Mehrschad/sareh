@@ -1,0 +1,30 @@
+id: jashn-eyd
+sare: جشن
+loan: عید
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /dʒæʃn/
+definition: آیینِ شادیِ همگانی
+english: festival
+register: ادبی
+frequency_rank: 780
+difficulty: 2
+examples:
+- sare: جشنِ سده را برپا کردند.
+  loan: عیدِ سده را برپا کردند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «جشن»
+- source: شاهنامه فردوسی
+  book: پادشاهی هوشنگ
+roots:
+  pahlavi: jašn
+  avestan: yasna-
+related:
+- آیین
+- جشنواره
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

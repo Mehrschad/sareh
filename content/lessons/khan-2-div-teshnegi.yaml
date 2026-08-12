@@ -1,0 +1,98 @@
+id: khan-2-div-teshnegi
+khan: 2
+guardian: دیو تشنگی
+realm: تن و جان
+stations:
+- id: khan-2-div-teshnegi-manzel-1
+  title: منزلِ 1
+  exercises:
+  - گزینش
+  - جفت‌ساز
+  - جای‌گزینی
+  - شنیدار
+  words:
+  - bimari-maraz
+  - darman-moaleje
+  - tandorosti-salamati
+  - pezeshk-tabib
+  - del-qalb
+  - nirou-qovvat
+  - dard-alam
+  - khashm-qazab
+- id: khan-2-div-teshnegi-manzel-2
+  title: منزلِ 2
+  exercises:
+  - گزینش
+  - واژه‌چین
+  - نویسش
+  - داستانک
+  words:
+  - aramesh-sokun
+  - hush-zekavat
+  - asayesh-rahati
+  - zakhm-jerahat
+  - behbud-shafa
+  - khab-roya
+  - maze-tam
+  - bu-rayehe
+- id: khan-2-div-teshnegi-manzel-3
+  title: منزلِ 3
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - ریشه‌یاب
+  - تیر آرش
+  words:
+  - khastegi-taab
+  - parmas-lams
+  - shakib-sabr
+  - ravan-ruh
+  - shakibaei-sabuori
+  - dam-nafas
+  - teshnegi-atash
+  - gorosnegi-ju
+  - abestan-hamele
+- id: khan-2-div-teshnegi-manzel-4
+  title: منزلِ 4
+  exercises:
+  - جفت‌ساز
+  - بیت‌یاب
+  - گزینش
+  - نویسش
+  words:
+  - zayman-veladat
+  - galu-halq
+  - pust-bashare
+  - ravanshenasi-psychology
+  - maqz-demaq
+  - binaei-basere
+  - shenavaei-samee
+  - shosh-riye
+  - jegar-kabed
+- id: khan-2-div-teshnegi-manzel-5
+  title: منزلِ 5
+  exercises:
+  - گزینش
+  - داستانک
+  - شنیدار
+  - واژه‌چین
+  words:
+  - ostokhan-azm
+  - mahiche-azole
+  - sorfe-soal
+  - amas-varam
+  - basavesh-lamese
+  - chashaei-zaeqe
+  - buyaei-shamme
+  - bini-anf
+  - zehdan-rahem
+boss:
+  id: khan-2-div-teshnegi-negahban
+  title: نگهبانِ خان — دیو تشنگی
+  word_count: 12
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - بیت‌یاب
+  - تیر آرش
+  pass_ratio: 0.8

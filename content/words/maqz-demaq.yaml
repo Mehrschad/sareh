@@ -1,0 +1,30 @@
+id: maqz-demaq
+sare: مغز
+loan: دماغ
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /mæqz/
+definition: اندامِ اندیشه در سر
+english: brain
+register: دانشی
+frequency_rank: 1240
+difficulty: 3
+examples:
+- sare: مغزش خسته است.
+  loan: دماغش خسته است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «مغز»
+- source: فرهنگ فارسی معین
+  ref: مدخل «مغز»
+roots:
+  pahlavi: mazg
+  avestan: null
+related:
+- مغزی
+- هوش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

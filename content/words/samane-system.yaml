@@ -1,0 +1,30 @@
+id: samane-system
+sare: سامانه
+loan: سیستم
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /sɒːmɒːˈne/
+definition: مجموعه‌ای از اجزا که با هم کاری را انجام می‌دهند
+english: system
+register: دانشی
+frequency_rank: 520
+difficulty: 2
+examples:
+- sare: سامانه از کار افتاد.
+  loan: سیستم از کار افتاد.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «سامانه»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «سامانه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- سازمان
+- سامان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

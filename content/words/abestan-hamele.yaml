@@ -1,0 +1,30 @@
+id: abestan-hamele
+sare: آبستن
+loan: حامله
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /ʔɒːbesˈtæn/
+definition: زنی که کودکی در زهدان دارد
+english: pregnant
+register: رسمی
+frequency_rank: 980
+difficulty: 3
+examples:
+- sare: آبستن است.
+  loan: حامله است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آبستن»
+- source: فرهنگ فارسی معین
+  ref: مدخل «آبستن»
+roots:
+  pahlavi: ābustan
+  avestan: null
+related:
+- آبستنی
+- بارداری
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

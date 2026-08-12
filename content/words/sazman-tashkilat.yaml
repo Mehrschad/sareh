@@ -1,0 +1,30 @@
+id: sazman-tashkilat
+sare: سازمان
+loan: تشکیلات
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /sɒːzˈmɒːn/
+definition: ساختارِ سامان‌یافته‌ی گروهی از مردمان
+english: organization
+register: رسمی
+frequency_rank: 400
+difficulty: 2
+examples:
+- sare: سازمانِ تازه‌ای ساخت.
+  loan: تشکیلاتِ تازه‌ای ساخت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سازمان»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «سازمان»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- ساختن
+- سامان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

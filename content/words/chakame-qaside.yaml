@@ -1,0 +1,30 @@
+id: chakame-qaside
+sare: چکامه
+loan: قصیده
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /tʃæˈkɒːme/
+definition: سروده‌ی بلندِ یک‌آهنگ
+english: ode
+register: ادبی
+frequency_rank: 2350
+difficulty: 5
+examples:
+- sare: چکامه‌اش را برای شاه خواند.
+  loan: قصیده‌اش را برای شاه خواند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «چکامه»
+- source: فرهنگ فارسی معین
+  ref: مدخل «چکامه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- سرودن
+- چامه
+audio: null
+status: proposed
+contributors:
+- sareh-seed

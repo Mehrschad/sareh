@@ -1,0 +1,30 @@
+id: gozare-jomle
+sare: گزاره
+loan: جمله خبری
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /ɡozɒːˈɾe/
+definition: سخنی که می‌توان آن را راست یا دروغ دانست
+english: proposition
+register: دانشی
+frequency_rank: 1470
+difficulty: 4
+examples:
+- sare: این گزاره نادرست است.
+  loan: این جمله‌ی خبری غلط است.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «گزاره»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «گزاره»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- گزاردن
+- گزارش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

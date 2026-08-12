@@ -1,0 +1,30 @@
+id: shurba-sup
+sare: شوربا
+loan: سوپ
+loan_origin: فرانسه
+pos: اسم
+acceptance: زنده
+ipa: /ʃuːɾˈbɒː/
+definition: خوراکِ آبکیِ گرم
+english: soup
+register: گفتاری
+frequency_rank: 1670
+difficulty: 3
+examples:
+- sare: شوربا بخور تا گرم شوی.
+  loan: سوپ بخور تا گرم شوی.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «شوربا»
+- source: فرهنگ فارسی معین
+  ref: مدخل «شوربا»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- آش
+- شور
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

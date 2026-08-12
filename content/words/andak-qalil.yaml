@@ -1,0 +1,30 @@
+id: andak-qalil
+sare: اندک
+loan: قلیل
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /ʔænˈdæk/
+definition: به شمار یا اندازه‌ی کم
+english: few
+register: ادبی
+frequency_rank: 420
+difficulty: 2
+examples:
+- sare: اندکی آب بیاور.
+  loan: قلیلی آب بیاور.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «اندک»
+- source: شاهنامه فردوسی
+  book: پادشاهی نوشین‌روان
+roots:
+  pahlavi: andak
+  avestan: null
+related:
+- اندکی
+- کم
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -1,0 +1,30 @@
+id: govahiname-sanad
+sare: گواهی‌نامه
+loan: سند
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ɡævɒːhiːnɒːˈme/
+definition: نوشته‌ای که چیزی را گواهی می‌کند
+english: certificate
+register: رسمی
+frequency_rank: 1180
+difficulty: 3
+examples:
+- sare: گواهی‌نامه‌اش را نشان داد.
+  loan: سندش را نشان داد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «گواهی»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «گواهی‌نامه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- نامه
+- گواه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

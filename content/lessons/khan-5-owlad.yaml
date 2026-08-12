@@ -1,0 +1,111 @@
+id: khan-5-owlad
+khan: 5
+guardian: اولاد
+realm: اندیشه و دانش
+stations:
+- id: khan-5-owlad-manzel-1
+  title: منزلِ 1
+  exercises:
+  - گزینش
+  - جفت‌ساز
+  - جای‌گزینی
+  - شنیدار
+  words:
+  - danesh-elm
+  - andishe-fekr
+  - shomare-adad
+  - pazhuhesh-tahqiq
+  - dade-etelaat
+  - amuzesh-taalim
+  - gune-now
+  - azmun-emtehan
+- id: khan-5-owlad-manzel-2
+  title: منزلِ 2
+  exercises:
+  - گزینش
+  - واژه‌چین
+  - نویسش
+  - داستانک
+  words:
+  - agahi-etela
+  - ravesh-metod
+  - vizhegi-khosusiat
+  - rishe-asl
+  - bavar-eteqad
+  - goftar-kalam
+  - daneshmand-alem
+  - payamad-natije
+- id: khan-5-owlad-manzel-3
+  title: منزلِ 3
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - ریشه‌یاب
+  - تیر آرش
+  words:
+  - amuzegar-moallem
+  - azmayesh-tajrobe
+  - daneshju-mohassel
+  - karkard-amalkard
+  - shive-sabk
+  - dabestan-madrese
+  - sakhtar-strukcur
+  - amaj-hadaf
+- id: khan-5-owlad-manzel-4
+  title: منزلِ 4
+  exercises:
+  - جفت‌ساز
+  - بیت‌یاب
+  - گزینش
+  - نویسش
+  words:
+  - bardasht-tafsir
+  - sanjesh-arzyabi
+  - chalesh-challenge
+  - rade-tabaqe
+  - sokhanrani-khetabe
+  - nemudar-graf
+  - virayesh-edit
+  - dasturzaban-gerammar
+- id: khan-5-owlad-manzel-5
+  title: منزلِ 5
+  exercises:
+  - گزینش
+  - داستانک
+  - شنیدار
+  - واژه‌چین
+  words:
+  - vajename-dictionary
+  - runevesht-copy
+  - negaresh-tarztalaqqi
+  - gahshomar-taqvim
+  - bakhshbandi-taqsimbandi
+  - engare-farziye
+  - farnud-dalil
+  - gozare-jomle
+- id: khan-5-owlad-manzel-6
+  title: منزلِ 6
+  exercises:
+  - جای‌گزینی
+  - گزینش
+  - تیر آرش
+  - بیت‌یاب
+  words:
+  - shavand-ellat
+  - farhangestan-akademi
+  - nahade-mowzu
+  - zistshenasi-biology
+  - setareshenasi-nojum
+  - zaminshenasi-geology
+  - shomargan-tiraj
+  - armanshahr-utopia
+boss:
+  id: khan-5-owlad-negahban
+  title: نگهبانِ خان — اولاد
+  word_count: 12
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - بیت‌یاب
+  - تیر آرش
+  pass_ratio: 0.8

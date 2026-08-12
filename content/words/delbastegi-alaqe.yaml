@@ -1,0 +1,30 @@
+id: delbastegi-alaqe
+sare: دلبستگی
+loan: علاقه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /delbæsteˈɡiː/
+definition: پیوندِ دل با کس یا چیزی
+english: attachment
+register: رسمی
+frequency_rank: 720
+difficulty: 2
+examples:
+- sare: دلبستگی‌اش به شعر ژرف است.
+  loan: علاقه‌اش به شعر عمیق است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دلبستگی»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «دلبستگی»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- بستن
+- دل
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

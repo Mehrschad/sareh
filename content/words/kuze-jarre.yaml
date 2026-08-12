@@ -1,0 +1,30 @@
+id: kuze-jarre
+sare: کوزه
+loan: جرّه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /kuːˈze/
+definition: آوندِ سفالینِ آب
+english: jug
+register: ادبی
+frequency_rank: 1920
+difficulty: 4
+examples:
+- sare: کوزه را پر کرد.
+  loan: جرّه را پر کرد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «کوزه»
+- source: فرهنگ فارسی معین
+  ref: مدخل «کوزه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- سفال
+- کوزه‌گر
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

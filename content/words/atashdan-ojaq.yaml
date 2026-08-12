@@ -1,0 +1,30 @@
+id: atashdan-ojaq
+sare: آتشدان
+loan: اجاق
+loan_origin: ترکی
+pos: اسم
+acceptance: خفته
+ipa: /ʔɒːtæʃˈdɒːn/
+definition: جایگاهِ افروختنِ آتش
+english: hearth
+register: ادبی
+frequency_rank: 2200
+difficulty: 5
+examples:
+- sare: آتشدان را افروختند.
+  loan: اجاق را روشن کردند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آتشدان»
+- source: فرهنگ فارسی معین
+  ref: مدخل «آتشدان»
+roots:
+  pahlavi: ātaxšdān
+  avestan: null
+related:
+- آتش
+- آتشکده
+audio: null
+status: proposed
+contributors:
+- sareh-seed

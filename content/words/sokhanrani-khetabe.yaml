@@ -1,0 +1,30 @@
+id: sokhanrani-khetabe
+sare: سخنرانی
+loan: خطابه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /soxænɾɒːˈniː/
+definition: سخن‌گفتن در برابر گروهی
+english: lecture
+register: رسمی
+frequency_rank: 1090
+difficulty: 3
+examples:
+- sare: سخنرانی‌اش کوتاه بود.
+  loan: خطابه‌اش کوتاه بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سخنرانی»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «سخنرانی»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- راندن
+- سخن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

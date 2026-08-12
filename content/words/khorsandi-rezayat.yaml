@@ -1,0 +1,30 @@
+id: khorsandi-rezayat
+sare: خرسندی
+loan: رضایت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /xoɾsænˈdiː/
+definition: بسنده‌دانستن به آنچه هست
+english: contentment
+register: ادبی
+frequency_rank: 1090
+difficulty: 3
+examples:
+- sare: خرسندیِ دل بهترین گنج است.
+  loan: رضایتِ قلب بهترین گنج است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «خرسندی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «خرسند»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- خرسند
+- خشنودی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

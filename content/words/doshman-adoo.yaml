@@ -1,0 +1,30 @@
+id: doshman-adoo
+sare: دشمن
+loan: عدو
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /doʃˈmæn/
+definition: کسی که با تو سرِ ستیز دارد
+english: enemy
+register: ادبی
+frequency_rank: 690
+difficulty: 2
+examples:
+- sare: دشمنش را بخشید.
+  loan: عدویش را بخشید.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دشمن»
+- source: شاهنامه فردوسی
+  book: داستان رستم و اسفندیار
+roots:
+  pahlavi: dušmen
+  avestan: null
+related:
+- دشمنی
+- دوست
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

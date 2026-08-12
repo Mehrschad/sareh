@@ -1,0 +1,29 @@
+id: karbar-user
+sare: کاربر
+loan: یوزر
+loan_origin: انگلیسی
+pos: اسم
+acceptance: نوساخته
+ipa: /kɒːɾˈbæɾ/
+definition: کسی که از دستگاه یا نرم‌افزار بهره می‌برد
+english: user
+register: دانشی
+frequency_rank: 430
+difficulty: 2
+examples:
+- sare: کاربرِ تازه‌ای پیوست.
+  loan: یوزرِ تازه‌ای پیوست.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «کاربر»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- بردن
+- کار
+- کاربری
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

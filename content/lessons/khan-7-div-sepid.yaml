@@ -1,0 +1,97 @@
+id: khan-7-div-sepid
+khan: 7
+guardian: دیو سپید
+realm: مینو و فرهنگ
+stations:
+- id: khan-7-div-sepid-manzel-1
+  title: منزلِ 1
+  exercises:
+  - گزینش
+  - جفت‌ساز
+  - جای‌گزینی
+  - شنیدار
+  words:
+  - keshvar-mamlekat
+  - kherad-aql
+  - jahan-alam
+  - dastan-qesse
+  - dad-edalat
+  - nevisande-moallef
+  - rasti-sedaqat
+  - ain-rasm
+- id: khan-7-div-sepid-manzel-2
+  title: منزلِ 2
+  exercises:
+  - گزینش
+  - واژه‌چین
+  - نویسش
+  - داستانک
+  words:
+  - jashn-eyd
+  - niki-kheyr
+  - padeshah-malek
+  - doruq-kezb
+  - sarnevesht-taqdir
+  - bakht-shans
+  - marz-hadd
+  - namayesh-teatr
+- id: khan-7-div-sepid-manzel-3
+  title: منزلِ 3
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - ریشه‌یاب
+  - تیر آرش
+  words:
+  - niyayesh-doa
+  - bidad-zolm
+  - ahang-melodi
+  - parastesh-ebadat
+  - shahrvand-tabee
+  - badi-sharr
+  - afsane-ostoore
+  - sarayande-shaer
+- id: khan-7-div-sepid-manzel-4
+  title: منزلِ 4
+  exercises:
+  - جفت‌ساز
+  - بیت‌یاب
+  - گزینش
+  - نویسش
+  words:
+  - sepah-qoshun
+  - shahryar-soltan
+  - derafsh-parcham
+  - giti-donya
+  - tabar-nasab
+  - peykare-mojassame
+  - dudman-selsele
+  - niyakan-ajdad
+  - khoshnevisi-khattati
+- id: khan-7-div-sepid-manzel-5
+  title: منزلِ 5
+  exercises:
+  - گزینش
+  - داستانک
+  - شنیدار
+  - واژه‌چین
+  words:
+  - zendeginame-biography
+  - yadman-banayadbud
+  - chame-sher
+  - negargari-miniatur
+  - farr-jalal
+  - chakame-qaside
+  - minu-malakut
+  - sepanta-moqaddas
+  - asha-haqiqat
+boss:
+  id: khan-7-div-sepid-negahban
+  title: نگهبانِ خان — دیو سپید
+  word_count: 12
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - بیت‌یاب
+  - تیر آرش
+  pass_ratio: 0.8

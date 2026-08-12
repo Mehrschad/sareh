@@ -1,0 +1,30 @@
+id: payamresan-messenger
+sare: پیام‌رسان
+loan: مسنجر
+loan_origin: انگلیسی
+pos: اسم
+acceptance: نوساخته
+ipa: /pæjɒːmreˈsɒːn/
+definition: نرم‌افزارِ فرستادن و گرفتن پیام
+english: messenger
+register: دانشی
+frequency_rank: 720
+difficulty: 2
+examples:
+- sare: در پیام‌رسان بنویس.
+  loan: در مسنجر بنویس.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «پیام‌رسان»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «پیام»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- پیام
+- پیام‌بر
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

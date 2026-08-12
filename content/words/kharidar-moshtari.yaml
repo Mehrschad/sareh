@@ -1,0 +1,30 @@
+id: kharidar-moshtari
+sare: خریدار
+loan: مشتری
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /xæɾiːˈdɒːɾ/
+definition: کسی که کالا می‌خرد
+english: customer
+register: رسمی
+frequency_rank: 860
+difficulty: 2
+examples:
+- sare: خریدارِ همیشگی‌مان است.
+  loan: مشتریِ همیشگی‌مان است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «خریدار»
+- source: فرهنگ فارسی معین
+  ref: مدخل «خریدار»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- خریدن
+- فروشنده
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

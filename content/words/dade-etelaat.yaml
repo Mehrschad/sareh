@@ -1,0 +1,30 @@
+id: dade-etelaat
+sare: داده
+loan: اطلاعات
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /dɒːˈde/
+definition: آگاهیِ خام که پردازش می‌شود
+english: data
+register: دانشی
+frequency_rank: 340
+difficulty: 2
+examples:
+- sare: داده‌ها را گرد آورد.
+  loan: اطلاعات را جمع کرد.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «داده»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «داده»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- دادن
+- داده‌پردازی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

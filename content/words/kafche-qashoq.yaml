@@ -1,0 +1,30 @@
+id: kafche-qashoq
+sare: کفچه
+loan: قاشق
+loan_origin: ترکی
+pos: اسم
+acceptance: خفته
+ipa: /kæfˈtʃe/
+definition: ابزارِ گودِ دسته‌دار برای خوردن
+english: spoon
+register: ادبی
+frequency_rank: 2050
+difficulty: 5
+examples:
+- sare: کفچه‌ای شوربا برداشت.
+  loan: قاشقی سوپ برداشت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «کفچه»
+- source: فرهنگ فارسی معین
+  ref: مدخل «کفچه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- کف
+- کفگیر
+audio: null
+status: proposed
+contributors:
+- sareh-seed

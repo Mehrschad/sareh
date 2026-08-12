@@ -1,0 +1,30 @@
+id: chame-sher
+sare: چامه
+loan: شعر
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /tʃɒːˈme/
+definition: سروده‌ی موزون
+english: poem
+register: ادبی
+frequency_rank: 2150
+difficulty: 5
+examples:
+- sare: چامه‌ای در ستایشِ بهار سرود.
+  loan: شعری در ستایشِ بهار سرود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «چامه»
+- source: فرهنگ فارسی معین
+  ref: مدخل «چامه»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- سروده
+- چکامه
+audio: null
+status: proposed
+contributors:
+- sareh-seed

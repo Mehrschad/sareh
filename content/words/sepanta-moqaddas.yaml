@@ -1,0 +1,30 @@
+id: sepanta-moqaddas
+sare: سپنتا
+loan: مقدّس
+loan_origin: عربی
+pos: صفت
+acceptance: خفته
+ipa: /sepænˈtɒː/
+definition: پاک و ورجاوند
+english: holy
+register: ادبی
+frequency_rank: 2600
+difficulty: 5
+examples:
+- sare: آتشِ سپنتا را پاس داشتند.
+  loan: آتشِ مقدّس را پاس داشتند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سپنتا»
+- source: فرهنگ فارسی معین
+  ref: مدخل «سپنتا»
+roots:
+  pahlavi: spenāg
+  avestan: spəṇta-
+related:
+- سپند
+- ورجاوند
+audio: null
+status: proposed
+contributors:
+- sareh-seed

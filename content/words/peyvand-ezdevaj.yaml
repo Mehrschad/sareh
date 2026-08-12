@@ -1,0 +1,30 @@
+id: peyvand-ezdevaj
+sare: پیوند
+loan: ازدواج
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /pejˈvænd/
+definition: بستنِ زناشویی میان دو تن
+english: marriage
+register: رسمی
+frequency_rank: 1080
+difficulty: 3
+examples:
+- sare: جشنِ پیوندشان بود.
+  loan: جشنِ ازدواجشان بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پیوند»
+- source: فرهنگ فارسی معین
+  ref: مدخل «پیوند»
+roots:
+  pahlavi: paywand
+  avestan: null
+related:
+- زناشویی
+- پیوستن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

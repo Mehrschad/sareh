@@ -1,0 +1,30 @@
+id: armanshahr-utopia
+sare: آرمان‌شهر
+loan: اتوپیا
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /ʔɒːɾmɒːnˈʃæhɾ/
+definition: شهرِ آرمانی که در آن همه‌چیز بی‌کاستی است
+english: utopia
+register: ادبی
+frequency_rank: 2200
+difficulty: 5
+examples:
+- sare: آرمان‌شهرش هرگز ساخته نشد.
+  loan: اتوپیایش هرگز ساخته نشد.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «آرمان‌شهر»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «آرمان‌شهر»
+roots:
+  pahlavi: null
+  avestan: null
+related:
+- آرمان
+- شهر
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
