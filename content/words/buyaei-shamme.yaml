@@ -8,7 +8,8 @@ ipa: /buːjɒːˈjiː/
 definition: حسِ بینی؛ توانِ دریافتنِ بو
 english: smell (sense)
 register: دانشی
-frequency_rank: 1540
+frequency_rank: null
+zipf: 3.08
 difficulty: 4
 examples:
 - sare: بویایی‌اش تیز است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - بو
 - بوییدن

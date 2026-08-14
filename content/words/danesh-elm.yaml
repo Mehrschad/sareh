@@ -8,7 +8,8 @@ ipa: /dɒːˈneʃ/
 definition: آنچه دانسته می‌شود؛ آگاهیِ سامان‌یافته
 english: knowledge
 register: ادبی
-frequency_rank: 180
+frequency_rank: 739
+zipf: 5.26
 difficulty: 1
 examples:
 - sare: دانش را از هر که آموختی، بیاموز.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: dānišn
   avestan: null
+  old_persian: null
 related:
 - دانا
 - دانستن

@@ -8,7 +8,8 @@ ipa: /pɒːˈjɒːn/
 definition: جایی که چیزی به سر می‌رسد
 english: end
 register: رسمی
-frequency_rank: 100
+frequency_rank: 374
+zipf: 5.5
 difficulty: 1
 examples:
 - sare: تا پایانِ داستان بمان.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: pāyān
   avestan: null
+  old_persian: null
 related:
 - فرجام
 - پایانی

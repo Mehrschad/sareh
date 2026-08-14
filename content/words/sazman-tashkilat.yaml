@@ -8,7 +8,8 @@ ipa: /sɒːzˈmɒːn/
 definition: ساختارِ سامان‌یافته‌ی گروهی از مردمان
 english: organization
 register: رسمی
-frequency_rank: 400
+frequency_rank: 5948
+zipf: 4.19
 difficulty: 2
 examples:
 - sare: سازمانِ تازه‌ای ساخت.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - ساختن
 - سامان

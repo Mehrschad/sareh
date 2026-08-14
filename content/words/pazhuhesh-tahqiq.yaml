@@ -8,7 +8,8 @@ ipa: /pæʒuːˈheʃ/
 definition: جست‌وجوی سامان‌مند برای یافتنِ دانشِ نو
 english: research
 register: دانشی
-frequency_rank: 290
+frequency_rank: 1446
+zipf: 4.96
 difficulty: 2
 examples:
 - sare: پژوهشش سه سال کشید.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - پژوهشگر
 - پژوهیدن

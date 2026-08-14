@@ -8,7 +8,8 @@ ipa: /ræxt/
 definition: پوشاکِ تن
 english: clothes
 register: گفتاری
-frequency_rank: 1090
+frequency_rank: 369
+zipf: 5.51
 difficulty: 3
 examples:
 - sare: رختش را پوشید.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: raxt
   avestan: null
+  old_persian: '*raxtah'
 related:
 - رختخواب
 - پوشاک

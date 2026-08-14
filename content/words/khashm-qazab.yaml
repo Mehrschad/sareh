@@ -8,7 +8,8 @@ ipa: /xæʃm/
 definition: برافروختنِ جان در برابر آزار
 english: anger
 register: ادبی
-frequency_rank: 450
+frequency_rank: 13177
+zipf: 3.66
 difficulty: 2
 examples:
 - sare: خشمش فرو نشست.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: xešm
   avestan: aēšma-
+  old_persian: null
 related:
 - خشماگین
 - خشمگین

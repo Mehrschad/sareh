@@ -8,7 +8,8 @@ ipa: /niːmˈɾuːz/
 definition: میانه‌ی روز
 english: noon
 register: ادبی
-frequency_rank: 1040
+frequency_rank: 2122
+zipf: 4.78
 difficulty: 3
 examples:
 - sare: نیم‌روز رسیدیم.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - روز
 - نیم

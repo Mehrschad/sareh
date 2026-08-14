@@ -8,7 +8,8 @@ ipa: /doɾuːdˈɡæɾ/
 definition: کسی که با چوب کار می‌سازد
 english: carpenter
 register: ادبی
-frequency_rank: 2150
+frequency_rank: null
+zipf: 3.46
 difficulty: 5
 examples:
 - sare: درودگر در را ساخت.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: durūdgar
   avestan: null
+  old_persian: null
 related:
 - درودگری
 - چوب

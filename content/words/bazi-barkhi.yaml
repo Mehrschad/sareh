@@ -1,0 +1,32 @@
+id: bazi-barkhi
+sare: برخی
+loan: بعضی
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /bæɾˈxiː/
+definition: پاره‌ای از؛ شماری از
+english: some
+register: رسمی
+frequency_rank: 618
+zipf: 5.32
+difficulty: 1
+examples:
+- sare: برخی از آنان ماندند.
+  loan: بعضی از آنها ماندند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «برخی»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «برخی»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- بخش
+- پاره‌ای
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

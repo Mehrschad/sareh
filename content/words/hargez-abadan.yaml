@@ -8,7 +8,8 @@ ipa: /hæɾˈɡez/
 definition: در هیچ زمانی؛ نفی مطلق
 english: never
 register: رسمی
-frequency_rank: 210
+frequency_rank: null
+zipf: 3.86
 difficulty: 2
 examples:
 - sare: هرگز چنین نگفتم.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: hargiz
   avestan: null
+  old_persian: null
 related:
 - هیچ‌گاه
 audio: null

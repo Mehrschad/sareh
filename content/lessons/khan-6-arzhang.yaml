@@ -1,7 +1,7 @@
 id: khan-6-arzhang
 khan: 6
 guardian: ارژنگ
-realm: مهر و اندوه
+realm: مردم، مهر و رفتار
 stations:
 - id: khan-6-arzhang-manzel-1
   title: منزلِ 1
@@ -11,14 +11,14 @@ stations:
   - جای‌گزینی
   - شنیدار
   words:
+  - khanom-banu
+  - shakhs-kas
+  - aziz-gerami
   - dust-rafiq
-  - niyaz-ehtiyaj
-  - mehr-mohabbat
-  - yad-khatere
-  - dusti-refaqat
-  - anduh-qam
-  - tars-khof
-  - mehrabani-lotf
+  - afrad-kasan
+  - aqa-sarvar
+  - delbastegi-alaqe
+  - ehteram-arj
 - id: khan-6-arzhang-manzel-2
   title: منزلِ 2
   exercises:
@@ -27,14 +27,14 @@ stations:
   - نویسش
   - داستانک
   words:
-  - doshman-adoo
-  - delbastegi-alaqe
-  - arezu-tamanna
-  - zibaei-jamal
-  - hamsar-zowj
+  - davat-farakhan
   - ashti-solh
-  - afsus-heyf
-  - bakhshesh-afv
+  - mehrabani-lotf
+  - dad-edalat
+  - yad-khatere
+  - niki-kheyr
+  - anduh-qam
+  - dava-keshmakesh
 - id: khan-6-arzhang-manzel-3
   title: منزلِ 3
   exercises:
@@ -43,14 +43,14 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
-  - setayesh-tahsin
-  - sharm-haya
-  - bordbari-tahammol
-  - delavari-shojaat
-  - peyvand-ezdevaj
-  - khorsandi-rezayat
-  - sarbolandi-eftekhar
-  - bim-vahshat
+  - hamsar-zowj
+  - niyaz-ehtiyaj
+  - mehr-mohabbat
+  - rasti-sedaqat
+  - zibaei-jamal
+  - afsus-heyf
+  - doruq-kezb
+  - dusti-refaqat
 - id: khan-6-arzhang-manzel-4
   title: منزلِ 4
   exercises:
@@ -59,14 +59,14 @@ stations:
   - گزینش
   - نویسش
   words:
-  - delhore-eztarab
-  - sug-aza
-  - setiz-nezaa
-  - sarzanesh-malamat
-  - naumidi-yaas
-  - kine-edavat
+  - arezu-tamanna
+  - tars-khof
+  - peyvand-ezdevaj
+  - sarbolandi-eftekhar
+  - bordbari-tahammol
+  - khordegiri-enteqad
   - jodaei-talaq
-  - forutani-tavazo
+  - bim-vahshat
 - id: khan-6-arzhang-manzel-5
   title: منزلِ 5
   exercises:
@@ -75,15 +75,32 @@ stations:
   - شنیدار
   - واژه‌چین
   words:
-  - tanhaei-ozlat
-  - khordegiri-enteqad
-  - hamdeli-sampati
+  - khorsandi-rezayat
+  - badi-sharr
+  - delavari-shojaat
+  - bidad-zolm
+  - bakhshesh-afv
+  - delhore-eztarab
+  - setayesh-tahsin
   - delsuzi-tarahhom
-  - faramushi-nesyan
+  - setiz-nezaa
+- id: khan-6-arzhang-manzel-6
+  title: منزلِ 6
+  exercises:
+  - جای‌گزینی
+  - گزینش
+  - تیر آرش
+  - بیت‌یاب
+  words:
+  - sharm-haya
+  - forutani-tavazo
+  - sug-aza
+  - sarzanesh-malamat
+  - naumidi-yaas
+  - tanhaei-ozlat
+  - kine-edavat
   - shadkami-saadat
   - khodpasandi-takabbor
-  - zeshti-qabahat
-  - bozdeli-jobn
 boss:
   id: khan-6-arzhang-negahban
   title: نگهبانِ خان — ارژنگ

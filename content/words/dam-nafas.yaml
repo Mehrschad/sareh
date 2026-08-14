@@ -8,7 +8,8 @@ ipa: /dæm/
 definition: هوایی که به شش فرو می‌رود و بازمی‌گردد
 english: breath
 register: ادبی
-frequency_rank: 640
+frequency_rank: 718
+zipf: 5.27
 difficulty: 3
 examples:
 - sare: دَمی ژرف بکش.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: dam
   avestan: null
+  old_persian: null
 related:
 - بازدم
 - دمیدن

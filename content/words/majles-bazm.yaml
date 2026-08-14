@@ -1,0 +1,32 @@
+id: majles-bazm
+sare: بزم
+loan: مجلس
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bæzm/
+definition: گردهماییِ شادی و سرود
+english: feast/gathering
+register: ادبی
+frequency_rank: 261
+zipf: 5.63
+difficulty: 3
+examples:
+- sare: بزمی برپا کردند.
+  loan: مجلسی برپا کردند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بزم»
+- source: شاهنامه فردوسی
+  book: داستان بیژن و منیژه
+roots:
+  pahlavi: bazm
+  avestan: null
+  old_persian: null
+related:
+- بزمگاه
+- رزم
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

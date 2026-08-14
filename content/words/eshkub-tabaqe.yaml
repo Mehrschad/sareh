@@ -8,7 +8,8 @@ ipa: /ʔeʃˈkuːb/
 definition: هر لایه از لایه‌های روی‌هم‌نهاده‌ی ساختمان
 english: storey
 register: ادبی
-frequency_rank: 1960
+frequency_rank: 1080
+zipf: 5.1
 difficulty: 4
 examples:
 - sare: اشکوبِ دوم خالی است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: aškōb
   avestan: null
+  old_persian: null
 related:
 - اشکوبه
 - کاخ

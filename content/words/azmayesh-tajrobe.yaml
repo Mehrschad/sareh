@@ -8,7 +8,8 @@ ipa: /ʔɒːzmɒːˈjeʃ/
 definition: آزمودنِ سامان‌مند برای یافتنِ پاسخ
 english: experiment
 register: دانشی
-frequency_rank: 620
+frequency_rank: 710
+zipf: 5.27
 difficulty: 2
 examples:
 - sare: آزمایش را دوباره انجام داد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - آزمایشگاه
 - آزمودن

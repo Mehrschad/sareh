@@ -8,7 +8,8 @@ ipa: /tænˈhɒː/
 definition: بی‌بیش از آن؛ همین و بس
 english: only
 register: گفتاری
-frequency_rank: 40
+frequency_rank: 44
+zipf: 6.23
 difficulty: 1
 examples:
 - sare: تنها یک واژه ماند.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: tanhā
   avestan: null
+  old_persian: null
 related:
 - تک
 - یگانه

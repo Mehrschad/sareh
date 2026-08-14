@@ -8,7 +8,8 @@ ipa: /bæhɾevæˈɾiː/
 definition: نسبتِ بازده به آنچه هزینه شده
 english: productivity
 register: دانشی
-frequency_rank: 1330
+frequency_rank: 13654
+zipf: 3.63
 difficulty: 4
 examples:
 - sare: بهره‌وری بالا رفت.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - بهره
 - کارآمد

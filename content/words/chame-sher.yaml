@@ -8,7 +8,8 @@ ipa: /tʃɒːˈme/
 definition: سروده‌ی موزون
 english: poem
 register: ادبی
-frequency_rank: 2150
+frequency_rank: 658
+zipf: 5.3
 difficulty: 5
 examples:
 - sare: چامه‌ای در ستایشِ بهار سرود.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - سروده
 - چکامه

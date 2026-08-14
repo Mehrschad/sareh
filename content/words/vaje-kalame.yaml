@@ -8,7 +8,8 @@ ipa: /vɒːˈʒe/
 definition: کوچک‌ترین یکای معنادار زبان
 english: word
 register: دانشی
-frequency_rank: 145
+frequency_rank: 1015
+zipf: 5.13
 difficulty: 1
 examples:
 - sare: این واژه پارسی است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: wāžag
   avestan: null
+  old_persian: null
 related:
 - واژه‌نامه
 - واژگان

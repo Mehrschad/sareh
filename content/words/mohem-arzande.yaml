@@ -1,0 +1,32 @@
+id: mohem-arzande
+sare: ارزنده
+loan: مهم
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /ʔæɾzænˈde/
+definition: آنچه ارزشِ توجه دارد
+english: important
+register: رسمی
+frequency_rank: 192
+zipf: 5.74
+difficulty: 2
+examples:
+- sare: نکته‌ی ارزنده‌ای گفتی.
+  loan: نکته‌ی مهمی گفتی.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «ارزنده»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «ارزنده»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- ارجمند
+- ارزش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -8,7 +8,8 @@ ipa: /keʃˈvæɾ/
 definition: سرزمینی با مرز و فرمانروایی
 english: country
 register: رسمی
-frequency_rank: 260
+frequency_rank: 5352
+zipf: 4.26
 difficulty: 2
 examples:
 - sare: کشورش را دوست دارد.
@@ -20,7 +21,8 @@ citations:
   book: پادشاهی کیخسرو
 roots:
   pahlavi: kišwar
-  avestan: null
+  avestan: karšvar
+  old_persian: null
 related:
 - مرز
 - کشوری

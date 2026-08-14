@@ -8,7 +8,8 @@ ipa: /jɒːdˈmɒːn/
 definition: ساخته‌ای که یادِ کسی یا رخدادی را نگاه می‌دارد
 english: monument
 register: رسمی
-frequency_rank: 2050
+frequency_rank: 5140
+zipf: 4.28
 difficulty: 4
 examples:
 - sare: یادمانِ شهیدان را ساختند.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - یاد
 - یادگار

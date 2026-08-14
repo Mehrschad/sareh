@@ -1,0 +1,32 @@
+id: zaeef-natavan
+sare: ناتوان
+loan: ضعیف
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /nɒːtæˈvɒːn/
+definition: بی‌توان؛ سست
+english: weak
+register: رسمی
+frequency_rank: 2120
+zipf: 4.78
+difficulty: 2
+examples:
+- sare: پس از بیماری ناتوان شد.
+  loan: پس از بیماری ضعیف شد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «ناتوان»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «ناتوان»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- توان
+- نیرومند
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

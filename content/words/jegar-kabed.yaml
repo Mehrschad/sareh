@@ -8,7 +8,8 @@ ipa: /dʒeˈɡæɾ/
 definition: اندامِ بزرگِ پالاینده در شکم
 english: liver
 register: دانشی
-frequency_rank: 1380
+frequency_rank: 5196
+zipf: 4.28
 difficulty: 3
 examples:
 - sare: جگرش بیمار است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: jagar
   avestan: null
+  old_persian: null
 related:
 - جگرگوشه
 - دل

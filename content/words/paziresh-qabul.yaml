@@ -8,7 +8,8 @@ ipa: /pæziːˈɾeʃ/
 definition: پذیرفتنِ کس یا چیزی
 english: acceptance
 register: رسمی
-frequency_rank: 530
+frequency_rank: 483
+zipf: 5.42
 difficulty: 2
 examples:
 - sare: پذیرشش قطعی شد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: padīrišn
   avestan: null
+  old_persian: null
 related:
 - پذیرا
 - پذیرفتن

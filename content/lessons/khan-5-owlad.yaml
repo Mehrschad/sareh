@@ -1,40 +1,40 @@
 id: khan-5-owlad
 khan: 5
 guardian: اولاد
-realm: اندیشه و دانش
+realm: اندیشه، دانش و سخن
 stations:
 - id: khan-5-owlad-manzel-1
   title: منزلِ 1
-  exercises:
+  exercises: &id001
   - گزینش
   - جفت‌ساز
   - جای‌گزینی
   - شنیدار
   words:
+  - pasokh-javab
+  - bakhsh-qesmat
   - danesh-elm
+  - vaje-kalame
+  - motalee-khandan
+  - porsesh-soal
   - andishe-fekr
-  - shomare-adad
-  - pazhuhesh-tahqiq
-  - dade-etelaat
-  - amuzesh-taalim
-  - gune-now
-  - azmun-emtehan
+  - mohem-arzande
 - id: khan-5-owlad-manzel-2
   title: منزلِ 2
-  exercises:
+  exercises: &id002
   - گزینش
   - واژه‌چین
   - نویسش
   - داستانک
   words:
-  - agahi-etela
-  - ravesh-metod
-  - vizhegi-khosusiat
-  - rishe-asl
-  - bavar-eteqad
-  - goftar-kalam
-  - daneshmand-alem
+  - gune-now
   - payamad-natije
+  - dade-etelaat
+  - shomar-tedad
+  - dabestan-madrese
+  - shive-sabk
+  - azmayesh-tajrobe
+  - rishe-asl
 - id: khan-5-owlad-manzel-3
   title: منزلِ 3
   exercises:
@@ -43,14 +43,14 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
-  - amuzegar-moallem
-  - azmayesh-tajrobe
-  - daneshju-mohassel
+  - neveshtar-matn
+  - nemune-mesal
+  - azmun-emtehan
+  - tozih-roshangari
+  - agahi-etela
+  - shomare-adad
   - karkard-amalkard
-  - shive-sabk
-  - dabestan-madrese
-  - sakhtar-strukcur
-  - amaj-hadaf
+  - pazhuhesh-tahqiq
 - id: khan-5-owlad-manzel-4
   title: منزلِ 4
   exercises:
@@ -59,14 +59,15 @@ stations:
   - گزینش
   - نویسش
   words:
-  - bardasht-tafsir
-  - sanjesh-arzyabi
-  - chalesh-challenge
-  - rade-tabaqe
-  - sokhanrani-khetabe
-  - nemudar-graf
-  - virayesh-edit
-  - dasturzaban-gerammar
+  - amuzegar-moallem
+  - bavar-eteqad
+  - daneshmand-alem
+  - kherad-aql
+  - dastan-qesse
+  - goftar-kalam
+  - goftogu-mokaleme
+  - amuzesh-taalim
+  - ravesh-metod
 - id: khan-5-owlad-manzel-5
   title: منزلِ 5
   exercises:
@@ -75,14 +76,15 @@ stations:
   - شنیدار
   - واژه‌چین
   words:
-  - vajename-dictionary
+  - nevisande-moallef
+  - vizhegi-khosusiat
+  - daneshju-mohassel
+  - amaj-hadaf
+  - ali-barin
+  - mani-cham
+  - rade-tabaqe
   - runevesht-copy
-  - negaresh-tarztalaqqi
-  - gahshomar-taqvim
-  - bakhshbandi-taqsimbandi
-  - engare-farziye
-  - farnud-dalil
-  - gozare-jomle
+  - bardasht-tafsir
 - id: khan-5-owlad-manzel-6
   title: منزلِ 6
   exercises:
@@ -91,14 +93,41 @@ stations:
   - تیر آرش
   - بیت‌یاب
   words:
-  - shavand-ellat
-  - farhangestan-akademi
+  - namayesh-teatr
+  - sanjesh-arzyabi
+  - sarayande-shaer
+  - afsane-ostoore
+  - ahang-melodi
+  - dasturzaban-gerammar
+  - virayesh-edit
+  - nemudar-graf
+  - vajename-dictionary
+- id: khan-5-owlad-manzel-7
+  title: منزلِ 7
+  exercises: *id001
+  words:
+  - bakhshbandi-taqsimbandi
+  - sokhanrani-khetabe
+  - chalesh-challenge
+  - farnud-dalil
+  - gozare-jomle
   - nahade-mowzu
-  - zistshenasi-biology
+  - shavand-ellat
+  - peykare-mojassame
+  - farhangestan-akademi
+- id: khan-5-owlad-manzel-8
+  title: منزلِ 8
+  exercises: *id002
+  words:
+  - engare-farziye
   - setareshenasi-nojum
-  - zaminshenasi-geology
+  - zendeginame-biography
   - shomargan-tiraj
-  - armanshahr-utopia
+  - khoshnevisi-khattati
+  - zistshenasi-biology
+  - chame-sher
+  - chakame-qaside
+  - negargari-miniatur
 boss:
   id: khan-5-owlad-negahban
   title: نگهبانِ خان — اولاد

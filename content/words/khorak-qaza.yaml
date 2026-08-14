@@ -8,7 +8,8 @@ ipa: /xoˈɾɒːk/
 definition: آنچه خورده می‌شود
 english: food
 register: گفتاری
-frequency_rank: 190
+frequency_rank: 705
+zipf: 5.28
 difficulty: 1
 examples:
 - sare: خوراک آماده است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: xwarāk
   avestan: null
+  old_persian: null
 related:
 - خوردن
 - خورش

@@ -8,7 +8,8 @@ ipa: /ʔɒːˈmɒːdʒ/
 definition: نشانه‌ای که تیر به سوی آن می‌رود؛ مقصود
 english: target
 register: ادبی
-frequency_rank: 660
+frequency_rank: 485
+zipf: 5.42
 difficulty: 3
 examples:
 - sare: آماجِ ما روشن است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: āmāj
   avestan: null
+  old_persian: null
 related:
 - آماجگاه
 - نشانه

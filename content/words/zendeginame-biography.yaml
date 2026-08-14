@@ -8,7 +8,8 @@ ipa: /zendeɡiːnɒːˈme/
 definition: نوشته‌ای درباره‌ی زندگیِ کسی
 english: biography
 register: رسمی
-frequency_rank: 1830
+frequency_rank: 8872
+zipf: 3.93
 difficulty: 4
 examples:
 - sare: زندگی‌نامه‌اش را خواندم.
@@ -19,6 +20,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - زندگی
 - نامه

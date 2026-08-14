@@ -1,0 +1,32 @@
+id: vazife-bayeste
+sare: بایسته
+loan: وظیفه
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /bɒːjesˈte/
+definition: کاری که بر گردنِ کسی است
+english: duty
+register: ادبی
+frequency_rank: 1570
+zipf: 4.93
+difficulty: 3
+examples:
+- sare: بایسته‌ات را انجام بده.
+  loan: وظیفه‌ات را انجام بده.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بایسته»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «بایسته»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- باید
+- بایستن
+audio: null
+status: proposed
+contributors:
+- sareh-seed

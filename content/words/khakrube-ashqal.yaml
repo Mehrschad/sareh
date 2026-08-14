@@ -8,7 +8,8 @@ ipa: /xɒːkɾuːˈbe/
 definition: آنچه دور انداخته می‌شود
 english: rubbish
 register: رسمی
-frequency_rank: 1900
+frequency_rank: 4107
+zipf: 4.42
 difficulty: 4
 examples:
 - sare: خاکروبه را بیرون بگذار.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - خاک
 - روفتن

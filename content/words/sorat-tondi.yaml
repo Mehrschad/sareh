@@ -1,0 +1,32 @@
+id: sorat-tondi
+sare: تندی
+loan: سرعت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /tonˈdiː/
+definition: اندازه‌ی شتابِ رفتن
+english: speed
+register: رسمی
+frequency_rank: 599
+zipf: 5.34
+difficulty: 2
+examples:
+- sare: تندیِ خودرو را کم کن.
+  loan: سرعتِ ماشین را کم کن.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «تندی»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «تندی»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- تند
+- شتاب
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

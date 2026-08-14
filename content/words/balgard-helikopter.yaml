@@ -8,7 +8,8 @@ ipa: /bɒːlˈɡæɾd/
 definition: گردونه‌ی پرنده با بالِ چرخان
 english: helicopter
 register: دانشی
-frequency_rank: 910
+frequency_rank: 7579
+zipf: 4.04
 difficulty: 3
 examples:
 - sare: بالگرد بر فراز شهر بود.
@@ -19,6 +20,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - بال
 - هواپیما

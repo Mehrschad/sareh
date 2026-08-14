@@ -8,7 +8,8 @@ ipa: /ʔɒːɡæˈhiː/
 definition: خبری که همگان را از چیزی آگاه می‌کند
 english: announcement
 register: رسمی
-frequency_rank: 430
+frequency_rank: 8503
+zipf: 3.96
 difficulty: 2
 examples:
 - sare: آگهیِ کار را دیدم.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - آگاه
 - آگاهی

@@ -1,0 +1,32 @@
+id: aksar-bishtar
+sare: بیشترِ
+loan: اکثرِ
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /biːʃˈtæɾe/
+definition: بخشِ بزرگ‌ترِ چیزی
+english: most of
+register: رسمی
+frequency_rank: 1247
+zipf: 5.03
+difficulty: 1
+examples:
+- sare: بیشترِ مردم رفتند.
+  loan: اکثرِ مردم رفتند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بیشتر»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «بیشتر»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- بیش
+- کمتر
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

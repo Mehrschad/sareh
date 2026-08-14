@@ -8,7 +8,8 @@ ipa: /ʔɒːbˈzæn/
 definition: ظرفِ بزرگِ آب برای تن‌شویی
 english: bathtub
 register: ادبی
-frequency_rank: 2400
+frequency_rank: 2714
+zipf: 4.66
 difficulty: 5
 examples:
 - sare: آبزن را پر کرد.
@@ -19,8 +20,9 @@ citations:
 - source: فرهنگ فارسی معین
   ref: مدخل «آبزن»
 roots:
-  pahlavi: null
+  pahlavi: ʾp̄zn'
   avestan: null
+  old_persian: null
 related:
 - آب
 - گرمابه

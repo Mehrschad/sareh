@@ -1,0 +1,32 @@
+id: fasele-duri
+sare: دوری
+loan: فاصله
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /duːˈɾiː/
+definition: اندازه‌ی میانِ دو چیز
+english: distance
+register: رسمی
+frequency_rank: 839
+zipf: 5.21
+difficulty: 2
+examples:
+- sare: دوریِ دو شهر بسیار است.
+  loan: فاصله‌ی دو شهر زیاد است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دوری»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «دوری»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- دور
+- نزدیکی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

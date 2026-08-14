@@ -8,7 +8,8 @@ ipa: /biːˈdɒːd/
 definition: ستم؛ نبودِ داد
 english: injustice
 register: ادبی
-frequency_rank: 1140
+frequency_rank: 4550
+zipf: 4.36
 difficulty: 3
 examples:
 - sare: بیدادِ ضحّاک به سر آمد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - بی
 - داد

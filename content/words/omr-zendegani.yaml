@@ -1,0 +1,32 @@
+id: omr-zendegani
+sare: زندگانی
+loan: عمر
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /zendeɡɒːˈniː/
+definition: درازای زیستن
+english: lifetime
+register: ادبی
+frequency_rank: 876
+zipf: 5.19
+difficulty: 2
+examples:
+- sare: زندگانیِ دراز داشت.
+  loan: عمرِ دراز داشت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «زندگانی»
+- source: شاهنامه فردوسی
+  book: پادشاهی جمشید
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- زندگی
+- زیستن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

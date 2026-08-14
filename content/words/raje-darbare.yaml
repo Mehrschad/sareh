@@ -1,0 +1,32 @@
+id: raje-darbare
+sare: درباره‌ی
+loan: راجع به
+loan_origin: عربی
+pos: حرف اضافه
+acceptance: زنده
+ipa: /dæɾbɒːˈɾeje/
+definition: در زمینه‌ی؛ در بابِ
+english: about
+register: گفتاری
+frequency_rank: 1489
+zipf: 4.95
+difficulty: 2
+examples:
+- sare: درباره‌ی تو گفتیم.
+  loan: راجع به تو گفتیم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «درباره»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «درباره»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- باره
+- در باب
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -8,7 +8,8 @@ ipa: /ræhnæˈmuːd/
 definition: راهنماییِ گام‌به‌گامِ انجامِ کار
 english: guideline
 register: رسمی
-frequency_rank: 1120
+frequency_rank: 5497
+zipf: 4.24
 difficulty: 3
 examples:
 - sare: رهنمودها را خواندی؟
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - راه
 - نمودن

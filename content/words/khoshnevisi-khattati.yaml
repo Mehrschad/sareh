@@ -8,7 +8,8 @@ ipa: /xoʃneviːˈsiː/
 definition: هنرِ زیبانوشتنِ خط
 english: calligraphy
 register: ادبی
-frequency_rank: 1750
+frequency_rank: null
+zipf: 3.36
 difficulty: 4
 examples:
 - sare: خوشنویسیِ نستعلیق آموخت.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - خوش
 - نوشتن

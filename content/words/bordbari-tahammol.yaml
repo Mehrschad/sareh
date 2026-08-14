@@ -8,7 +8,8 @@ ipa: /boɾdbɒːˈɾiː/
 definition: تاب‌آوردنِ سختی بی‌آنکه بشکنی
 english: tolerance
 register: رسمی
-frequency_rank: 1020
+frequency_rank: null
+zipf: 5.03
 difficulty: 3
 examples:
 - sare: بردباری‌اش مرا شرمنده کرد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - بردبار
 - شکیبایی

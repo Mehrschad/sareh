@@ -8,7 +8,8 @@ ipa: /xoɾsænˈdiː/
 definition: بسنده‌دانستن به آنچه هست
 english: contentment
 register: ادبی
-frequency_rank: 1090
+frequency_rank: 2746
+zipf: 4.65
 difficulty: 3
 examples:
 - sare: خرسندیِ دل بهترین گنج است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - خرسند
 - خشنودی

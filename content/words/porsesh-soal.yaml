@@ -8,7 +8,8 @@ ipa: /poɾˈseʃ/
 definition: آنچه برای دانستن می‌پرسند
 english: question
 register: رسمی
-frequency_rank: 110
+frequency_rank: 2510
+zipf: 4.7
 difficulty: 1
 examples:
 - sare: پرسشی داری؟
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: pursišn
   avestan: null
+  old_persian: null
 related:
 - پرسمان
 - پرسیدن

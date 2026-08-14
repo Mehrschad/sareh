@@ -8,7 +8,8 @@ ipa: /nɒːm/
 definition: واژه‌ای که کس یا چیزی را با آن می‌خوانند
 english: name
 register: گفتاری
-frequency_rank: 65
+frequency_rank: 309
+zipf: 5.56
 difficulty: 1
 examples:
 - sare: نامت چیست؟
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: nām
   avestan: nāman-
+  old_persian: nāma
 related:
 - نامه
 - نامور

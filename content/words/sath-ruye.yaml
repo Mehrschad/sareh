@@ -1,0 +1,32 @@
+id: sath-ruye
+sare: رویه
+loan: سطح
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ɾuːˈje/
+definition: بیرونی‌ترین لایه‌ی چیزی؛ اندازه‌ی توانایی
+english: surface/level
+register: رسمی
+frequency_rank: 402
+zipf: 5.48
+difficulty: 2
+examples:
+- sare: رویه‌ی میز گرد است.
+  loan: سطحِ میز گرد است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «رویه»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «رویه»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- رو
+- لایه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

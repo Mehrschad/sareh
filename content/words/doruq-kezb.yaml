@@ -8,7 +8,8 @@ ipa: /doˈɾuːq/
 definition: سخنی که با راستی نمی‌خواند
 english: lie
 register: ادبی
-frequency_rank: 880
+frequency_rank: 12872
+zipf: 3.68
 difficulty: 2
 examples:
 - sare: دروغش آشکار شد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: drōz
   avestan: druj-
+  old_persian: drauga
 related:
 - دروغ‌گو
 - راستی

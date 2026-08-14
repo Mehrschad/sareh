@@ -8,7 +8,8 @@ ipa: /ʔɒːhænˈɡæɾ/
 definition: کسی که آهن را می‌کوبد و می‌سازد
 english: blacksmith
 register: ادبی
-frequency_rank: 1780
+frequency_rank: null
+zipf: 3.77
 difficulty: 4
 examples:
 - sare: کاوه‌ی آهنگر درفش برافراشت.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - آهن
 - درفش کاویانی

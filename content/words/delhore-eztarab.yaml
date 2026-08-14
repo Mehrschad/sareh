@@ -8,7 +8,8 @@ ipa: /delhoˈɾe/
 definition: بی‌قراریِ دل از بیمِ ناشناخته
 english: anxiety
 register: رسمی
-frequency_rank: 1170
+frequency_rank: 5209
+zipf: 4.27
 difficulty: 3
 examples:
 - sare: دلهره رهایش نمی‌کرد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - دل
 - هراس

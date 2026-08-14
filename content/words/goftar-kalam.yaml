@@ -8,7 +8,8 @@ ipa: /ɡofˈtɒːɾ/
 definition: آنچه گفته می‌شود؛ گونه‌ی گفتاریِ زبان
 english: speech
 register: ادبی
-frequency_rank: 500
+frequency_rank: 2421
+zipf: 4.72
 difficulty: 2
 examples:
 - sare: گفتارش شیوا بود.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - نوشتار
 - گفتن

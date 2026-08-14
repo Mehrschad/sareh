@@ -8,7 +8,8 @@ ipa: /kɒːɾˈkæɾd/
 definition: آنچه چیزی در عمل انجام می‌دهد
 english: function
 register: دانشی
-frequency_rank: 690
+frequency_rank: 1373
+zipf: 4.99
 difficulty: 2
 examples:
 - sare: کارکردِ سامانه خوب است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - کار
 - کردن

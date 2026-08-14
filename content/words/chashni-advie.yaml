@@ -8,7 +8,8 @@ ipa: /tʃɒːʃˈniː/
 definition: افزودنیِ خوش‌مزه‌کننده‌ی خوراک
 english: seasoning
 register: گفتاری
-frequency_rank: 1740
+frequency_rank: 9389
+zipf: 3.89
 difficulty: 3
 examples:
 - sare: چاشنی‌اش کم است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - چاشت
 - چشیدن

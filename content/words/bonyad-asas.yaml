@@ -8,7 +8,8 @@ ipa: /bonˈjɒːd/
 definition: پایه‌ای که چیزی بر آن ایستاده
 english: foundation
 register: رسمی
-frequency_rank: 490
+frequency_rank: 435
+zipf: 5.45
 difficulty: 2
 examples:
 - sare: بنیادش سست است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: bunyād
   avestan: null
+  old_persian: null
 related:
 - بن
 - بنیان

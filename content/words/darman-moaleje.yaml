@@ -8,7 +8,8 @@ ipa: /dæɾˈmɒːn/
 definition: کاری که بیماری را از میان می‌برد
 english: treatment
 register: رسمی
-frequency_rank: 275
+frequency_rank: 8937
+zipf: 3.93
 difficulty: 2
 examples:
 - sare: درمانش آسان است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: darmān
   avestan: null
+  old_persian: null
 related:
 - درمانگاه
 - درمانگر

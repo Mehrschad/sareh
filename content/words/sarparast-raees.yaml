@@ -8,7 +8,8 @@ ipa: /sæɾpæˈɾæst/
 definition: کسی که کارِ گروهی را می‌گرداند
 english: supervisor
 register: رسمی
-frequency_rank: 680
+frequency_rank: 305
+zipf: 5.57
 difficulty: 2
 examples:
 - sare: سرپرستِ گروه آمد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - سر
 - پرستیدن

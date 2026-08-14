@@ -8,7 +8,8 @@ ipa: /sænˈdʒeʃ/
 definition: اندازه‌گرفتن و ارزش نهادن بر چیزی
 english: assessment
 register: دانشی
-frequency_rank: 880
+frequency_rank: 2638
+zipf: 4.67
 difficulty: 3
 examples:
 - sare: سنجشِ توانایی‌ها آسان نیست.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: sanjišn
   avestan: null
+  old_persian: null
 related:
 - سنجه
 - سنجیدن

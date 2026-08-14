@@ -8,7 +8,8 @@ ipa: /sæɾneˈveʃt/
 definition: آنچه برای کسی رقم خورده است
 english: destiny
 register: ادبی
-frequency_rank: 950
+frequency_rank: 3134
+zipf: 4.58
 difficulty: 2
 examples:
 - sare: سرنوشتش دگرگون شد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - بخت
 - سر

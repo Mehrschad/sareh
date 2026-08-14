@@ -8,7 +8,8 @@ ipa: /fær/
 definition: فروغِ ایزدیِ شکوه و بزرگی
 english: divine glory
 register: ادبی
-frequency_rank: 2300
+frequency_rank: 3709
+zipf: 4.48
 difficulty: 5
 examples:
 - sare: فَرِّ کیانی از او رفت.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: xwarrah
   avestan: xᵛarənah-
+  old_persian: null
 related:
 - فرهمند
 - فرّه

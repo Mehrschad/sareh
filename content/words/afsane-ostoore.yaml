@@ -8,7 +8,8 @@ ipa: /ʔæfsɒːˈne/
 definition: داستانِ کهنِ نمادین درباره‌ی آغازها
 english: myth
 register: ادبی
-frequency_rank: 1240
+frequency_rank: 5469
+zipf: 4.24
 difficulty: 3
 examples:
 - sare: افسانه‌ی ضحّاک را می‌داند.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: afsān
   avestan: null
+  old_persian: null
 related:
 - اسطوره‌ای
 - داستان

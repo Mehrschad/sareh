@@ -8,7 +8,8 @@ ipa: /ʃekiːbɒːˈjiː/
 definition: پیشه‌کردنِ شکیب در سختی
 english: forbearance
 register: رسمی
-frequency_rank: 520
+frequency_rank: 12475
+zipf: 3.7
 difficulty: 3
 examples:
 - sare: شکیبایی‌اش ستودنی بود.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - بردباری
 - شکیب

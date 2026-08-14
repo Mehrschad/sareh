@@ -8,7 +8,8 @@ ipa: /foɾuːtæˈniː/
 definition: خود را برتر ندانستن
 english: humility
 register: ادبی
-frequency_rank: 1310
+frequency_rank: 14046
+zipf: 3.61
 difficulty: 3
 examples:
 - sare: فروتنی‌اش دل می‌برد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - خودپسندی
 - فروتن

@@ -8,7 +8,8 @@ ipa: /sæɾɾeˈsiːd/
 definition: زمانی که کاری باید در آن به پایان برسد
 english: deadline
 register: رسمی
-frequency_rank: 1240
+frequency_rank: 10366
+zipf: 3.83
 difficulty: 3
 examples:
 - sare: سررسیدش فردا است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - رسیدن
 - سر

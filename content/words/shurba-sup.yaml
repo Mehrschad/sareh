@@ -8,7 +8,8 @@ ipa: /ʃuːɾˈbɒː/
 definition: خوراکِ آبکیِ گرم
 english: soup
 register: گفتاری
-frequency_rank: 1670
+frequency_rank: 5774
+zipf: 4.21
 difficulty: 3
 examples:
 - sare: شوربا بخور تا گرم شوی.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - آش
 - شور

@@ -8,7 +8,8 @@ ipa: /xæɾiːˈdɒːɾ/
 definition: کسی که کالا می‌خرد
 english: customer
 register: رسمی
-frequency_rank: 860
+frequency_rank: 2467
+zipf: 4.71
 difficulty: 2
 examples:
 - sare: خریدارِ همیشگی‌مان است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - خریدن
 - فروشنده

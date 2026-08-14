@@ -8,7 +8,8 @@ ipa: /mehɾ/
 definition: دوست‌داشتن؛ گرمیِ دل به کسی
 english: affection
 register: ادبی
-frequency_rank: 380
+frequency_rank: null
+zipf: 4.54
 difficulty: 2
 examples:
 - sare: مهرش را از ما دریغ نکرد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: mihr
   avestan: miθra-
+  old_persian: Miθraʰ
 related:
 - مهربان
 - مهرورزی

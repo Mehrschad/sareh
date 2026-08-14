@@ -8,7 +8,8 @@ ipa: /niːˈkiː/
 definition: کارِ خوب و سودمند
 english: goodness
 register: ادبی
-frequency_rank: 810
+frequency_rank: 2045
+zipf: 4.8
 difficulty: 2
 examples:
 - sare: نیکی کن و در دجله انداز.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: nēkīh
   avestan: null
+  old_persian: null
 related:
 - بدی
 - نیک

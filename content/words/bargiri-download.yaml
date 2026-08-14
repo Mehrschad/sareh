@@ -8,7 +8,8 @@ ipa: /bɒːɾɡiːˈɾiː/
 definition: گرفتنِ داده از شبکه به دستگاه خود
 english: download
 register: دانشی
-frequency_rank: 690
+frequency_rank: 504
+zipf: 5.4
 difficulty: 2
 examples:
 - sare: بارگیری تمام شد.
@@ -19,6 +20,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - بار
 - بارگذاری

@@ -8,7 +8,8 @@ ipa: /ɡæˈluː/
 definition: راهِ میانِ دهان و شش و شکم
 english: throat
 register: گفتاری
-frequency_rank: 1140
+frequency_rank: 10609
+zipf: 3.81
 difficulty: 3
 examples:
 - sare: گلویش درد می‌کند.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: gālūg
   avestan: null
+  old_persian: null
 related:
 - گلودرد
 - گلوگاه

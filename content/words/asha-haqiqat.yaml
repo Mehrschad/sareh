@@ -8,7 +8,8 @@ ipa: /ʔæˈʃɒː/
 definition: راستی و سامانِ کیهانی در باورِ کهنِ ایرانی
 english: cosmic truth/order
 register: ادبی
-frequency_rank: 2800
+frequency_rank: 1154
+zipf: 5.07
 difficulty: 5
 examples:
 - sare: پیروِ اَشا بود.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: ard
   avestan: aša-
+  old_persian: null
 related:
 - ارتا
 - راستی

@@ -8,7 +8,8 @@ ipa: /ræˈvɒːn/
 definition: بخشِ ناپیدای آدمی؛ جانِ اندیشنده
 english: psyche
 register: ادبی
-frequency_rank: 420
+frequency_rank: 983
+zipf: 5.14
 difficulty: 3
 examples:
 - sare: روانش آسوده باد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: ruwān
   avestan: urvan-
+  old_persian: null
 related:
 - جان
 - روان‌شناسی

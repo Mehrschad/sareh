@@ -8,7 +8,8 @@ ipa: /tɒːɾneˈɡɒːɾ/
 definition: تارنمایی که نوشته‌های زمان‌دار در آن می‌نگارند
 english: weblog
 register: دانشی
-frequency_rank: 1430
+frequency_rank: 5368
+zipf: 4.26
 difficulty: 4
 examples:
 - sare: در تارنگارش نوشت.
@@ -19,6 +20,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - تارنما
 - نگاشتن

@@ -8,7 +8,8 @@ ipa: /ræˈde/
 definition: گروهی از چیزهای هم‌سان در یک سامانه
 english: class
 register: دانشی
-frequency_rank: 1010
+frequency_rank: 1080
+zipf: 5.1
 difficulty: 3
 examples:
 - sare: در رده‌ی نخست جای گرفت.
@@ -19,8 +20,9 @@ citations:
 - source: فرهنگ بزرگ سخن
   ref: مدخل «رده»
 roots:
-  pahlavi: null
+  pahlavi: radag
   avestan: null
+  old_persian: null
 related:
 - رده‌بندی
 - گونه

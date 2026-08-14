@@ -8,7 +8,8 @@ ipa: /bæxˈʃeʃ/
 definition: گذشتن از گناهِ کسی
 english: forgiveness
 register: ادبی
-frequency_rank: 830
+frequency_rank: 5167
+zipf: 4.28
 difficulty: 3
 examples:
 - sare: بخششش بزرگ بود.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: baxšišn
   avestan: null
+  old_persian: null
 related:
 - بخشنده
 - بخشیدن

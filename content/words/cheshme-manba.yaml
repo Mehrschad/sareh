@@ -8,7 +8,8 @@ ipa: /tʃeʃˈme/
 definition: جایی که آب از زمین می‌جوشد
 english: spring
 register: ادبی
-frequency_rank: 1230
+frequency_rank: 1160
+zipf: 5.07
 difficulty: 3
 examples:
 - sare: از چشمه آب برداشت.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: čašmag
   avestan: null
+  old_persian: null
 related:
 - جوشیدن
 - چشم

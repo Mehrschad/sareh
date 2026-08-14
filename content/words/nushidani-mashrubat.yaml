@@ -8,7 +8,8 @@ ipa: /nuːʃiːdæˈniː/
 definition: آنچه نوشیده می‌شود
 english: beverage
 register: رسمی
-frequency_rank: 1550
+frequency_rank: 13015
+zipf: 3.67
 difficulty: 3
 examples:
 - sare: نوشیدنیِ سرد می‌خواهی؟
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - نوشابه
 - نوشیدن

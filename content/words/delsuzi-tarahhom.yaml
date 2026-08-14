@@ -8,7 +8,8 @@ ipa: /delsuːˈziː/
 definition: سوختنِ دل برای رنجِ دیگری
 english: compassion
 register: رسمی
-frequency_rank: 1460
+frequency_rank: null
+zipf: 3.81
 difficulty: 3
 examples:
 - sare: دلسوزی‌اش راست بود.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - دل
 - سوختن

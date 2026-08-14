@@ -74,6 +74,7 @@ class Word {
     required this.english,
     required this.register,
     required this.frequencyRank,
+    required this.zipf,
     required this.difficulty,
     required this.examples,
     required this.citations,
@@ -81,6 +82,7 @@ class Word {
     required this.status,
     this.pahlavi,
     this.avestan,
+    this.oldPersian,
     this.audio,
   });
 
@@ -94,7 +96,15 @@ class Word {
   final String definition;
   final String english;
   final String register;
-  final int frequencyRank;
+  /// رتبه‌ی وام‌واژه در پیکره‌ی بسامدی. اگر بیرون از فهرست باشد، null.
+  final int? frequencyRank;
+
+  /// بسامدِ Zipf وام‌واژه: ۷ یعنی هرروزه، ۳ یعنی به‌زحمت زنده.
+  ///
+  /// سنجیده می‌شود، نه حدس زده. مدخلی که وام‌واژه‌اش زیر ۳ باشد اصلاً وارد
+  /// پیکره نمی‌شود — آموختنِ برابرِ واژه‌ای که کسی نمی‌گوید کاری نمی‌کند.
+  final double zipf;
+
   final int difficulty;
   final List<WordExample> examples;
   final List<Citation> citations;
@@ -102,10 +112,23 @@ class Word {
   final ReviewStatus status;
   final String? pahlavi;
   final String? avestan;
+  final String? oldPersian;
   final String? audio;
 
   /// آیا زنجیره‌ی ریشه‌ای برای تمرینِ «ریشه‌یاب» بس است؟
-  bool get hasEtymology => pahlavi != null || avestan != null;
+  bool get hasEtymology =>
+      pahlavi != null || avestan != null || oldPersian != null;
+
+  /// واژه‌ای که مردم هر روز می‌گویند — کارتِ واژه با آن نشان می‌خورد.
+  bool get isEveryday => zipf >= 5.0;
+
+  /// زنجیره‌ی ریشه، کهن‌ترین نخست: اوستایی ← پارسی باستان ← پهلوی ← امروز.
+  List<String> get etymologyChain => [
+        if (avestan case final form?) form,
+        if (oldPersian case final form?) form,
+        if (pahlavi case final form?) form,
+        sare,
+      ];
 
   factory Word.fromYaml(Map<dynamic, dynamic> yaml) {
     final roots = (yaml['roots'] as Map<dynamic, dynamic>?) ?? const {};
@@ -120,7 +143,8 @@ class Word {
       definition: yaml['definition'] as String,
       english: yaml['english'] as String,
       register: yaml['register'] as String,
-      frequencyRank: yaml['frequency_rank'] as int,
+      frequencyRank: yaml['frequency_rank'] as int?,
+      zipf: (yaml['zipf'] as num).toDouble(),
       difficulty: yaml['difficulty'] as int,
       examples: [
         for (final e in (yaml['examples'] as List<dynamic>? ?? const []))
@@ -144,6 +168,7 @@ class Word {
       status: ReviewStatus.parse(yaml['status'] as String? ?? 'proposed'),
       pahlavi: roots['pahlavi'] as String?,
       avestan: roots['avestan'] as String?,
+      oldPersian: roots['old_persian'] as String?,
       audio: yaml['audio'] as String?,
     );
   }

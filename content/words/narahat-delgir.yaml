@@ -1,0 +1,32 @@
+id: narahat-delgir
+sare: دلگیر
+loan: ناراحت
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /delˈɡiːɾ/
+definition: آزرده‌دل؛ اندوهگین
+english: upset
+register: گفتاری
+frequency_rank: 1239
+zipf: 5.04
+difficulty: 2
+examples:
+- sare: از سخنت دلگیر شدم.
+  loan: از حرفت ناراحت شدم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دلگیر»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «دلگیر»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- آزرده
+- دل
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

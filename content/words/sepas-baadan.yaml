@@ -8,7 +8,8 @@ ipa: /seˈpæs/
 definition: پس از آن؛ در پی آن
 english: afterwards
 register: رسمی
-frequency_rank: 118
+frequency_rank: null
+zipf: 4.93
 difficulty: 2
 examples:
 - sare: نخست بخوان، سپس بنویس.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: pas
   avestan: null
+  old_persian: null
 related:
 - پس
 - پسین

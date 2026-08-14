@@ -1,0 +1,32 @@
+id: ali-barin
+sare: برین
+loan: عالی
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /bæˈɾiːn/
+definition: بالاترین؛ بسیار نیک
+english: excellent
+register: ادبی
+frequency_rank: 559
+zipf: 5.37
+difficulty: 3
+examples:
+- sare: کاری برین کردی.
+  loan: کاری عالی کردی.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «برین»
+- source: شاهنامه فردوسی
+  book: پادشاهی کیخسرو
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- بر
+- برتر
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

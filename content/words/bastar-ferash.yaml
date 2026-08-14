@@ -8,7 +8,8 @@ ipa: /bæsˈtæɾ/
 definition: جایگاهِ خفتن
 english: bed
 register: ادبی
-frequency_rank: 1080
+frequency_rank: 29999
+zipf: 3.04
 difficulty: 3
 examples:
 - sare: در بستر افتاد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: wistarg
   avestan: null
+  old_persian: null
 related:
 - بالش
 - گستردن

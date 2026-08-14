@@ -8,7 +8,8 @@ ipa: /niːˈjɒːz/
 definition: آنچه بی‌آن نمی‌توان بود
 english: need
 register: رسمی
-frequency_rank: 330
+frequency_rank: 3179
+zipf: 4.57
 difficulty: 2
 examples:
 - sare: نیازی نیست.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: niyāz
   avestan: null
+  old_persian: null
 related:
 - بی‌نیاز
 - نیازمند

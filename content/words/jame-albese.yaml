@@ -8,7 +8,8 @@ ipa: /dʒɒːˈme/
 definition: پوشاک؛ آنچه بر تن می‌کنند
 english: garment
 register: ادبی
-frequency_rank: 1560
+frequency_rank: 23463
+zipf: 3.23
 difficulty: 3
 examples:
 - sare: جامه‌های نو خرید.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: jāmag
   avestan: null
+  old_persian: null
 related:
 - جامه‌دان
 - رخت

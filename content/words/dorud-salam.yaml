@@ -8,7 +8,8 @@ ipa: /doˈɾuːd/
 definition: واژه‌ی خوشامد و تهنیت هنگام دیدار
 english: greetings
 register: گفتاری
-frequency_rank: 20
+frequency_rank: 243
+zipf: 5.65
 difficulty: 1
 examples:
 - sare: درود بر تو.
@@ -23,6 +24,7 @@ citations:
 roots:
   pahlavi: drōd
   avestan: null
+  old_persian: null
 related:
 - بدرود
 - درودگفتن

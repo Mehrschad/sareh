@@ -8,7 +8,8 @@ ipa: /ʃɒːmˈɡɒːh/
 definition: پایانِ روز؛ هنگامِ فرو رفتنِ خورشید
 english: evening
 register: ادبی
-frequency_rank: 1010
+frequency_rank: 820
+zipf: 5.22
 difficulty: 3
 examples:
 - sare: شامگاه بازمی‌گردد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - شام
 - گاه

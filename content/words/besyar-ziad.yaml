@@ -8,7 +8,8 @@ ipa: /besˈjɒːɾ/
 definition: به شمار یا اندازه‌ی فراوان
 english: many
 register: گفتاری
-frequency_rank: 55
+frequency_rank: 542
+zipf: 5.38
 difficulty: 1
 examples:
 - sare: بسیار خواندم.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: wisyār
   avestan: null
+  old_persian: null
 related:
 - بس
 - فراوان

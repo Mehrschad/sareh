@@ -8,7 +8,8 @@ ipa: /piːʃiːˈne/
 definition: آنچه پیش‌تر بوده است
 english: background
 register: رسمی
-frequency_rank: 570
+frequency_rank: 1425
+zipf: 4.97
 difficulty: 2
 examples:
 - sare: پیشینه‌ی کاری‌اش روشن است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - پیش
 - پیشین

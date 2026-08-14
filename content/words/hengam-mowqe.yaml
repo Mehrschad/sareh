@@ -8,7 +8,8 @@ ipa: /henˈɡɒːm/
 definition: لحظه یا بازه‌ای که کاری در آن رخ می‌دهد
 english: moment
 register: رسمی
-frequency_rank: 205
+frequency_rank: 563
+zipf: 5.37
 difficulty: 2
 examples:
 - sare: هنگامِ رفتن است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - زمان
 - گاه

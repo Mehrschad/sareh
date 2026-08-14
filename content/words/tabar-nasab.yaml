@@ -8,7 +8,8 @@ ipa: /tæˈbɒːɾ/
 definition: پیشینه‌ی خانوادگی و نژادی
 english: lineage
 register: ادبی
-frequency_rank: 1560
+frequency_rank: 7575
+zipf: 4.04
 difficulty: 4
 examples:
 - sare: تبارش به کیانیان می‌رسد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: tōhmag
   avestan: null
+  old_persian: null
 related:
 - دودمان
 - نیاکان

@@ -8,7 +8,8 @@ ipa: /suːɡ/
 definition: اندوهِ مرگِ کسی و آیینِ آن
 english: mourning
 register: ادبی
-frequency_rank: 1180
+frequency_rank: 14928
+zipf: 3.57
 difficulty: 3
 examples:
 - sare: به سوگ نشستند.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: sōg
   avestan: null
+  old_persian: '*𐎰𐎢𐎥(𐏃)'
 related:
 - سوگوار
 - سوگواری

@@ -8,7 +8,8 @@ ipa: /miːˈve/
 definition: بارِ خوردنیِ درخت
 english: fruit
 register: ادبی
-frequency_rank: 1370
+frequency_rank: 5488
+zipf: 4.24
 difficulty: 3
 examples:
 - sare: میوه‌ی درخت رسید.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: mēwag
   avestan: null
+  old_persian: null
 related:
 - بار
 - میوه‌فروش

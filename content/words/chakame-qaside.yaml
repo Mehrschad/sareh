@@ -8,7 +8,8 @@ ipa: /tʃæˈkɒːme/
 definition: سروده‌ی بلندِ یک‌آهنگ
 english: ode
 register: ادبی
-frequency_rank: 2350
+frequency_rank: 11434
+zipf: 3.76
 difficulty: 5
 examples:
 - sare: چکامه‌اش را برای شاه خواند.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - سرودن
 - چامه

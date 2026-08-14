@@ -8,7 +8,8 @@ ipa: /pejˈvæst/
 definition: آنچه به نامه یا نوشته‌ای افزوده می‌شود
 english: attachment
 register: رسمی
-frequency_rank: 820
+frequency_rank: 9189
+zipf: 3.91
 difficulty: 3
 examples:
 - sare: پیوست را نگاه کن.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - پیوستن
 - پیوند

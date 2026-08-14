@@ -8,7 +8,8 @@ ipa: /bɒːɾɡozɒːˈɾiː/
 definition: فرستادنِ داده از دستگاه خود به شبکه
 english: upload
 register: دانشی
-frequency_rank: 780
+frequency_rank: 7960
+zipf: 4.0
 difficulty: 2
 examples:
 - sare: پرونده را بارگذاری کن.
@@ -19,6 +20,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - بارگیری
 - گذاشتن

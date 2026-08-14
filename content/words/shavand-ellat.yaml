@@ -8,7 +8,8 @@ ipa: /ʃæˈvænd/
 definition: آنچه چیزی را پدید می‌آورد
 english: cause
 register: دانشی
-frequency_rank: 1520
+frequency_rank: null
+zipf: 5.25
 difficulty: 4
 examples:
 - sare: شوندِ آتش‌سوزی روشن نیست.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - شدن
 - فرنود

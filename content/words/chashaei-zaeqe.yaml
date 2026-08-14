@@ -8,7 +8,8 @@ ipa: /tʃeʃɒːˈjiː/
 definition: حسِ زبان؛ توانِ دریافتنِ مزه
 english: taste (sense)
 register: دانشی
-frequency_rank: 1520
+frequency_rank: 19339
+zipf: 3.38
 difficulty: 4
 examples:
 - sare: چشایی‌اش را از دست داد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - مزه
 - چشیدن

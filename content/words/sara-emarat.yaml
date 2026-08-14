@@ -8,7 +8,8 @@ ipa: /sæˈɾɒː/
 definition: ساختمانِ بزرگِ باشِش
 english: mansion
 register: ادبی
-frequency_rank: 1290
+frequency_rank: 6174
+zipf: 4.17
 difficulty: 3
 examples:
 - sare: سرایی کهن داشت.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: srāy
   avestan: null
+  old_persian: null
 related:
 - سرای
 - کاروانسرا

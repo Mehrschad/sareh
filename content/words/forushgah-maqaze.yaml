@@ -8,7 +8,8 @@ ipa: /foɾuːʃˈɡɒːh/
 definition: جایی که کالا می‌فروشند
 english: store
 register: گفتاری
-frequency_rank: 920
+frequency_rank: 1981
+zipf: 4.82
 difficulty: 2
 examples:
 - sare: به فروشگاه رفتم.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - بازار
 - فروختن

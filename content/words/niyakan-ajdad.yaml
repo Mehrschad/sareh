@@ -8,7 +8,8 @@ ipa: /niːjɒːˈkɒːn/
 definition: پدرانِ پیشینِ یک تبار
 english: ancestors
 register: ادبی
-frequency_rank: 1710
+frequency_rank: 10116
+zipf: 3.84
 difficulty: 4
 examples:
 - sare: نیاکانمان اینجا زیستند.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: niyāg
   avestan: null
+  old_persian: null
 related:
 - تبار
 - نیا

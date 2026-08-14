@@ -8,7 +8,8 @@ ipa: /bɒːmˈdɒːd/
 definition: آغازِ روز؛ هنگامِ برآمدنِ خورشید
 english: morning
 register: ادبی
-frequency_rank: 620
+frequency_rank: 336
+zipf: 5.54
 difficulty: 2
 examples:
 - sare: بامدادِ فردا می‌آیم.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: bāmdād
   avestan: null
+  old_persian: null
 related:
 - بام
 - سپیده‌دم

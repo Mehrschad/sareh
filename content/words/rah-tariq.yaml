@@ -8,7 +8,8 @@ ipa: /rɒːh/
 definition: مسیری که از آن می‌گذرند؛ روشِ رسیدن
 english: path
 register: ادبی
-frequency_rank: 235
+frequency_rank: 509
+zipf: 5.4
 difficulty: 2
 examples:
 - sare: راهِ دیگری هست.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: rāh
   avestan: null
+  old_persian: null
 related:
 - راهنما
 - روش

@@ -8,7 +8,8 @@ ipa: /ʔɒːtæʃˈdɒːn/
 definition: جایگاهِ افروختنِ آتش
 english: hearth
 register: ادبی
-frequency_rank: 2200
+frequency_rank: 9971
+zipf: 3.85
 difficulty: 5
 examples:
 - sare: آتشدان را افروختند.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: ātaxšdān
   avestan: null
+  old_persian: null
 related:
 - آتش
 - آتشکده

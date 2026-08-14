@@ -8,7 +8,8 @@ ipa: /ʔɒːˈvænd/
 definition: هر چیزی که چیزی را در خود گیرد
 english: vessel
 register: دانشی
-frequency_rank: 1580
+frequency_rank: 2225
+zipf: 4.76
 difficulty: 4
 examples:
 - sare: آوندها را بشوی.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: āwand
   avestan: null
+  old_persian: null
 related:
 - آوندی
 - پیمانه

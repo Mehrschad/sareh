@@ -8,7 +8,8 @@ ipa: /duːst/
 definition: کسی که با او پیوندِ مهر داری
 english: friend
 register: گفتاری
-frequency_rank: 300
+frequency_rank: 1586
+zipf: 4.92
 difficulty: 1
 examples:
 - sare: دوستِ دیرینم است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: dōst
   avestan: null
+  old_persian: null
 related:
 - دشمن
 - دوستی

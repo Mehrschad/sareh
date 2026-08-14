@@ -8,7 +8,8 @@ ipa: /bɒːzˈxoɾd/
 definition: پاسخی که به کننده‌ی کار بازمی‌گردد
 english: feedback
 register: دانشی
-frequency_rank: 970
+frequency_rank: 23876
+zipf: 3.22
 difficulty: 3
 examples:
 - sare: بازخوردت را بنویس.
@@ -19,6 +20,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - باز
 - خوردن

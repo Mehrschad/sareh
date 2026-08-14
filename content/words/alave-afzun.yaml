@@ -1,0 +1,32 @@
+id: alave-afzun
+sare: افزون
+loan: علاوه
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /ʔæfˈzuːn/
+definition: بیش از آن؛ افزوده بر
+english: in addition
+register: رسمی
+frequency_rank: 875
+zipf: 5.19
+difficulty: 2
+examples:
+- sare: افزون بر این، دیر هم آمد.
+  loan: علاوه بر این، دیر هم آمد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «افزون»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «افزون»
+roots:
+  pahlavi: afzōn
+  avestan: null
+  old_persian: null
+related:
+- افزایش
+- افزودن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

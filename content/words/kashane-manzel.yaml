@@ -8,7 +8,8 @@ ipa: /kɒːʃɒːˈne/
 definition: خانه؛ جایگاهِ آرمیدن
 english: dwelling
 register: ادبی
-frequency_rank: 990
+frequency_rank: 2668
+zipf: 4.67
 difficulty: 3
 examples:
 - sare: به کاشانه بازگشت.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - خانه
 - سرا

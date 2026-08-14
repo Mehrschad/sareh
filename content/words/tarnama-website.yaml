@@ -8,7 +8,8 @@ ipa: /tɒːɾnæˈmɒː/
 definition: جایگاهی در شبکه‌ی جهانی که برگه‌هایش را می‌نمایاند
 english: website
 register: دانشی
-frequency_rank: 710
+frequency_rank: 7335
+zipf: 4.06
 difficulty: 2
 examples:
 - sare: تارنمای انجمن به‌روز شد.
@@ -19,6 +20,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - تار
 - تارنگار

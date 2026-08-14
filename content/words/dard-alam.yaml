@@ -8,7 +8,8 @@ ipa: /dæɾd/
 definition: آزارِ تن یا جان
 english: pain
 register: ادبی
-frequency_rank: 400
+frequency_rank: 21074
+zipf: 3.31
 difficulty: 2
 examples:
 - sare: دردش آرام گرفت.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: dard
   avestan: null
+  old_persian: null
 related:
 - دردمند
 - دردناک

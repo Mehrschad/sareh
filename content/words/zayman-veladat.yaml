@@ -8,7 +8,8 @@ ipa: /zɒːjeˈmɒːn/
 definition: به‌دنیا‌آوردنِ کودک
 english: childbirth
 register: رسمی
-frequency_rank: 1050
+frequency_rank: 9513
+zipf: 3.89
 difficulty: 3
 examples:
 - sare: زایمانش آسان بود.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - زادن
 - زایش

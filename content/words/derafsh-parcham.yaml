@@ -8,7 +8,8 @@ ipa: /deˈɾæfʃ/
 definition: نشانِ برافراشته‌ی گروه یا کشور
 english: banner
 register: ادبی
-frequency_rank: 1440
+frequency_rank: 2134
+zipf: 4.78
 difficulty: 4
 examples:
 - sare: درفشِ کاویانی برافراشته شد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: drafš
   avestan: null
+  old_persian: null
 related:
 - بیرق
 - درفش کاویانی

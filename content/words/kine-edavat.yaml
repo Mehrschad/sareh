@@ -8,7 +8,8 @@ ipa: /kiːˈne/
 definition: دشمنیِ نهفته در دل
 english: grudge
 register: ادبی
-frequency_rank: 1270
+frequency_rank: 28880
+zipf: 3.07
 difficulty: 3
 examples:
 - sare: کینه‌ای در دل نداشت.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: kēn
   avestan: null
+  old_persian: null
 related:
 - کین
 - کینه‌توز

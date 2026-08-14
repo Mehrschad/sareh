@@ -8,7 +8,8 @@ ipa: /zæxm/
 definition: شکافی که بر تن پدید می‌آید
 english: wound
 register: رسمی
-frequency_rank: 560
+frequency_rank: 13124
+zipf: 3.66
 difficulty: 2
 examples:
 - sare: زخمش را بستند.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: zaxm
   avestan: null
+  old_persian: null
 related:
 - زخمی
 - زخم‌بند

@@ -1,0 +1,32 @@
+id: mored-bare
+sare: باره
+loan: مورد
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bɒːˈɾe/
+definition: زمینه‌ی سخن؛ آنچه سخن درباره‌ی آن است
+english: regard
+register: رسمی
+frequency_rank: 61
+zipf: 6.12
+difficulty: 1
+examples:
+- sare: درباره‌ی کارت سخن بگوییم.
+  loan: در موردِ کارت صحبت کنیم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «باره»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «درباره»
+roots:
+  pahlavi: bārag
+  avestan: null
+  old_persian: null
+related:
+- دراین‌باره
+- درباره
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

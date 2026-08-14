@@ -8,7 +8,8 @@ ipa: /zehˈdɒːn/
 definition: اندامی در تنِ زن که کودک در آن می‌بالد
 english: womb
 register: دانشی
-frequency_rank: 1720
+frequency_rank: 2455
+zipf: 4.71
 difficulty: 4
 examples:
 - sare: کودک در زهدان می‌بالد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: zahdān
   avestan: null
+  old_persian: null
 related:
 - آبستن
 - زادن

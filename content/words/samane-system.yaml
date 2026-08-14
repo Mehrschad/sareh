@@ -8,7 +8,8 @@ ipa: /sɒːmɒːˈne/
 definition: مجموعه‌ای از اجزا که با هم کاری را انجام می‌دهند
 english: system
 register: دانشی
-frequency_rank: 520
+frequency_rank: 403
+zipf: 5.48
 difficulty: 2
 examples:
 - sare: سامانه از کار افتاد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - سازمان
 - سامان

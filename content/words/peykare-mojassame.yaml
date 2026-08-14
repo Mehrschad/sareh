@@ -8,7 +8,8 @@ ipa: /pejkæˈɾe/
 definition: تندیسِ ساخته‌شده از سنگ یا فلز
 english: statue
 register: رسمی
-frequency_rank: 1620
+frequency_rank: null
+zipf: 4.52
 difficulty: 4
 examples:
 - sare: پیکره‌ی فردوسی در توس است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - تندیس
 - پیکر

@@ -8,7 +8,8 @@ ipa: /ʔɒːˈsɒːn/
 definition: آنچه انجامش رنج نمی‌خواهد
 english: easy
 register: گفتاری
-frequency_rank: 150
+frequency_rank: 734
+zipf: 5.26
 difficulty: 1
 examples:
 - sare: این کار آسان است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: āsān
   avestan: null
+  old_persian: null
 related:
 - آسانی
 - آسوده

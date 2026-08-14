@@ -8,7 +8,8 @@ ipa: /dɒːneʃˈmænd/
 definition: کسی که دانشِ بسیار دارد
 english: scholar
 register: رسمی
-frequency_rank: 520
+frequency_rank: 1853
+zipf: 4.85
 difficulty: 2
 examples:
 - sare: دانشمندی بزرگ بود.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - دانا
 - دانش

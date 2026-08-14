@@ -8,7 +8,8 @@ ipa: /mæqz/
 definition: اندامِ اندیشه در سر
 english: brain
 register: دانشی
-frequency_rank: 1240
+frequency_rank: 6446
+zipf: 4.14
 difficulty: 3
 examples:
 - sare: مغزش خسته است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: mazg
   avestan: null
+  old_persian: null
 related:
 - مغزی
 - هوش

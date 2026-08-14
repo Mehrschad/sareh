@@ -8,7 +8,8 @@ ipa: /pæɾˈmɒːs/
 definition: دست ساییدن بر چیزی؛ برخورد پوست با چیزی
 english: touch
 register: ادبی
-frequency_rank: 340
+frequency_rank: 4478
+zipf: 4.37
 difficulty: 3
 examples:
 - sare: انگشتانش را بر تارهای ساز پرماس کرد.
@@ -23,6 +24,7 @@ citations:
 roots:
   pahlavi: parmāsītan
   avestan: null
+  old_persian: null
 related:
 - بساوش
 - پرماسیدن

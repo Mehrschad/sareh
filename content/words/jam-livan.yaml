@@ -8,7 +8,8 @@ ipa: /dʒɒːm/
 definition: آوندِ نوشیدن
 english: glass
 register: ادبی
-frequency_rank: 1490
+frequency_rank: 4209
+zipf: 4.41
 difficulty: 3
 examples:
 - sare: جام را پر کرد.
@@ -19,8 +20,9 @@ citations:
 - source: شاهنامه فردوسی
   book: پادشاهی کیخسرو
 roots:
-  pahlavi: null
+  pahlavi: ǰām
   avestan: null
+  old_persian: null
 related:
 - جام جم
 - پیاله

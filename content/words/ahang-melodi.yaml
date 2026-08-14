@@ -8,7 +8,8 @@ ipa: /ʔɒːˈhænɡ/
 definition: زنجیره‌ی خوش‌نوایِ نغمه‌ها
 english: melody
 register: ادبی
-frequency_rank: 1160
+frequency_rank: 8046
+zipf: 4.0
 difficulty: 3
 examples:
 - sare: آهنگش در گوشم مانده.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: āhang
   avestan: null
+  old_persian: null
 related:
 - آهنگساز
 - نوا

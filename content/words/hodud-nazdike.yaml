@@ -1,0 +1,32 @@
+id: hodud-nazdike
+sare: نزدیک به
+loan: حدودِ
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /næzdiːk be/
+definition: در اندازه‌ی نزدیک به
+english: around
+register: رسمی
+frequency_rank: 473
+zipf: 5.42
+difficulty: 2
+examples:
+- sare: نزدیک به سه ساعت کشید.
+  loan: حدودِ سه ساعت طول کشید.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نزدیک»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «نزدیک به»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- نزدیک
+- پیرامون
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -1,0 +1,32 @@
+id: qabl-pish
+sare: پیش
+loan: قبل
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /piːʃ/
+definition: پیش از آن؛ جلوتر در زمان
+english: before
+register: گفتاری
+frequency_rank: 173
+zipf: 5.79
+difficulty: 1
+examples:
+- sare: پیش از تو رسیدم.
+  loan: قبل از تو رسیدم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پیش»
+- source: فرهنگ فارسی معین
+  ref: مدخل «پیش»
+roots:
+  pahlavi: pēš
+  avestan: null
+  old_persian: patiš
+related:
+- پیشین
+- پیش‌تر
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -8,7 +8,8 @@ ipa: /viːɾɒːˈjeʃ/
 definition: درست‌کردن و آراستنِ نوشته
 english: editing
 register: دانشی
-frequency_rank: 1160
+frequency_rank: 12184
+zipf: 3.71
 difficulty: 3
 examples:
 - sare: ویرایشِ نوشته مانده است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - ویراستار
 - ویراستن

@@ -8,7 +8,8 @@ ipa: /tænhɒːˈjiː/
 definition: بی‌کس بودن؛ دوری از مردمان
 english: solitude
 register: ادبی
-frequency_rank: 1340
+frequency_rank: 26728
+zipf: 3.13
 difficulty: 3
 examples:
 - sare: تنهایی را برگزید.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - تنها
 - خلوت

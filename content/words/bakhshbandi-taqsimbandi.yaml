@@ -8,7 +8,8 @@ ipa: /bæxʃbænˈdiː/
 definition: جدا کردنِ یک کل به بخش‌های سامان‌مند
 english: division
 register: دانشی
-frequency_rank: 1390
+frequency_rank: 20568
+zipf: 3.33
 difficulty: 3
 examples:
 - sare: بخش‌بندی‌ات روشن است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - بخش
 - بستن

@@ -8,7 +8,8 @@ ipa: /nemuːˈdɒːɾ/
 definition: نمایشِ دیداریِ داده‌ها
 english: chart
 register: دانشی
-frequency_rank: 1140
+frequency_rank: 14602
+zipf: 3.59
 difficulty: 3
 examples:
 - sare: نمودارِ رشد بالا رفت.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - نما
 - نمودن

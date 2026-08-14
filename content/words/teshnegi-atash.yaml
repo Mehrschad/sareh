@@ -8,7 +8,8 @@ ipa: /teʃneˈɡiː/
 definition: نیازِ تن به آب
 english: thirst
 register: ادبی
-frequency_rank: 870
+frequency_rank: 10943
+zipf: 3.79
 difficulty: 3
 examples:
 - sare: تشنگی از پایش انداخت.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: tišn
   avestan: null
+  old_persian: null
 related:
 - تشنه
 - تشنه‌کام

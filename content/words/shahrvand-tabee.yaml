@@ -8,7 +8,8 @@ ipa: /ʃæhɾˈvænd/
 definition: کسی که هموندِ یک کشور است
 english: citizen
 register: رسمی
-frequency_rank: 1210
+frequency_rank: 14236
+zipf: 3.6
 difficulty: 3
 examples:
 - sare: شهروندِ این کشور نیست.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - شهر
 - وند

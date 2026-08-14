@@ -8,7 +8,8 @@ ipa: /bæxʃ/
 definition: پاره‌ای از یک کل
 english: part
 register: رسمی
-frequency_rank: 78
+frequency_rank: 404
+zipf: 5.48
 difficulty: 1
 examples:
 - sare: این بخش را بخوان.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: baxš
   avestan: null
+  old_persian: null
 related:
 - بخشیدن
 - بهر

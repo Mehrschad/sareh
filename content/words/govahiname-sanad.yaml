@@ -8,7 +8,8 @@ ipa: /ɡævɒːhiːnɒːˈme/
 definition: نوشته‌ای که چیزی را گواهی می‌کند
 english: certificate
 register: رسمی
-frequency_rank: 1180
+frequency_rank: 1851
+zipf: 4.85
 difficulty: 3
 examples:
 - sare: گواهی‌نامه‌اش را نشان داد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - نامه
 - گواه

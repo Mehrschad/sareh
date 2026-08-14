@@ -8,7 +8,8 @@ ipa: /ʔɒːsɒːˈjeʃ/
 definition: بی‌رنجیِ تن و جان
 english: comfort
 register: رسمی
-frequency_rank: 510
+frequency_rank: 2002
+zipf: 4.81
 difficulty: 2
 examples:
 - sare: آسایشِ خانه را می‌خواهم.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: āsāyišn
   avestan: null
+  old_persian: null
 related:
 - آسودن
 - آسوده

@@ -8,7 +8,8 @@ ipa: /næmɒːˈje/
 definition: فهرستِ راه‌نمایِ یافتنِ درون‌مایه
 english: index
 register: دانشی
-frequency_rank: 1590
+frequency_rank: 29839
+zipf: 3.04
 difficulty: 4
 examples:
 - sare: نمایه‌ی کتاب کامل است.
@@ -19,6 +20,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - فهرست
 - نمودن

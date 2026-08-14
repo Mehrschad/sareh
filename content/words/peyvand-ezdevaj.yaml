@@ -8,7 +8,8 @@ ipa: /pejˈvænd/
 definition: بستنِ زناشویی میان دو تن
 english: marriage
 register: رسمی
-frequency_rank: 1080
+frequency_rank: 409
+zipf: 5.47
 difficulty: 3
 examples:
 - sare: جشنِ پیوندشان بود.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: paywand
   avestan: null
+  old_persian: null
 related:
 - زناشویی
 - پیوستن

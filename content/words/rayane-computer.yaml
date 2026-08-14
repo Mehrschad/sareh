@@ -8,7 +8,8 @@ ipa: /rɒːjɒːˈne/
 definition: دستگاهِ داده‌پردازِ برنامه‌پذیر
 english: computer
 register: دانشی
-frequency_rank: 380
+frequency_rank: 2098
+zipf: 4.79
 difficulty: 2
 examples:
 - sare: رایانه‌ام کند شده.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - رایانش
 - رایانگر

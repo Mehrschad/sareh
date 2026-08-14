@@ -8,7 +8,8 @@ ipa: /pæjɒːmreˈsɒːn/
 definition: نرم‌افزارِ فرستادن و گرفتن پیام
 english: messenger
 register: دانشی
-frequency_rank: 720
+frequency_rank: 13905
+zipf: 3.62
 difficulty: 2
 examples:
 - sare: در پیام‌رسان بنویس.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - پیام
 - پیام‌بر

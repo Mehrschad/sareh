@@ -8,7 +8,8 @@ ipa: /rɒːjɒːnɒːˈme/
 definition: نامه‌ای که با رایانه و شبکه فرستاده می‌شود
 english: email
 register: دانشی
-frequency_rank: 600
+frequency_rank: 3128
+zipf: 4.58
 difficulty: 2
 examples:
 - sare: رایانامه‌ات را دیدم.
@@ -19,6 +20,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - رایانه
 - نامه

@@ -8,7 +8,8 @@ ipa: /kuːj/
 definition: بخشی از شهر که مردمانش همسایه‌اند
 english: quarter
 register: ادبی
-frequency_rank: 1330
+frequency_rank: null
+zipf: 4.75
 difficulty: 3
 examples:
 - sare: در همین کوی زندگی می‌کند.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: kōy
   avestan: null
+  old_persian: null
 related:
 - برزن
 - کوچه

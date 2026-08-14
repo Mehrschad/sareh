@@ -8,7 +8,8 @@ ipa: /dɒːd/
 definition: هر کس را به سزای خویش رساندن
 english: justice
 register: ادبی
-frequency_rank: 640
+frequency_rank: 1561
+zipf: 4.93
 difficulty: 2
 examples:
 - sare: داد را بر همه گستراند.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: dād
   avestan: null
+  old_persian: dātam
 related:
 - بیداد
 - دادگاه

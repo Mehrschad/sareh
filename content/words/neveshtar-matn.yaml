@@ -8,7 +8,8 @@ ipa: /neveʃˈtɒːɾ/
 definition: آنچه نوشته شده؛ گونه‌ی نوشته‌ی زبان
 english: text
 register: دانشی
-frequency_rank: 240
+frequency_rank: 878
+zipf: 5.19
 difficulty: 2
 examples:
 - sare: نوشتارت را خواندم.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - نوشتن
 - گفتار

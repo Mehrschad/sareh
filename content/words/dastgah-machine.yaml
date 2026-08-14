@@ -8,7 +8,8 @@ ipa: /dæstˈɡɒːh/
 definition: ساختِ مکانیکی که کاری را انجام می‌دهد
 english: machine
 register: رسمی
-frequency_rank: 500
+frequency_rank: 561
+zipf: 5.37
 difficulty: 2
 examples:
 - sare: دستگاه از کار افتاد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - ابزار
 - دست

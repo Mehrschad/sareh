@@ -8,7 +8,8 @@ ipa: /viːʒeˈɡiː/
 definition: آنچه چیزی را از دیگران جدا می‌کند
 english: characteristic
 register: دانشی
-frequency_rank: 450
+frequency_rank: 12941
+zipf: 3.67
 difficulty: 2
 examples:
 - sare: ویژگیِ برجسته‌اش شکیب است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: wižag
   avestan: null
+  old_persian: null
 related:
 - ویژه
 - ویژه‌کار

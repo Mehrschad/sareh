@@ -1,0 +1,32 @@
+id: taraf-su
+sare: سو
+loan: طرف
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /suː/
+definition: جهت؛ سمت
+english: side
+register: گفتاری
+frequency_rank: 223
+zipf: 5.69
+difficulty: 1
+examples:
+- sare: از این سو بیا.
+  loan: از این طرف بیا.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سو»
+- source: فرهنگ فارسی معین
+  ref: مدخل «سو»
+roots:
+  pahlavi: sōg
+  avestan: null
+  old_persian: null
+related:
+- دوسویه
+- سوی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

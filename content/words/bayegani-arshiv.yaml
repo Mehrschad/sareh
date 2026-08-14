@@ -8,7 +8,8 @@ ipa: /bɒːjeɡɒːˈniː/
 definition: جایگاهِ نگاهداشتِ سامان‌مندِ پرونده‌ها
 english: archive
 register: رسمی
-frequency_rank: 1360
+frequency_rank: 6740
+zipf: 4.11
 difficulty: 3
 examples:
 - sare: در بایگانی جست‌وجو کن.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - بایگان
 - پرونده

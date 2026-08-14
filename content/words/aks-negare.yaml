@@ -1,0 +1,32 @@
+id: aks-negare
+sare: نگاره
+loan: عکس
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /neɡɒːˈɾe/
+definition: تصویری که با دوربین گرفته می‌شود
+english: photograph
+register: رسمی
+frequency_rank: 191
+zipf: 5.74
+difficulty: 2
+examples:
+- sare: نگاره‌ات را فرستادم.
+  loan: عکست را فرستادم.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «نگاره»
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نگار»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- نگار
+- نگاشتن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

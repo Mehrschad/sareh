@@ -8,7 +8,8 @@ ipa: /ʔɒːˈɾiː/
 definition: پاسخ مثبت به پرسش
 english: 'yes'
 register: رسمی
-frequency_rank: 30
+frequency_rank: 15717
+zipf: 3.53
 difficulty: 1
 examples:
 - sare: آری، شنیدم.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: ārē
   avestan: null
+  old_persian: adi-var
 related:
 - آره
 audio: null

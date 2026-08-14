@@ -8,7 +8,8 @@ ipa: /dæstˈmozd/
 definition: پولی که در برابر کار داده می‌شود
 english: wage
 register: رسمی
-frequency_rank: 700
+frequency_rank: 276
+zipf: 5.61
 difficulty: 2
 examples:
 - sare: دستمزدش دیر رسید.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - دست
 - مزد

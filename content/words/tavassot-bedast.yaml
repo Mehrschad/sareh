@@ -1,0 +1,32 @@
+id: tavassot-bedast
+sare: به‌دستِ
+loan: توسطِ
+loan_origin: عربی
+pos: حرف اضافه
+acceptance: زنده
+ipa: /beˈdæste/
+definition: به‌وسیله‌ی؛ از راهِ کسی
+english: by
+register: رسمی
+frequency_rank: 133
+zipf: 5.87
+difficulty: 2
+examples:
+- sare: نامه به‌دستِ او نوشته شد.
+  loan: نامه توسطِ او نوشته شد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دست»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «به‌دست»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- به‌یاریِ
+- دست
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

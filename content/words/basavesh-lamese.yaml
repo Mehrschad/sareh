@@ -8,7 +8,8 @@ ipa: /besɒːˈveʃ/
 definition: حسِ پوست؛ توانِ دریافتن با پرماس
 english: sense of touch
 register: دانشی
-frequency_rank: 1450
+frequency_rank: 30804
+zipf: 3.02
 difficulty: 4
 examples:
 - sare: بساوش تیزترین حسِ نوزاد است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: bassāwišn
   avestan: null
+  old_persian: null
 related:
 - بساویدن
 - پرماس

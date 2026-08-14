@@ -8,7 +8,8 @@ ipa: /ɡɒːhʃoˈmɒːɾ/
 definition: سامانه‌ی شمردن و بخش‌کردنِ روزها
 english: calendar
 register: دانشی
-frequency_rank: 1310
+frequency_rank: 3514
+zipf: 4.51
 difficulty: 3
 examples:
 - sare: گاه‌شمارِ خورشیدی دقیق است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - شمردن
 - گاه

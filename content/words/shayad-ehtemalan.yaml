@@ -8,7 +8,8 @@ ipa: /ʃɒːˈjæd/
 definition: نشانه‌ی امکان و نه یقین
 english: perhaps
 register: گفتاری
-frequency_rank: 96
+frequency_rank: null
+zipf: 5.24
 difficulty: 2
 examples:
 - sare: شاید فردا بیاید.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: šāyēd
   avestan: null
+  old_persian: null
 related:
 - شایستن
 - شایگان

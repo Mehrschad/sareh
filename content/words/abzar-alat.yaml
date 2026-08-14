@@ -8,7 +8,8 @@ ipa: /ʔæbˈzɒːɾ/
 definition: آنچه با آن کاری انجام می‌دهند
 english: tool
 register: رسمی
-frequency_rank: 550
+frequency_rank: 6938
+zipf: 4.09
 difficulty: 2
 examples:
 - sare: ابزارت را بردار.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: abzār
   avestan: null
+  old_persian: null
 related:
 - ابزارمند
 - دستگاه

@@ -8,7 +8,8 @@ ipa: /ʔɒːbesˈtæn/
 definition: زنی که کودکی در زهدان دارد
 english: pregnant
 register: رسمی
-frequency_rank: 980
+frequency_rank: 4911
+zipf: 4.31
 difficulty: 3
 examples:
 - sare: آبستن است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: ābustan
   avestan: null
+  old_persian: null
 related:
 - آبستنی
 - بارداری

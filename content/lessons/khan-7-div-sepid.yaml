@@ -1,7 +1,7 @@
 id: khan-7-div-sepid
 khan: 7
 guardian: دیو سپید
-realm: مینو و فرهنگ
+realm: جهان، جا، زمان و اندازه
 stations:
 - id: khan-7-div-sepid-manzel-1
   title: منزلِ 1
@@ -11,14 +11,15 @@ stations:
   - جای‌گزینی
   - شنیدار
   words:
-  - keshvar-mamlekat
-  - kherad-aql
-  - jahan-alam
-  - dastan-qesse
-  - dad-edalat
-  - nevisande-moallef
-  - rasti-sedaqat
-  - ain-rasm
+  - zaman-vaqt
+  - taraf-su
+  - aqaz-shoru
+  - payan-akhar
+  - vasat-miyan
+  - nesf-nim
+  - aks-negare
+  - bamdad-sobh
+  - tul-daraza
 - id: khan-7-div-sepid-manzel-2
   title: منزلِ 2
   exercises:
@@ -27,14 +28,15 @@ stations:
   - نویسش
   - داستانک
   words:
-  - jashn-eyd
-  - niki-kheyr
-  - padeshah-malek
-  - doruq-kezb
-  - sarnevesht-taqdir
-  - bakht-shans
-  - marz-hadd
-  - namayesh-teatr
+  - rah-tariq
+  - mahal-jaygah
+  - hengam-mowqe
+  - safhe-barge
+  - fasele-duri
+  - mostaqim-serrast
+  - atraf-piramun
+  - zadruz-tavallod
+  - arz-pahna
 - id: khan-7-div-sepid-manzel-3
   title: منزلِ 3
   exercises:
@@ -43,14 +45,16 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
-  - niyayesh-doa
-  - bidad-zolm
-  - ahang-melodi
-  - parastesh-ebadat
-  - shahrvand-tabee
-  - badi-sharr
-  - afsane-ostoore
-  - sarayande-shaer
+  - jahan-alam
+  - jashn-eyd
+  - didar-molaqat
+  - padeshah-malek
+  - ertefa-bolanda
+  - omq-zharfa
+  - sarnevesht-taqdir
+  - ain-rasm
+  - keshvar-mamlekat
+  - mantaqe-saman
 - id: khan-7-div-sepid-manzel-4
   title: منزلِ 4
   exercises:
@@ -59,15 +63,16 @@ stations:
   - گزینش
   - نویسش
   words:
+  - marz-hadd
+  - shamgah-asr
+  - niyayesh-doa
+  - bakht-shans
+  - nimruz-zohr
+  - gahshomar-taqvim
+  - parastesh-ebadat
+  - shahrvand-tabee
   - sepah-qoshun
-  - shahryar-soltan
-  - derafsh-parcham
   - giti-donya
-  - tabar-nasab
-  - peykare-mojassame
-  - dudman-selsele
-  - niyakan-ajdad
-  - khoshnevisi-khattati
 - id: khan-7-div-sepid-manzel-5
   title: منزلِ 5
   exercises:
@@ -76,15 +81,16 @@ stations:
   - شنیدار
   - واژه‌چین
   words:
-  - zendeginame-biography
+  - derafsh-parcham
+  - shahryar-soltan
+  - dudman-selsele
   - yadman-banayadbud
-  - chame-sher
-  - negargari-miniatur
-  - farr-jalal
-  - chakame-qaside
-  - minu-malakut
+  - tabar-nasab
+  - niyakan-ajdad
   - sepanta-moqaddas
   - asha-haqiqat
+  - farr-jalal
+  - minu-malakut
 boss:
   id: khan-7-div-sepid-negahban
   title: نگهبانِ خان — دیو سپید

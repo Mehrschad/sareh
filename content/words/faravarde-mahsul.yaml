@@ -8,7 +8,8 @@ ipa: /fæɾɒːvæɾˈde/
 definition: آنچه از فرآیندِ ساخت بیرون می‌آید
 english: product
 register: رسمی
-frequency_rank: 660
+frequency_rank: 902
+zipf: 5.18
 difficulty: 2
 examples:
 - sare: فرآورده‌ی تازه‌ای دارند.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - فرآوردن
 - فرآیند

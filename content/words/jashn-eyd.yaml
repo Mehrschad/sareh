@@ -8,7 +8,8 @@ ipa: /dʒæʃn/
 definition: آیینِ شادیِ همگانی
 english: festival
 register: ادبی
-frequency_rank: 780
+frequency_rank: 1908
+zipf: 4.84
 difficulty: 2
 examples:
 - sare: جشنِ سده را برپا کردند.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: jašn
   avestan: yasna-
+  old_persian: '*yašna-'
 related:
 - آیین
 - جشنواره

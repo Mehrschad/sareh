@@ -8,7 +8,8 @@ ipa: /bæxt/
 definition: روزگارِ یار یا ناسازگار
 english: fortune/luck
 register: ادبی
-frequency_rank: 1010
+frequency_rank: 1617
+zipf: 4.91
 difficulty: 3
 examples:
 - sare: بختش بلند بود.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: baxt
   avestan: null
+  old_persian: null
 related:
 - بدبخت
 - خوشبخت

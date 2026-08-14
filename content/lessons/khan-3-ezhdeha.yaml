@@ -1,7 +1,7 @@
 id: khan-3-ezhdeha
 khan: 3
 guardian: اژدها
-realm: خانه و خوراک
+realm: خانه، خوراک و خرید
 stations:
 - id: khan-3-ezhdeha-manzel-1
   title: منزلِ 1
@@ -11,14 +11,14 @@ stations:
   - جای‌گزینی
   - شنیدار
   words:
-  - bamdad-sobh
-  - ashpazkhane-matbakh
+  - qeymat-baha
+  - khorak-qaza
+  - kala-jens
+  - forushgah-maqaze
   - bam-saqf
+  - kharidar-moshtari
+  - qofl-band
   - yakhchal-ferizer
-  - shirini-halva
-  - kashane-manzel
-  - shamgah-asr
-  - nimruz-zohr
 - id: khan-3-ezhdeha-manzel-2
   title: منزلِ 2
   exercises:
@@ -27,14 +27,14 @@ stations:
   - نویسش
   - داستانک
   words:
-  - bastar-ferash
+  - shirini-halva
+  - nezafat-pakizegi
+  - majles-bazm
   - rakht-lebas
   - cheshme-manba
-  - garmabe-hammam
-  - sara-emarat
   - kuy-mahalle
-  - mive-samar
-  - jam-livan
+  - kashane-manzel
+  - garmabe-hammam
 - id: khan-3-ezhdeha-manzel-3
   title: منزلِ 3
   exercises:
@@ -43,14 +43,14 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
-  - nushidani-mashrubat
-  - jame-albese
-  - balesh-motakka
+  - asal-angabin
+  - sobhane-chasht
+  - jam-livan
+  - mive-samar
   - shurba-sup
-  - chub-khashab
+  - sara-emarat
   - ganje-komod
   - chashni-advie
-  - khan-sofre
 - id: khan-3-ezhdeha-manzel-4
   title: منزلِ 4
   exercises:
@@ -59,14 +59,14 @@ stations:
   - گزینش
   - نویسش
   words:
-  - avand-zarf
-  - ahangar-haddad
-  - abrizgah-toalet
-  - piyale-estekan
-  - khordani-maakulat
-  - khakrube-ashqal
-  - kuze-jarre
+  - nushidani-mashrubat
+  - jame-albese
+  - bastar-ferash
   - eshkub-tabaqe
+  - avand-zarf
+  - khan-sofre
+  - khakrube-ashqal
+  - abrizgah-toalet
 - id: khan-3-ezhdeha-manzel-5
   title: منزلِ 5
   exercises:
@@ -76,13 +76,14 @@ stations:
   - واژه‌چین
   words:
   - torshi-khall
-  - kafche-qashoq
-  - khaligar-tabbakh
-  - darudgar-najjar
-  - atashdan-ojaq
-  - miyansara-hayat
+  - ahangar-haddad
+  - piyale-estekan
   - abzan-van
   - gostardani-farsh
+  - miyansara-hayat
+  - kafche-qashoq
+  - atashdan-ojaq
+  - darudgar-najjar
 boss:
   id: khan-3-ezhdeha-negahban
   title: نگهبانِ خان — اژدها

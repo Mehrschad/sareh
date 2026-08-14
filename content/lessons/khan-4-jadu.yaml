@@ -1,23 +1,23 @@
 id: khan-4-jadu
 khan: 4
 guardian: جادو
-realm: کار و پیشه
+realm: کار، پیشه و پول
 stations:
 - id: khan-4-jadu-manzel-1
   title: منزلِ 1
-  exercises:
+  exercises: &id001
   - گزینش
   - جفت‌ساز
   - جای‌گزینی
   - شنیدار
   words:
+  - estefade-karbord
   - didgah-nazar
-  - gozaresh-raport
-  - sazman-tashkilat
-  - angize-moharrek
-  - karbar-user
-  - peyman-qarardad
-  - darkhast-taqaza
+  - moshkel-doshvari
+  - dastmozd-hoquq
+  - sarparast-raees
+  - samane-system
+  - sath-ruye
   - bonyad-asas
 - id: khan-4-jadu-manzel-2
   title: منزلِ 2
@@ -27,14 +27,15 @@ stations:
   - نویسش
   - داستانک
   words:
-  - dastgah-machine
-  - samane-system
   - paziresh-qabul
+  - bargiri-download
+  - dastgah-machine
+  - avaz-jaygozin
+  - ezafe-afzude
+  - faravarde-mahsul
+  - neshast-jalase
   - dastavard-movaffaqiat
-  - abzar-alat
   - pishine-sabeqe
-  - pishe-shoql
-  - narmafzar-software
 - id: khan-4-jadu-manzel-3
   title: منزلِ 3
   exercises:
@@ -43,14 +44,15 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
+  - peyman-qarardad
+  - pishe-shoql
+  - parvande-file
+  - anjoman-majma
+  - rayane-computer
+  - neshani-adres
   - rayaname-email
-  - neshast-jalase
-  - daramad-ayedi
   - ziyan-zarar
-  - faravarde-mahsul
-  - sarparast-raees
-  - dastmozd-hoquq
-  - tarnama-website
+  - darkhast-taqaza
 - id: khan-4-jadu-manzel-4
   title: منزلِ 4
   exercises:
@@ -59,14 +61,15 @@ stations:
   - گزینش
   - نویسش
   words:
-  - anjoman-majma
-  - kala-jens
-  - kharidar-moshtari
+  - gozarname-pasport
+  - khodro-otomobil
+  - sazman-tashkilat
+  - angize-moharrek
+  - abzar-alat
+  - tarnama-website
+  - bargozari-upload
+  - agahi-elan
   - gozarvaje-password
-  - forushgah-maqaze
-  - farayand-process
-  - chekide-kholase
-  - bahre-manfaat
 - id: khan-4-jadu-manzel-5
   title: منزلِ 5
   exercises:
@@ -75,14 +78,15 @@ stations:
   - شنیدار
   - واژه‌چین
   words:
+  - payamresan-messenger
+  - karbar-user
+  - daramad-ayedi
+  - pushe-folder
   - karmaye-energy
-  - karamad-moasser
-  - bazkhord-feedback
-  - parvane-mojavvez
-  - hanjar-qaede
-  - sakhtafzar-hardware
-  - rahnemud-dasturolamal
-  - gerdehamaei-conference
+  - etemad-poshtgarmi
+  - hamvand-ozv
+  - chekide-kholase
+  - masool-pasokhgu
 - id: khan-4-jadu-manzel-6
   title: منزلِ 6
   exercises:
@@ -91,13 +95,27 @@ stations:
   - تیر آرش
   - بیت‌یاب
   words:
+  - vazife-bayeste
   - govahiname-sanad
-  - sarresid-mowed
+  - gerdehamaei-conference
+  - parvane-mojavvez
+  - karamad-moasser
+  - hanjar-qaede
   - dabir-monshi
-  - hamvand-ozv
+  - rahnemud-dasturolamal
+  - farayand-process
+- id: khan-4-jadu-manzel-7
+  title: منزلِ 7
+  exercises: *id001
+  words:
   - bayegani-arshiv
-  - bahrevari-randeman
+  - balgard-helikopter
+  - bahre-manfaat
+  - peyvast-zamime
+  - sarresid-mowed
+  - bazkhord-feedback
   - tarnegar-weblog
+  - bahrevari-randeman
   - namaye-index
 boss:
   id: khan-4-jadu-negahban

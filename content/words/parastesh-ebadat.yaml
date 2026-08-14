@@ -8,7 +8,8 @@ ipa: /pæɾæsˈteʃ/
 definition: بندگی‌کردن و بزرگ‌داشتنِ ایزد
 english: worship
 register: ادبی
-frequency_rank: 1180
+frequency_rank: 5870
+zipf: 4.2
 difficulty: 3
 examples:
 - sare: پرستشِ یزدان می‌کرد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: parastišn
   avestan: null
+  old_persian: null
 related:
 - پرستشگاه
 - پرستیدن

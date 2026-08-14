@@ -1,0 +1,32 @@
+id: sobhane-chasht
+sare: چاشت
+loan: صبحانه
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /tʃɒːʃt/
+definition: خوراکِ نخستِ روز
+english: breakfast
+register: ادبی
+frequency_rank: 3937
+zipf: 4.45
+difficulty: 3
+examples:
+- sare: چاشت آماده است.
+  loan: صبحانه آماده است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «چاشت»
+- source: فرهنگ فارسی معین
+  ref: مدخل «چاشت»
+roots:
+  pahlavi: čāšt
+  avestan: null
+  old_persian: null
+related:
+- خوراک
+- چاشتگاه
+audio: null
+status: proposed
+contributors:
+- sareh-seed

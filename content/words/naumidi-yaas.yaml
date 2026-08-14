@@ -8,7 +8,8 @@ ipa: /nɒːʔomiːˈdiː/
 definition: از دست‌رفتنِ امید
 english: despair
 register: ادبی
-frequency_rank: 1240
+frequency_rank: 21588
+zipf: 3.3
 difficulty: 3
 examples:
 - sare: نومیدی راه ندارد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - امید
 - نومید

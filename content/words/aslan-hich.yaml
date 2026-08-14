@@ -1,0 +1,32 @@
+id: aslan-hich
+sare: هیچ
+loan: اصلاً
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /hiːtʃ/
+definition: به‌هیچ‌روی؛ ذره‌ای
+english: at all
+register: گفتاری
+frequency_rank: null
+zipf: 5.7
+difficulty: 1
+examples:
+- sare: هیچ نمی‌دانم.
+  loan: اصلاً نمی‌دانم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «هیچ»
+- source: فرهنگ فارسی معین
+  ref: مدخل «هیچ»
+roots:
+  pahlavi: hēč
+  avestan: null
+  old_persian: null
+related:
+- به‌هیچ‌روی
+- هیچ‌گاه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

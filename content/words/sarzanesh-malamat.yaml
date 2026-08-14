@@ -8,7 +8,8 @@ ipa: /sæɾzæˈneʃ/
 definition: نکوهشِ کسی برای کارِ نادرست
 english: reproach
 register: ادبی
-frequency_rank: 1220
+frequency_rank: 19643
+zipf: 3.37
 difficulty: 3
 examples:
 - sare: سرزنشش نکردند.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - زدن
 - سر

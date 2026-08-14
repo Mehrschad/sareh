@@ -8,7 +8,8 @@ ipa: /delbæsteˈɡiː/
 definition: پیوندِ دل با کس یا چیزی
 english: attachment
 register: رسمی
-frequency_rank: 720
+frequency_rank: 794
+zipf: 5.23
 difficulty: 2
 examples:
 - sare: دلبستگی‌اش به شعر ژرف است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - بستن
 - دل

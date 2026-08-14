@@ -1,0 +1,32 @@
+id: avaz-jaygozin
+sare: جایگزین
+loan: عوض
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /dʒɒːjɡoˈziːn/
+definition: آنچه به‌جای چیزی می‌نشیند
+english: replacement
+register: رسمی
+frequency_rank: 576
+zipf: 5.36
+difficulty: 2
+examples:
+- sare: جایگزینش کن.
+  loan: عوضش کن.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «جایگزین»
+- source: لغت‌نامه دهخدا
+  ref: مدخل «جای»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- جای
+- گزیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

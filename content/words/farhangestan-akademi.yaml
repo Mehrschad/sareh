@@ -8,7 +8,8 @@ ipa: /fæɾhænɡesˈtɒːn/
 definition: نهادی که بر زبان و دانش نگاه می‌دارد
 english: academy
 register: رسمی
-frequency_rank: 1520
+frequency_rank: 5552
+zipf: 4.23
 difficulty: 4
 examples:
 - sare: فرهنگستان این واژه را برگزید.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - ستان
 - فرهنگ

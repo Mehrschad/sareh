@@ -8,7 +8,8 @@ ipa: /xoɾdeɡiːˈɾiː/
 definition: گرفتنِ کاستی‌های کار یا سخنِ کسی
 english: criticism
 register: رسمی
-frequency_rank: 1400
+frequency_rank: 1671
+zipf: 4.89
 difficulty: 3
 examples:
 - sare: خرده‌گیریِ سازنده سودمند است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - خرده
 - نکوهش

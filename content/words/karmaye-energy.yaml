@@ -8,7 +8,8 @@ ipa: /kɒːɾmɒːˈje/
 definition: توانِ انجامِ کار در دانشِ فیزیک
 english: energy
 register: دانشی
-frequency_rank: 890
+frequency_rank: 629
+zipf: 5.31
 difficulty: 3
 examples:
 - sare: کارمایه‌ی این واکنش بالاست.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - توان
 - مایه

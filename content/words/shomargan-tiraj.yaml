@@ -8,7 +8,8 @@ ipa: /ʃomɒːɾˈɡɒːn/
 definition: شمارِ نسخه‌های چاپ‌شده‌ی کتاب
 english: print run
 register: دانشی
-frequency_rank: 2010
+frequency_rank: 19063
+zipf: 3.39
 difficulty: 4
 examples:
 - sare: شمارگانش هزار نسخه بود.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - شمار
 - چاپ

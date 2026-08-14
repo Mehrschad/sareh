@@ -8,7 +8,8 @@ ipa: /kɒːɾˈbæɾ/
 definition: کسی که از دستگاه یا نرم‌افزار بهره می‌برد
 english: user
 register: دانشی
-frequency_rank: 430
+frequency_rank: 15028
+zipf: 3.57
 difficulty: 2
 examples:
 - sare: کاربرِ تازه‌ای پیوست.
@@ -19,6 +20,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - بردن
 - کار

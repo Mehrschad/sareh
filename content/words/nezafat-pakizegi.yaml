@@ -1,0 +1,32 @@
+id: nezafat-pakizegi
+sare: پاکیزگی
+loan: نظافت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /pɒːkiːzeˈɡiː/
+definition: پاک و بی‌آلایش بودن
+english: cleanliness
+register: رسمی
+frequency_rank: 13039
+zipf: 3.67
+difficulty: 2
+examples:
+- sare: پاکیزگیِ خانه را نگه دار.
+  loan: نظافتِ خانه را نگه دار.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پاکیزگی»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «پاکیزه»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- پاک
+- پاکیزه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -8,7 +8,8 @@ ipa: /dæbesˈtɒːn/
 definition: آموزشگاهِ سال‌های نخستِ کودکی
 english: primary school
 register: رسمی
-frequency_rank: 830
+frequency_rank: 406
+zipf: 5.48
 difficulty: 2
 examples:
 - sare: به دبستان می‌رود.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - دبیر
 - دبیرستان

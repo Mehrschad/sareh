@@ -1,7 +1,7 @@
 id: khan-1-shir
 khan: 1
 guardian: شیر
-realm: واژه‌های هرروزه
+realm: گفت‌وگوی هرروز
 stations:
 - id: khan-1-shir-manzel-1
   title: منزلِ 1
@@ -11,14 +11,14 @@ stations:
   - جای‌گزینی
   - شنیدار
   words:
-  - sepas-tashakkor
-  - dorud-salam
-  - ari-bale
-  - zaman-vaqt
   - tanha-faqat
-  - bedrud-khodahafez
-  - besyar-ziad
-  - aknun-alan
+  - baad-pas
+  - mored-bare
+  - hala-aknun
+  - mesl-manand
+  - tamam-hame
+  - harf-sokhan
+  - qabl-pish
 - id: khan-1-shir-manzel-2
   title: منزلِ 2
   exercises:
@@ -27,14 +27,15 @@ stations:
   - نویسش
   - داستانک
   words:
+  - aslan-hich
+  - dorud-salam
   - nam-esm
-  - dorost-sahih
-  - bakhsh-qesmat
-  - aqaz-shoru
-  - payan-akhar
-  - pasokh-javab
-  - porsesh-soal
-  - vaje-kalame
+  - taht-zir
+  - besyar-ziad
+  - bazi-barkhi
+  - asan-rahat
+  - aksar-bishtar
+  - sepas-tashakkor
 - id: khan-1-shir-manzel-3
   title: منزلِ 3
   exercises:
@@ -43,14 +44,15 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
-  - asan-rahat
-  - khorak-qaza
-  - puzesh-ozrkhahi
-  - shayad-ehtemalan
-  - sepas-baadan
-  - pishtar-qablan
-  - hamishe-daeman
-  - nemune-mesal
+  - dorost-sahih
+  - aknun-alan
+  - bedrud-khodahafez
+  - ari-bale
+  - amma-lik
+  - vaqean-berasti
+  - tavassot-bedast
+  - hatman-bigoman
+  - lotfan-khaheshmandam
 - id: khan-1-shir-manzel-4
   title: منزلِ 4
   exercises:
@@ -59,14 +61,15 @@ stations:
   - گزینش
   - نویسش
   words:
-  - nadorost-qalat
-  - shomar-tedad
-  - hengam-mowqe
-  - hargez-abadan
-  - didar-molaqat
-  - rah-tariq
-  - neveshtar-matn
-  - goftogu-mokaleme
+  - hodud-nazdike
+  - sohbat-goftar
+  - hadeaqal-dastkam
+  - shayad-ehtemalan
+  - tebq-paye
+  - alave-afzun
+  - taqriban-nazdik
+  - pishtar-qablan
+  - raje-darbare
 - id: khan-1-shir-manzel-5
   title: منزلِ 5
   exercises:
@@ -75,30 +78,15 @@ stations:
   - شنیدار
   - واژه‌چین
   words:
-  - khodro-otomobil
-  - zadruz-tavallod
-  - neshani-adres
-  - parvande-file
-  - rayane-computer
-  - andak-qalil
-  - agahi-elan
-  - havapeyma-tayyare
-- id: khan-1-shir-manzel-6
-  title: منزلِ 6
-  exercises:
-  - جای‌گزینی
-  - گزینش
-  - تیر آرش
-  - بیت‌یاب
-  words:
-  - gozarname-pasport
-  - bargiri-download
-  - payamresan-messenger
-  - pushe-folder
-  - bargozari-upload
-  - peyvast-zamime
-  - yarane-subsid
-  - balgard-helikopter
+  - sepas-baadan
+  - faalan-hamaknun
+  - nadorost-qalat
+  - puzesh-ozrkhahi
+  - hamishe-daeman
+  - hargez-abadan
+  - albatte-harayene
+  - khater-bahr
+  - qatan-bichonocera
 boss:
   id: khan-1-shir-negahban
   title: نگهبانِ خان — شیر

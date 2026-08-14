@@ -8,7 +8,8 @@ ipa: /mæɾz/
 definition: خطِ جداکننده‌ی دو سرزمین
 english: border
 register: رسمی
-frequency_rank: 1050
+frequency_rank: null
+zipf: 5.29
 difficulty: 3
 examples:
 - sare: از مرز گذشتند.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: marz
   avestan: null
+  old_persian: null
 related:
 - مرزبان
 - کشور

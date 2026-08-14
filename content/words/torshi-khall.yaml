@@ -8,7 +8,8 @@ ipa: /toɾˈʃiː/
 definition: خوردنیِ خوابانده در سرکه
 english: pickle
 register: گفتاری
-frequency_rank: 2010
+frequency_rank: null
+zipf: 4.17
 difficulty: 4
 examples:
 - sare: ترشی کنارِ خوراک بگذار.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - ترش
 - سرکه

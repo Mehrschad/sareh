@@ -1,0 +1,32 @@
+id: tozih-roshangari
+sare: روشنگری
+loan: توضیح
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ɾoʃænɡæˈɾiː/
+definition: روشن‌کردنِ چیزی با سخن
+english: explanation
+register: رسمی
+frequency_rank: 1149
+zipf: 5.07
+difficulty: 2
+examples:
+- sare: روشنگری‌ات بس بود.
+  loan: توضیحت کافی بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «روشنگر»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «روشنگری»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- روشن
+- روشنگر
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

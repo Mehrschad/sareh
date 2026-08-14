@@ -8,7 +8,8 @@ ipa: /ɡænˈdʒe/
 definition: جایگاهِ چوبیِ نهادنِ جامه و ابزار
 english: cupboard
 register: گفتاری
-frequency_rank: 1710
+frequency_rank: 6303
+zipf: 4.16
 difficulty: 3
 examples:
 - sare: در گنجه گذاشتم.
@@ -19,8 +20,9 @@ citations:
 - source: فرهنگ فارسی معین
   ref: مدخل «گنجه»
 roots:
-  pahlavi: null
+  pahlavi: ganzag
   avestan: null
+  old_persian: null
 related:
 - گنج
 - گنجینه

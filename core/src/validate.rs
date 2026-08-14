@@ -18,6 +18,13 @@ pub const ACCEPTANCE: [&str; 3] = ["زنده", "خفته", "نوساخته"];
 pub const REGISTER: [&str; 4] = ["گفتاری", "رسمی", "ادبی", "دانشی"];
 pub const STATUS: [&str; 3] = ["proposed", "reviewed", "verified"];
 
+/// زیر این آستانه، وام‌واژه در گفتارِ زنده نیست.
+///
+/// آموختنِ برابرِ پارسی برای واژه‌ای که کسی نمی‌گوید، هیچ‌کس را از وام‌واژه
+/// بی‌نیاز نمی‌کند؛ تنها پیکره را بزرگ‌تر نشان می‌دهد. نخستین پیکره‌ی سره ۳۰
+/// چنین مدخلی داشت («انف» برای بینی، «جُبن» برای بزدلی) و همه کنار گذاشته شدند.
+pub const MIN_LOANWORD_ZIPF: f64 = 3.0;
+
 #[derive(Debug, Deserialize)]
 pub struct Citation {
     pub source: String,
@@ -41,6 +48,15 @@ pub struct Roots {
     pub pahlavi: Option<String>,
     #[serde(default)]
     pub avestan: Option<String>,
+    /// پارسیِ باستان — سومین زبانی که ریشه‌ها از آن گرفته می‌شوند.
+    #[serde(default)]
+    pub old_persian: Option<String>,
+}
+
+impl Roots {
+    pub fn is_empty(&self) -> bool {
+        self.pahlavi.is_none() && self.avestan.is_none() && self.old_persian.is_none()
+    }
 }
 
 #[derive(Debug, Deserialize)]
@@ -55,7 +71,11 @@ pub struct Word {
     pub definition: String,
     pub english: String,
     pub register: String,
-    pub frequency_rank: u32,
+    /// رتبه‌ی وام‌واژه در پیکره‌ی بسامدی؛ اگر بیرون از فهرست باشد، تهی.
+    #[serde(default)]
+    pub frequency_rank: Option<u32>,
+    /// بسامدِ Zipf وام‌واژه (۰ تا ۸). سنجیده می‌شود، حدس زده نمی‌شود.
+    pub zipf: f64,
     pub difficulty: u8,
     pub examples: Vec<Example>,
     pub citations: Vec<Citation>,
@@ -147,6 +167,15 @@ pub fn validate_file(path: &Path, source: &str) -> (Option<Word>, Vec<Problem>) 
     }
     if !(word.ipa.starts_with('/') && word.ipa.ends_with('/') && word.ipa.len() > 2) {
         fail(format!("ipa باید میان دو / باشد: «{}»", word.ipa));
+    }
+    if !(0.0..=8.0).contains(&word.zipf) {
+        fail(format!("zipf باید میان ۰ و ۸ باشد، نه {}", word.zipf));
+    }
+    if word.zipf < MIN_LOANWORD_ZIPF {
+        fail(format!(
+            "وام‌واژه‌ی «{}» با Zipf {:.1} در گفتار زنده نیست؛ آموختنِ برابرش کاری نمی‌کند",
+            word.loan, word.zipf
+        ));
     }
 
     // قاعده‌ی سخت: مدخل بی‌منبع رد می‌شود.
@@ -245,8 +274,24 @@ fn contains_word(sentence: &str, word: &str) -> bool {
     hay.windows(needle.len()).any(|run| {
         run.iter()
             .zip(&needle)
-            .all(|(token, want)| token.starts_with(want))
+            .all(|(token, want)| token_carries(token, want))
     })
+}
+
+/// حرف‌های اضافه‌ی چسبان که در فارسی به سرِ واژه می‌چسبند.
+///
+/// «به‌خاطرِ» همان «خاطر» است با یک پیشوند، و «درباره‌ی» همان «باره». بی این،
+/// اعتبارسنج نمونه‌های درست را رد می‌کند و نویسنده را به جمله‌ی مصنوعی وامی‌دارد.
+const PROCLITICS: [&str; 8] = ["برای", "به", "در", "از", "با", "بی", "بر", "هم"];
+
+fn token_carries(token: &str, needle: &str) -> bool {
+    if token.starts_with(needle) {
+        return true;
+    }
+    PROCLITICS
+        .iter()
+        .filter_map(|clitic| token.strip_prefix(clitic))
+        .any(|rest| !rest.is_empty() && rest.starts_with(needle))
 }
 
 fn tokenize(folded: &str) -> Vec<String> {
@@ -273,6 +318,7 @@ definition: دست ساییدن بر چیزی
 english: touch
 register: ادبی
 frequency_rank: 340
+zipf: 4.2
 difficulty: 3
 examples:
   - sare: انگشتانش را بر ساز پرماس کرد.
@@ -283,6 +329,7 @@ citations:
 roots:
   pahlavi: parmāsītan
   avestan: null
+  old_persian: null
 related: [پرماسیدن]
 audio: null
 status: proposed
@@ -331,6 +378,26 @@ contributors: [sareh-seed]
     }
 
     #[test]
+    fn a_loanword_nobody_says_is_rejected() {
+        // «انف» برای «بینی» — کسی نمی‌گویدش، پس آموختنِ برابرش کاری نمی‌کند.
+        let yaml = GOOD.replace("zipf: 4.2", "zipf: 0.0");
+        assert!(check(&yaml).iter().any(|m| m.contains("گفتار زنده")));
+    }
+
+    #[test]
+    fn zipf_outside_the_scale_is_rejected() {
+        assert!(check(&GOOD.replace("zipf: 4.2", "zipf: 12.0"))
+            .iter()
+            .any(|m| m.contains("zipf")));
+    }
+
+    #[test]
+    fn old_persian_roots_are_accepted() {
+        let yaml = GOOD.replace("  old_persian: null", "  old_persian: xšāyaθiya");
+        assert!(check(&yaml).is_empty(), "{:?}", check(&yaml));
+    }
+
+    #[test]
     fn multi_word_entries_match_as_a_token_run() {
         assert!(contains_word("دستورِ زبان را خوب می‌داند.", "دستور زبان"));
         assert!(contains_word(
@@ -341,6 +408,16 @@ contributors: [sareh-seed]
         // Right tokens, wrong order or split apart — not a match.
         assert!(!contains_word("زبانِ دستور را خوب می‌داند.", "دستور زبان"));
         assert!(!contains_word("دستورِ این زبان روشن است.", "دستور زبان"));
+    }
+
+    #[test]
+    fn clitic_bound_forms_still_count() {
+        // «به‌خاطرِ» و «درباره‌ی» صورت‌های طبیعی‌اند، نه تقلب.
+        assert!(contains_word("به‌خاطرِ تو آمدم.", "خاطر"));
+        assert!(contains_word("درباره‌ی کارت بگو.", "باره"));
+        assert!(contains_word("از بهرِ تو آمدم.", "بهر"));
+        // ولی پیشوند نباید هر چیزی را بپذیراند.
+        assert!(!contains_word("بهارِ امسال دیر آمد.", "خاطر"));
     }
 
     #[test]

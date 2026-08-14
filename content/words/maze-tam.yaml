@@ -8,7 +8,8 @@ ipa: /mæˈze/
 definition: آنچه با زبان دریافته می‌شود
 english: taste
 register: گفتاری
-frequency_rank: 660
+frequency_rank: 3938
+zipf: 4.45
 difficulty: 2
 examples:
 - sare: مزه‌اش تند است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - خوش‌مزه
 - چشایی

@@ -8,7 +8,8 @@ ipa: /neviːsænˈde/
 definition: کسی که کتاب یا نوشته پدید می‌آورد
 english: author
 register: رسمی
-frequency_rank: 690
+frequency_rank: null
+zipf: 3.7
 difficulty: 2
 examples:
 - sare: نویسنده‌ی کتاب زنده است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - نوشتار
 - نوشتن

@@ -8,7 +8,8 @@ ipa: /doˈɾost/
 definition: آنچه با راستی و قاعده می‌خواند
 english: correct
 register: گفتاری
-frequency_rank: 70
+frequency_rank: 2224
+zipf: 4.76
 difficulty: 1
 examples:
 - sare: پاسخت درست بود.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: drust
   avestan: null
+  old_persian: '*dᵘruvišta'
 related:
 - درستی
 - نادرست

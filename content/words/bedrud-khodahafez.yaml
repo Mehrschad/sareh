@@ -8,7 +8,8 @@ ipa: /bedˈɾuːd/
 definition: واژه‌ی وداع؛ درودِ هنگام جدایی
 english: farewell
 register: رسمی
-frequency_rank: 45
+frequency_rank: 6059
+zipf: 4.18
 difficulty: 1
 examples:
 - sare: بدرود تا دیدار دیگر.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: pad drōd
   avestan: null
+  old_persian: null
 related:
 - درود
 audio: null

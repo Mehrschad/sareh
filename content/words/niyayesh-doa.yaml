@@ -8,7 +8,8 @@ ipa: /niːjɒːˈjeʃ/
 definition: سخن‌گفتن با ایزد؛ خواندنِ او
 english: prayer
 register: ادبی
-frequency_rank: 1090
+frequency_rank: 1554
+zipf: 4.93
 difficulty: 3
 examples:
 - sare: به نیایش ایستاد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: niyāyišn
   avestan: null
+  old_persian: null
 related:
 - ستایش
 - نیایشگاه

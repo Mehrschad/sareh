@@ -8,7 +8,8 @@ ipa: /sæɾbolænˈdiː/
 definition: بالیدن به کارِ نیکِ خویش
 english: pride
 register: رسمی
-frequency_rank: 1130
+frequency_rank: 1048
+zipf: 5.11
 difficulty: 3
 examples:
 - sare: مایه‌ی سربلندی‌مان است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - بالیدن
 - سربلند

@@ -8,7 +8,8 @@ ipa: /setɒːˈjeʃ/
 definition: به نیکی یاد کردن از کسی
 english: praise
 register: ادبی
-frequency_rank: 940
+frequency_rank: 5746
+zipf: 4.21
 difficulty: 3
 examples:
 - sare: ستایشش کردند.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: stāyišn
   avestan: null
+  old_persian: null
 related:
 - ستودن
 - ستوده

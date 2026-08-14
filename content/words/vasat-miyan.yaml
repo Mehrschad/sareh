@@ -1,0 +1,32 @@
+id: vasat-miyan
+sare: میان
+loan: وسط
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /miːˈjɒːn/
+definition: بخشِ میانیِ چیزی
+english: middle
+register: گفتاری
+frequency_rank: 1165
+zipf: 5.07
+difficulty: 1
+examples:
+- sare: میانِ راه ایستاد.
+  loan: وسطِ راه ایستاد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «میان»
+- source: فرهنگ فارسی معین
+  ref: مدخل «میان»
+roots:
+  pahlavi: miyān
+  avestan: null
+  old_persian: null
+related:
+- میانجی
+- میانه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

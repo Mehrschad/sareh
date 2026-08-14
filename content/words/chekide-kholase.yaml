@@ -8,7 +8,8 @@ ipa: /tʃekiːˈde/
 definition: فشرده‌ی یک نوشته یا سخن
 english: abstract
 register: دانشی
-frequency_rank: 810
+frequency_rank: 1028
+zipf: 5.12
 difficulty: 3
 examples:
 - sare: چکیده‌ی جستار را بخوان.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - فشرده
 - چکیدن

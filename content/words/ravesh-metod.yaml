@@ -8,7 +8,8 @@ ipa: /ræˈveʃ/
 definition: راهِ سامان‌یافته‌ی انجامِ کار
 english: method
 register: دانشی
-frequency_rank: 420
+frequency_rank: 12302
+zipf: 3.71
 difficulty: 2
 examples:
 - sare: روشِ تازه‌ای یافت.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: rawišn
   avestan: null
+  old_persian: null
 related:
 - رفتن
 - روند

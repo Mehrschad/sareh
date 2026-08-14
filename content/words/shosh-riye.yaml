@@ -8,7 +8,8 @@ ipa: /ʃoʃ/
 definition: اندامِ دم‌گرفتن در سینه
 english: lung
 register: دانشی
-frequency_rank: 1350
+frequency_rank: 5241
+zipf: 4.27
 difficulty: 3
 examples:
 - sare: شش‌هایش پر از دود بود.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: suš
   avestan: null
+  old_persian: null
 related:
 - دم
 - سینه

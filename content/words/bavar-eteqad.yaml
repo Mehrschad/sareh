@@ -8,7 +8,8 @@ ipa: /bɒːˈvæɾ/
 definition: آنچه کسی آن را راست می‌داند
 english: belief
 register: رسمی
-frequency_rank: 480
+frequency_rank: 1606
+zipf: 4.91
 difficulty: 2
 examples:
 - sare: باورش این است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: wāwar
   avestan: null
+  old_persian: null
 related:
 - باوردار
 - ناباور

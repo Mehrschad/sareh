@@ -8,7 +8,8 @@ ipa: /dʒodɒːˈjiː/
 definition: گسستنِ پیوندِ دو تن
 english: separation
 register: رسمی
-frequency_rank: 1300
+frequency_rank: 2402
+zipf: 4.72
 difficulty: 3
 examples:
 - sare: جداییِ آنان دشوار بود.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - جدا
 - گسست

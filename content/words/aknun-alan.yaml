@@ -8,7 +8,8 @@ ipa: /ʔækˈnuːn/
 definition: در همین زمان؛ هم‌اینک
 english: now
 register: رسمی
-frequency_rank: 60
+frequency_rank: 3284
+zipf: 4.55
 difficulty: 1
 examples:
 - sare: اکنون آماده‌ام.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: ēdōn
   avestan: null
+  old_persian: null
 related:
 - هم‌اکنون
 - کنون

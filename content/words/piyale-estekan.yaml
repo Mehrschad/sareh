@@ -8,7 +8,8 @@ ipa: /piːjɒːˈle/
 definition: جامِ کوچکِ نوشیدن
 english: small cup
 register: ادبی
-frequency_rank: 1830
+frequency_rank: 21923
+zipf: 3.28
 difficulty: 4
 examples:
 - sare: پیاله‌ای چای بیاور.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: payālag
   avestan: null
+  old_persian: null
 related:
 - جام
 - ساغر

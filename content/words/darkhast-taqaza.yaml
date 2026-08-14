@@ -8,7 +8,8 @@ ipa: /dæɾxɒːˈst/
 definition: خواستنِ چیزی از کسی به‌ روشنی
 english: request
 register: رسمی
-frequency_rank: 460
+frequency_rank: 4666
+zipf: 4.34
 difficulty: 2
 examples:
 - sare: درخواستت را فرستادم.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - خواستن
 - خواهش

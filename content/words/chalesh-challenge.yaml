@@ -8,7 +8,8 @@ ipa: /tʃɒːˈleʃ/
 definition: دشواری‌ای که آزمونِ توان است
 english: challenge
 register: رسمی
-frequency_rank: 900
+frequency_rank: 30899
+zipf: 3.02
 difficulty: 3
 examples:
 - sare: چالشِ تازه‌ای پیشِ رو داریم.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - چالشگر
 - چالیدن

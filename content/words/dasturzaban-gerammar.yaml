@@ -8,7 +8,8 @@ ipa: /dæsˈtuːɾe zæˈbɒːn/
 definition: قاعده‌های ساختِ درستِ جمله
 english: grammar
 register: دانشی
-frequency_rank: 1180
+frequency_rank: 10703
+zipf: 3.81
 difficulty: 3
 examples:
 - sare: دستورِ زبان را خوب می‌داند.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - دستور
 - زبان

@@ -8,7 +8,8 @@ ipa: /seˈpɒːh/
 definition: گروهِ رزمندگانِ سازمان‌یافته
 english: army
 register: ادبی
-frequency_rank: 1330
+frequency_rank: 23295
+zipf: 3.24
 difficulty: 3
 examples:
 - sare: سپاه به راه افتاد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: spāh
   avestan: null
+  old_persian: null
 related:
 - سپاهی
 - سپهسالار

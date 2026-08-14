@@ -8,7 +8,8 @@ ipa: /ʔenɡɒːˈɾe/
 definition: گمانی که برای آزمودن پیش می‌نهند
 english: hypothesis
 register: دانشی
-frequency_rank: 1290
+frequency_rank: 7553
+zipf: 4.04
 difficulty: 4
 examples:
 - sare: انگاره‌ات را بیازما.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - انگاشتن
 - پنداشت

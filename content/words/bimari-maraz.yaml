@@ -8,7 +8,8 @@ ipa: /biːmɒːˈɾiː/
 definition: به‌هم‌خوردنِ کارِ تن یا روان
 english: illness
 register: رسمی
-frequency_rank: 250
+frequency_rank: 9630
+zipf: 3.88
 difficulty: 2
 examples:
 - sare: بیماری‌اش دراز کشید.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: wēmār
   avestan: null
+  old_persian: null
 related:
 - بیمار
 - بیمارستان

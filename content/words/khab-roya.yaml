@@ -8,7 +8,8 @@ ipa: /xɒːb/
 definition: آنچه در هنگام خفتن دیده می‌شود
 english: dream
 register: ادبی
-frequency_rank: 600
+frequency_rank: 22590
+zipf: 3.26
 difficulty: 2
 examples:
 - sare: خوابی شگفت دیدم.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: xwāb
   avestan: null
+  old_persian: null
 related:
 - خفتن
 - خواب‌گزار

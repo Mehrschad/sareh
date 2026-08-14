@@ -13,6 +13,7 @@ Word word(
   String id, {
   String? sare,
   String? loan,
+  double zipf = 5.0,
   int difficulty = 2,
   List<WordExample> examples = const [],
 }) =>
@@ -28,6 +29,7 @@ Word word(
       english: 'gloss',
       register: 'رسمی',
       frequencyRank: 100,
+      zipf: zipf,
       difficulty: difficulty,
       examples: examples,
       citations: const [Citation(source: 'لغت‌نامه دهخدا', ref: 'مدخل')],

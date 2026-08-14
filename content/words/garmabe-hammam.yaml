@@ -8,7 +8,8 @@ ipa: /ɡæɾmɒːˈbe/
 definition: جای شستشوی تن با آب گرم
 english: bathhouse
 register: ادبی
-frequency_rank: 1250
+frequency_rank: null
+zipf: 4.63
 difficulty: 3
 examples:
 - sare: به گرمابه رفت.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: garmābag
   avestan: null
+  old_persian: null
 related:
 - آب
 - گرم

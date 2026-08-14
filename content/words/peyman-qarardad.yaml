@@ -8,7 +8,8 @@ ipa: /pejˈmɒːn/
 definition: بستنِ عهد میان دو سو
 english: pact
 register: ادبی
-frequency_rank: 440
+frequency_rank: 1590
+zipf: 4.92
 difficulty: 2
 examples:
 - sare: پیمان بستند.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: paymān
   avestan: null
+  old_persian: null
 related:
 - هم‌پیمان
 - پیمان‌شکن

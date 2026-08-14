@@ -1,0 +1,32 @@
+id: afrad-kasan
+sare: کسان
+loan: افراد
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /kæˈsɒːn/
+definition: چند تن از مردمان
+english: people
+register: رسمی
+frequency_rank: 210
+zipf: 5.7
+difficulty: 2
+examples:
+- sare: کسانِ بسیاری آمدند.
+  loan: افرادِ زیادی آمدند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «کسان»
+- source: شاهنامه فردوسی
+  book: پادشاهی نوشین‌روان
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- مردمان
+- کس
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

@@ -8,7 +8,8 @@ ipa: /mehɾæbɒːˈniː/
 definition: نیک‌رفتاریِ برخاسته از مهر
 english: kindness
 register: گفتاری
-frequency_rank: 640
+frequency_rank: 1523
+zipf: 4.94
 difficulty: 2
 examples:
 - sare: مهربانی‌ات را فراموش نمی‌کنم.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - مهر
 - مهربان

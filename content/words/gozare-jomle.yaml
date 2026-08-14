@@ -8,7 +8,8 @@ ipa: /ɡozɒːˈɾe/
 definition: سخنی که می‌توان آن را راست یا دروغ دانست
 english: proposition
 register: دانشی
-frequency_rank: 1470
+frequency_rank: 297
+zipf: 5.58
 difficulty: 4
 examples:
 - sare: این گزاره نادرست است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - گزاردن
 - گزارش

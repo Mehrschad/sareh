@@ -8,7 +8,8 @@ ipa: /pæɾvɒːˈne/
 definition: برگه‌ی رسمیِ اجازه‌ی کاری
 english: permit
 register: رسمی
-frequency_rank: 1010
+frequency_rank: null
+zipf: 4.75
 difficulty: 3
 examples:
 - sare: پروانه‌ی کار گرفت.
@@ -19,8 +20,9 @@ citations:
 - source: فرهنگ بزرگ سخن
   ref: مدخل «پروانه»
 roots:
-  pahlavi: null
+  pahlavi: parwānag
   avestan: null
+  old_persian: null
 related:
 - اجازه‌نامه
 - پروا

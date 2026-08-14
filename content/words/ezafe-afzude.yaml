@@ -1,0 +1,32 @@
+id: ezafe-afzude
+sare: افزوده
+loan: اضافه
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /ʔæfzuːˈde/
+definition: آنچه بر چیزی افزوده شده
+english: added
+register: رسمی
+frequency_rank: 709
+zipf: 5.27
+difficulty: 2
+examples:
+- sare: بهای افزوده را بپرداز.
+  loan: قیمتِ اضافه را پرداخت کن.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «افزوده»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «افزوده»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- افزودن
+- افزون
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

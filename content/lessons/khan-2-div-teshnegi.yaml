@@ -1,7 +1,7 @@
 id: khan-2-div-teshnegi
 khan: 2
 guardian: دیو تشنگی
-realm: تن و جان
+realm: تن، تندرستی و احساس
 stations:
 - id: khan-2-div-teshnegi-manzel-1
   title: منزلِ 1
@@ -11,14 +11,15 @@ stations:
   - جای‌گزینی
   - شنیدار
   words:
-  - bimari-maraz
-  - darman-moaleje
-  - tandorosti-salamati
-  - pezeshk-tabib
+  - sari-tond
+  - mariz-bimar
+  - lahze-dam
+  - sorat-tondi
   - del-qalb
-  - nirou-qovvat
-  - dard-alam
-  - khashm-qazab
+  - omr-zendegani
+  - khatar-gazand
+  - ajib-shegeft
+  - narahat-delgir
 - id: khan-2-div-teshnegi-manzel-2
   title: منزلِ 2
   exercises:
@@ -27,14 +28,15 @@ stations:
   - نویسش
   - داستانک
   words:
-  - aramesh-sokun
-  - hush-zekavat
+  - khoshhal-shadman
+  - lanat-nefrin
+  - adat-khuy
+  - ahmaq-nadan
   - asayesh-rahati
-  - zakhm-jerahat
-  - behbud-shafa
-  - khab-roya
+  - zaeef-natavan
+  - tandorosti-salamati
+  - asabani-khashmgin
   - maze-tam
-  - bu-rayehe
 - id: khan-2-div-teshnegi-manzel-3
   title: منزلِ 3
   exercises:
@@ -43,15 +45,16 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
-  - khastegi-taab
-  - parmas-lams
-  - shakib-sabr
-  - ravan-ruh
-  - shakibaei-sabuori
-  - dam-nafas
-  - teshnegi-atash
-  - gorosnegi-ju
-  - abestan-hamele
+  - behbud-shafa
+  - nirou-qovvat
+  - darman-moaleje
+  - bimari-maraz
+  - pezeshk-tabib
+  - zakhm-jerahat
+  - khashm-qazab
+  - bu-rayehe
+  - aramesh-sokun
+  - dard-alam
 - id: khan-2-div-teshnegi-manzel-4
   title: منزلِ 4
   exercises:
@@ -60,15 +63,16 @@ stations:
   - گزینش
   - نویسش
   words:
-  - zayman-veladat
-  - galu-halq
-  - pust-bashare
-  - ravanshenasi-psychology
-  - maqz-demaq
-  - binaei-basere
-  - shenavaei-samee
-  - shosh-riye
+  - khab-roya
+  - hush-zekavat
+  - dam-nafas
+  - ravan-ruh
+  - shakib-sabr
+  - parmas-lams
+  - abestan-hamele
   - jegar-kabed
+  - shosh-riye
+  - maqz-demaq
 - id: khan-2-div-teshnegi-manzel-5
   title: منزلِ 5
   exercises:
@@ -77,15 +81,16 @@ stations:
   - شنیدار
   - واژه‌چین
   words:
-  - ostokhan-azm
   - mahiche-azole
-  - sorfe-soal
+  - zayman-veladat
+  - galu-halq
+  - teshnegi-atash
+  - shakibaei-sabuori
+  - zehdan-rahem
   - amas-varam
-  - basavesh-lamese
   - chashaei-zaeqe
   - buyaei-shamme
-  - bini-anf
-  - zehdan-rahem
+  - basavesh-lamese
 boss:
   id: khan-2-div-teshnegi-negahban
   title: نگهبانِ خان — دیو تشنگی

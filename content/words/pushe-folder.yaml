@@ -8,7 +8,8 @@ ipa: /puːˈʃe/
 definition: جایگاهی که پرونده‌ها را در خود می‌گیرد
 english: folder
 register: دانشی
-frequency_rank: 760
+frequency_rank: 26744
+zipf: 3.13
 difficulty: 2
 examples:
 - sare: پوشه‌ی نو بساز.
@@ -19,6 +20,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - پرونده
 - پوشاندن

@@ -8,7 +8,8 @@ ipa: /kɒːɾˈɒːmæd/
 definition: آنچه کار را به بار می‌نشاند
 english: effective
 register: رسمی
-frequency_rank: 950
+frequency_rank: 3861
+zipf: 4.46
 difficulty: 3
 examples:
 - sare: روشی کارآمد یافت.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - آمدن
 - بهره‌وری

@@ -8,7 +8,8 @@ ipa: /seˈpɒːs/
 definition: ابراز قدردانی؛ آنچه در برابر نیکی گفته می‌شود
 english: thanks
 register: گفتاری
-frequency_rank: 12
+frequency_rank: 1316
+zipf: 5.01
 difficulty: 1
 examples:
 - sare: سپاس که آمدی.
@@ -23,6 +24,7 @@ citations:
 roots:
   pahlavi: spās
   avestan: null
+  old_persian: null
 related:
 - سپاسمند
 - سپاسگزار

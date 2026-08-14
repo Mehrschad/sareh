@@ -8,7 +8,8 @@ ipa: /bæˈdiː/
 definition: کارِ زشت و زیان‌بار
 english: evil
 register: ادبی
-frequency_rank: 1220
+frequency_rank: null
+zipf: 4.61
 difficulty: 3
 examples:
 - sare: بدی را با نیکی پاسخ داد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - بد
 - نیکی

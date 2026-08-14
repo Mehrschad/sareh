@@ -8,7 +8,8 @@ ipa: /pɒːdeʃɒːh/
 definition: فرمانروای بزرگ
 english: king
 register: ادبی
-frequency_rank: 850
+frequency_rank: 2184
+zipf: 4.77
 difficulty: 2
 examples:
 - sare: پادشاهِ ایران‌زمین.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: pādixšāy
   avestan: null
+  old_persian: null
 related:
 - شاه
 - شهریار

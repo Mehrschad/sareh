@@ -1,0 +1,32 @@
+id: mariz-bimar
+sare: بیمار
+loan: مریض
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /biːˈmɒːɾ/
+definition: کسی که تندرست نیست
+english: ill
+register: گفتاری
+frequency_rank: 5792
+zipf: 4.21
+difficulty: 1
+examples:
+- sare: بیمار است و در بستر.
+  loan: مریض است و در رختخواب.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بیمار»
+- source: فرهنگ فارسی معین
+  ref: مدخل «بیمار»
+roots:
+  pahlavi: wēmār
+  avestan: null
+  old_persian: null
+related:
+- بیماری
+- تندرست
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

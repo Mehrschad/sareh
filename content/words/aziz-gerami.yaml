@@ -1,0 +1,32 @@
+id: aziz-gerami
+sare: گرامی
+loan: عزیز
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /ɡeɾɒːˈmiː/
+definition: ارجمند؛ دوست‌داشتنی
+english: dear
+register: رسمی
+frequency_rank: 1372
+zipf: 4.99
+difficulty: 1
+examples:
+- sare: دوستِ گرامی‌ام.
+  loan: دوستِ عزیزم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «گرامی»
+- source: شاهنامه فردوسی
+  book: داستان سیاوش
+roots:
+  pahlavi: grāmīg
+  avestan: null
+  old_persian: null
+related:
+- ارجمند
+- گرامی‌داشت
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

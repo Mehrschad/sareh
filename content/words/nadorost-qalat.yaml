@@ -8,7 +8,8 @@ ipa: /nɒːdoˈɾost/
 definition: آنچه با راستی و قاعده نمی‌خواند
 english: incorrect
 register: گفتاری
-frequency_rank: 175
+frequency_rank: 2702
+zipf: 4.66
 difficulty: 2
 examples:
 - sare: این نوشته نادرست است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - درست
 - کژ

@@ -8,7 +8,8 @@ ipa: /ziːstʃenɒːˈsiː/
 definition: دانشِ زندگان
 english: biology
 register: دانشی
-frequency_rank: 1640
+frequency_rank: 23167
+zipf: 3.24
 difficulty: 4
 examples:
 - sare: زیست‌شناسی می‌خواند.
@@ -19,6 +20,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - زیست
 - شناختن

@@ -8,7 +8,8 @@ ipa: /neɡɒːɾɡæˈɾiː/
 definition: هنرِ نگاشتنِ نگاره‌های ریزِ ایرانی
 english: Persian miniature
 register: ادبی
-frequency_rank: 2200
+frequency_rank: 18412
+zipf: 3.42
 difficulty: 5
 examples:
 - sare: نگارگریِ ایرانی جهانی است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - نگار
 - نگاشتن

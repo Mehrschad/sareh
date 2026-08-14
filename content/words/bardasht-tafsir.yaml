@@ -8,7 +8,8 @@ ipa: /bæɾˈdɒːʃt/
 definition: آنچه کسی از سخنی می‌فهمد
 english: interpretation
 register: رسمی
-frequency_rank: 790
+frequency_rank: 2337
+zipf: 4.73
 difficulty: 3
 examples:
 - sare: برداشتِ من چیز دیگری بود.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - برداشتن
 - دریافت

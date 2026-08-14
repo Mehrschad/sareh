@@ -1,0 +1,32 @@
+id: qofl-band
+sare: بند
+loan: قفل
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bænd/
+definition: آنچه در را بسته نگه می‌دارد
+english: lock
+register: گفتاری
+frequency_rank: 2567
+zipf: 4.69
+difficulty: 2
+examples:
+- sare: بندِ در را باز کن.
+  loan: قفلِ در را باز کن.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بند»
+- source: فرهنگ فارسی معین
+  ref: مدخل «بند»
+roots:
+  pahlavi: band
+  avestan: banda-
+  old_persian: '*bandah'
+related:
+- بستن
+- بندگاه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

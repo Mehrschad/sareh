@@ -8,7 +8,8 @@ ipa: /ʔændʒoˈmæn/
 definition: گردهماییِ سازمان‌یافته‌ی مردمان
 english: association
 register: رسمی
-frequency_rank: 750
+frequency_rank: 2018
+zipf: 4.81
 difficulty: 2
 examples:
 - sare: انجمنِ نویسندگان نشست دارد.
@@ -20,7 +21,8 @@ citations:
   book: پادشاهی کیخسرو
 roots:
   pahlavi: hanjaman
-  avestan: null
+  avestan: haṇjamana
+  old_persian: null
 related:
 - انجمنی
 - هموند

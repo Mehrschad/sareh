@@ -8,7 +8,8 @@ ipa: /ʃæɾm/
 definition: آزرم؛ کشیدگیِ دل از کارِ ناشایست
 english: shame/modesty
 register: ادبی
-frequency_rank: 980
+frequency_rank: 11220
+zipf: 3.77
 difficulty: 3
 examples:
 - sare: شرمش آمد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: šarm
   avestan: null
+  old_persian: null
 related:
 - آزرم
 - شرمگین

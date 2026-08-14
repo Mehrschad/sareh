@@ -8,7 +8,8 @@ ipa: /peˈzeʃk/
 definition: کسی که بیماران را درمان می‌کند
 english: physician
 register: رسمی
-frequency_rank: 310
+frequency_rank: 12478
+zipf: 3.7
 difficulty: 2
 examples:
 - sare: پزشک را دیدی؟
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: bizešk
   avestan: null
+  old_persian: null
 related:
 - دامپزشک
 - پزشکی

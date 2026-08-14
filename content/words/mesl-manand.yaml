@@ -1,0 +1,32 @@
+id: mesl-manand
+sare: مانند
+loan: مثل
+loan_origin: عربی
+pos: حرف اضافه
+acceptance: زنده
+ipa: /mɒːˈnænd/
+definition: همچون؛ به‌سانِ
+english: like
+register: گفتاری
+frequency_rank: 109
+zipf: 5.94
+difficulty: 1
+examples:
+- sare: مانندِ تو کسی نیست.
+  loan: مثلِ تو کسی نیست.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «مانند»
+- source: فرهنگ فارسی معین
+  ref: مدخل «مانند»
+roots:
+  pahlavi: mānāg
+  avestan: null
+  old_persian: null
+related:
+- همانند
+- همچون
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

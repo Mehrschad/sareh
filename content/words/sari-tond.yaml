@@ -1,0 +1,32 @@
+id: sari-tond
+sare: تند
+loan: سریع
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /tond/
+definition: شتابان؛ با شتاب
+english: fast
+register: گفتاری
+frequency_rank: 1300
+zipf: 5.02
+difficulty: 1
+examples:
+- sare: تند برو تا نرسیده‌اند.
+  loan: سریع برو تا نرسیده‌اند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «تند»
+- source: فرهنگ فارسی معین
+  ref: مدخل «تند»
+roots:
+  pahlavi: tund
+  avestan: null
+  old_persian: null
+related:
+- تندی
+- شتاب
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

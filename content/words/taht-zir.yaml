@@ -1,0 +1,32 @@
+id: taht-zir
+sare: زیرِ
+loan: تحتِ
+loan_origin: عربی
+pos: حرف اضافه
+acceptance: زنده
+ipa: /ziːɾe/
+definition: در پایینِ؛ در فرمانِ
+english: under
+register: گفتاری
+frequency_rank: 377
+zipf: 5.5
+difficulty: 1
+examples:
+- sare: زیرِ نگاهش بودم.
+  loan: تحتِ نظرش بودم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «زیر»
+- source: فرهنگ فارسی معین
+  ref: مدخل «زیر»
+roots:
+  pahlavi: azēr
+  avestan: null
+  old_persian: null
+related:
+- زیرین
+- فرود
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

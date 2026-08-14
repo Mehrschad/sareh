@@ -8,7 +8,8 @@ ipa: /mɒːhiːˈtʃe/
 definition: بافتِ کشنده‌ی تن که جنبش می‌آورد
 english: muscle
 register: دانشی
-frequency_rank: 1470
+frequency_rank: 6998
+zipf: 4.09
 difficulty: 3
 examples:
 - sare: ماهیچه‌اش گرفت.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - تن
 - ماهیچه‌ای

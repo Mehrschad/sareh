@@ -8,7 +8,8 @@ ipa: /ɡuːˈne/
 definition: دسته‌ای از چیزهای هم‌مانند
 english: kind/species
 register: دانشی
-frequency_rank: 380
+frequency_rank: 316
+zipf: 5.56
 difficulty: 2
 examples:
 - sare: این گونه از پرندگان کمیاب است.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: gōnag
   avestan: null
+  old_persian: null
 related:
 - رده
 - گوناگون

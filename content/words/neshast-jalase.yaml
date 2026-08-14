@@ -8,7 +8,8 @@ ipa: /neˈʃæst/
 definition: گردهماییِ چند تن برای گفت‌وگو
 english: session
 register: رسمی
-frequency_rank: 610
+frequency_rank: 914
+zipf: 5.17
 difficulty: 2
 examples:
 - sare: نشستِ فردا لغو شد.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: null
   avestan: null
+  old_persian: null
 related:
 - نشستن
 - گردهمایی

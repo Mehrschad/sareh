@@ -1,0 +1,32 @@
+id: shakhs-kas
+sare: کس
+loan: شخص
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /kæs/
+definition: یک تن از مردمان
+english: person
+register: گفتاری
+frequency_rank: 1079
+zipf: 5.1
+difficulty: 1
+examples:
+- sare: کسی پشتِ در است.
+  loan: شخصی پشتِ در است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «کس»
+- source: فرهنگ فارسی معین
+  ref: مدخل «کس»
+roots:
+  pahlavi: kas
+  avestan: null
+  old_persian: null
+related:
+- هیچ‌کس
+- کسان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed

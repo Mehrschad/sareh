@@ -2,42 +2,49 @@ khans:
 - khan: 1
   id: khan-1-shir
   guardian: شیر
-  realm: واژه‌های هرروزه
-  stations: 6
-  words: 48
+  realm: گفت‌وگوی هرروز
+  stations: 5
+  words: 44
+  median_zipf: 5.38
 - khan: 2
   id: khan-2-div-teshnegi
   guardian: دیو تشنگی
-  realm: تن و جان
+  realm: تن، تندرستی و احساس
   stations: 5
-  words: 43
+  words: 48
+  median_zipf: 4.31
 - khan: 3
   id: khan-3-ezhdeha
   guardian: اژدها
-  realm: خانه و خوراک
+  realm: خانه، خوراک و خرید
   stations: 5
-  words: 40
+  words: 41
+  median_zipf: 4.45
 - khan: 4
   id: khan-4-jadu
   guardian: جادو
-  realm: کار و پیشه
-  stations: 6
-  words: 48
+  realm: کار، پیشه و پول
+  stations: 7
+  words: 62
+  median_zipf: 4.77
 - khan: 5
   id: khan-5-owlad
   guardian: اولاد
-  realm: اندیشه و دانش
-  stations: 6
-  words: 48
+  realm: اندیشه، دانش و سخن
+  stations: 8
+  words: 69
+  median_zipf: 4.85
 - khan: 6
   id: khan-6-arzhang
   guardian: ارژنگ
-  realm: مهر و اندوه
-  stations: 5
-  words: 41
+  realm: مردم، مهر و رفتار
+  stations: 6
+  words: 50
+  median_zipf: 4.58
 - khan: 7
   id: khan-7-div-sepid
   guardian: دیو سپید
-  realm: مینو و فرهنگ
+  realm: جهان، جا، زمان و اندازه
   stations: 5
-  words: 42
+  words: 48
+  median_zipf: 4.93

@@ -8,7 +8,8 @@ ipa: /biːm/
 definition: ترسِ آمیخته به نگرانی از آینده
 english: dread
 register: ادبی
-frequency_rank: 1150
+frequency_rank: 2480
+zipf: 4.71
 difficulty: 3
 examples:
 - sare: بیمِ آن دارم که نیاید.
@@ -21,6 +22,7 @@ citations:
 roots:
   pahlavi: bīm
   avestan: null
+  old_persian: null
 related:
 - بیمناک
 - ترس
