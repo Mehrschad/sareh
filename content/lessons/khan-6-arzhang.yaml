@@ -19,6 +19,7 @@ stations:
   - afrad-kasan
   - ensan-adami
   - hamle-yuresh
+  - ejtemaee-goruhi
 - id: khan-6-arzhang-manzel-2
   title: منزلِ 2
   exercises:
@@ -27,11 +28,12 @@ stations:
   - نویسش
   - داستانک
   words:
-  - ejtemaee-goruhi
   - omumi-hamegani
   - rabete-bastegi
+  - kharejii-bigane
   - aqa-sarvar
   - fard-tak
+  - qatl-koshtan
   - delbastegi-alaqe
   - ehteram-arj
   - davat-farakhan
@@ -78,14 +80,15 @@ stations:
   - واژه‌چین
   words:
   - tars-khof
+  - tavajjoh-parva
+  - nesbat-khishavandi
   - peyvand-ezdevaj
   - ahl-khandan
+  - defa-padafand
   - mobareze-peykar
   - sarbolandi-eftekhar
   - bordbari-tahammol
   - khordegiri-enteqad
-  - jodaei-talaq
-  - bim-vahshat
 - id: khan-6-arzhang-manzel-6
   title: منزلِ 6
   exercises:
@@ -94,6 +97,8 @@ stations:
   - تیر آرش
   - بیت‌یاب
   words:
+  - jodaei-talaq
+  - bim-vahshat
   - khorsandi-rezayat
   - badi-sharr
   - delavari-shojaat
@@ -102,11 +107,11 @@ stations:
   - delhore-eztarab
   - setayesh-tahsin
   - delsuzi-tarahhom
-  - setiz-nezaa
 - id: khan-6-arzhang-manzel-7
   title: منزلِ 7
   exercises: *id001
   words:
+  - setiz-nezaa
   - sharm-haya
   - forutani-tavazo
   - sug-aza

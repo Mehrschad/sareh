@@ -1,0 +1,32 @@
+id: etefaq-ruydad
+sare: رویداد
+loan: اتفاق
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ɾuːjˈdɒːd/
+definition: آنچه رخ می‌دهد
+english: event
+register: رسمی
+frequency_rank: 565
+difficulty: 2
+examples:
+- sare: رویدادِ دیشب را شنیدی؟
+  loan: اتفاقِ دیشب را شنیدی؟
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/اتفاق
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=اتفاق
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- رخ‌دادن
+- پیشامد
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.36

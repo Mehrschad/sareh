@@ -1,0 +1,32 @@
+id: estekhdam-bekargiri
+sare: به‌کارگیری
+loan: استخدام
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /bekɒːɾɡiːˈɾiː/
+definition: گرفتنِ کسی برای کار
+english: employment
+register: رسمی
+frequency_rank: 627
+difficulty: 3
+examples:
+- sare: به‌کارگیریِ کارکنانِ تازه.
+  loan: استخدامِ کارمندانِ جدید.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/استخدام
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=استخدام
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- کار
+- گرفتن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.31

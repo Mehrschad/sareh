@@ -12,6 +12,7 @@ stations:
   - شنیدار
   words:
   - beyn-miyane
+  - surat-chehre
   - zaman-vaqt
   - taraf-su
   - aqaz-shoru
@@ -30,6 +31,7 @@ stations:
   - bamdad-sobh
   - markaz-kanun
   - tul-daraza
+  - jahat-rasta
   - shekl-rikht
   - halat-cheguni
   - rah-tariq
@@ -45,12 +47,13 @@ stations:
   words:
   - jaryan-ravand
   - safhe-barge
+  - masir-gozargah
+  - tamas-barkhord
   - fasele-duri
   - mostaqim-serrast
   - atraf-piramun
   - zadruz-tavallod
   - asha-haqiqat
-  - arz-pahna
 - id: khan-7-div-sepid-manzel-4
   title: منزلِ 4
   exercises:
@@ -59,6 +62,7 @@ stations:
   - گزینش
   - نویسش
   words:
+  - arz-pahna
   - jahan-alam
   - jashn-eyd
   - didar-molaqat

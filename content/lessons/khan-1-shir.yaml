@@ -5,7 +5,7 @@ realm: گفت‌وگوی هرروز
 stations:
 - id: khan-1-shir-manzel-1
   title: منزلِ 1
-  exercises:
+  exercises: &id001
   - گزینش
   - جفت‌ساز
   - جای‌گزینی
@@ -66,12 +66,11 @@ stations:
   - bedrud-khodahafez
   - ari-bale
   - amma-lik
+  - hal-konun
   - vaqean-berasti
   - tavassot-bedast
   - cheqadr-cheandaze
   - qeyr-joz
-  - hatman-bigoman
-  - lotfan-khaheshmandam
 - id: khan-1-shir-manzel-5
   title: منزلِ 5
   exercises:
@@ -80,16 +79,15 @@ stations:
   - شنیدار
   - واژه‌چین
   words:
+  - hatman-bigoman
+  - jam-ruyeham
+  - lotfan-khaheshmandam
   - hodud-nazdike
   - sohbat-goftar
+  - kolli-faragir
   - hadeaqal-dastkam
+  - badi-pasin
   - shayad-ehtemalan
-  - tebq-paye
-  - alave-afzun
-  - taqriban-nazdik
-  - pishtar-qablan
-  - raje-darbare
-  - sepas-baadan
 - id: khan-1-shir-manzel-6
   title: منزلِ 6
   exercises:
@@ -98,14 +96,26 @@ stations:
   - تیر آرش
   - بیت‌یاب
   words:
+  - montazer-cheshmberah
+  - tebq-paye
+  - alave-afzun
+  - taqriban-nazdik
+  - pishtar-qablan
+  - raje-darbare
+  - sepas-baadan
   - faalan-hamaknun
   - nadorost-qalat
+- id: khan-1-shir-manzel-7
+  title: منزلِ 7
+  exercises: *id001
+  words:
   - puzesh-ozrkhahi
   - hamishe-daeman
   - hargez-abadan
   - albatte-harayene
   - khater-bahr
   - akharin-vapasin
+  - shamel-darbargirande
   - tour-san
   - qatan-bichonocera
 boss:

@@ -15,11 +15,13 @@ stations:
   - talash-kushesh
   - estefade-karbord
   - didgah-nazar
+  - baes-maye
+  - edame-donbale
   - entekhab-gozinesh2
+  - ijad-barpaei
   - moshkel-doshvari
   - dastmozd-hoquq
   - sarparast-raees
-  - samane-system
 - id: khan-4-jadu-manzel-2
   title: منزلِ 2
   exercises: &id002
@@ -28,16 +30,17 @@ stations:
   - نویسش
   - داستانک
   words:
+  - samane-system
   - sath-ruye
   - kontrol-mahar
+  - amal-konesh
   - bonyad-asas
+  - marbut-vabaste
   - paziresh-qabul
   - hemayat-poshtibani
   - bargiri-download
   - hesab-shomaresh
   - dastgah-machine
-  - movaffaq-piruz
-  - avaz-jaygozin
 - id: khan-4-jadu-manzel-3
   title: منزلِ 3
   exercises:
@@ -46,16 +49,17 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
+  - movaffaq-piruz
+  - avaz-jaygozin
   - tosee-gostaresh
+  - etefaq-ruydad
+  - erae-pishkash
   - model-olgu
   - marhale-gam
+  - saee-poshtkar
   - ezafe-afzude
   - ejra-anjam
   - faravarde-mahsul
-  - neshast-jalase
-  - dastavard-movaffaqiat
-  - pishine-sabeqe
-  - peyman-qarardad
 - id: khan-4-jadu-manzel-4
   title: منزلِ 4
   exercises:
@@ -64,6 +68,10 @@ stations:
   - گزینش
   - نویسش
   words:
+  - neshast-jalase
+  - dastavard-movaffaqiat
+  - pishine-sabeqe
+  - peyman-qarardad
   - pishe-shoql
   - parvande-file
   - anjoman-majma
@@ -71,9 +79,6 @@ stations:
   - neshani-adres
   - servat-daraei
   - rayaname-email
-  - ziyan-zarar
-  - noqs-kasti
-  - qarz-vam
 - id: khan-4-jadu-manzel-5
   title: منزلِ 5
   exercises:
@@ -82,6 +87,9 @@ stations:
   - شنیدار
   - واژه‌چین
   words:
+  - ziyan-zarar
+  - noqs-kasti
+  - qarz-vam
   - darkhast-taqaza
   - gozarname-pasport
   - khodro-otomobil
@@ -90,8 +98,6 @@ stations:
   - abzar-alat
   - tarnama-website
   - bargozari-upload
-  - agahi-elan
-  - gozarvaje-password
 - id: khan-4-jadu-manzel-6
   title: منزلِ 6
   exercises:
@@ -100,20 +106,26 @@ stations:
   - تیر آرش
   - بیت‌یاب
   words:
+  - agahi-elan
+  - gozarvaje-password
   - payamresan-messenger
   - karbar-user
   - daramad-ayedi
   - pushe-folder
+  - tolid-faravari
+  - faaliyat-takapu
   - tarh-pishnevis
   - karmaye-energy
   - etemad-poshtgarmi
-  - hamvand-ozv
-  - edare-divan
-  - mizan-taraz
+  - estekhdam-bekargiri
 - id: khan-4-jadu-manzel-7
   title: منزلِ 7
   exercises: *id001
   words:
+  - rasmi-sazmani
+  - hamvand-ozv
+  - edare-divan
+  - mizan-taraz
   - chekide-kholase
   - masool-pasokhgu
   - vazife-bayeste
@@ -122,12 +134,12 @@ stations:
   - parvane-mojavvez
   - karamad-moasser
   - hanjar-qaede
-  - dabir-monshi
-  - rahnemud-dasturolamal
 - id: khan-4-jadu-manzel-8
   title: منزلِ 8
   exercises: *id002
   words:
+  - dabir-monshi
+  - rahnemud-dasturolamal
   - farayand-process
   - bayegani-arshiv
   - balgard-helikopter

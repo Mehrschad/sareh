@@ -1,0 +1,32 @@
+id: ertebat-peyvastegi
+sare: پیوستگی
+loan: ارتباط
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /pejvæsteˈɡiː/
+definition: پیوند داشتنِ دو چیز با هم
+english: connection
+register: رسمی
+frequency_rank: 669
+difficulty: 2
+examples:
+- sare: پیوستگیِ این دو روشن است.
+  loan: ارتباطِ این دو روشن است.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/ارتباط
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=ارتباط
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- پیوستن
+- پیوند
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.29

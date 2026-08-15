@@ -1,0 +1,32 @@
+id: tavajjoh-parva
+sare: پروا
+loan: توجه
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /pæɾˈvɒː/
+definition: نگریستن به چیزی و به آن اندیشیدن
+english: attention
+register: ادبی
+frequency_rank: 267
+difficulty: 3
+examples:
+- sare: پروایی به سخنم نکرد.
+  loan: توجهی به حرفم نکرد.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/توجه
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=توجه
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- نگریستن
+- پروا داشتن
+audio: null
+status: proposed
+contributors:
+- sareh-seed
+zipf: 5.62

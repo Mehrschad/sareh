@@ -1,0 +1,34 @@
+id: tolid-faravari
+sare: فرآوری
+loan: تولید
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /fæɾɒːvæˈɾiː/
+definition: ساختنِ فرآورده از مواد خام
+english: production
+register: دانشی
+frequency_rank: 212
+difficulty: 3
+examples:
+- sare: فرآوریِ شیر در کارخانه.
+  loan: تولیدِ شیر در کارخانه.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/تولید
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=تولید
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «فرآوری»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- فرآورده
+- فرآیند
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.7

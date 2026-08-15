@@ -1,0 +1,32 @@
+id: rasmi-sazmani
+sare: سازمانی
+loan: رسمی
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /sɒːzmɒːˈniː/
+definition: وابسته به سازمان؛ نه شخصی
+english: official
+register: رسمی
+frequency_rank: 633
+difficulty: 3
+examples:
+- sare: نامه‌ی سازمانی فرستاد.
+  loan: نامه‌ی رسمی فرستاد.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/رسمی
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=رسمی
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- دیوانی
+- سازمان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.31

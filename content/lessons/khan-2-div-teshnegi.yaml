@@ -12,13 +12,13 @@ stations:
   - شنیدار
   words:
   - qodrat-tavan
+  - hazer-amade
+  - motavajjeh-agah
   - sari-tond
   - hararat-garma
   - hayvan-janvar
   - mariz-bimar
   - badan-peykar
-  - lahze-dam
-  - eshtebah-laqzesh
 - id: khan-2-div-teshnegi-manzel-2
   title: منزلِ 2
   exercises:
@@ -27,14 +27,15 @@ stations:
   - نویسش
   - داستانک
   words:
+  - lahze-dam
+  - eshtebah-laqzesh
   - harekat-jonbesh
   - asheq-shifte
   - seda-ava
   - sorat-tondi
   - lezzat-khoshi
+  - dark-daryaft
   - del-qalb
-  - omr-zendegani
-  - khatar-gazand
 - id: khan-2-div-teshnegi-manzel-3
   title: منزلِ 3
   exercises:
@@ -43,6 +44,8 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
+  - omr-zendegani
+  - khatar-gazand
   - ajib-shegeft
   - narahat-delgir
   - khoshhal-shadman
@@ -50,7 +53,6 @@ stations:
   - adat-khuy
   - ahmaq-nadan
   - asayesh-rahati
-  - zaeef-natavan
 - id: khan-2-div-teshnegi-manzel-4
   title: منزلِ 4
   exercises:
@@ -59,6 +61,7 @@ stations:
   - گزینش
   - نویسش
   words:
+  - zaeef-natavan
   - tandorosti-salamati
   - asabani-khashmgin
   - maze-tam

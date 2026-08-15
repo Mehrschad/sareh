@@ -1,0 +1,32 @@
+id: marbut-vabaste
+sare: وابسته
+loan: مربوط
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /vɒːbæsˈte/
+definition: در پیوند با چیزی
+english: related
+register: رسمی
+frequency_rank: 461
+difficulty: 2
+examples:
+- sare: وابسته به همین کار است.
+  loan: مربوط به همین کار است.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/مربوط
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=مربوط
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- وابستگی
+- پیوسته
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.43

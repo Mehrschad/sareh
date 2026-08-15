@@ -1,0 +1,32 @@
+id: surat-chehre
+sare: چهره
+loan: صورت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /tʃehˈɾe/
+definition: رویِ آدمی
+english: face
+register: گفتاری
+frequency_rank: 120
+difficulty: 1
+examples:
+- sare: چهره‌اش آشنا بود.
+  loan: صورتش آشنا بود.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/صورت
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=صورت
+roots:
+  pahlavi: čihrag
+  avestan: null
+  old_persian: '*čiθrakah'
+related:
+- رخ
+- رخساره
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.92

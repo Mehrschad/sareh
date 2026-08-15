@@ -14,12 +14,11 @@ stations:
   - qeymat-baha
   - sefid-sepid
   - khorak-qaza
+  - serial-zanjire
   - barq-roshanaei
   - nur-foruq
   - kala-jens
   - forushgah-maqaze
-  - bam-saqf
-  - kharidar-moshtari
 - id: khan-3-ezhdeha-manzel-2
   title: منزلِ 2
   exercises:
@@ -28,16 +27,14 @@ stations:
   - نویسش
   - داستانک
   words:
+  - bam-saqf
+  - kharidar-moshtari
   - qofl-band
   - qatre-chekke
   - makhlut-amikhte
   - khales-nab
   - tanab-risman
   - yakhchal-ferizer
-  - shirini-halva
-  - nezafat-pakizegi
-  - majles-bazm
-  - rakht-lebas
 - id: khan-3-ezhdeha-manzel-3
   title: منزلِ 3
   exercises:
@@ -46,16 +43,14 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
+  - shirini-halva
+  - nezafat-pakizegi
+  - majles-bazm
+  - rakht-lebas
+  - album-jong
   - cheshme-manba
   - kuy-mahalle
   - kashane-manzel
-  - garmabe-hammam
-  - asal-angabin
-  - mayee-abgun
-  - sobhane-chasht
-  - jam-livan
-  - mive-samar
-  - shurba-sup
 - id: khan-3-ezhdeha-manzel-4
   title: منزلِ 4
   exercises:
@@ -64,16 +59,15 @@ stations:
   - گزینش
   - نویسش
   words:
+  - garmabe-hammam
+  - asal-angabin
+  - mayee-abgun
+  - sobhane-chasht
+  - jam-livan
+  - mive-samar
+  - shurba-sup
   - sara-emarat
   - ganje-komod
-  - chashni-advie
-  - nushidani-mashrubat
-  - jame-albese
-  - bastar-ferash
-  - eshkub-tabaqe
-  - avand-zarf
-  - khan-sofre
-  - khakrube-ashqal
 - id: khan-3-ezhdeha-manzel-5
   title: منزلِ 5
   exercises:
@@ -82,7 +76,23 @@ stations:
   - شنیدار
   - واژه‌چین
   words:
+  - chashni-advie
+  - nushidani-mashrubat
+  - jame-albese
+  - bastar-ferash
+  - eshkub-tabaqe
+  - avand-zarf
+  - khan-sofre
+  - khakrube-ashqal
   - abrizgah-toalet
+- id: khan-3-ezhdeha-manzel-6
+  title: منزلِ 6
+  exercises:
+  - جای‌گزینی
+  - گزینش
+  - تیر آرش
+  - بیت‌یاب
+  words:
   - torshi-khall
   - ahangar-haddad
   - piyale-estekan

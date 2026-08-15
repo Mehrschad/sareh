@@ -1,0 +1,34 @@
+id: defa-padafand
+sare: پدافند
+loan: دفاع
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /pædɒːˈfænd/
+definition: ایستادگی در برابرِ یورش
+english: defence
+register: رسمی
+frequency_rank: 675
+difficulty: 3
+examples:
+- sare: پدافندِ شهر استوار بود.
+  loan: دفاعِ شهر استوار بود.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/دفاع
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=دفاع
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «پدافند»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- آفند
+- پاییدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.29

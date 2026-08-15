@@ -84,6 +84,11 @@
   "old_persian": null,
   "pahlavi": null
  },
+ "آماده": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
  "آماس": {
   "avestan": null,
   "old_persian": null,
@@ -133,6 +138,11 @@
   "avestan": null,
   "old_persian": null,
   "pahlavi": null
+ },
+ "آگاه": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": "ʾkʾs"
  },
  "آگاهی": {
   "avestan": null,
@@ -334,6 +344,11 @@
   "old_persian": null,
   "pahlavi": null
  },
+ "برخورد": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
  "برخی": {
   "avestan": null,
   "old_persian": null,
@@ -345,6 +360,11 @@
   "pahlavi": null
  },
  "بردباری": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
+ "برپایی": {
   "avestan": null,
   "old_persian": null,
   "pahlavi": null
@@ -444,6 +464,11 @@
   "old_persian": null,
   "pahlavi": null
  },
+ "به‌کارگیری": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
  "بو": {
   "avestan": null,
   "old_persian": null,
@@ -480,6 +505,11 @@
   "pahlavi": null
  },
  "بیماری": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
+ "بیگانه": {
   "avestan": null,
   "old_persian": null,
   "pahlavi": null
@@ -574,6 +604,11 @@
   "old_persian": null,
   "pahlavi": "tag"
  },
+ "تکاپو": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
  "جام": {
   "avestan": null,
   "old_persian": null,
@@ -623,6 +658,11 @@
   "avestan": null,
   "old_persian": "*gaiθānām",
   "pahlavi": "gyhʾn'"
+ },
+ "جُنگ": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
  },
  "جگر": {
   "avestan": null,
@@ -719,6 +759,11 @@
   "old_persian": null,
   "pahlavi": "xwēy"
  },
+ "خویشاوندی": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
  "داد": {
   "avestan": null,
   "old_persian": "dātam",
@@ -779,6 +824,11 @@
   "old_persian": null,
   "pahlavi": null
  },
+ "دربرگیرنده": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
  "درخواست": {
   "avestan": null,
   "old_persian": null,
@@ -820,6 +870,11 @@
   "pahlavi": "KDBA"
  },
  "درون": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
+ "دریافت": {
   "avestan": null,
   "old_persian": null,
   "pahlavi": null
@@ -889,6 +944,11 @@
   "old_persian": null,
   "pahlavi": null
  },
+ "دنباله": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
  "دودمان": {
   "avestan": null,
   "old_persian": null,
@@ -938,6 +998,11 @@
   "avestan": null,
   "old_persian": null,
   "pahlavi": "dtykl"
+ },
+ "راستا": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
  },
  "راستی": {
   "avestan": null,
@@ -1024,7 +1089,17 @@
   "old_persian": null,
   "pahlavi": null
  },
+ "رویداد": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
  "رویه": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
+ "روی‌هم": {
   "avestan": null,
   "old_persian": null,
   "pahlavi": null
@@ -1069,6 +1144,11 @@
   "old_persian": null,
   "pahlavi": null
  },
+ "زنجیره": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
  "زندگانی": {
   "avestan": null,
   "old_persian": null,
@@ -1105,6 +1185,11 @@
   "pahlavi": null
  },
  "سازمان": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
+ "سازمانی": {
   "avestan": null,
   "old_persian": null,
   "pahlavi": null
@@ -1209,6 +1294,11 @@
   "old_persian": null,
   "pahlavi": null
  },
+ "سرچشمه": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
  "سنجش": {
   "avestan": null,
   "old_persian": null,
@@ -1304,6 +1394,16 @@
   "old_persian": null,
   "pahlavi": null
  },
+ "شناساندن": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
+ "شناسه": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
  "شهروند": {
   "avestan": null,
   "old_persian": null,
@@ -1359,6 +1459,11 @@
   "old_persian": null,
   "pahlavi": null
  },
+ "فرآوری": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
  "فرآیند": {
   "avestan": null,
   "old_persian": null,
@@ -1370,6 +1475,11 @@
   "pahlavi": null
  },
  "فراوان": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
+ "فراگیر": {
   "avestan": null,
   "old_persian": null,
   "pahlavi": null
@@ -1423,6 +1533,11 @@
   "avestan": null,
   "old_persian": null,
   "pahlavi": null
+ },
+ "مایه": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": "mʾtk'"
  },
  "مرز": {
   "avestan": null,
@@ -1594,6 +1709,16 @@
   "old_persian": null,
   "pahlavi": null
  },
+ "نگار": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
+ "نگارش": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
  "نگاره": {
   "avestan": null,
   "old_persian": null,
@@ -1649,6 +1774,11 @@
   "old_persian": null,
   "pahlavi": null
  },
+ "هستی": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
  "همسر": {
   "avestan": null,
   "old_persian": null,
@@ -1698,6 +1828,11 @@
   "avestan": null,
   "old_persian": null,
   "pahlavi": "ʾyc"
+ },
+ "وابسته": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
  },
  "وام": {
   "avestan": null,
@@ -1754,6 +1889,11 @@
   "old_persian": null,
   "pahlavi": null
  },
+ "پدافند": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
  "پذیرش": {
   "avestan": null,
   "old_persian": null,
@@ -1770,6 +1910,11 @@
   "pahlavi": "pursišn"
  },
  "پرماس": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
+ "پروا": {
   "avestan": null,
   "old_persian": null,
   "pahlavi": null
@@ -1793,6 +1938,16 @@
   "avestan": null,
   "old_persian": "pasā",
   "pahlavi": "pas"
+ },
+ "پسین": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
+ "پشتکار": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
  },
  "پشتیبانی": {
   "avestan": null,
@@ -1864,6 +2019,11 @@
   "old_persian": null,
   "pahlavi": "pēšag"
  },
+ "پیشکش": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
  "پیشینه": {
   "avestan": null,
   "old_persian": null,
@@ -1885,6 +2045,11 @@
   "pahlavi": null
  },
  "پیوست": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
+ "پیوستگی": {
   "avestan": null,
   "old_persian": null,
   "pahlavi": null
@@ -1944,10 +2109,20 @@
   "old_persian": null,
   "pahlavi": "čšmk'"
  },
+ "چشم‌به‌راه": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
  "چم": {
   "avestan": null,
   "old_persian": null,
   "pahlavi": "cym"
+ },
+ "چهره": {
+  "avestan": null,
+  "old_persian": "*čiθrakah",
+  "pahlavi": "čihrag"
  },
  "چه‌اندازه": {
   "avestan": null,
@@ -2024,6 +2199,11 @@
   "old_persian": null,
   "pahlavi": null
  },
+ "کامیابی": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
  "کانون": {
   "avestan": null,
   "old_persian": null,
@@ -2039,6 +2219,11 @@
   "old_persian": null,
   "pahlavi": null
  },
+ "کشتن": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": "kuštan"
+ },
  "کشمکش": {
   "avestan": null,
   "old_persian": null,
@@ -2050,6 +2235,16 @@
   "pahlavi": "kišwar"
  },
  "کفچه": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
+ "کنش": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
+ "کنون": {
   "avestan": null,
   "old_persian": null,
   "pahlavi": null
@@ -2085,6 +2280,11 @@
   "pahlavi": null
  },
  "گذرواژه": {
+  "avestan": null,
+  "old_persian": null,
+  "pahlavi": null
+ },
+ "گذرگاه": {
   "avestan": null,
   "old_persian": null,
   "pahlavi": null

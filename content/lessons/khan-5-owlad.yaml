@@ -19,8 +19,8 @@ stations:
   - motalee-khandan
   - porsesh-soal
   - vazeh-roshan
+  - vojud-hasti
   - andishe-fekr
-  - mohem-arzande
 - id: khan-5-owlad-manzel-2
   title: منزلِ 2
   exercises: &id002
@@ -29,6 +29,7 @@ stations:
   - نویسش
   - داستانک
   words:
+  - mohem-arzande
   - asli-bonyadi
   - taqir-degarguni
   - eshare-neshan
@@ -38,7 +39,7 @@ stations:
   - dade-etelaat
   - shomar-tedad
   - dabestan-madrese
-  - moshakhas-ashkar
+  - moarrefi-shenasandan
 - id: khan-5-owlad-manzel-3
   title: منزلِ 3
   exercises:
@@ -47,7 +48,9 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
+  - moshakhas-ashkar
   - shive-sabk
+  - ertebat-peyvastegi
   - azmayesh-tajrobe
   - vaqei-rastin
   - hoze-zamine
@@ -56,7 +59,6 @@ stations:
   - nemune-mesal
   - azmun-emtehan
   - tozih-roshangari
-  - agahi-etela
 - id: khan-5-owlad-manzel-4
   title: منزلِ 4
   exercises:
@@ -65,6 +67,7 @@ stations:
   - گزینش
   - نویسش
   words:
+  - agahi-etela
   - shomare-adad
   - karkard-amalkard
   - pazhuhesh-tahqiq
@@ -88,6 +91,7 @@ stations:
   - nevisande-moallef
   - vizhegi-khosusiat
   - daneshju-mohassel
+  - naqsh-negar
   - tarjome-bargardan
   - amaj-hadaf
   - bayan-bazgu
@@ -102,12 +106,13 @@ stations:
   - بیت‌یاب
   words:
   - bahs-goftoshonud
+  - tarif-shenase
+  - noskhe-negaresh
   - mani-cham
   - rade-tabaqe
   - runevesht-copy
   - bardasht-tafsir
   - namayesh-teatr
-  - sanjesh-arzyabi
   - sarayande-shaer
   - afsane-ostoore
   - ahang-melodi

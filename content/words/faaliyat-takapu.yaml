@@ -1,0 +1,32 @@
+id: faaliyat-takapu
+sare: تکاپو
+loan: فعالیت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /tækɒːˈpuː/
+definition: جنب‌وجوش؛ کوششِ پیوسته
+english: activity
+register: ادبی
+frequency_rank: 414
+difficulty: 3
+examples:
+- sare: تکاپویش بی‌ثمر نبود.
+  loan: فعالیتش بی‌ثمر نبود.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/فعالیت
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=فعالیت
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- جنبش
+- کوشش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.47

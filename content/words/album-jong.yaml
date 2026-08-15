@@ -1,0 +1,32 @@
+id: album-jong
+sare: جُنگ
+loan: آلبوم
+loan_origin: فرانسه
+pos: اسم
+acceptance: خفته
+ipa: /dʒonɡ/
+definition: دفتری که چیزهای گوناگون در آن گرد آمده
+english: album
+register: ادبی
+frequency_rank: 668
+difficulty: 3
+examples:
+- sare: جُنگِ نگاره‌ها را ورق زد.
+  loan: آلبومِ عکس‌ها را ورق زد.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/آلبوم
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=آلبوم
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- دفتر
+- گزیده
+audio: null
+status: proposed
+contributors:
+- sareh-seed
+zipf: 5.29

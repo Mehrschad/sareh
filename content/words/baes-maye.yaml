@@ -1,0 +1,32 @@
+id: baes-maye
+sare: مایه
+loan: باعث
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /mɒːˈje/
+definition: آنچه چیزی را پدید می‌آورد
+english: cause
+register: رسمی
+frequency_rank: 195
+difficulty: 2
+examples:
+- sare: مایه‌ی شادی شد.
+  loan: باعثِ خوشحالی شد.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/باعث
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=باعث
+roots:
+  pahlavi: mʾtk'
+  avestan: null
+  old_persian: null
+related:
+- شوند
+- مایه‌ور
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.73
