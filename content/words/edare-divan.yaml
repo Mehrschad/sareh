@@ -18,6 +18,8 @@ citations:
   ref: https://www.beparsi.com/q/اداره
 - source: لغت‌نامه دهخدا
   ref: مدخل «دیوان»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/دیوان
 roots:
   pahlavi: dēwān
   avestan: null
@@ -26,7 +28,7 @@ related:
 - دفتر
 - دیوان‌سالاری
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 5.26

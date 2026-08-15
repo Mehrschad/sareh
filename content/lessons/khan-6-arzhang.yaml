@@ -18,7 +18,7 @@ stations:
   - dust-rafiq
   - afrad-kasan
   - ensan-adami
-  - hamle-yuresh
+  - hamle-tazesh
   - ejtemaee-goruhi
 - id: khan-6-arzhang-manzel-2
   title: منزلِ 2
@@ -35,8 +35,8 @@ stations:
   - fard-tak
   - qatl-koshtan
   - delbastegi-alaqe
-  - ehteram-arj
   - davat-farakhan
+  - ehteram-arj
 - id: khan-6-arzhang-manzel-3
   title: منزلِ 3
   exercises:

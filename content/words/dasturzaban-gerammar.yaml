@@ -18,8 +18,10 @@ citations:
   ref: دفتر واژه‌های مصوب — «دستور زبان»
 - source: فرهنگ بزرگ سخن
   ref: مدخل «دستور»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/دستور
 roots:
-  pahlavi: null
+  pahlavi: dastwar
   avestan: null
   old_persian: null
 related:

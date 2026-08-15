@@ -18,6 +18,8 @@ citations:
   ref: مدخل «بهر»
 - source: شاهنامه فردوسی
   book: داستان سیاوش
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/بهر
 roots:
   pahlavi: bahr
   avestan: null
@@ -26,7 +28,7 @@ related:
 - از بهر
 - برای
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 5.55

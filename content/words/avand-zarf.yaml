@@ -18,6 +18,8 @@ citations:
   ref: مدخل «آوند»
 - source: فرهنگ فارسی معین
   ref: مدخل «آوند»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/آوند
 roots:
   pahlavi: āwand
   avestan: null
@@ -26,7 +28,7 @@ related:
 - آوندی
 - پیمانه
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 4.76

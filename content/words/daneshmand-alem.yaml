@@ -18,8 +18,10 @@ citations:
   ref: مدخل «دانشمند»
 - source: شاهنامه فردوسی
   book: پادشاهی نوشین‌روان
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/دانشمند
 roots:
-  pahlavi: null
+  pahlavi: dānišnōmand
   avestan: null
   old_persian: null
 related:

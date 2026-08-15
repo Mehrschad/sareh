@@ -18,8 +18,10 @@ citations:
   ref: مدخل «نشست»
 - source: فرهنگ بزرگ سخن
   ref: مدخل «نشست»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/نشست
 roots:
-  pahlavi: null
+  pahlavi: nišast
   avestan: null
   old_persian: null
 related:

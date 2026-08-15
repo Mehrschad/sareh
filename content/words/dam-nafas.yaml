@@ -18,6 +18,10 @@ citations:
   ref: مدخل «دم»
 - source: شاهنامه فردوسی
   book: پادشاهی گشتاسپ
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/دم
+- source: فرهنگ فارسی معین
+  ref: https://www.vajehyab.com/moein/دم
 roots:
   pahlavi: dam
   avestan: null
@@ -26,7 +30,7 @@ related:
 - بازدم
 - دمیدن
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 5.27

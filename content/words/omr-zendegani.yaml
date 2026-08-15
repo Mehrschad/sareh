@@ -18,8 +18,10 @@ citations:
   ref: مدخل «زندگانی»
 - source: شاهنامه فردوسی
   book: پادشاهی جمشید
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/زندگانی
 roots:
-  pahlavi: null
+  pahlavi: zindakīh
   avestan: null
   old_persian: null
 related:

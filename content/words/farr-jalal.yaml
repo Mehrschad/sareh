@@ -18,6 +18,12 @@ citations:
   ref: مدخل «فر»
 - source: شاهنامه فردوسی
   book: پادشاهی جمشید
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/فر
+- source: فرهنگ فارسی معین
+  ref: https://www.vajehyab.com/moein/فر
+- source: فرهنگستان زبان و ادب فارسی
+  ref: https://www.vajehyab.com/farhangestan/فر
 roots:
   pahlavi: xwarrah
   avestan: xᵛarənah-
@@ -26,7 +32,7 @@ related:
 - فرهمند
 - فرّه
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 4.48

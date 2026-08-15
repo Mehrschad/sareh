@@ -18,15 +18,17 @@ citations:
   ref: مدخل «سامان»
 - source: شاهنامه فردوسی
   book: پادشاهی کیخسرو
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/سامان
 roots:
-  pahlavi: null
+  pahlavi: sāmān
   avestan: null
   old_persian: null
 related:
 - سامان‌مند
 - مرز
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 5.59

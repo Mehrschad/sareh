@@ -18,8 +18,10 @@ citations:
   ref: مدخل «مزه»
 - source: فرهنگ بزرگ سخن
   ref: مدخل «مزه»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/مزه
 roots:
-  pahlavi: null
+  pahlavi: mazak
   avestan: null
   old_persian: null
 related:

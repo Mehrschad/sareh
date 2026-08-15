@@ -18,6 +18,8 @@ citations:
   ref: مدخل «شکیب»
 - source: شاهنامه فردوسی
   book: داستان سیاوش
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/شکیب
 roots:
   pahlavi: škēb
   avestan: null
@@ -26,7 +28,7 @@ related:
 - شکیبا
 - شکیبایی
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 5.07

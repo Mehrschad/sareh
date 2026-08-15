@@ -21,6 +21,16 @@ jobs:
       # همگی همین‌جا رد می‌شوند.
       - name: اعتبارسنجیِ واژه‌ها
         run: cargo run --release -p sareh-tools --bin validate_words -- --stats
+      # برابری که در هیچ فرهنگی مدخل ندارد، ساخته‌ی ماست؛ و برابری که خودش
+      # وام‌واژه است، کاری از پیش نمی‌برد. هر دو همین‌جا رد می‌شوند. از کشِ
+      # درون‌مخزنی می‌خواند، پس به شبکه نمی‌رود.
+      - name: هم‌خوانیِ پیکره با فرهنگ‌ها
+        run: python3 tools/verify_corpus.py --strict
+      # منزل‌ها باید بازتابِ content/words/ باشند، نه چیزی که دستی مانده.
+      - name: هم‌سانیِ منزل‌ها با واژه‌ها
+        run: |
+          python3 tools/rebuild_lessons.py
+          git diff --exit-code content/lessons content/khans.yaml
 
   design:
     name: طراحی

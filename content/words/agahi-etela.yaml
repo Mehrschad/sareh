@@ -18,8 +18,10 @@ citations:
   ref: مدخل «آگاهی»
 - source: فرهنگ فارسی معین
   ref: مدخل «آگاه»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/آگاهی
 roots:
-  pahlavi: null
+  pahlavi: ākāsīh
   avestan: null
   old_persian: null
 related:

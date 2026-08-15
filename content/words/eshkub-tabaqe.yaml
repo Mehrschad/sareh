@@ -18,6 +18,8 @@ citations:
   ref: مدخل «اشکوب»
 - source: فرهنگ فارسی معین
   ref: مدخل «اشکوب»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/اشکوب
 roots:
   pahlavi: aškōb
   avestan: null
@@ -26,7 +28,7 @@ related:
 - اشکوبه
 - کاخ
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 5.1

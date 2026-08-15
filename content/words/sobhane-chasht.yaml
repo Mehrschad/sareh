@@ -18,6 +18,8 @@ citations:
   ref: مدخل «چاشت»
 - source: فرهنگ فارسی معین
   ref: مدخل «چاشت»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/چاشت
 roots:
   pahlavi: čāšt
   avestan: null
@@ -26,7 +28,7 @@ related:
 - خوراک
 - چاشتگاه
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 4.45

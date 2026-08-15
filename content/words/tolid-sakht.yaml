@@ -1,25 +1,31 @@
-id: tolid-faravari
-sare: فرآوری
+id: tolid-sakht
+sare: ساخت
 loan: تولید
 loan_origin: عربی
 pos: اسم
 acceptance: نوساخته
-ipa: /fæɾɒːvæˈɾiː/
-definition: ساختنِ فرآورده از مواد خام
+ipa: /sɒːxt/
+definition: پدید آوردنِ کالا از مواد خام
 english: production
 register: دانشی
 frequency_rank: 212
 difficulty: 3
 examples:
-- sare: فرآوریِ شیر در کارخانه.
+- sare: ساختِ شیر در کارخانه.
   loan: تولیدِ شیر در کارخانه.
 citations:
-- source: به پارسی (beparsi.com)
-  ref: https://www.beparsi.com/q/تولید
 - source: واژه‌یاب (vajehyab.com)
   ref: https://www.vajehyab.com/?q=تولید
 - source: فرهنگستان زبان و ادب فارسی
   ref: دفتر واژه‌های مصوب — «فرآوری»
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/تولید
+- source: فرهنگ عمید
+  ref: مدخل «ساخت»
+- source: لغت‌نامه دهخدا
+  ref: https://www.vajehyab.com/dehkhoda/ساخت
+- source: فرهنگ فارسی معین
+  ref: https://www.vajehyab.com/moein/ساخت
 roots:
   pahlavi: null
   avestan: null

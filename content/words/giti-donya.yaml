@@ -18,6 +18,8 @@ citations:
   ref: مدخل «گیتی»
 - source: شاهنامه فردوسی
   book: پادشاهی کیخسرو
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/گیتی
 roots:
   pahlavi: gētīg
   avestan: null
@@ -26,7 +28,7 @@ related:
 - جهان
 - مینو
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 5.55

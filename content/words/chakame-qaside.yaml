@@ -18,15 +18,17 @@ citations:
   ref: مدخل «چکامه»
 - source: فرهنگ فارسی معین
   ref: مدخل «چکامه»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/چکامه
 roots:
-  pahlavi: null
+  pahlavi: čikāmak
   avestan: null
   old_persian: null
 related:
 - سرودن
 - چامه
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 3.76

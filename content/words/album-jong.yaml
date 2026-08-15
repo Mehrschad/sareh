@@ -18,6 +18,14 @@ citations:
   ref: https://www.beparsi.com/q/آلبوم
 - source: واژه‌یاب (vajehyab.com)
   ref: https://www.vajehyab.com/?q=آلبوم
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/جنگ
+- source: لغت‌نامه دهخدا
+  ref: https://www.vajehyab.com/dehkhoda/جنگ
+- source: فرهنگ فارسی معین
+  ref: https://www.vajehyab.com/moein/جنگ
+- source: فرهنگستان زبان و ادب فارسی
+  ref: https://www.vajehyab.com/farhangestan/جنگ
 roots:
   pahlavi: null
   avestan: null
@@ -26,7 +34,7 @@ related:
 - دفتر
 - گزیده
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 5.29

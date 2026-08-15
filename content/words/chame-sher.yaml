@@ -18,6 +18,8 @@ citations:
   ref: مدخل «چامه»
 - source: فرهنگ فارسی معین
   ref: مدخل «چامه»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/چامه
 roots:
   pahlavi: null
   avestan: null
@@ -26,7 +28,7 @@ related:
 - سروده
 - چکامه
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 5.3

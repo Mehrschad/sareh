@@ -18,8 +18,10 @@ citations:
   ref: مدخل «آهنگر»
 - source: شاهنامه فردوسی
   book: ضحّاک و کاوه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/آهنگر
 roots:
-  pahlavi: null
+  pahlavi: āsīnkar
   avestan: null
   old_persian: null
 related:

@@ -1,30 +1,33 @@
-id: hamle-yuresh
-sare: یورش
+id: hamle-tazesh
+sare: تازش
 loan: حمله
 loan_origin: عربی
 pos: اسم
 acceptance: زنده
-ipa: /juːˈɾeʃ/
+ipa: /tɒːˈzeʃ/
 definition: تاختن بر کسی
 english: attack
 register: ادبی
 frequency_rank: 329
 difficulty: 2
 examples:
-- sare: یورش بردند.
+- sare: تازش بردند.
   loan: حمله کردند.
 citations:
-- source: به پارسی (beparsi.com)
-  ref: https://www.beparsi.com/q/حمله
 - source: شاهنامه فردوسی
   book: داستان رستم و اسفندیار
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/حمله
+- source: فرهنگ عمید
+  ref: مدخل «تازش»
+- source: لغت‌نامه دهخدا
+  ref: https://www.vajehyab.com/dehkhoda/تازش
 roots:
-  pahlavi: null
+  pahlavi: tāčišn
   avestan: null
   old_persian: null
 related:
 - تاخت
-- تازش
 audio: null
 status: reviewed
 contributors:

@@ -18,6 +18,12 @@ citations:
   ref: https://www.beparsi.com/q/نقش
 - source: واژه‌یاب (vajehyab.com)
   ref: https://www.vajehyab.com/?q=نقش
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/نگار
+- source: لغت‌نامه دهخدا
+  ref: https://www.vajehyab.com/dehkhoda/نگار
+- source: فرهنگ فارسی معین
+  ref: https://www.vajehyab.com/moein/نگار
 roots:
   pahlavi: null
   avestan: null
@@ -26,7 +32,7 @@ related:
 - نگاره
 - نگارگری
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 5.48

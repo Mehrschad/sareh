@@ -18,8 +18,10 @@ citations:
   ref: مدخل «چاشنی»
 - source: فرهنگ فارسی معین
   ref: مدخل «چاشنی»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/چاشنی
 roots:
-  pahlavi: null
+  pahlavi: čāsnīk
   avestan: null
   old_persian: null
 related:

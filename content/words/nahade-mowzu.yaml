@@ -18,6 +18,8 @@ citations:
   ref: مدخل «نهاده»
 - source: فرهنگ فارسی معین
   ref: مدخل «نهادن»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/نهاده
 roots:
   pahlavi: null
   avestan: null
@@ -26,7 +28,7 @@ related:
 - نهاد
 - نهادن
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 5.49

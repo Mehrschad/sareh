@@ -18,6 +18,8 @@ citations:
   ref: مدخل «زهدان»
 - source: فرهنگ فارسی معین
   ref: مدخل «زهدان»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/زهدان
 roots:
   pahlavi: zahdān
   avestan: null
@@ -26,7 +28,7 @@ related:
 - آبستن
 - زادن
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 4.71

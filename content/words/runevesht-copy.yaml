@@ -1,7 +1,7 @@
 id: runevesht-copy
 sare: رونوشت
 loan: کپی
-loan_origin: انگلیسی
+loan_origin: فرانسه
 pos: اسم
 acceptance: نوساخته
 ipa: /ɾuːneˈveʃt/
@@ -18,6 +18,8 @@ citations:
   ref: دفتر واژه‌های مصوب — «رونوشت»
 - source: لغت‌نامه دهخدا
   ref: مدخل «رونوشت»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/رونوشت
 roots:
   pahlavi: null
   avestan: null

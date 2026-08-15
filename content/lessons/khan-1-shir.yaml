@@ -15,8 +15,8 @@ stations:
   - baad-pas
   - mored-bare
   - kheyli-faravan
-  - hala-aknun
   - avval-nokhost
+  - hala-aknun
   - mesl-manand
   - tamam-hame
   - harf-sokhan
@@ -28,11 +28,11 @@ stations:
   - نویسش
   - داستانک
   words:
-  - qabl-pish
   - jadid-taze
+  - qabl-pish
   - aslan-hich
-  - dorud-salam
   - avvalin-nokhostin
+  - dorud-salam
   - nam-esm
   - taht-zir
   - kharej-birun
@@ -83,11 +83,11 @@ stations:
   - jam-ruyeham
   - lotfan-khaheshmandam
   - hodud-nazdike
-  - sohbat-goftar
   - kolli-faragir
+  - sohbat-goftar
   - hadeaqal-dastkam
   - badi-pasin
-  - shayad-ehtemalan
+  - montazer-cheshmberah
 - id: khan-1-shir-manzel-6
   title: منزلِ 6
   exercises:
@@ -96,7 +96,7 @@ stations:
   - تیر آرش
   - بیت‌یاب
   words:
-  - montazer-cheshmberah
+  - shayad-ehtemalan
   - tebq-paye
   - alave-afzun
   - taqriban-nazdik

@@ -22,6 +22,7 @@
 
     python3 tools/lookup_vajehyab.py مشکل حرارت    # واژه‌های نامبرده
     python3 tools/lookup_vajehyab.py --corpus      # همه‌ی وام‌واژه‌های پیکره
+    python3 tools/lookup_vajehyab.py --sare        # همه‌ی برابرهای پارسیِ پیکره
     python3 tools/lookup_vajehyab.py --report      # گزارش از روی کش
 """
 
@@ -56,10 +57,20 @@ LANGUAGES = {
     "RUS": "روسی",
     "GRE": "یونانی",
     "FAS": "فارسی",
-    "PAH": "پهلوی",
+    "PAL": "پهلوی",
+    "AVE": "اوستایی",
     "SAN": "سنسکریت",
     "MON": "مغولی",
 }
+
+# زبان‌هایی که «وام» نیستند: نیای خودِ فارسی‌اند. واژه‌ای که عمید آن را پهلوی
+# می‌داند، درست همان چیزی است که سره در پیِ آن است.
+NATIVE = ("فارسی", "پهلوی", "اوستایی")
+
+# فرهنگ‌هایی که «هستیِ واژه» را گواهی می‌کنند. مترادف‌نامه و فرهنگ دوزبانه
+# گواه نیستند: مدخلِ «سخن» در fa2en تنها می‌گوید کسی آن را ترجمه کرده است،
+# نه اینکه فرهنگی آن را ثبت کرده باشد.
+ATTESTING = ("dehkhoda", "moein", "amid")
 
 FOLD = str.maketrans({"ي": "ی", "ك": "ک", "‌": "", "ٔ": ""})
 DIACRITICS = dict.fromkeys(range(0x064B, 0x0653), None)
@@ -109,12 +120,16 @@ def extract(payload: dict, word: str) -> dict:
     target = norm(word)
     languages: list[str] = []
     kinds: list[str] = []
+    dictionaries: list[str] = []
     for group in result.get("results", []):
         for hit in group.get("hits", []):
             # تنها مدخلی که سرواژه‌اش همان واژه است؛ وگرنه هم‌نگاشت‌ها
             # («سُخْن» عربی در برابرِ «سخن» پارسی) برچسب را آلوده می‌کنند.
             if norm(hit.get("title", "")) != target:
                 continue
+            slug = hit.get("dictionarySlug")
+            if slug and slug not in dictionaries:
+                dictionaries.append(slug)
             raw = hit.get("languages")
             if raw:
                 try:
@@ -139,31 +154,38 @@ def extract(payload: dict, word: str) -> dict:
         "english": sections.get("dictionary", ""),
         "languages": languages,
         "kinds": kinds,
+        "dictionaries": dictionaries,
+        "attested": [d for d in dictionaries if d in ATTESTING],
     }
 
 
 def lookup(word: str, cache: dict) -> dict:
-    if word in cache:
+    # مدخل‌های کشِ کهنه میدانِ `dictionaries` را ندارند؛ آنها را دوباره
+    # می‌پرسیم، وگرنه «فرهنگی این واژه را ندارد» با «نپرسیده‌ایم» یکی می‌شود.
+    if word in cache and "dictionaries" in cache[word]:
         return cache[word]
     payload = fetch(word)
     entry = extract(payload, word) if payload else {
         "pronunciation": "", "meaning": "", "alternatives": [],
         "english": "", "languages": [], "kinds": [],
+        "dictionaries": [], "attested": [],
     }
     time.sleep(DELAY_SECONDS)
     cache[word] = entry
     return entry
 
 
-def corpus_loanwords() -> list[str]:
+def corpus_words(field: str) -> list[str]:
+    """سرواژه‌های پیکره از میدانِ خواسته‌شده — `loan` یا `sare`."""
     import yaml
 
     words = []
     for path in sorted(WORDS.glob("*.yaml")):
         entry = yaml.safe_load(path.read_text(encoding="utf-8"))
-        head = entry["loan"].split()[0].strip("ِ")
-        if head not in words:
-            words.append(head)
+        for token in entry[field].split():
+            head = token.strip("ِ")
+            if head and head not in words:
+                words.append(head)
     return words
 
 
@@ -178,7 +200,11 @@ def main() -> int:
             print(f"  {word:<14} {'، '.join(data['languages']):<16} {data['pronunciation']}")
         return 0
 
-    words = corpus_loanwords() if "--corpus" in sys.argv else args
+    words = list(args)
+    if "--corpus" in sys.argv:
+        words += [w for w in corpus_words("loan") if w not in words]
+    if "--sare" in sys.argv:
+        words += [w for w in corpus_words("sare") if w not in words]
     if not words:
         print(__doc__)
         return 2

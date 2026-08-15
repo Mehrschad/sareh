@@ -35,11 +35,10 @@ stations:
   - eshare-neshan
   - gune-now
   - majmue-gozide
-  - payamad-natije
   - dade-etelaat
-  - shomar-tedad
+  - payamad-natije
   - dabestan-madrese
-  - moarrefi-shenasandan
+  - shomar-tedad
 - id: khan-5-owlad-manzel-3
   title: منزلِ 3
   exercises:
@@ -48,9 +47,10 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
+  - moarrefi-shenasandan
   - moshakhas-ashkar
-  - shive-sabk
   - ertebat-peyvastegi
+  - shive-sabk
   - azmayesh-tajrobe
   - vaqei-rastin
   - hoze-zamine
@@ -58,7 +58,6 @@ stations:
   - neveshtar-matn
   - nemune-mesal
   - azmun-emtehan
-  - tozih-roshangari
 - id: khan-5-owlad-manzel-4
   title: منزلِ 4
   exercises:
@@ -67,6 +66,7 @@ stations:
   - گزینش
   - نویسش
   words:
+  - tozih-roshangari
   - agahi-etela
   - shomare-adad
   - karkard-amalkard
@@ -77,7 +77,6 @@ stations:
   - kherad-aql
   - dastan-qesse
   - goftar-kalam
-  - goftogu-mokaleme
 - id: khan-5-owlad-manzel-5
   title: منزلِ 5
   exercises:
@@ -86,6 +85,7 @@ stations:
   - شنیدار
   - واژه‌چین
   words:
+  - goftogu-mokaleme
   - amuzesh-taalim
   - ravesh-metod
   - nevisande-moallef
@@ -96,7 +96,6 @@ stations:
   - amaj-hadaf
   - bayan-bazgu
   - ali-barin
-  - dars-amuze
 - id: khan-5-owlad-manzel-6
   title: منزلِ 6
   exercises:
@@ -106,6 +105,7 @@ stations:
   - بیت‌یاب
   words:
   - bahs-goftoshonud
+  - dars-amuze
   - tarif-shenase
   - noskhe-negaresh
   - mani-cham
@@ -115,18 +115,17 @@ stations:
   - namayesh-teatr
   - sarayande-shaer
   - afsane-ostoore
-  - ahang-melodi
 - id: khan-5-owlad-manzel-7
   title: منزلِ 7
   exercises: *id001
   words:
+  - ahang-melodi
   - dasturzaban-gerammar
   - virayesh-edit
   - nemudar-graf
   - vajename-dictionary
   - bakhshbandi-taqsimbandi
   - sokhanrani-khetabe
-  - chalesh-challenge
   - farnud-dalil
   - gozare-jomle
   - nahade-mowzu

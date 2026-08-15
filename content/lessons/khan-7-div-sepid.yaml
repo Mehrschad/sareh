@@ -32,8 +32,8 @@ stations:
   - markaz-kanun
   - tul-daraza
   - jahat-rasta
-  - shekl-rikht
   - halat-cheguni
+  - shekl-rikht
   - rah-tariq
   - mahal-jaygah
   - hengam-mowqe
@@ -115,7 +115,7 @@ stations:
   - yadman-banayadbud
   - tabar-nasab
   - niyakan-ajdad
-  - sepanta-moqaddas
+  - pak-moqaddas
   - farr-jalal
   - minu-malakut
 boss:

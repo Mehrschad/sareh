@@ -18,8 +18,12 @@ citations:
   ref: https://www.beparsi.com/q/بین
 - source: لغت‌نامه دهخدا
   ref: مدخل «میانه»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/میانه
+- source: فرهنگ فارسی معین
+  ref: https://www.vajehyab.com/moein/میانه
 roots:
-  pahlavi: null
+  pahlavi: miyanak
   avestan: null
   old_persian: null
 related:

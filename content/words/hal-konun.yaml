@@ -18,6 +18,8 @@ citations:
   ref: https://www.beparsi.com/q/حال
 - source: واژه‌یاب (vajehyab.com)
   ref: https://www.vajehyab.com/?q=حال
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/کنون
 roots:
   pahlavi: aknūn
   avestan: null
@@ -26,7 +28,7 @@ related:
 - اکنون
 - هم‌اکنون
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 5.97

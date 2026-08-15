@@ -18,6 +18,8 @@ citations:
   ref: مدخل «انگبین»
 - source: فرهنگ فارسی معین
   ref: مدخل «انگبین»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/انگبین
 roots:
   pahlavi: angubēn
   avestan: null
@@ -26,7 +28,7 @@ related:
 - شهد
 - شیرینی
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 4.56

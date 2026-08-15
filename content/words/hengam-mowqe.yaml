@@ -18,8 +18,10 @@ citations:
   ref: مدخل «هنگام»
 - source: شاهنامه فردوسی
   book: پادشاهی کیقباد
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/هنگام
 roots:
-  pahlavi: null
+  pahlavi: hangām
   avestan: null
   old_persian: null
 related:

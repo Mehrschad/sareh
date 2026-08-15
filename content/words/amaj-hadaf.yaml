@@ -18,6 +18,8 @@ citations:
   ref: مدخل «آماج»
 - source: شاهنامه فردوسی
   book: داستان رستم و اسفندیار
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/آماج
 roots:
   pahlavi: āmāj
   avestan: null
@@ -26,7 +28,7 @@ related:
 - آماجگاه
 - نشانه
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 5.42

@@ -18,6 +18,8 @@ citations:
   ref: مدخل «گستردنی»
 - source: فرهنگ فارسی معین
   ref: مدخل «گستردن»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/گستردنی
 roots:
   pahlavi: null
   avestan: null
@@ -26,7 +28,7 @@ related:
 - بستر
 - گستردن
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 4.59

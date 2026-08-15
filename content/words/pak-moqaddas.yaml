@@ -1,23 +1,29 @@
-id: sepanta-moqaddas
-sare: سپنتا
+id: pak-moqaddas
+sare: پاک
 loan: مقدّس
 loan_origin: عربی
 pos: صفت
 acceptance: خفته
-ipa: /sepænˈtɒː/
-definition: پاک و ورجاوند
+ipa: /pɒːk/
+definition: ورجاوند و بی‌آلایش
 english: holy
 register: ادبی
 frequency_rank: null
 difficulty: 5
 examples:
-- sare: آتشِ سپنتا را پاس داشتند.
+- sare: آتشِ پاک را پاس داشتند.
   loan: آتشِ مقدّس را پاس داشتند.
 citations:
 - source: لغت‌نامه دهخدا
   ref: مدخل «سپنتا»
 - source: فرهنگ فارسی معین
   ref: مدخل «سپنتا»
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/مقدّس
+- source: فرهنگ عمید
+  ref: مدخل «پاک»
+- source: فرهنگستان زبان و ادب فارسی
+  ref: https://www.vajehyab.com/farhangestan/پاک
 roots:
   pahlavi: spenāg
   avestan: spəṇta-
@@ -26,7 +32,7 @@ related:
 - سپند
 - ورجاوند
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 5.1

@@ -18,22 +18,22 @@ khans:
   guardian: اژدها
   realm: خانه، خوراک و خرید
   stations: 6
-  words: 51
+  words: 50
   median_zipf: 4.53
 - khan: 4
   id: khan-4-jadu
   guardian: جادو
   realm: کار، پیشه و پول
   stations: 8
-  words: 91
-  median_zipf: 5.05
+  words: 87
+  median_zipf: 5.12
 - khan: 5
   id: khan-5-owlad
   guardian: اولاد
   realm: اندیشه، دانش و سخن
   stations: 8
-  words: 87
-  median_zipf: 5.1
+  words: 86
+  median_zipf: 5.12
 - khan: 6
   id: khan-6-arzhang
   guardian: ارژنگ

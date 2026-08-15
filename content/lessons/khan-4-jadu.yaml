@@ -21,7 +21,6 @@ stations:
   - ijad-barpaei
   - moshkel-doshvari
   - dastmozd-hoquq
-  - sarparast-raees
 - id: khan-4-jadu-manzel-2
   title: منزلِ 2
   exercises: &id002
@@ -30,17 +29,17 @@ stations:
   - نویسش
   - داستانک
   words:
+  - sarparast-raees
+  - kontrol-payesh
   - samane-system
   - sath-ruye
-  - kontrol-mahar
   - amal-konesh
   - bonyad-asas
   - marbut-vabaste
-  - paziresh-qabul
   - hemayat-poshtibani
+  - paziresh-qabul
   - bargiri-download
   - hesab-shomaresh
-  - dastgah-machine
 - id: khan-4-jadu-manzel-3
   title: منزلِ 3
   exercises:
@@ -49,12 +48,12 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
+  - dastgah-machine
   - movaffaq-piruz
   - avaz-jaygozin
-  - tosee-gostaresh
-  - etefaq-ruydad
   - erae-pishkash
-  - model-olgu
+  - etefaq-ruydad
+  - tosee-gostaresh
   - marhale-gam
   - saee-poshtkar
   - ezafe-afzude
@@ -73,8 +72,8 @@ stations:
   - pishine-sabeqe
   - peyman-qarardad
   - pishe-shoql
-  - parvande-file
   - anjoman-majma
+  - parvande-file
   - rayane-computer
   - neshani-adres
   - servat-daraei
@@ -94,10 +93,10 @@ stations:
   - gozarname-pasport
   - khodro-otomobil
   - sazman-tashkilat
-  - angize-moharrek
   - abzar-alat
-  - tarnama-website
+  - angize-moharrek
   - bargozari-upload
+  - agahi-elan
 - id: khan-4-jadu-manzel-6
   title: منزلِ 6
   exercises:
@@ -106,23 +105,21 @@ stations:
   - تیر آرش
   - بیت‌یاب
   words:
-  - agahi-elan
-  - gozarvaje-password
   - payamresan-messenger
   - karbar-user
   - daramad-ayedi
   - pushe-folder
-  - tolid-faravari
+  - tolid-sakht
   - faaliyat-takapu
   - tarh-pishnevis
-  - karmaye-energy
-  - etemad-poshtgarmi
   - estekhdam-bekargiri
+  - etemad-poshtgarmi
+  - karmaye-energy
+  - rasmi-sazmani
 - id: khan-4-jadu-manzel-7
   title: منزلِ 7
   exercises: *id001
   words:
-  - rasmi-sazmani
   - hamvand-ozv
   - edare-divan
   - mizan-taraz
@@ -147,7 +144,6 @@ stations:
   - peyvast-zamime
   - sarresid-mowed
   - bazkhord-feedback
-  - tarnegar-weblog
   - bahrevari-randeman
   - namaye-index
 boss:

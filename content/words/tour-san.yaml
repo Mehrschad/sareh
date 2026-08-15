@@ -18,6 +18,8 @@ citations:
   ref: https://www.beparsi.com/q/طور
 - source: لغت‌نامه دهخدا
   ref: مدخل «سان»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/سان
 roots:
   pahlavi: sʾn'
   avestan: null
@@ -26,7 +28,7 @@ related:
 - بدین‌سان
 - گونه
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 5.31

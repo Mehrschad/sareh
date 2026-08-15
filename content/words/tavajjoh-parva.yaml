@@ -18,6 +18,8 @@ citations:
   ref: https://www.beparsi.com/q/توجه
 - source: واژه‌یاب (vajehyab.com)
   ref: https://www.vajehyab.com/?q=توجه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/پروا
 roots:
   pahlavi: null
   avestan: null
@@ -26,7 +28,7 @@ related:
 - نگریستن
 - پروا داشتن
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 5.62

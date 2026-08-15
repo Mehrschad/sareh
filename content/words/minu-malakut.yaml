@@ -18,6 +18,8 @@ citations:
   ref: مدخل «مینو»
 - source: فرهنگ فارسی معین
   ref: مدخل «مینو»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/مینو
 roots:
   pahlavi: mēnōg
   avestan: mainyu-
@@ -26,7 +28,7 @@ related:
 - مینوی
 - گیتی
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 3.49

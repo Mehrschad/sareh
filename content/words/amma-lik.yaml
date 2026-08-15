@@ -18,6 +18,8 @@ citations:
   ref: مدخل «لیک»
 - source: شاهنامه فردوسی
   book: داستان رستم و سهراب
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/لیک
 roots:
   pahlavi: lēk
   avestan: null
@@ -26,7 +28,7 @@ related:
 - لیکن
 - ولی
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 6.25

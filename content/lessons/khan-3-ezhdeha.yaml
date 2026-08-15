@@ -12,13 +12,13 @@ stations:
   - شنیدار
   words:
   - qeymat-baha
-  - sefid-sepid
   - khorak-qaza
   - serial-zanjire
   - barq-roshanaei
   - nur-foruq
   - kala-jens
   - forushgah-maqaze
+  - bam-saqf
 - id: khan-3-ezhdeha-manzel-2
   title: منزلِ 2
   exercises:
@@ -27,7 +27,6 @@ stations:
   - نویسش
   - داستانک
   words:
-  - bam-saqf
   - kharidar-moshtari
   - qofl-band
   - qatre-chekke
@@ -35,6 +34,7 @@ stations:
   - khales-nab
   - tanab-risman
   - yakhchal-ferizer
+  - shirini-halva
 - id: khan-3-ezhdeha-manzel-3
   title: منزلِ 3
   exercises:
@@ -43,7 +43,6 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
-  - shirini-halva
   - nezafat-pakizegi
   - majles-bazm
   - rakht-lebas
@@ -51,6 +50,7 @@ stations:
   - cheshme-manba
   - kuy-mahalle
   - kashane-manzel
+  - garmabe-hammam
 - id: khan-3-ezhdeha-manzel-4
   title: منزلِ 4
   exercises:
@@ -59,7 +59,6 @@ stations:
   - گزینش
   - نویسش
   words:
-  - garmabe-hammam
   - asal-angabin
   - mayee-abgun
   - sobhane-chasht
@@ -95,7 +94,7 @@ stations:
   words:
   - torshi-khall
   - ahangar-haddad
-  - piyale-estekan
+  - jam-estekan
   - abzan-van
   - gostardani-farsh
   - miyansara-hayat

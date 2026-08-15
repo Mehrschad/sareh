@@ -1,30 +1,33 @@
-id: kontrol-mahar
-sare: مهار
+id: kontrol-payesh
+sare: پایش
 loan: کنترل
 loan_origin: فرانسه
 pos: اسم
 acceptance: زنده
-ipa: /mæˈhɒːɾ/
-definition: در دست گرفتنِ چیزی تا از دست نرود
+ipa: /pɒːˈjeʃ/
+definition: زیرِ نگاه داشتن تا از دست نرود
 english: control
 register: رسمی
 frequency_rank: 408
 difficulty: 2
 examples:
-- sare: مهارِ آتش دشوار بود.
+- sare: پایشِ آتش دشوار بود.
   loan: کنترلِ آتش دشوار بود.
 citations:
-- source: به پارسی (beparsi.com)
-  ref: https://www.beparsi.com/q/کنترل
 - source: لغت‌نامه دهخدا
   ref: مدخل «مهار»
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/کنترل
+- source: فرهنگ عمید
+  ref: مدخل «پایش»
+- source: فرهنگستان زبان و ادب فارسی
+  ref: https://www.vajehyab.com/farhangestan/پایش
 roots:
   pahlavi: null
   avestan: null
   old_persian: null
 related:
 - افسار
-- مهارکردن
 audio: null
 status: reviewed
 contributors:

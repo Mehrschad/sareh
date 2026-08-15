@@ -18,8 +18,10 @@ citations:
   ref: مدخل «پایه»
 - source: فرهنگ بزرگ سخن
   ref: مدخل «بر پایه»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/بر
 roots:
-  pahlavi: null
+  pahlavi: var
   avestan: null
   old_persian: null
 related:

@@ -18,6 +18,8 @@ citations:
   ref: مدخل «شادکام»
 - source: شاهنامه فردوسی
   book: پادشاهی جمشید
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/شادکامی
 roots:
   pahlavi: null
   avestan: null
@@ -27,7 +29,7 @@ related:
 - شادمانی
 - کام
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
 zipf: 4.29
