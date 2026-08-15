@@ -1,32 +1,32 @@
 id: cheshme-manba
-sare: چشمه
+sare: سرچشمه
 loan: منبع
 loan_origin: عربی
 pos: اسم
 acceptance: زنده
-ipa: /tʃeʃˈme/
-definition: جایی که آب از زمین می‌جوشد
-english: spring
+ipa: /sæɾtʃeʃˈme/
+definition: خاستگاهِ چیزی؛ جایی که چیزی از آن برمی‌خیزد
+english: source
 register: ادبی
 frequency_rank: 1160
-zipf: 5.07
 difficulty: 3
 examples:
-- sare: از چشمه آب برداشت.
-  loan: از منبع آب برداشت.
+- sare: سرچشمه‌ی این سخن کجاست؟
+  loan: منبعِ این حرف کجاست؟
 citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/منبع
 - source: لغت‌نامه دهخدا
-  ref: مدخل «چشمه»
-- source: شاهنامه فردوسی
-  book: هفت‌خان رستم
+  ref: مدخل «سرچشمه»
 roots:
   pahlavi: čašmag
   avestan: null
   old_persian: null
 related:
-- جوشیدن
-- چشم
+- خاستگاه
+- چشمه
 audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.07

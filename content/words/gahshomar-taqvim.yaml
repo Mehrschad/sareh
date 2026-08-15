@@ -9,7 +9,6 @@ definition: سامانه‌ی شمردن و بخش‌کردنِ روزها
 english: calendar
 register: دانشی
 frequency_rank: 3514
-zipf: 4.51
 difficulty: 3
 examples:
 - sare: گاه‌شمارِ خورشیدی دقیق است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.51

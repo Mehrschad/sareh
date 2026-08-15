@@ -1,0 +1,32 @@
+id: zalem-setamgar
+sare: ستمگر
+loan: ظالم
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /setæmˈɡæɾ/
+definition: کسی که بر دیگران ستم می‌کند
+english: oppressor
+register: ادبی
+frequency_rank: 8787
+difficulty: 2
+examples:
+- sare: ستمگر بود و بیدادگر.
+  loan: ظالم بود و بیدادگر.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/ظالم
+- source: شاهنامه فردوسی
+  book: ضحّاک و کاوه
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- بیدادگر
+- ستم
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.94

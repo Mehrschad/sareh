@@ -9,7 +9,6 @@ definition: حرفِ ربطِ ناسازی؛ ولی
 english: but
 register: ادبی
 frequency_rank: 41
-zipf: 6.25
 difficulty: 2
 examples:
 - sare: خواندم، لیک چیزی نفهمیدم.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 6.25

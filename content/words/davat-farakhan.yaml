@@ -9,7 +9,6 @@ definition: خواندنِ کسی به جایی یا کاری
 english: invitation
 register: رسمی
 frequency_rank: 1059
-zipf: 5.11
 difficulty: 2
 examples:
 - sare: فراخوانش را پذیرفتم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.11

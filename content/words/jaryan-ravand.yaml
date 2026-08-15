@@ -1,0 +1,32 @@
+id: jaryan-ravand
+sare: روند
+loan: جریان
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ɾæˈvænd/
+definition: راهی که کاری در آن پیش می‌رود
+english: course
+register: رسمی
+frequency_rank: 587
+difficulty: 2
+examples:
+- sare: روندِ کار کند است.
+  loan: جریانِ کار کند است.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/جریان
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «روند»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- رفتن
+- روش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.35

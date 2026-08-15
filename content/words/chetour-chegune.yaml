@@ -1,0 +1,32 @@
+id: chetour-chegune
+sare: چگونه
+loan: چطور
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /tʃeˈɡuːne/
+definition: به چه سان؛ به چه روش
+english: how
+register: رسمی
+frequency_rank: 579
+difficulty: 1
+examples:
+- sare: چگونه آمدی؟
+  loan: چطور آمدی؟
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/چطور
+- source: فرهنگ فارسی معین
+  ref: مدخل «چگونه»
+roots:
+  pahlavi: čiyōn
+  avestan: null
+  old_persian: null
+related:
+- چه‌سان
+- چون
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.36

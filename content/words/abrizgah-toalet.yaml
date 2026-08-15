@@ -9,7 +9,6 @@ definition: جایگاهِ پاکیزگیِ تن
 english: lavatory
 register: رسمی
 frequency_rank: 5145
-zipf: 4.28
 difficulty: 4
 examples:
 - sare: آبریزگاه آن سوست.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.28

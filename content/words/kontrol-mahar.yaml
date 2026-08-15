@@ -1,0 +1,32 @@
+id: kontrol-mahar
+sare: مهار
+loan: کنترل
+loan_origin: فرانسه
+pos: اسم
+acceptance: زنده
+ipa: /mæˈhɒːɾ/
+definition: در دست گرفتنِ چیزی تا از دست نرود
+english: control
+register: رسمی
+frequency_rank: 408
+difficulty: 2
+examples:
+- sare: مهارِ آتش دشوار بود.
+  loan: کنترلِ آتش دشوار بود.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/کنترل
+- source: لغت‌نامه دهخدا
+  ref: مدخل «مهار»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- افسار
+- مهارکردن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.48

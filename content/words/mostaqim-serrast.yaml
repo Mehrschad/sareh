@@ -9,7 +9,6 @@ definition: بی‌پیچ‌وخم؛ راست
 english: direct
 register: گفتاری
 frequency_rank: 993
-zipf: 5.14
 difficulty: 2
 examples:
 - sare: سرراست برو.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.14

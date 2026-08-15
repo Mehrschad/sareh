@@ -9,7 +9,6 @@ definition: دست ساییدن بر چیزی؛ برخورد پوست با چی�
 english: touch
 register: ادبی
 frequency_rank: 4478
-zipf: 4.37
 difficulty: 3
 examples:
 - sare: انگشتانش را بر تارهای ساز پرماس کرد.
@@ -32,3 +31,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 4.37

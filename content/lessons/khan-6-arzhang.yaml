@@ -5,20 +5,20 @@ realm: مردم، مهر و رفتار
 stations:
 - id: khan-6-arzhang-manzel-1
   title: منزلِ 1
-  exercises:
+  exercises: &id001
   - گزینش
   - جفت‌ساز
   - جای‌گزینی
   - شنیدار
   words:
+  - nafar-tan
   - khanom-banu
   - shakhs-kas
   - aziz-gerami
   - dust-rafiq
   - afrad-kasan
-  - aqa-sarvar
-  - delbastegi-alaqe
-  - ehteram-arj
+  - ensan-adami
+  - hamle-yuresh
 - id: khan-6-arzhang-manzel-2
   title: منزلِ 2
   exercises:
@@ -27,14 +27,14 @@ stations:
   - نویسش
   - داستانک
   words:
+  - ejtemaee-goruhi
+  - omumi-hamegani
+  - rabete-bastegi
+  - aqa-sarvar
+  - fard-tak
+  - delbastegi-alaqe
+  - ehteram-arj
   - davat-farakhan
-  - ashti-solh
-  - mehrabani-lotf
-  - dad-edalat
-  - yad-khatere
-  - niki-kheyr
-  - anduh-qam
-  - dava-keshmakesh
 - id: khan-6-arzhang-manzel-3
   title: منزلِ 3
   exercises:
@@ -43,14 +43,15 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
+  - ashti-solh
+  - mehrabani-lotf
+  - dad-edalat
+  - yad-khatere
+  - niki-kheyr
+  - anduh-qam
+  - dava-keshmakesh
   - hamsar-zowj
   - niyaz-ehtiyaj
-  - mehr-mohabbat
-  - rasti-sedaqat
-  - zibaei-jamal
-  - afsus-heyf
-  - doruq-kezb
-  - dusti-refaqat
 - id: khan-6-arzhang-manzel-4
   title: منزلِ 4
   exercises:
@@ -59,14 +60,15 @@ stations:
   - گزینش
   - نویسش
   words:
+  - mehr-mohabbat
+  - rasti-sedaqat
+  - zibaei-jamal
+  - mazlum-setamdide
+  - zalem-setamgar
+  - afsus-heyf
+  - doruq-kezb
+  - dusti-refaqat
   - arezu-tamanna
-  - tars-khof
-  - peyvand-ezdevaj
-  - sarbolandi-eftekhar
-  - bordbari-tahammol
-  - khordegiri-enteqad
-  - jodaei-talaq
-  - bim-vahshat
 - id: khan-6-arzhang-manzel-5
   title: منزلِ 5
   exercises:
@@ -74,6 +76,23 @@ stations:
   - داستانک
   - شنیدار
   - واژه‌چین
+  words:
+  - tars-khof
+  - peyvand-ezdevaj
+  - ahl-khandan
+  - mobareze-peykar
+  - sarbolandi-eftekhar
+  - bordbari-tahammol
+  - khordegiri-enteqad
+  - jodaei-talaq
+  - bim-vahshat
+- id: khan-6-arzhang-manzel-6
+  title: منزلِ 6
+  exercises:
+  - جای‌گزینی
+  - گزینش
+  - تیر آرش
+  - بیت‌یاب
   words:
   - khorsandi-rezayat
   - badi-sharr
@@ -84,13 +103,9 @@ stations:
   - setayesh-tahsin
   - delsuzi-tarahhom
   - setiz-nezaa
-- id: khan-6-arzhang-manzel-6
-  title: منزلِ 6
-  exercises:
-  - جای‌گزینی
-  - گزینش
-  - تیر آرش
-  - بیت‌یاب
+- id: khan-6-arzhang-manzel-7
+  title: منزلِ 7
+  exercises: *id001
   words:
   - sharm-haya
   - forutani-tavazo

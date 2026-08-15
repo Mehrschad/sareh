@@ -9,7 +9,6 @@ definition: سراسر؛ بی‌هیچ کم
 english: all
 register: گفتاری
 frequency_rank: 111
-zipf: 5.93
 difficulty: 1
 examples:
 - sare: همه‌ی روز کار کردم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.93

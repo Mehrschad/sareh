@@ -9,7 +9,6 @@ definition: جایگاهِ خفتن
 english: bed
 register: ادبی
 frequency_rank: 29999
-zipf: 3.04
 difficulty: 3
 examples:
 - sare: در بستر افتاد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.04

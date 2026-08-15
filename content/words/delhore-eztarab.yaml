@@ -9,7 +9,6 @@ definition: بی‌قراریِ دل از بیمِ ناشناخته
 english: anxiety
 register: رسمی
 frequency_rank: 5209
-zipf: 4.27
 difficulty: 3
 examples:
 - sare: دلهره رهایش نمی‌کرد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.27

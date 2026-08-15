@@ -9,7 +9,6 @@ definition: شمارِ نسخه‌های چاپ‌شده‌ی کتاب
 english: print run
 register: دانشی
 frequency_rank: 19063
-zipf: 3.39
 difficulty: 4
 examples:
 - sare: شمارگانش هزار نسخه بود.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.39

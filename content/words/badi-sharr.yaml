@@ -9,7 +9,6 @@ definition: کارِ زشت و زیان‌بار
 english: evil
 register: ادبی
 frequency_rank: null
-zipf: 4.61
 difficulty: 3
 examples:
 - sare: بدی را با نیکی پاسخ داد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.61

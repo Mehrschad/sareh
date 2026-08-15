@@ -9,7 +9,6 @@ definition: لحظه یا بازه‌ای که کاری در آن رخ می‌د
 english: moment
 register: رسمی
 frequency_rank: 563
-zipf: 5.37
 difficulty: 2
 examples:
 - sare: هنگامِ رفتن است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.37

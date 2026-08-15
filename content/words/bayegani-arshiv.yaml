@@ -9,7 +9,6 @@ definition: جایگاهِ نگاهداشتِ سامان‌مندِ پرونده
 english: archive
 register: رسمی
 frequency_rank: 6740
-zipf: 4.11
 difficulty: 3
 examples:
 - sare: در بایگانی جست‌وجو کن.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.11

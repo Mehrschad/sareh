@@ -9,7 +9,6 @@ definition: بی‌هیچ دودلی؛ بی‌شک
 english: certainly
 register: رسمی
 frequency_rank: null
-zipf: 5.51
 difficulty: 2
 examples:
 - sare: بی‌گمان می‌آیم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.51

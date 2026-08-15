@@ -9,7 +9,6 @@ definition: اندازه‌ی چیزی از یک کناره تا کناره‌ی
 english: width
 register: دانشی
 frequency_rank: 1261
-zipf: 5.03
 difficulty: 2
 examples:
 - sare: پهنای رود کم است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.03

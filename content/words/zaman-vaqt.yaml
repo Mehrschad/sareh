@@ -9,7 +9,6 @@ definition: گذرِ پیوسته‌ی هستی؛ هنگام
 english: time
 register: رسمی
 frequency_rank: 179
-zipf: 5.77
 difficulty: 1
 examples:
 - sare: زمانی نداریم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.77

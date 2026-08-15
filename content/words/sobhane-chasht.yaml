@@ -9,7 +9,6 @@ definition: خوراکِ نخستِ روز
 english: breakfast
 register: ادبی
 frequency_rank: 3937
-zipf: 4.45
 difficulty: 3
 examples:
 - sare: چاشت آماده است.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 4.45

@@ -9,7 +9,6 @@ definition: جهت؛ سمت
 english: side
 register: گفتاری
 frequency_rank: 223
-zipf: 5.69
 difficulty: 1
 examples:
 - sare: از این سو بیا.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.69

@@ -9,7 +9,6 @@ definition: آنچه از گذشته در ذهن مانده
 english: memory
 register: ادبی
 frequency_rank: 1966
-zipf: 4.82
 difficulty: 2
 examples:
 - sare: یادش به خیر.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.82

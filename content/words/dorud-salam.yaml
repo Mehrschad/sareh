@@ -9,7 +9,6 @@ definition: واژه‌ی خوشامد و تهنیت هنگام دیدار
 english: greetings
 register: گفتاری
 frequency_rank: 243
-zipf: 5.65
 difficulty: 1
 examples:
 - sare: درود بر تو.
@@ -32,3 +31,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.65

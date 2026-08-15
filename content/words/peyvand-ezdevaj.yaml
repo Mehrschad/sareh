@@ -9,7 +9,6 @@ definition: بستنِ زناشویی میان دو تن
 english: marriage
 register: رسمی
 frequency_rank: 409
-zipf: 5.47
 difficulty: 3
 examples:
 - sare: جشنِ پیوندشان بود.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.47

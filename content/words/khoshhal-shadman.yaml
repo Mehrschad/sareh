@@ -9,7 +9,6 @@ definition: شاد؛ خرسند
 english: glad
 register: گفتاری
 frequency_rank: 1230
-zipf: 5.04
 difficulty: 2
 examples:
 - sare: از دیدنت شادمانم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.04

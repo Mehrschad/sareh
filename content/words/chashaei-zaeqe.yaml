@@ -9,7 +9,6 @@ definition: حسِ زبان؛ توانِ دریافتنِ مزه
 english: taste (sense)
 register: دانشی
 frequency_rank: 19339
-zipf: 3.38
 difficulty: 4
 examples:
 - sare: چشایی‌اش را از دست داد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.38

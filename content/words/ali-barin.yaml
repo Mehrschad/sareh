@@ -9,7 +9,6 @@ definition: بالاترین؛ بسیار نیک
 english: excellent
 register: ادبی
 frequency_rank: 559
-zipf: 5.37
 difficulty: 3
 examples:
 - sare: کاری برین کردی.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.37

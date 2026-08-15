@@ -9,7 +9,6 @@ definition: بخشِ بزرگ‌ترِ چیزی
 english: most of
 register: رسمی
 frequency_rank: 1247
-zipf: 5.03
 difficulty: 1
 examples:
 - sare: بیشترِ مردم رفتند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.03

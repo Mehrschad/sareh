@@ -9,7 +9,6 @@ definition: ارجمند؛ دوست‌داشتنی
 english: dear
 register: رسمی
 frequency_rank: 1372
-zipf: 4.99
 difficulty: 1
 examples:
 - sare: دوستِ گرامی‌ام.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.99

@@ -9,7 +9,6 @@ definition: کسی که در دانشگاه دانش می‌آموزد
 english: student
 register: رسمی
 frequency_rank: null
-zipf: 3.31
 difficulty: 2
 examples:
 - sare: دانشجویِ سالِ دوم است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.31

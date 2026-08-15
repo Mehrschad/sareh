@@ -9,7 +9,6 @@ definition: دانشِ ستارگان و آسمان
 english: astronomy
 register: دانشی
 frequency_rank: 7784
-zipf: 4.02
 difficulty: 4
 examples:
 - sare: ستاره‌شناسیِ کهنِ ایران نامور بود.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.02

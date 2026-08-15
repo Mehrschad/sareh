@@ -9,7 +9,6 @@ definition: آنچه در برابر پرسش گفته می‌شود
 english: answer
 register: رسمی
 frequency_rank: 275
-zipf: 5.61
 difficulty: 1
 examples:
 - sare: پاسخت را شنیدم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.61

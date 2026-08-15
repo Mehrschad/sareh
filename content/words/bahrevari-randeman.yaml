@@ -9,7 +9,6 @@ definition: نسبتِ بازده به آنچه هزینه شده
 english: productivity
 register: دانشی
 frequency_rank: 13654
-zipf: 3.63
 difficulty: 4
 examples:
 - sare: بهره‌وری بالا رفت.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.63

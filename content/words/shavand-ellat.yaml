@@ -9,7 +9,6 @@ definition: آنچه چیزی را پدید می‌آورد
 english: cause
 register: دانشی
 frequency_rank: null
-zipf: 5.25
 difficulty: 4
 examples:
 - sare: شوندِ آتش‌سوزی روشن نیست.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 5.25

@@ -9,7 +9,6 @@ definition: سوختنِ دل برای رنجِ دیگری
 english: compassion
 register: رسمی
 frequency_rank: null
-zipf: 3.81
 difficulty: 3
 examples:
 - sare: دلسوزی‌اش راست بود.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.81

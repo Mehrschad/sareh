@@ -9,7 +9,6 @@ definition: هنرِ زیبانوشتنِ خط
 english: calligraphy
 register: ادبی
 frequency_rank: null
-zipf: 3.36
 difficulty: 4
 examples:
 - sare: خوشنویسیِ نستعلیق آموخت.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.36

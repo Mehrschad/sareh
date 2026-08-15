@@ -9,7 +9,6 @@ definition: آنچه برای دانستن می‌پرسند
 english: question
 register: رسمی
 frequency_rank: 2510
-zipf: 4.7
 difficulty: 1
 examples:
 - sare: پرسشی داری؟
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.7

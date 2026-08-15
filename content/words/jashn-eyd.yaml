@@ -9,7 +9,6 @@ definition: آیینِ شادیِ همگانی
 english: festival
 register: ادبی
 frequency_rank: 1908
-zipf: 4.84
 difficulty: 2
 examples:
 - sare: جشنِ سده را برپا کردند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.84

@@ -9,7 +9,6 @@ definition: نقطه‌ای که کار از آن سر می‌گیرد
 english: beginning
 register: رسمی
 frequency_rank: 229
-zipf: 5.68
 difficulty: 1
 examples:
 - sare: آغازِ راه دشوار است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.68

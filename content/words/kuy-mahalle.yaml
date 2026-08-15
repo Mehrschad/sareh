@@ -9,7 +9,6 @@ definition: بخشی از شهر که مردمانش همسایه‌اند
 english: quarter
 register: ادبی
 frequency_rank: null
-zipf: 4.75
 difficulty: 3
 examples:
 - sare: در همین کوی زندگی می‌کند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.75

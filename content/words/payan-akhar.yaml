@@ -9,7 +9,6 @@ definition: جایی که چیزی به سر می‌رسد
 english: end
 register: رسمی
 frequency_rank: 374
-zipf: 5.5
 difficulty: 1
 examples:
 - sare: تا پایانِ داستان بمان.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.5

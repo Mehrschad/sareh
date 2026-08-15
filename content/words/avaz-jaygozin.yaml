@@ -9,7 +9,6 @@ definition: آنچه به‌جای چیزی می‌نشیند
 english: replacement
 register: رسمی
 frequency_rank: 576
-zipf: 5.36
 difficulty: 2
 examples:
 - sare: جایگزینش کن.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.36

@@ -9,7 +9,6 @@ definition: نشانه‌ای که تیر به سوی آن می‌رود؛ مق�
 english: target
 register: ادبی
 frequency_rank: 485
-zipf: 5.42
 difficulty: 3
 examples:
 - sare: آماجِ ما روشن است.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 5.42

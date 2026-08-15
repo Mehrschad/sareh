@@ -9,7 +9,6 @@ definition: گردآمدنِ گروهی بزرگ برای سخن و دانش
 english: conference
 register: رسمی
 frequency_rank: 1985
-zipf: 4.82
 difficulty: 3
 examples:
 - sare: در گردهمایی سخن گفت.
@@ -31,3 +30,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.82

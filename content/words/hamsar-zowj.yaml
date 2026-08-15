@@ -9,7 +9,6 @@ definition: کسی که با او پیوندِ زناشویی بسته‌ای
 english: spouse
 register: رسمی
 frequency_rank: 3144
-zipf: 4.58
 difficulty: 2
 examples:
 - sare: همسرش پزشک است.
@@ -31,3 +30,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.58

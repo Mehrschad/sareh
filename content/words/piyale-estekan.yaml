@@ -9,7 +9,6 @@ definition: جامِ کوچکِ نوشیدن
 english: small cup
 register: ادبی
 frequency_rank: 21923
-zipf: 3.28
 difficulty: 4
 examples:
 - sare: پیاله‌ای چای بیاور.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.28

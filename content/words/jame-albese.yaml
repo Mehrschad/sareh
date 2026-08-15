@@ -9,7 +9,6 @@ definition: پوشاک؛ آنچه بر تن می‌کنند
 english: garment
 register: ادبی
 frequency_rank: 23463
-zipf: 3.23
 difficulty: 3
 examples:
 - sare: جامه‌های نو خرید.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.23

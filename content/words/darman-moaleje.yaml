@@ -9,7 +9,6 @@ definition: کاری که بیماری را از میان می‌برد
 english: treatment
 register: رسمی
 frequency_rank: 8937
-zipf: 3.93
 difficulty: 2
 examples:
 - sare: درمانش آسان است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.93

@@ -9,7 +9,6 @@ definition: شیوه‌ی دیرینه‌ی انجامِ کاری در یک مر
 english: custom/rite
 register: ادبی
 frequency_rank: 3205
-zipf: 4.57
 difficulty: 2
 examples:
 - sare: آیینِ نوروز کهن است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.57

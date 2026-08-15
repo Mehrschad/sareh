@@ -1,0 +1,32 @@
+id: qodrat-tavan
+sare: توان
+loan: قدرت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /tæˈvɒːn/
+definition: نیرویِ انجامِ کار
+english: power
+register: رسمی
+frequency_rank: 368
+difficulty: 1
+examples:
+- sare: توانِ ایستادن نداشت.
+  loan: قدرتِ ایستادن نداشت.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/قدرت
+- source: لغت‌نامه دهخدا
+  ref: مدخل «توان»
+roots:
+  pahlavi: tuwān
+  avestan: null
+  old_persian: null
+related:
+- توانا
+- ناتوان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.51

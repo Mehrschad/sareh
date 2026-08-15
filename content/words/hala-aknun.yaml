@@ -9,7 +9,6 @@ definition: در همین دم؛ هم‌اینک
 english: now
 register: رسمی
 frequency_rank: 87
-zipf: 6.0
 difficulty: 1
 examples:
 - sare: اکنون بگو.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 6.0

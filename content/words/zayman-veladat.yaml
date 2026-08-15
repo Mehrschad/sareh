@@ -9,7 +9,6 @@ definition: به‌دنیا‌آوردنِ کودک
 english: childbirth
 register: رسمی
 frequency_rank: 9513
-zipf: 3.89
 difficulty: 3
 examples:
 - sare: زایمانش آسان بود.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.89

@@ -1,0 +1,32 @@
+id: hemayat-poshtibani
+sare: پشتیبانی
+loan: حمایت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /poʃtiːbɒːˈniː/
+definition: پشتِ کسی ایستادن
+english: support
+register: رسمی
+frequency_rank: 474
+difficulty: 2
+examples:
+- sare: پشتیبانی‌ات را می‌خواهم.
+  loan: حمایتت را می‌خواهم.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/حمایت
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «پشتیبانی»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- پشت
+- پشتیبان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.42

@@ -1,0 +1,32 @@
+id: dore-charkhe
+sare: چرخه
+loan: دوره
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /tʃæɾˈxe/
+definition: بازه‌ای که پیوسته تکرار می‌شود
+english: cycle
+register: دانشی
+frequency_rank: 270
+difficulty: 3
+examples:
+- sare: چرخه‌ی آب در گیتی.
+  loan: دوره‌ی آب در طبیعت.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/دوره
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «چرخه»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- چرخ
+- چرخیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.62

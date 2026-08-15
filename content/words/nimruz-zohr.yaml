@@ -9,7 +9,6 @@ definition: میانه‌ی روز
 english: noon
 register: ادبی
 frequency_rank: 2122
-zipf: 4.78
 difficulty: 3
 examples:
 - sare: نیم‌روز رسیدیم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.78

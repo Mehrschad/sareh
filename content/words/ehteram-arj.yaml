@@ -9,7 +9,6 @@ definition: بزرگ‌داشتِ کسی
 english: respect
 register: ادبی
 frequency_rank: 1046
-zipf: 5.11
 difficulty: 2
 examples:
 - sare: ارجِ آموزگارت را نگه دار.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.11

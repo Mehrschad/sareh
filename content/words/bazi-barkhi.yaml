@@ -9,7 +9,6 @@ definition: پاره‌ای از؛ شماری از
 english: some
 register: رسمی
 frequency_rank: 618
-zipf: 5.32
 difficulty: 1
 examples:
 - sare: برخی از آنان ماندند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.32

@@ -9,7 +9,6 @@ definition: توانِ تاب‌آوردن و درنگ‌کردن
 english: patience
 register: ادبی
 frequency_rank: 1158
-zipf: 5.07
 difficulty: 3
 examples:
 - sare: شکیب کن تا بازگردد.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 5.07

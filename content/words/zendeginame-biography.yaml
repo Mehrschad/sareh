@@ -9,7 +9,6 @@ definition: نوشته‌ای درباره‌ی زندگیِ کسی
 english: biography
 register: رسمی
 frequency_rank: 8872
-zipf: 3.93
 difficulty: 4
 examples:
 - sare: زندگی‌نامه‌اش را خواندم.
@@ -28,3 +27,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.93

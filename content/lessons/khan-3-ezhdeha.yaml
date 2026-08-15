@@ -12,13 +12,14 @@ stations:
   - شنیدار
   words:
   - qeymat-baha
+  - sefid-sepid
   - khorak-qaza
+  - barq-roshanaei
+  - nur-foruq
   - kala-jens
   - forushgah-maqaze
   - bam-saqf
   - kharidar-moshtari
-  - qofl-band
-  - yakhchal-ferizer
 - id: khan-3-ezhdeha-manzel-2
   title: منزلِ 2
   exercises:
@@ -27,14 +28,16 @@ stations:
   - نویسش
   - داستانک
   words:
+  - qofl-band
+  - qatre-chekke
+  - makhlut-amikhte
+  - khales-nab
+  - tanab-risman
+  - yakhchal-ferizer
   - shirini-halva
   - nezafat-pakizegi
   - majles-bazm
   - rakht-lebas
-  - cheshme-manba
-  - kuy-mahalle
-  - kashane-manzel
-  - garmabe-hammam
 - id: khan-3-ezhdeha-manzel-3
   title: منزلِ 3
   exercises:
@@ -43,14 +46,16 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
+  - cheshme-manba
+  - kuy-mahalle
+  - kashane-manzel
+  - garmabe-hammam
   - asal-angabin
+  - mayee-abgun
   - sobhane-chasht
   - jam-livan
   - mive-samar
   - shurba-sup
-  - sara-emarat
-  - ganje-komod
-  - chashni-advie
 - id: khan-3-ezhdeha-manzel-4
   title: منزلِ 4
   exercises:
@@ -59,6 +64,9 @@ stations:
   - گزینش
   - نویسش
   words:
+  - sara-emarat
+  - ganje-komod
+  - chashni-advie
   - nushidani-mashrubat
   - jame-albese
   - bastar-ferash
@@ -66,7 +74,6 @@ stations:
   - avand-zarf
   - khan-sofre
   - khakrube-ashqal
-  - abrizgah-toalet
 - id: khan-3-ezhdeha-manzel-5
   title: منزلِ 5
   exercises:
@@ -75,6 +82,7 @@ stations:
   - شنیدار
   - واژه‌چین
   words:
+  - abrizgah-toalet
   - torshi-khall
   - ahangar-haddad
   - piyale-estekan

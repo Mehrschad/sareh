@@ -9,7 +9,6 @@ definition: آنچه با زبان دریافته می‌شود
 english: taste
 register: گفتاری
 frequency_rank: 3938
-zipf: 4.45
 difficulty: 2
 examples:
 - sare: مزه‌اش تند است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.45

@@ -9,7 +9,6 @@ definition: اندامی در تنِ زن که کودک در آن می‌بال�
 english: womb
 register: دانشی
 frequency_rank: 2455
-zipf: 4.71
 difficulty: 4
 examples:
 - sare: کودک در زهدان می‌بالد.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 4.71

@@ -9,7 +9,6 @@ definition: آنچه بر زمین می‌گسترند
 english: floor covering
 register: ادبی
 frequency_rank: 3104
-zipf: 4.59
 difficulty: 5
 examples:
 - sare: گستردنی را پهن کن.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 4.59

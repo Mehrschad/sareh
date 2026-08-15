@@ -9,7 +9,6 @@ definition: فضای باز در میانِ خانه
 english: courtyard
 register: ادبی
 frequency_rank: 3405
-zipf: 4.53
 difficulty: 5
 examples:
 - sare: در میان‌سرا نشسته بود.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 4.53

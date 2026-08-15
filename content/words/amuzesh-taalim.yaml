@@ -9,7 +9,6 @@ definition: کارِ یاد دادن
 english: education
 register: رسمی
 frequency_rank: 6052
-zipf: 4.18
 difficulty: 2
 examples:
 - sare: آموزشِ زبان دشوار نیست.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.18

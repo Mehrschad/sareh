@@ -9,7 +9,6 @@ definition: سخن‌گفتن با ایزد؛ خواندنِ او
 english: prayer
 register: ادبی
 frequency_rank: 1554
-zipf: 4.93
 difficulty: 3
 examples:
 - sare: به نیایش ایستاد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.93

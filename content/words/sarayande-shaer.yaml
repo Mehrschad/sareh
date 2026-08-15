@@ -9,7 +9,6 @@ definition: کسی که چامه می‌سراید
 english: poet
 register: ادبی
 frequency_rank: 2656
-zipf: 4.67
 difficulty: 3
 examples:
 - sare: سراینده‌ی این بیت کیست؟
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.67

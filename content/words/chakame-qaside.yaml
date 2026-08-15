@@ -9,7 +9,6 @@ definition: سروده‌ی بلندِ یک‌آهنگ
 english: ode
 register: ادبی
 frequency_rank: 11434
-zipf: 3.76
 difficulty: 5
 examples:
 - sare: چکامه‌اش را برای شاه خواند.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 3.76

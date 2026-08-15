@@ -9,7 +9,6 @@ definition: خطِ جداکننده‌ی دو سرزمین
 english: border
 register: رسمی
 frequency_rank: null
-zipf: 5.29
 difficulty: 3
 examples:
 - sare: از مرز گذشتند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.29

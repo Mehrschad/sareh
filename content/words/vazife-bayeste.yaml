@@ -9,7 +9,6 @@ definition: کاری که بر گردنِ کسی است
 english: duty
 register: ادبی
 frequency_rank: 1570
-zipf: 4.93
 difficulty: 3
 examples:
 - sare: بایسته‌ات را انجام بده.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 4.93

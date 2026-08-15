@@ -9,7 +9,6 @@ definition: پایه‌ای که چیزی بر آن ایستاده
 english: foundation
 register: رسمی
 frequency_rank: 435
-zipf: 5.45
 difficulty: 2
 examples:
 - sare: بنیادش سست است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.45

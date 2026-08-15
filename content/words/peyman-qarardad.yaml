@@ -9,7 +9,6 @@ definition: بستنِ عهد میان دو سو
 english: pact
 register: ادبی
 frequency_rank: 1590
-zipf: 4.92
 difficulty: 2
 examples:
 - sare: پیمان بستند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.92

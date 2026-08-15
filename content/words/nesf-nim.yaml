@@ -9,7 +9,6 @@ definition: یکی از دو بخشِ برابرِ چیزی
 english: half
 register: گفتاری
 frequency_rank: 1597
-zipf: 4.92
 difficulty: 1
 examples:
 - sare: نیمِ نان را خوردم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.92

@@ -9,7 +9,6 @@ definition: کسی که از دستگاه یا نرم‌افزار بهره می
 english: user
 register: دانشی
 frequency_rank: 15028
-zipf: 3.57
 difficulty: 2
 examples:
 - sare: کاربرِ تازه‌ای پیوست.
@@ -29,3 +28,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.57

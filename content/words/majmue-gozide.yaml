@@ -1,0 +1,32 @@
+id: majmue-gozide
+sare: گزیده
+loan: مجموعه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ɡoziːˈde/
+definition: چند چیزِ برگزیده که با هم گرد آمده‌اند
+english: collection
+register: رسمی
+frequency_rank: 314
+difficulty: 2
+examples:
+- sare: گزیده‌ای از چامه‌ها.
+  loan: مجموعه‌ای از اشعار.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/مجموعه
+- source: لغت‌نامه دهخدا
+  ref: مدخل «گزیده»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- جنگ
+- گزیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.56

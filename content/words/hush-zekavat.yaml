@@ -9,7 +9,6 @@ definition: تیزیِ دریافت و اندیشه
 english: intelligence
 register: رسمی
 frequency_rank: 26339
-zipf: 3.14
 difficulty: 2
 examples:
 - sare: هوشش را ستودند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.14

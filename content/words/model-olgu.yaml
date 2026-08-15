@@ -1,0 +1,32 @@
+id: model-olgu
+sare: الگو
+loan: مدل
+loan_origin: فرانسه
+pos: اسم
+acceptance: زنده
+ipa: /ʔolˈɡuː/
+definition: نمونه‌ای که از رویش می‌سازند
+english: model
+register: رسمی
+frequency_rank: 623
+difficulty: 2
+examples:
+- sare: الگویش را برداشتم.
+  loan: مدلش را برداشتم.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/مدل
+- source: لغت‌نامه دهخدا
+  ref: مدخل «الگو»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- سرمشق
+- نمونه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.32

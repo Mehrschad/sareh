@@ -9,7 +9,6 @@ definition: بسته‌ای از داده یا نوشته‌های یک موضو
 english: file
 register: دانشی
 frequency_rank: 2012
-zipf: 4.81
 difficulty: 2
 examples:
 - sare: پرونده را ببند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.81

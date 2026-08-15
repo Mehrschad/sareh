@@ -9,7 +9,6 @@ definition: دشمنیِ نهفته در دل
 english: grudge
 register: ادبی
 frequency_rank: 28880
-zipf: 3.07
 difficulty: 3
 examples:
 - sare: کینه‌ای در دل نداشت.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.07

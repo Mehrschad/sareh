@@ -9,7 +9,6 @@ definition: آنچه با آن کاری انجام می‌دهند
 english: tool
 register: رسمی
 frequency_rank: 6938
-zipf: 4.09
 difficulty: 2
 examples:
 - sare: ابزارت را بردار.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.09

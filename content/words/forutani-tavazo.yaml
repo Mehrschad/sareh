@@ -9,7 +9,6 @@ definition: خود را برتر ندانستن
 english: humility
 register: ادبی
 frequency_rank: 14046
-zipf: 3.61
 difficulty: 3
 examples:
 - sare: فروتنی‌اش دل می‌برد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.61

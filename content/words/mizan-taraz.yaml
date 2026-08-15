@@ -1,0 +1,32 @@
+id: mizan-taraz
+sare: تراز
+loan: میزان
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /tæˈɾɒːz/
+definition: اندازه و سنجه‌ی چیزی
+english: measure/level
+register: رسمی
+frequency_rank: 769
+difficulty: 3
+examples:
+- sare: ترازِ آب بالا رفت.
+  loan: میزانِ آب بالا رفت.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/میزان
+- source: لغت‌نامه دهخدا
+  ref: مدخل «تراز»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- ترازو
+- سنجه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.25

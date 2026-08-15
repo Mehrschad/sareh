@@ -9,7 +9,6 @@ definition: پذیرفتنِ کس یا چیزی
 english: acceptance
 register: رسمی
 frequency_rank: 483
-zipf: 5.42
 difficulty: 2
 examples:
 - sare: پذیرشش قطعی شد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.42

@@ -1,0 +1,32 @@
+id: edare-divan
+sare: دیوان
+loan: اداره
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /diːˈvɒːn/
+definition: سازمانِ کارهای دولتی
+english: bureau
+register: ادبی
+frequency_rank: 725
+difficulty: 3
+examples:
+- sare: دیوانِ دادگستری.
+  loan: اداره‌ی دادگستری.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/اداره
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دیوان»
+roots:
+  pahlavi: dēwān
+  avestan: null
+  old_persian: null
+related:
+- دفتر
+- دیوان‌سالاری
+audio: null
+status: proposed
+contributors:
+- sareh-seed
+zipf: 5.26

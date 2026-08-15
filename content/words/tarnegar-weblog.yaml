@@ -9,7 +9,6 @@ definition: تارنمایی که نوشته‌های زمان‌دار در آ�
 english: weblog
 register: دانشی
 frequency_rank: 5368
-zipf: 4.26
 difficulty: 4
 examples:
 - sare: در تارنگارش نوشت.
@@ -28,3 +27,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.26

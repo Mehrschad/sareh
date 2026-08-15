@@ -9,7 +9,6 @@ definition: زنجیره‌ی فرمانروایانِ یک تبار
 english: dynasty
 register: ادبی
 frequency_rank: 3584
-zipf: 4.5
 difficulty: 4
 examples:
 - sare: دودمانِ ساسانیان.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.5

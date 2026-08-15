@@ -9,7 +9,6 @@ definition: آنچه پیش‌تر بوده است
 english: background
 register: رسمی
 frequency_rank: 1425
-zipf: 4.97
 difficulty: 2
 examples:
 - sare: پیشینه‌ی کاری‌اش روشن است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.97

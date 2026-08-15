@@ -9,7 +9,6 @@ definition: کم‌وبیش؛ در حدودِ
 english: approximately
 register: گفتاری
 frequency_rank: null
-zipf: 5.12
 difficulty: 2
 examples:
 - sare: نزدیکِ ده تن آمدند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.12

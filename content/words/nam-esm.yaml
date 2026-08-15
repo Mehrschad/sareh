@@ -9,7 +9,6 @@ definition: واژه‌ای که کس یا چیزی را با آن می‌خوا
 english: name
 register: گفتاری
 frequency_rank: 309
-zipf: 5.56
 difficulty: 1
 examples:
 - sare: نامت چیست؟
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.56

@@ -9,7 +9,6 @@ definition: بی‌دانش؛ کم‌خرد
 english: foolish
 register: رسمی
 frequency_rank: 1888
-zipf: 4.84
 difficulty: 2
 examples:
 - sare: نادان مباش.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.84

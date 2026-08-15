@@ -9,7 +9,6 @@ definition: بخشِ میانیِ چیزی
 english: middle
 register: گفتاری
 frequency_rank: 1165
-zipf: 5.07
 difficulty: 1
 examples:
 - sare: میانِ راه ایستاد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.07

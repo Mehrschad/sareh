@@ -9,7 +9,6 @@ definition: بی‌گمان؛ در هر حال
 english: of course
 register: ادبی
 frequency_rank: 155
-zipf: 5.82
 difficulty: 3
 examples:
 - sare: هرآینه چنین است.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 5.82

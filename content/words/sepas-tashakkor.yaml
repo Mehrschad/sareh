@@ -9,7 +9,6 @@ definition: ابراز قدردانی؛ آنچه در برابر نیکی گفت
 english: thanks
 register: گفتاری
 frequency_rank: 1316
-zipf: 5.01
 difficulty: 1
 examples:
 - sare: سپاس که آمدی.
@@ -32,3 +31,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.01

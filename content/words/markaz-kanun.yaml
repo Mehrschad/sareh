@@ -1,0 +1,32 @@
+id: markaz-kanun
+sare: کانون
+loan: مرکز
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /kɒːˈnuːn/
+definition: نقطه‌ی میانی که چیزها گردِ آن‌اند
+english: centre
+register: رسمی
+frequency_rank: 353
+difficulty: 2
+examples:
+- sare: کانونِ شهر شلوغ است.
+  loan: مرکزِ شهر شلوغ است.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/مرکز
+- source: لغت‌نامه دهخدا
+  ref: مدخل «کانون»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- میانه
+- کانونی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.53

@@ -9,7 +9,6 @@ definition: درگیریِ دو سو با هم
 english: conflict
 register: ادبی
 frequency_rank: 10829
-zipf: 3.8
 difficulty: 3
 examples:
 - sare: ستیزشان بالا گرفت.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.8

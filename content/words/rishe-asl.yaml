@@ -9,7 +9,6 @@ definition: بنِ چیزی؛ آنچه چیزی از آن برخاسته
 english: root/origin
 register: دانشی
 frequency_rank: 831
-zipf: 5.21
 difficulty: 2
 examples:
 - sare: ریشه‌ی این واژه پهلوی است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.21

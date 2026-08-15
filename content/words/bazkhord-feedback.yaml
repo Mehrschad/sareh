@@ -9,7 +9,6 @@ definition: پاسخی که به کننده‌ی کار بازمی‌گردد
 english: feedback
 register: دانشی
 frequency_rank: 23876
-zipf: 3.22
 difficulty: 3
 examples:
 - sare: بازخوردت را بنویس.
@@ -28,3 +27,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.22

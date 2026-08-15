@@ -9,7 +9,6 @@ definition: گردهماییِ شادی و سرود
 english: feast/gathering
 register: ادبی
 frequency_rank: 261
-zipf: 5.63
 difficulty: 3
 examples:
 - sare: بزمی برپا کردند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.63

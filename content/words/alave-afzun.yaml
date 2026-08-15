@@ -9,7 +9,6 @@ definition: بیش از آن؛ افزوده بر
 english: in addition
 register: رسمی
 frequency_rank: 875
-zipf: 5.19
 difficulty: 2
 examples:
 - sare: افزون بر این، دیر هم آمد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.19

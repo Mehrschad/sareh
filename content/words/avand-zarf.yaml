@@ -9,7 +9,6 @@ definition: هر چیزی که چیزی را در خود گیرد
 english: vessel
 register: دانشی
 frequency_rank: 2225
-zipf: 4.76
 difficulty: 4
 examples:
 - sare: آوندها را بشوی.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 4.76

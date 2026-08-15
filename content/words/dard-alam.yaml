@@ -9,7 +9,6 @@ definition: آزارِ تن یا جان
 english: pain
 register: ادبی
 frequency_rank: 21074
-zipf: 3.31
 difficulty: 2
 examples:
 - sare: دردش آرام گرفت.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.31

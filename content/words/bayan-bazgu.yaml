@@ -1,0 +1,32 @@
+id: bayan-bazgu
+sare: بازگو
+loan: بیان
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bɒːzˈɡuː/
+definition: به سخن درآوردن؛ گفتنِ دوباره
+english: expression
+register: رسمی
+frequency_rank: 517
+difficulty: 3
+examples:
+- sare: بازگوی سخنش کرد.
+  loan: بیانِ سخنش کرد.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/بیان
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بازگفتن»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- بازگفتن
+- گفتار
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.39

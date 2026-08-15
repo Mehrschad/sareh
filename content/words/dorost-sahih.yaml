@@ -9,7 +9,6 @@ definition: آنچه با راستی و قاعده می‌خواند
 english: correct
 register: گفتاری
 frequency_rank: 2224
-zipf: 4.76
 difficulty: 1
 examples:
 - sare: پاسخت درست بود.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.76

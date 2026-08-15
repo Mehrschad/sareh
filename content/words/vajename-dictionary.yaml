@@ -9,7 +9,6 @@ definition: کتابی که واژه‌ها را با معنی گرد آورده
 english: dictionary
 register: دانشی
 frequency_rank: 17366
-zipf: 3.46
 difficulty: 3
 examples:
 - sare: واژه‌نامه را باز کن.
@@ -31,3 +30,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.46

@@ -1,0 +1,32 @@
+id: sayer-digar
+sare: دیگر
+loan: سایر
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /diːˈɡæɾ/
+definition: باقی؛ آنانِ دیگر
+english: other
+register: گفتاری
+frequency_rank: 736
+difficulty: 1
+examples:
+- sare: دیگر کسان رفتند.
+  loan: سایر افراد رفتند.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/سایر
+- source: فرهنگ فارسی معین
+  ref: مدخل «دیگر»
+roots:
+  pahlavi: dudīgar
+  avestan: null
+  old_persian: null
+related:
+- جز
+- دیگران
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.26

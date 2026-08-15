@@ -9,7 +9,6 @@ definition: افزودنیِ خوش‌مزه‌کننده‌ی خوراک
 english: seasoning
 register: گفتاری
 frequency_rank: 9389
-zipf: 3.89
 difficulty: 3
 examples:
 - sare: چاشنی‌اش کم است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.89

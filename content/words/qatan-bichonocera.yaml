@@ -9,7 +9,6 @@ definition: بی‌جای گفت‌وگو؛ بی‌تردید
 english: definitely
 register: رسمی
 frequency_rank: null
-zipf: 4.97
 difficulty: 3
 examples:
 - sare: بی‌چون‌وچرا درست است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.97

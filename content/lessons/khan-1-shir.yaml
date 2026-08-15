@@ -14,11 +14,12 @@ stations:
   - tanha-faqat
   - baad-pas
   - mored-bare
+  - kheyli-faravan
   - hala-aknun
+  - avval-nokhost
   - mesl-manand
   - tamam-hame
   - harf-sokhan
-  - qabl-pish
 - id: khan-1-shir-manzel-2
   title: منزلِ 2
   exercises:
@@ -27,15 +28,15 @@ stations:
   - نویسش
   - داستانک
   words:
+  - qabl-pish
+  - jadid-taze
   - aslan-hich
   - dorud-salam
+  - avvalin-nokhostin
   - nam-esm
   - taht-zir
-  - besyar-ziad
-  - bazi-barkhi
-  - asan-rahat
-  - aksar-bishtar
-  - sepas-tashakkor
+  - kharej-birun
+  - moqabel-ruberu
 - id: khan-1-shir-manzel-3
   title: منزلِ 3
   exercises:
@@ -44,15 +45,15 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
+  - dakhel-darun
+  - besyar-ziad
+  - chetour-chegune
+  - bazi-barkhi
+  - asan-rahat
+  - sayer-digar
+  - aksar-bishtar
+  - sepas-tashakkor
   - dorost-sahih
-  - aknun-alan
-  - bedrud-khodahafez
-  - ari-bale
-  - amma-lik
-  - vaqean-berasti
-  - tavassot-bedast
-  - hatman-bigoman
-  - lotfan-khaheshmandam
 - id: khan-1-shir-manzel-4
   title: منزلِ 4
   exercises:
@@ -60,6 +61,24 @@ stations:
   - بیت‌یاب
   - گزینش
   - نویسش
+  words:
+  - aknun-alan
+  - bedrud-khodahafez
+  - ari-bale
+  - amma-lik
+  - vaqean-berasti
+  - tavassot-bedast
+  - cheqadr-cheandaze
+  - qeyr-joz
+  - hatman-bigoman
+  - lotfan-khaheshmandam
+- id: khan-1-shir-manzel-5
+  title: منزلِ 5
+  exercises:
+  - گزینش
+  - داستانک
+  - شنیدار
+  - واژه‌چین
   words:
   - hodud-nazdike
   - sohbat-goftar
@@ -70,15 +89,15 @@ stations:
   - taqriban-nazdik
   - pishtar-qablan
   - raje-darbare
-- id: khan-1-shir-manzel-5
-  title: منزلِ 5
-  exercises:
-  - گزینش
-  - داستانک
-  - شنیدار
-  - واژه‌چین
-  words:
   - sepas-baadan
+- id: khan-1-shir-manzel-6
+  title: منزلِ 6
+  exercises:
+  - جای‌گزینی
+  - گزینش
+  - تیر آرش
+  - بیت‌یاب
+  words:
   - faalan-hamaknun
   - nadorost-qalat
   - puzesh-ozrkhahi
@@ -86,6 +105,8 @@ stations:
   - hargez-abadan
   - albatte-harayene
   - khater-bahr
+  - akharin-vapasin
+  - tour-san
   - qatan-bichonocera
 boss:
   id: khan-1-shir-negahban

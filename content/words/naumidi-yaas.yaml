@@ -9,7 +9,6 @@ definition: از دست‌رفتنِ امید
 english: despair
 register: ادبی
 frequency_rank: 21588
-zipf: 3.3
 difficulty: 3
 examples:
 - sare: نومیدی راه ندارد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.3

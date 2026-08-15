@@ -9,7 +9,6 @@ definition: راهِ میانِ دهان و شش و شکم
 english: throat
 register: گفتاری
 frequency_rank: 10609
-zipf: 3.81
 difficulty: 3
 examples:
 - sare: گلویش درد می‌کند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.81

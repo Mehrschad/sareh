@@ -1,0 +1,32 @@
+id: tarh-pishnevis
+sare: پیش‌نویس
+loan: طرح
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /piːʃneˈviːs/
+definition: نگاشتِ نخستِ کاری، پیش از پایان
+english: draft
+register: رسمی
+frequency_rank: 524
+difficulty: 3
+examples:
+- sare: پیش‌نویسش آماده است.
+  loan: طرحش آماده است.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/طرح
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «پیش‌نویس»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- نوشتن
+- پیش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.39

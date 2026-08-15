@@ -1,0 +1,32 @@
+id: komak-yari
+sare: یاری
+loan: کمک
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /jɒːˈɾiː/
+definition: دستگیری؛ همراهی در کار
+english: help
+register: رسمی
+frequency_rank: 200
+difficulty: 1
+examples:
+- sare: یاری‌ام کن.
+  loan: کمکم کن.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/کمک
+- source: لغت‌نامه دهخدا
+  ref: مدخل «یاری»
+roots:
+  pahlavi: ayyār
+  avestan: null
+  old_persian: null
+related:
+- همیاری
+- یار
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.73

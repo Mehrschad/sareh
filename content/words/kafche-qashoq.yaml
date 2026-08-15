@@ -9,7 +9,6 @@ definition: ابزارِ گودِ دسته‌دار برای خوردن
 english: spoon
 register: ادبی
 frequency_rank: 5100
-zipf: 4.29
 difficulty: 5
 examples:
 - sare: کفچه‌ای شوربا برداشت.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 4.29

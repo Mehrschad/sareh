@@ -9,7 +9,6 @@ definition: گروهِ رزمندگانِ سازمان‌یافته
 english: army
 register: ادبی
 frequency_rank: 23295
-zipf: 3.24
 difficulty: 3
 examples:
 - sare: سپاه به راه افتاد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.24

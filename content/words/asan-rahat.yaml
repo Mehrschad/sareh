@@ -9,7 +9,6 @@ definition: آنچه انجامش رنج نمی‌خواهد
 english: easy
 register: گفتاری
 frequency_rank: 734
-zipf: 5.26
 difficulty: 1
 examples:
 - sare: این کار آسان است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.26

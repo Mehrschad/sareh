@@ -9,7 +9,6 @@ definition: بر بنیادِ؛ چنان‌که فلان گفته
 english: according to
 register: رسمی
 frequency_rank: 792
-zipf: 5.23
 difficulty: 2
 examples:
 - sare: بر پایه‌ی گفته‌ی او، فردا می‌آید.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.23

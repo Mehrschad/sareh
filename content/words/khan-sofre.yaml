@@ -9,7 +9,6 @@ definition: گستردنیِ خوراک؛ میزِ چیده‌ی خوردن
 english: dining spread
 register: ادبی
 frequency_rank: 3352
-zipf: 4.54
 difficulty: 4
 examples:
 - sare: خوان گستردند.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 4.54

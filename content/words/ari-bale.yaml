@@ -9,7 +9,6 @@ definition: پاسخ مثبت به پرسش
 english: 'yes'
 register: رسمی
 frequency_rank: 15717
-zipf: 3.53
 difficulty: 1
 examples:
 - sare: آری، شنیدم.
@@ -29,3 +28,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.53

@@ -9,7 +9,6 @@ definition: آنچه دور انداخته می‌شود
 english: rubbish
 register: رسمی
 frequency_rank: 4107
-zipf: 4.42
 difficulty: 4
 examples:
 - sare: خاکروبه را بیرون بگذار.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.42

@@ -9,7 +9,6 @@ definition: هنرِ نگاشتنِ نگاره‌های ریزِ ایرانی
 english: Persian miniature
 register: ادبی
 frequency_rank: 18412
-zipf: 3.42
 difficulty: 5
 examples:
 - sare: نگارگریِ ایرانی جهانی است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.42

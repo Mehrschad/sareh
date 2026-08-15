@@ -9,7 +9,6 @@ definition: خوش‌آیندیِ دیدار
 english: beauty
 register: ادبی
 frequency_rank: 4908
-zipf: 4.31
 difficulty: 2
 examples:
 - sare: زیبایی‌اش چشم‌گیر بود.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.31

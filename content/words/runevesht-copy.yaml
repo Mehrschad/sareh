@@ -9,7 +9,6 @@ definition: نسخه‌ای همانندِ نوشته‌ی اصلی
 english: copy
 register: رسمی
 frequency_rank: 1882
-zipf: 4.85
 difficulty: 3
 examples:
 - sare: رونوشتش را نگه دار.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.85

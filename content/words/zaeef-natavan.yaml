@@ -9,7 +9,6 @@ definition: بی‌توان؛ سست
 english: weak
 register: رسمی
 frequency_rank: 2120
-zipf: 4.78
 difficulty: 2
 examples:
 - sare: پس از بیماری ناتوان شد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.78

@@ -5,21 +5,20 @@ realm: تن، تندرستی و احساس
 stations:
 - id: khan-2-div-teshnegi-manzel-1
   title: منزلِ 1
-  exercises:
+  exercises: &id001
   - گزینش
   - جفت‌ساز
   - جای‌گزینی
   - شنیدار
   words:
+  - qodrat-tavan
   - sari-tond
+  - hararat-garma
+  - hayvan-janvar
   - mariz-bimar
+  - badan-peykar
   - lahze-dam
-  - sorat-tondi
-  - del-qalb
-  - omr-zendegani
-  - khatar-gazand
-  - ajib-shegeft
-  - narahat-delgir
+  - eshtebah-laqzesh
 - id: khan-2-div-teshnegi-manzel-2
   title: منزلِ 2
   exercises:
@@ -28,15 +27,14 @@ stations:
   - نویسش
   - داستانک
   words:
-  - khoshhal-shadman
-  - lanat-nefrin
-  - adat-khuy
-  - ahmaq-nadan
-  - asayesh-rahati
-  - zaeef-natavan
-  - tandorosti-salamati
-  - asabani-khashmgin
-  - maze-tam
+  - harekat-jonbesh
+  - asheq-shifte
+  - seda-ava
+  - sorat-tondi
+  - lezzat-khoshi
+  - del-qalb
+  - omr-zendegani
+  - khatar-gazand
 - id: khan-2-div-teshnegi-manzel-3
   title: منزلِ 3
   exercises:
@@ -45,16 +43,14 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
-  - behbud-shafa
-  - nirou-qovvat
-  - darman-moaleje
-  - bimari-maraz
-  - pezeshk-tabib
-  - zakhm-jerahat
-  - khashm-qazab
-  - bu-rayehe
-  - aramesh-sokun
-  - dard-alam
+  - ajib-shegeft
+  - narahat-delgir
+  - khoshhal-shadman
+  - lanat-nefrin
+  - adat-khuy
+  - ahmaq-nadan
+  - asayesh-rahati
+  - zaeef-natavan
 - id: khan-2-div-teshnegi-manzel-4
   title: منزلِ 4
   exercises:
@@ -63,16 +59,14 @@ stations:
   - گزینش
   - نویسش
   words:
-  - khab-roya
-  - hush-zekavat
-  - dam-nafas
-  - ravan-ruh
-  - shakib-sabr
-  - parmas-lams
-  - abestan-hamele
-  - jegar-kabed
-  - shosh-riye
-  - maqz-demaq
+  - tandorosti-salamati
+  - asabani-khashmgin
+  - maze-tam
+  - ajale-shetab
+  - behbud-shafa
+  - nirou-qovvat
+  - darman-moaleje
+  - bimari-maraz
 - id: khan-2-div-teshnegi-manzel-5
   title: منزلِ 5
   exercises:
@@ -81,7 +75,36 @@ stations:
   - شنیدار
   - واژه‌چین
   words:
+  - pezeshk-tabib
+  - zakhm-jerahat
+  - khashm-qazab
+  - bu-rayehe
+  - aramesh-sokun
+  - dard-alam
+  - khab-roya
+  - hush-zekavat
+  - dam-nafas
+- id: khan-2-div-teshnegi-manzel-6
+  title: منزلِ 6
+  exercises:
+  - جای‌گزینی
+  - گزینش
+  - تیر آرش
+  - بیت‌یاب
+  words:
+  - ravan-ruh
+  - shakib-sabr
+  - parmas-lams
+  - abestan-hamele
+  - jegar-kabed
+  - shosh-riye
+  - hesadat-reshk
+  - maqz-demaq
   - mahiche-azole
+- id: khan-2-div-teshnegi-manzel-7
+  title: منزلِ 7
+  exercises: *id001
+  words:
   - zayman-veladat
   - galu-halq
   - teshnegi-atash

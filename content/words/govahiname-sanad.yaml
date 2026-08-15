@@ -9,7 +9,6 @@ definition: نوشته‌ای که چیزی را گواهی می‌کند
 english: certificate
 register: رسمی
 frequency_rank: 1851
-zipf: 4.85
 difficulty: 3
 examples:
 - sare: گواهی‌نامه‌اش را نشان داد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.85

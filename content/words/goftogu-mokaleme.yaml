@@ -9,7 +9,6 @@ definition: سخن‌گفتن دو یا چند تن با هم
 english: conversation
 register: رسمی
 frequency_rank: 4706
-zipf: 4.34
 difficulty: 2
 examples:
 - sare: گفت‌وگویی کوتاه داشتیم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.34

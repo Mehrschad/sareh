@@ -9,7 +9,6 @@ definition: پدرانِ پیشینِ یک تبار
 english: ancestors
 register: ادبی
 frequency_rank: 10116
-zipf: 3.84
 difficulty: 4
 examples:
 - sare: نیاکانمان اینجا زیستند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.84

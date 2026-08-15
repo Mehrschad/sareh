@@ -9,7 +9,6 @@ definition: جایگاهی که پرونده‌ها را در خود می‌گی
 english: folder
 register: دانشی
 frequency_rank: 26744
-zipf: 3.13
 difficulty: 2
 examples:
 - sare: پوشه‌ی نو بساز.
@@ -28,3 +27,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.13

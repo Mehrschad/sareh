@@ -9,7 +9,6 @@ definition: چندی چیزها؛ اندازه‌ی عددی
 english: count
 register: رسمی
 frequency_rank: 398
-zipf: 5.48
 difficulty: 2
 examples:
 - sare: شمار واژه‌ها را بنویس.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.48

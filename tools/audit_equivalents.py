@@ -26,10 +26,12 @@ CACHE = ROOT / "tools" / ".beparsi-cache.json"
 WORDS = ROOT / "content" / "words"
 
 FOLD = str.maketrans({"ي": "ی", "ك": "ک", "‌": "", "ٔ": ""})
+# اعراب در املای فارسی اختیاری است: «دَم» و «دم» یک واژه‌اند.
+DIACRITICS = dict.fromkeys(range(0x064B, 0x0653), None)
 
 
 def norm(text: str) -> str:
-    return text.translate(FOLD).replace(" ", "").strip()
+    return text.translate(FOLD).translate(DIACRITICS).replace(" ", "").strip()
 
 
 def main() -> int:

@@ -9,7 +9,6 @@ definition: خوراکِ آبکیِ گرم
 english: soup
 register: گفتاری
 frequency_rank: 5774
-zipf: 4.21
 difficulty: 3
 examples:
 - sare: شوربا بخور تا گرم شوی.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.21

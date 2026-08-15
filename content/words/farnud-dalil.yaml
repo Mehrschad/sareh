@@ -9,7 +9,6 @@ definition: آنچه درستیِ سخنی را نشان می‌دهد
 english: reason/proof
 register: دانشی
 frequency_rank: 198
-zipf: 5.73
 difficulty: 4
 examples:
 - sare: فرنودت پذیرفتنی است.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 5.73

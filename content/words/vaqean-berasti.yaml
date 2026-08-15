@@ -9,7 +9,6 @@ definition: در حقیقت؛ بی‌دروغ
 english: really
 register: رسمی
 frequency_rank: null
-zipf: 5.88
 difficulty: 2
 examples:
 - sare: به‌راستی نمی‌دانستم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.88

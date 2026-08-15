@@ -9,7 +9,6 @@ definition: نکوهشِ کسی برای کارِ نادرست
 english: reproach
 register: ادبی
 frequency_rank: 19643
-zipf: 3.37
 difficulty: 3
 examples:
 - sare: سرزنشش نکردند.
@@ -31,3 +30,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.37

@@ -9,7 +9,6 @@ definition: کسی که با چوب کار می‌سازد
 english: carpenter
 register: ادبی
 frequency_rank: null
-zipf: 3.46
 difficulty: 5
 examples:
 - sare: درودگر در را ساخت.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 3.46

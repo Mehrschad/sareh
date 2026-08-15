@@ -9,7 +9,6 @@ definition: پاک و ورجاوند
 english: holy
 register: ادبی
 frequency_rank: null
-zipf: 5.1
 difficulty: 5
 examples:
 - sare: آتشِ سپنتا را پاس داشتند.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 5.1

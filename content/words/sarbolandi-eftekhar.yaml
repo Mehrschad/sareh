@@ -9,7 +9,6 @@ definition: بالیدن به کارِ نیکِ خویش
 english: pride
 register: رسمی
 frequency_rank: 1048
-zipf: 5.11
 difficulty: 3
 examples:
 - sare: مایه‌ی سربلندی‌مان است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.11

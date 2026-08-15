@@ -9,7 +9,6 @@ definition: در پایینِ؛ در فرمانِ
 english: under
 register: گفتاری
 frequency_rank: 377
-zipf: 5.5
 difficulty: 1
 examples:
 - sare: زیرِ نگاهش بودم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.5

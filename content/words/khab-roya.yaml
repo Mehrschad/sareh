@@ -9,7 +9,6 @@ definition: آنچه در هنگام خفتن دیده می‌شود
 english: dream
 register: ادبی
 frequency_rank: 22590
-zipf: 3.26
 difficulty: 2
 examples:
 - sare: خوابی شگفت دیدم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.26

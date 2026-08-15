@@ -9,7 +9,6 @@ definition: همچون؛ به‌سانِ
 english: like
 register: گفتاری
 frequency_rank: 109
-zipf: 5.94
 difficulty: 1
 examples:
 - sare: مانندِ تو کسی نیست.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.94

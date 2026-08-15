@@ -9,7 +9,6 @@ definition: حسِ بینی؛ توانِ دریافتنِ بو
 english: smell (sense)
 register: دانشی
 frequency_rank: null
-zipf: 3.08
 difficulty: 4
 examples:
 - sare: بویایی‌اش تیز است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.08

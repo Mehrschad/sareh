@@ -9,7 +9,6 @@ definition: بی‌باکی در برابر خطر
 english: bravery
 register: ادبی
 frequency_rank: 3652
-zipf: 4.49
 difficulty: 3
 examples:
 - sare: دلیری‌اش زبانزد شد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.49

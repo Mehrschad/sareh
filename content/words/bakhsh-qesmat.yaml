@@ -9,7 +9,6 @@ definition: پاره‌ای از یک کل
 english: part
 register: رسمی
 frequency_rank: 404
-zipf: 5.48
 difficulty: 1
 examples:
 - sare: این بخش را بخوان.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.48

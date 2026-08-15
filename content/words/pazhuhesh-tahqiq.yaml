@@ -9,7 +9,6 @@ definition: جست‌وجوی سامان‌مند برای یافتنِ دانش
 english: research
 register: دانشی
 frequency_rank: 1446
-zipf: 4.96
 difficulty: 2
 examples:
 - sare: پژوهشش سه سال کشید.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.96

@@ -9,7 +9,6 @@ definition: اندازه‌گرفتن و ارزش نهادن بر چیزی
 english: assessment
 register: دانشی
 frequency_rank: 2638
-zipf: 4.67
 difficulty: 3
 examples:
 - sare: سنجشِ توانایی‌ها آسان نیست.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.67

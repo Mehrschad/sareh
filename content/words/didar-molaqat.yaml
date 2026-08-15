@@ -9,7 +9,6 @@ definition: رویارو شدن دو تن
 english: meeting
 register: رسمی
 frequency_rank: 2058
-zipf: 4.8
 difficulty: 2
 examples:
 - sare: دیدارمان کوتاه بود.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.8

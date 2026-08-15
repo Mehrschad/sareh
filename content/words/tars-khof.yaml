@@ -9,7 +9,6 @@ definition: دلهره در برابر گزندِ نزدیک
 english: fear
 register: گفتاری
 frequency_rank: 17093
-zipf: 3.47
 difficulty: 2
 examples:
 - sare: ترسی به دل راه نداد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.47

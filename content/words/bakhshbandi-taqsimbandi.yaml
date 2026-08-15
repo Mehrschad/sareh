@@ -9,7 +9,6 @@ definition: جدا کردنِ یک کل به بخش‌های سامان‌مند
 english: division
 register: دانشی
 frequency_rank: 20568
-zipf: 3.33
 difficulty: 3
 examples:
 - sare: بخش‌بندی‌ات روشن است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.33

@@ -9,7 +9,6 @@ definition: ستیزِ گفتاری یا کرداری
 english: quarrel
 register: گفتاری
 frequency_rank: 2111
-zipf: 4.78
 difficulty: 2
 examples:
 - sare: کشمکششان بالا گرفت.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.78

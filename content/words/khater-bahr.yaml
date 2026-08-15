@@ -9,7 +9,6 @@ definition: برای؛ از برای
 english: sake
 register: ادبی
 frequency_rank: 320
-zipf: 5.55
 difficulty: 3
 examples:
 - sare: از بهرِ تو آمدم.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 5.55

@@ -9,7 +9,6 @@ definition: زنجیره‌ی گام‌هایی که به فرآورده می‌
 english: process
 register: دانشی
 frequency_rank: 6504
-zipf: 4.14
 difficulty: 3
 examples:
 - sare: فرآیندِ ساخت دراز است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.14

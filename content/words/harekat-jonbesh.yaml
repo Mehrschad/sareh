@@ -1,0 +1,32 @@
+id: harekat-jonbesh
+sare: جنبش
+loan: حرکت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /dʒonˈbeʃ/
+definition: از جای خود تکان‌خوردن
+english: movement
+register: رسمی
+frequency_rank: 426
+difficulty: 2
+examples:
+- sare: جنبشی در آب دیدم.
+  loan: حرکتی در آب دیدم.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/حرکت
+- source: لغت‌نامه دهخدا
+  ref: مدخل «جنبش»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- تکان
+- جنبیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.46

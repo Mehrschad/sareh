@@ -9,7 +9,6 @@ definition: کسی که تندرست نیست
 english: ill
 register: گفتاری
 frequency_rank: 5792
-zipf: 4.21
 difficulty: 1
 examples:
 - sare: بیمار است و در بستر.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.21

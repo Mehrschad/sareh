@@ -9,7 +9,6 @@ definition: کسی که کالا می‌خرد
 english: customer
 register: رسمی
 frequency_rank: 2467
-zipf: 4.71
 difficulty: 2
 examples:
 - sare: خریدارِ همیشگی‌مان است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.71

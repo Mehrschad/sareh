@@ -9,7 +9,6 @@ definition: آنچه به نامه یا نوشته‌ای افزوده می‌ش
 english: attachment
 register: رسمی
 frequency_rank: 9189
-zipf: 3.91
 difficulty: 3
 examples:
 - sare: پیوست را نگاه کن.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.91

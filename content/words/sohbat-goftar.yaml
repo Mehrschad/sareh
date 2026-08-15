@@ -9,7 +9,6 @@ definition: سخن‌گفتن با کسی
 english: talk
 register: رسمی
 frequency_rank: 523
-zipf: 5.39
 difficulty: 2
 examples:
 - sare: گفتارمان دراز شد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.39

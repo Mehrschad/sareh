@@ -9,7 +9,6 @@ definition: به شمار یا اندازه‌ی فراوان
 english: many
 register: گفتاری
 frequency_rank: 542
-zipf: 5.38
 difficulty: 1
 examples:
 - sare: بسیار خواندم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.38

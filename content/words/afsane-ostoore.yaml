@@ -9,7 +9,6 @@ definition: داستانِ کهنِ نمادین درباره‌ی آغازها
 english: myth
 register: ادبی
 frequency_rank: 5469
-zipf: 4.24
 difficulty: 3
 examples:
 - sare: افسانه‌ی ضحّاک را می‌داند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.24

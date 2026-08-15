@@ -9,7 +9,6 @@ definition: آنچه واژه یا سخن می‌رساند
 english: meaning
 register: ادبی
 frequency_rank: 802
-zipf: 5.23
 difficulty: 3
 examples:
 - sare: چمِ این واژه چیست؟
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 5.23

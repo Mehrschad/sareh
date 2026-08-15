@@ -9,7 +9,6 @@ definition: ستم؛ نبودِ داد
 english: injustice
 register: ادبی
 frequency_rank: 4550
-zipf: 4.36
 difficulty: 3
 examples:
 - sare: بیدادِ ضحّاک به سر آمد.
@@ -31,3 +30,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.36

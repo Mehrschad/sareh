@@ -9,7 +9,6 @@ definition: زمینه‌ی سخن؛ آنچه سخن درباره‌ی آن اس
 english: regard
 register: رسمی
 frequency_rank: 61
-zipf: 6.12
 difficulty: 1
 examples:
 - sare: درباره‌ی کارت سخن بگوییم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 6.12

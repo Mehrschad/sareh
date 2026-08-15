@@ -9,7 +9,6 @@ definition: آنچه سخن بر سرِ آن است
 english: subject/thesis
 register: دانشی
 frequency_rank: 391
-zipf: 5.49
 difficulty: 4
 examples:
 - sare: نهاده‌ی جستار روشن است.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 5.49

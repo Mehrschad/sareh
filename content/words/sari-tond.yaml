@@ -9,7 +9,6 @@ definition: شتابان؛ با شتاب
 english: fast
 register: گفتاری
 frequency_rank: 1300
-zipf: 5.02
 difficulty: 1
 examples:
 - sare: تند برو تا نرسیده‌اند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.02

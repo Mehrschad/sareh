@@ -9,7 +9,6 @@ definition: حسِ پوست؛ توانِ دریافتن با پرماس
 english: sense of touch
 register: دانشی
 frequency_rank: 30804
-zipf: 3.02
 difficulty: 4
 examples:
 - sare: بساوش تیزترین حسِ نوزاد است.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 3.02

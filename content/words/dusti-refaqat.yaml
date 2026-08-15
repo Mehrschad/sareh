@@ -9,7 +9,6 @@ definition: پیوندِ مهرآمیزِ دو تن
 english: friendship
 register: گفتاری
 frequency_rank: 12956
-zipf: 3.67
 difficulty: 2
 examples:
 - sare: دوستی‌شان دیرینه است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.67

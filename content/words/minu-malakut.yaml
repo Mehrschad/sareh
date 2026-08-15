@@ -9,7 +9,6 @@ definition: جهانِ نادیدنی و مینوی؛ بهشت
 english: the spiritual realm
 register: ادبی
 frequency_rank: 16684
-zipf: 3.49
 difficulty: 5
 examples:
 - sare: از مینو سخن می‌گفت.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 3.49

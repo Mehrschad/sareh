@@ -9,7 +9,6 @@ definition: پایان‌دادن به دشمنی
 english: reconciliation
 register: ادبی
 frequency_rank: 1260
-zipf: 5.03
 difficulty: 2
 examples:
 - sare: آشتی کردند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.03

@@ -9,7 +9,6 @@ definition: کسی که به گروهی پیوسته است
 english: member
 register: رسمی
 frequency_rank: 682
-zipf: 5.29
 difficulty: 3
 examples:
 - sare: هموندِ انجمن شد.
@@ -31,3 +30,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.29

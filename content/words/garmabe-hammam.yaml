@@ -9,7 +9,6 @@ definition: جای شستشوی تن با آب گرم
 english: bathhouse
 register: ادبی
 frequency_rank: null
-zipf: 4.63
 difficulty: 3
 examples:
 - sare: به گرمابه رفت.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.63

@@ -9,7 +9,6 @@ definition: خانه؛ جایگاهِ آرمیدن
 english: dwelling
 register: ادبی
 frequency_rank: 2668
-zipf: 4.67
 difficulty: 3
 examples:
 - sare: به کاشانه بازگشت.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.67

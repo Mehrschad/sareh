@@ -9,7 +9,6 @@ definition: ظرفِ بزرگِ آب برای تن‌شویی
 english: bathtub
 register: ادبی
 frequency_rank: 2714
-zipf: 4.66
 difficulty: 5
 examples:
 - sare: آبزن را پر کرد.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 4.66

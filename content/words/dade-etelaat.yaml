@@ -9,7 +9,6 @@ definition: آگاهیِ خام که پردازش می‌شود
 english: data
 register: دانشی
 frequency_rank: 326
-zipf: 5.54
 difficulty: 2
 examples:
 - sare: داده‌ها را گرد آورد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.54

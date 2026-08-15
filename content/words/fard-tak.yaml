@@ -1,0 +1,32 @@
+id: fard-tak
+sare: تک
+loan: فرد
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /tæk/
+definition: یگانه؛ تنها یکی
+english: individual
+register: رسمی
+frequency_rank: 683
+difficulty: 2
+examples:
+- sare: تکِ آنان ماند.
+  loan: فردِ آنان ماند.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/فرد
+- source: لغت‌نامه دهخدا
+  ref: مدخل «تک»
+roots:
+  pahlavi: tag
+  avestan: null
+  old_persian: null
+related:
+- تنها
+- یگانه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.29

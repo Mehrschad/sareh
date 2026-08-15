@@ -9,7 +9,6 @@ definition: جایگاهِ افروختنِ آتش
 english: hearth
 register: ادبی
 frequency_rank: 9971
-zipf: 3.85
 difficulty: 5
 examples:
 - sare: آتشدان را افروختند.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 3.85

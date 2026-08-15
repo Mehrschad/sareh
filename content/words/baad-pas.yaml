@@ -9,7 +9,6 @@ definition: پس از آن؛ در پیِ آن
 english: after
 register: گفتاری
 frequency_rank: 59
-zipf: 6.13
 difficulty: 1
 examples:
 - sare: پس از خوراک می‌آیم.
@@ -32,3 +31,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 6.13

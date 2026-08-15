@@ -9,7 +9,6 @@ definition: سخن‌گفتن در برابر گروهی
 english: lecture
 register: رسمی
 frequency_rank: 21980
-zipf: 3.28
 difficulty: 3
 examples:
 - sare: سخنرانی‌اش کوتاه بود.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.28

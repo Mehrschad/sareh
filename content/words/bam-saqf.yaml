@@ -9,7 +9,6 @@ definition: پوششِ بالایِ خانه
 english: roof
 register: گفتاری
 frequency_rank: 2218
-zipf: 4.76
 difficulty: 2
 examples:
 - sare: بر بام رفت.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.76

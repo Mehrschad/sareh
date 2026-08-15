@@ -9,7 +9,6 @@ definition: خود را برتر از دیگران دانستن
 english: arrogance
 register: ادبی
 frequency_rank: null
-zipf: 3.47
 difficulty: 4
 examples:
 - sare: خودپسندی زمینش زد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.47

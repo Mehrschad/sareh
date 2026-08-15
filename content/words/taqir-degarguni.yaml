@@ -1,0 +1,32 @@
+id: taqir-degarguni
+sare: دگرگونی
+loan: تغییر
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /deɡæɾɡuːˈniː/
+definition: از حالی به حالِ دیگر شدن
+english: change
+register: رسمی
+frequency_rank: 266
+difficulty: 2
+examples:
+- sare: دگرگونیِ بزرگی رخ داد.
+  loan: تغییرِ بزرگی رخ داد.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/تغییر
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دگرگون»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- دگرش
+- دگرگون
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.62

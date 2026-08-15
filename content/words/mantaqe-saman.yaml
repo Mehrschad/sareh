@@ -9,7 +9,6 @@ definition: کرانه‌ای از سرزمین؛ ناحیه
 english: region
 register: ادبی
 frequency_rank: 291
-zipf: 5.59
 difficulty: 3
 examples:
 - sare: در این سامان کسی نمانده.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 5.59

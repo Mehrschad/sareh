@@ -9,7 +9,6 @@ definition: مجموعه‌ای از اجزا که با هم کاری را ان�
 english: system
 register: دانشی
 frequency_rank: 403
-zipf: 5.48
 difficulty: 2
 examples:
 - sare: سامانه از کار افتاد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.48

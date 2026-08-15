@@ -9,7 +9,6 @@ definition: آنچه دانسته می‌شود؛ آگاهیِ سامان‌یا
 english: knowledge
 register: ادبی
 frequency_rank: 739
-zipf: 5.26
 difficulty: 1
 examples:
 - sare: دانش را از هر که آموختی، بیاموز.
@@ -31,3 +30,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.26

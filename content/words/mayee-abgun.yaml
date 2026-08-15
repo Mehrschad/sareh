@@ -1,0 +1,32 @@
+id: mayee-abgun
+sare: آبگون
+loan: مایع
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /ʔɒːbˈɡuːn/
+definition: آنچه روان است، نه سخت و نه گاز
+english: liquid
+register: دانشی
+frequency_rank: 3666
+difficulty: 3
+examples:
+- sare: آبگون در شیشه ریخت.
+  loan: مایع در شیشه ریخت.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/مایع
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «آبگون»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- آب
+- گونه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.49

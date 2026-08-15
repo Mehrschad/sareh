@@ -9,7 +9,6 @@ definition: برافروختنِ جان در برابر آزار
 english: anger
 register: ادبی
 frequency_rank: 13177
-zipf: 3.66
 difficulty: 2
 examples:
 - sare: خشمش فرو نشست.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.66

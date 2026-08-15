@@ -1,0 +1,32 @@
+id: marhale-gam
+sare: گام
+loan: مرحله
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ɡɒːm/
+definition: یک پله از کاری چندپله‌ای
+english: step
+register: رسمی
+frequency_rank: 660
+difficulty: 2
+examples:
+- sare: گامِ نخست را برداشتیم.
+  loan: مرحله‌ی اول را برداشتیم.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/مرحله
+- source: لغت‌نامه دهخدا
+  ref: مدخل «گام»
+roots:
+  pahlavi: gām
+  avestan: null
+  old_persian: null
+related:
+- پله
+- گام‌به‌گام
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.3

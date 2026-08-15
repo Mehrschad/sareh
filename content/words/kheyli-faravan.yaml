@@ -1,0 +1,32 @@
+id: kheyli-faravan
+sare: فراوان
+loan: خیلی
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /fæɾɒːˈvɒːn/
+definition: بسیار؛ به اندازه‌ی زیاد
+english: very/many
+register: گفتاری
+frequency_rank: 67
+difficulty: 1
+examples:
+- sare: فراوان کار کردم.
+  loan: خیلی کار کردم.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/خیلی
+- source: لغت‌نامه دهخدا
+  ref: مدخل «فراوان»
+roots:
+  pahlavi: frāwān
+  avestan: null
+  old_persian: null
+related:
+- انبوه
+- بسیار
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 6.07

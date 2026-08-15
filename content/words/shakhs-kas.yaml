@@ -9,7 +9,6 @@ definition: یک تن از مردمان
 english: person
 register: گفتاری
 frequency_rank: 1079
-zipf: 5.1
 difficulty: 1
 examples:
 - sare: کسی پشتِ در است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.1

@@ -9,7 +9,6 @@ definition: سنجشی که دانستن یا توانستن را می‌آزم�
 english: exam
 register: رسمی
 frequency_rank: 1018
-zipf: 5.12
 difficulty: 2
 examples:
 - sare: آزمونِ پایانی نزدیک است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.12

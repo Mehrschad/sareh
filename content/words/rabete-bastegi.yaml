@@ -1,0 +1,32 @@
+id: rabete-bastegi
+sare: بستگی
+loan: رابطه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bæsteˈɡiː/
+definition: پیوندِ میانِ دو چیز یا دو کس
+english: relation
+register: رسمی
+frequency_rank: 438
+difficulty: 2
+examples:
+- sare: بستگیِ آن دو نزدیک است.
+  loan: رابطه‌ی آن دو نزدیک است.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/رابطه
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بستگی»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- بستن
+- پیوند
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.45

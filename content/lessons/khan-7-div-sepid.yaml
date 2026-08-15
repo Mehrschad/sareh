@@ -5,12 +5,13 @@ realm: جهان، جا، زمان و اندازه
 stations:
 - id: khan-7-div-sepid-manzel-1
   title: منزلِ 1
-  exercises:
+  exercises: &id001
   - گزینش
   - جفت‌ساز
   - جای‌گزینی
   - شنیدار
   words:
+  - beyn-miyane
   - zaman-vaqt
   - taraf-su
   - aqaz-shoru
@@ -18,8 +19,6 @@ stations:
   - vasat-miyan
   - nesf-nim
   - aks-negare
-  - bamdad-sobh
-  - tul-daraza
 - id: khan-7-div-sepid-manzel-2
   title: منزلِ 2
   exercises:
@@ -28,15 +27,14 @@ stations:
   - نویسش
   - داستانک
   words:
+  - bamdad-sobh
+  - markaz-kanun
+  - tul-daraza
+  - shekl-rikht
+  - halat-cheguni
   - rah-tariq
   - mahal-jaygah
   - hengam-mowqe
-  - safhe-barge
-  - fasele-duri
-  - mostaqim-serrast
-  - atraf-piramun
-  - zadruz-tavallod
-  - arz-pahna
 - id: khan-7-div-sepid-manzel-3
   title: منزلِ 3
   exercises:
@@ -44,6 +42,22 @@ stations:
   - جای‌گزینی
   - ریشه‌یاب
   - تیر آرش
+  words:
+  - jaryan-ravand
+  - safhe-barge
+  - fasele-duri
+  - mostaqim-serrast
+  - atraf-piramun
+  - zadruz-tavallod
+  - asha-haqiqat
+  - arz-pahna
+- id: khan-7-div-sepid-manzel-4
+  title: منزلِ 4
+  exercises:
+  - جفت‌ساز
+  - بیت‌یاب
+  - گزینش
+  - نویسش
   words:
   - jahan-alam
   - jashn-eyd
@@ -53,26 +67,6 @@ stations:
   - omq-zharfa
   - sarnevesht-taqdir
   - ain-rasm
-  - keshvar-mamlekat
-  - mantaqe-saman
-- id: khan-7-div-sepid-manzel-4
-  title: منزلِ 4
-  exercises:
-  - جفت‌ساز
-  - بیت‌یاب
-  - گزینش
-  - نویسش
-  words:
-  - marz-hadd
-  - shamgah-asr
-  - niyayesh-doa
-  - bakht-shans
-  - nimruz-zohr
-  - gahshomar-taqvim
-  - parastesh-ebadat
-  - shahrvand-tabee
-  - sepah-qoshun
-  - giti-donya
 - id: khan-7-div-sepid-manzel-5
   title: منزلِ 5
   exercises:
@@ -81,6 +75,36 @@ stations:
   - شنیدار
   - واژه‌چین
   words:
+  - vasi-pahnavar
+  - rotubat-nam
+  - keshvar-mamlekat
+  - aqebat-saranjam
+  - sahra-dasht
+  - dore-charkhe
+  - mantaqe-saman
+  - marz-hadd
+  - shamgah-asr
+- id: khan-7-div-sepid-manzel-6
+  title: منزلِ 6
+  exercises:
+  - جای‌گزینی
+  - گزینش
+  - تیر آرش
+  - بیت‌یاب
+  words:
+  - niyayesh-doa
+  - bakht-shans
+  - nimruz-zohr
+  - gahshomar-taqvim
+  - masahat-gostare
+  - parastesh-ebadat
+  - shahrvand-tabee
+  - sepah-qoshun
+  - giti-donya
+- id: khan-7-div-sepid-manzel-7
+  title: منزلِ 7
+  exercises: *id001
+  words:
   - derafsh-parcham
   - shahryar-soltan
   - dudman-selsele
@@ -88,7 +112,6 @@ stations:
   - tabar-nasab
   - niyakan-ajdad
   - sepanta-moqaddas
-  - asha-haqiqat
   - farr-jalal
   - minu-malakut
 boss:

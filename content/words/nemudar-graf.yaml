@@ -9,7 +9,6 @@ definition: نمایشِ دیداریِ داده‌ها
 english: chart
 register: دانشی
 frequency_rank: 14602
-zipf: 3.59
 difficulty: 3
 examples:
 - sare: نمودارِ رشد بالا رفت.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.59

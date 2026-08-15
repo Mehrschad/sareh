@@ -1,0 +1,32 @@
+id: mokhtalef-gunagun
+sare: گوناگون
+loan: مختلف
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /ɡuːnɒːˈɡuːn/
+definition: از گونه‌های جوراجور
+english: various
+register: رسمی
+frequency_rank: 339
+difficulty: 1
+examples:
+- sare: رنگ‌های گوناگون داشت.
+  loan: رنگ‌های مختلف داشت.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/مختلف
+- source: لغت‌نامه دهخدا
+  ref: مدخل «گوناگون»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- جوراجور
+- گونه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.54

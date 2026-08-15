@@ -9,7 +9,6 @@ definition: گرفتنِ داده از شبکه به دستگاه خود
 english: download
 register: دانشی
 frequency_rank: 504
-zipf: 5.4
 difficulty: 2
 examples:
 - sare: بارگیری تمام شد.
@@ -28,3 +27,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.4

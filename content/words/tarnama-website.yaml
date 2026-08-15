@@ -9,7 +9,6 @@ definition: جایگاهی در شبکه‌ی جهانی که برگه‌های�
 english: website
 register: دانشی
 frequency_rank: 7335
-zipf: 4.06
 difficulty: 2
 examples:
 - sare: تارنمای انجمن به‌روز شد.
@@ -29,3 +28,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.06

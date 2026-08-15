@@ -9,7 +9,6 @@ definition: زنجیره‌ی خوش‌نوایِ نغمه‌ها
 english: melody
 register: ادبی
 frequency_rank: 8046
-zipf: 4.0
 difficulty: 3
 examples:
 - sare: آهنگش در گوشم مانده.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.0

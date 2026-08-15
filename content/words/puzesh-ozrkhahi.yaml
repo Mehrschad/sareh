@@ -9,7 +9,6 @@ definition: درخواست بخشش برای خطایی که کرده‌ای
 english: apology
 register: رسمی
 frequency_rank: 6784
-zipf: 4.11
 difficulty: 2
 examples:
 - sare: از دیرکردم پوزش می‌خواهم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.11

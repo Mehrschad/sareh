@@ -9,7 +9,6 @@ definition: درست‌کردن و آراستنِ نوشته
 english: editing
 register: دانشی
 frequency_rank: 12184
-zipf: 3.71
 difficulty: 3
 examples:
 - sare: ویرایشِ نوشته مانده است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.71

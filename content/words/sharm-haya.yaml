@@ -9,7 +9,6 @@ definition: آزرم؛ کشیدگیِ دل از کارِ ناشایست
 english: shame/modesty
 register: ادبی
 frequency_rank: 11220
-zipf: 3.77
 difficulty: 3
 examples:
 - sare: شرمش آمد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.77

@@ -9,7 +9,6 @@ definition: دل‌آسودگی از کسی؛ تکیه‌گاه داشتن
 english: trust
 register: رسمی
 frequency_rank: 628
-zipf: 5.31
 difficulty: 3
 examples:
 - sare: پشت‌گرمی‌ام به توست.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.31

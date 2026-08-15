@@ -9,7 +9,6 @@ definition: ترسِ آمیخته به نگرانی از آینده
 english: dread
 register: ادبی
 frequency_rank: 2480
-zipf: 4.71
 difficulty: 3
 examples:
 - sare: بیمِ آن دارم که نیاید.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.71

@@ -9,7 +9,6 @@ definition: اندامِ تپنده‌ی خون‌رسان؛ جایگاهِ مه
 english: heart
 register: ادبی
 frequency_rank: 782
-zipf: 5.24
 difficulty: 2
 examples:
 - sare: دلش تند می‌زد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.24

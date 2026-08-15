@@ -9,7 +9,6 @@ definition: اندازه‌ی فرورفتگی از رویه به پایین
 english: depth
 register: دانشی
 frequency_rank: 2462
-zipf: 4.71
 difficulty: 2
 examples:
 - sare: ژرفای دریا را نمی‌دانیم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.71

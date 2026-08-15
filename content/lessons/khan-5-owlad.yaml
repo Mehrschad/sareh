@@ -12,11 +12,13 @@ stations:
   - شنیدار
   words:
   - pasokh-javab
+  - mokhtalef-gunagun
   - bakhsh-qesmat
   - danesh-elm
   - vaje-kalame
   - motalee-khandan
   - porsesh-soal
+  - vazeh-roshan
   - andishe-fekr
   - mohem-arzande
 - id: khan-5-owlad-manzel-2
@@ -27,14 +29,16 @@ stations:
   - نویسش
   - داستانک
   words:
+  - asli-bonyadi
+  - taqir-degarguni
+  - eshare-neshan
   - gune-now
+  - majmue-gozide
   - payamad-natije
   - dade-etelaat
   - shomar-tedad
   - dabestan-madrese
-  - shive-sabk
-  - azmayesh-tajrobe
-  - rishe-asl
+  - moshakhas-ashkar
 - id: khan-5-owlad-manzel-3
   title: منزلِ 3
   exercises:
@@ -43,14 +47,16 @@ stations:
   - ریشه‌یاب
   - تیر آرش
   words:
+  - shive-sabk
+  - azmayesh-tajrobe
+  - vaqei-rastin
+  - hoze-zamine
+  - rishe-asl
   - neveshtar-matn
   - nemune-mesal
   - azmun-emtehan
   - tozih-roshangari
   - agahi-etela
-  - shomare-adad
-  - karkard-amalkard
-  - pazhuhesh-tahqiq
 - id: khan-5-owlad-manzel-4
   title: منزلِ 4
   exercises:
@@ -59,6 +65,9 @@ stations:
   - گزینش
   - نویسش
   words:
+  - shomare-adad
+  - karkard-amalkard
+  - pazhuhesh-tahqiq
   - amuzegar-moallem
   - bavar-eteqad
   - daneshmand-alem
@@ -66,8 +75,6 @@ stations:
   - dastan-qesse
   - goftar-kalam
   - goftogu-mokaleme
-  - amuzesh-taalim
-  - ravesh-metod
 - id: khan-5-owlad-manzel-5
   title: منزلِ 5
   exercises:
@@ -76,15 +83,16 @@ stations:
   - شنیدار
   - واژه‌چین
   words:
+  - amuzesh-taalim
+  - ravesh-metod
   - nevisande-moallef
   - vizhegi-khosusiat
   - daneshju-mohassel
+  - tarjome-bargardan
   - amaj-hadaf
+  - bayan-bazgu
   - ali-barin
-  - mani-cham
-  - rade-tabaqe
-  - runevesht-copy
-  - bardasht-tafsir
+  - dars-amuze
 - id: khan-5-owlad-manzel-6
   title: منزلِ 6
   exercises:
@@ -93,19 +101,24 @@ stations:
   - تیر آرش
   - بیت‌یاب
   words:
+  - bahs-goftoshonud
+  - mani-cham
+  - rade-tabaqe
+  - runevesht-copy
+  - bardasht-tafsir
   - namayesh-teatr
   - sanjesh-arzyabi
   - sarayande-shaer
   - afsane-ostoore
   - ahang-melodi
-  - dasturzaban-gerammar
-  - virayesh-edit
-  - nemudar-graf
-  - vajename-dictionary
 - id: khan-5-owlad-manzel-7
   title: منزلِ 7
   exercises: *id001
   words:
+  - dasturzaban-gerammar
+  - virayesh-edit
+  - nemudar-graf
+  - vajename-dictionary
   - bakhshbandi-taqsimbandi
   - sokhanrani-khetabe
   - chalesh-challenge
@@ -113,12 +126,12 @@ stations:
   - gozare-jomle
   - nahade-mowzu
   - shavand-ellat
-  - peykare-mojassame
-  - farhangestan-akademi
 - id: khan-5-owlad-manzel-8
   title: منزلِ 8
   exercises: *id002
   words:
+  - peykare-mojassame
+  - farhangestan-akademi
   - engare-farziye
   - setareshenasi-nojum
   - zendeginame-biography

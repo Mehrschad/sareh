@@ -9,7 +9,6 @@ definition: هنرِ بازنمودنِ داستان بر صحنه
 english: theatre
 register: رسمی
 frequency_rank: 2502
-zipf: 4.7
 difficulty: 3
 examples:
 - sare: نمایشِ تازه‌ای بر صحنه رفت.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.7

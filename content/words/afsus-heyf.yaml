@@ -9,7 +9,6 @@ definition: دریغ‌خوردن بر آنچه از دست رفته
 english: alas
 register: ادبی
 frequency_rank: 9432
-zipf: 3.89
 difficulty: 2
 examples:
 - sare: افسوس که دیر رسیدیم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.89

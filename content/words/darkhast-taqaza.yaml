@@ -9,7 +9,6 @@ definition: خواستنِ چیزی از کسی به‌ روشنی
 english: request
 register: رسمی
 frequency_rank: 4666
-zipf: 4.34
 difficulty: 2
 examples:
 - sare: درخواستت را فرستادم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.34

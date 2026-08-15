@@ -9,7 +9,6 @@ definition: اندوهِ مرگِ کسی و آیینِ آن
 english: mourning
 register: ادبی
 frequency_rank: 14928
-zipf: 3.57
 difficulty: 3
 examples:
 - sare: به سوگ نشستند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.57

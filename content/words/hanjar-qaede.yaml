@@ -9,7 +9,6 @@ definition: قانونِ پذیرفته‌ی رفتار یا کار
 english: norm
 register: دانشی
 frequency_rank: 4849
-zipf: 4.32
 difficulty: 3
 examples:
 - sare: هنجارِ گروه را نشکن.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.32

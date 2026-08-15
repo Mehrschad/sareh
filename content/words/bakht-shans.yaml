@@ -9,7 +9,6 @@ definition: روزگارِ یار یا ناسازگار
 english: fortune/luck
 register: ادبی
 frequency_rank: 1617
-zipf: 4.91
 difficulty: 3
 examples:
 - sare: بختش بلند بود.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.91

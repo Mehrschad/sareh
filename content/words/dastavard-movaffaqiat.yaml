@@ -1,32 +1,32 @@
 id: dastavard-movaffaqiat
-sare: دستاورد
+sare: کامیابی
 loan: موفقیت
 loan_origin: عربی
 pos: اسم
 acceptance: زنده
-ipa: /dæstɒːˈvæɾd/
-definition: آنچه از کوشش به دست می‌آید
-english: achievement
+ipa: /kɒːmjɒːˈbiː/
+definition: به کام رسیدن؛ رسیدن به آماج
+english: success
 register: رسمی
 frequency_rank: 1332
-zipf: 5.01
 difficulty: 2
 examples:
-- sare: دستاوردش کوچک نبود.
+- sare: کامیابی‌اش کوچک نبود.
   loan: موفقیتش کوچک نبود.
 citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/موفقیت
 - source: لغت‌نامه دهخدا
-  ref: مدخل «دستاورد»
-- source: فرهنگ بزرگ سخن
-  ref: مدخل «دستاورد»
+  ref: مدخل «کامیاب»
 roots:
   pahlavi: null
   avestan: null
   old_persian: null
 related:
-- آوردن
-- دست
+- کام
+- کامروا
 audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.01

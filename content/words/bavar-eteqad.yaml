@@ -9,7 +9,6 @@ definition: آنچه کسی آن را راست می‌داند
 english: belief
 register: رسمی
 frequency_rank: 1606
-zipf: 4.91
 difficulty: 2
 examples:
 - sare: باورش این است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.91

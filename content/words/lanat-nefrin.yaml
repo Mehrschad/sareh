@@ -9,7 +9,6 @@ definition: بدخواهیِ زبانی؛ وارونه‌ی آفرین
 english: curse
 register: گفتاری
 frequency_rank: 1463
-zipf: 4.96
 difficulty: 2
 examples:
 - sare: نفرین بر او.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.96

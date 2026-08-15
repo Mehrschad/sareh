@@ -9,7 +9,6 @@ definition: پیشینه‌ی خانوادگی و نژادی
 english: lineage
 register: ادبی
 frequency_rank: 7575
-zipf: 4.04
 difficulty: 4
 examples:
 - sare: تبارش به کیانیان می‌رسد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.04

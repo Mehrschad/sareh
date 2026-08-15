@@ -9,7 +9,6 @@ definition: سخنی که با راستی نمی‌خواند
 english: lie
 register: ادبی
 frequency_rank: 12872
-zipf: 3.68
 difficulty: 2
 examples:
 - sare: دروغش آشکار شد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.68

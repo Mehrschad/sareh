@@ -9,7 +9,6 @@ definition: کسی که نوشتن و نگاهداشتِ نوشته‌ها بر 
 english: secretary
 register: ادبی
 frequency_rank: 4939
-zipf: 4.31
 difficulty: 3
 examples:
 - sare: دبیرِ انجمن نامه را خواند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.31

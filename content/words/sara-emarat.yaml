@@ -9,7 +9,6 @@ definition: ساختمانِ بزرگِ باشِش
 english: mansion
 register: ادبی
 frequency_rank: 6174
-zipf: 4.17
 difficulty: 3
 examples:
 - sare: سرایی کهن داشت.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.17

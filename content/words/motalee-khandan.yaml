@@ -9,7 +9,6 @@ definition: از رویِ نوشته دریافتن
 english: reading
 register: گفتاری
 frequency_rank: 1108
-zipf: 5.09
 difficulty: 1
 examples:
 - sare: سرگرمِ خواندنِ کتابم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.09

@@ -9,7 +9,6 @@ definition: بخشِ ناپیدای آدمی؛ جانِ اندیشنده
 english: psyche
 register: ادبی
 frequency_rank: 983
-zipf: 5.14
 difficulty: 3
 examples:
 - sare: روانش آسوده باد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.14

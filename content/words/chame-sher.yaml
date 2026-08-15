@@ -9,7 +9,6 @@ definition: سروده‌ی موزون
 english: poem
 register: ادبی
 frequency_rank: 658
-zipf: 5.3
 difficulty: 5
 examples:
 - sare: چامه‌ای در ستایشِ بهار سرود.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 5.3

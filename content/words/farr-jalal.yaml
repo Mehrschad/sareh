@@ -9,7 +9,6 @@ definition: فروغِ ایزدیِ شکوه و بزرگی
 english: divine glory
 register: ادبی
 frequency_rank: 3709
-zipf: 4.48
 difficulty: 5
 examples:
 - sare: فَرِّ کیانی از او رفت.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 4.48

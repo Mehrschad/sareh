@@ -9,7 +9,6 @@ definition: بی‌بیش از آن؛ همین و بس
 english: only
 register: گفتاری
 frequency_rank: 44
-zipf: 6.23
 difficulty: 1
 examples:
 - sare: تنها یک واژه ماند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 6.23

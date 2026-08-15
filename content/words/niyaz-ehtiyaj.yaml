@@ -9,7 +9,6 @@ definition: آنچه بی‌آن نمی‌توان بود
 english: need
 register: رسمی
 frequency_rank: 3179
-zipf: 4.57
 difficulty: 2
 examples:
 - sare: نیازی نیست.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.57

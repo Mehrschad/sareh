@@ -9,7 +9,6 @@ definition: برآمدن و پف‌کردنِ اندام از بیماری
 english: swelling
 register: ادبی
 frequency_rank: 7696
-zipf: 4.03
 difficulty: 4
 examples:
 - sare: پایش آماس کرده بود.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 4.03

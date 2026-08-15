@@ -9,7 +9,6 @@ definition: کسی که با او پیوندِ مهر داری
 english: friend
 register: گفتاری
 frequency_rank: 1586
-zipf: 4.92
 difficulty: 1
 examples:
 - sare: دوستِ دیرینم است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.92

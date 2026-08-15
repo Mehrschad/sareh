@@ -9,7 +9,6 @@ definition: کامروایی و شادی در زندگی
 english: happiness
 register: ادبی
 frequency_rank: 5089
-zipf: 4.29
 difficulty: 4
 examples:
 - sare: شادکامی‌اش پایدار باد.
@@ -31,3 +30,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 4.29

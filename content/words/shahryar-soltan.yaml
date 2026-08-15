@@ -9,7 +9,6 @@ definition: فرمانروای کشور
 english: sovereign
 register: ادبی
 frequency_rank: 2219
-zipf: 4.76
 difficulty: 4
 examples:
 - sare: شهریارِ دادگر بود.
@@ -31,3 +30,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.76

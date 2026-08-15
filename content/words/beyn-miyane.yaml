@@ -1,0 +1,32 @@
+id: beyn-miyane
+sare: میانه
+loan: بین
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /miːjɒːˈne/
+definition: جایِ میانِ دو چیز
+english: between
+register: رسمی
+frequency_rank: 107
+difficulty: 1
+examples:
+- sare: میانه‌ی راه ایستاد.
+  loan: بینِ راه ایستاد.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/بین
+- source: لغت‌نامه دهخدا
+  ref: مدخل «میانه»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- میان
+- میانجی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.95

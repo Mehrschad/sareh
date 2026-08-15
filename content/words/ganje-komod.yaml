@@ -9,7 +9,6 @@ definition: جایگاهِ چوبیِ نهادنِ جامه و ابزار
 english: cupboard
 register: گفتاری
 frequency_rank: 6303
-zipf: 4.16
 difficulty: 3
 examples:
 - sare: در گنجه گذاشتم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.16

@@ -9,7 +9,6 @@ definition: راهِ سامان‌یافته‌ی انجامِ کار
 english: method
 register: دانشی
 frequency_rank: 12302
-zipf: 3.71
 difficulty: 2
 examples:
 - sare: روشِ تازه‌ای یافت.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.71

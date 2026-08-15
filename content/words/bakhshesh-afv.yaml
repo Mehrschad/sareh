@@ -9,7 +9,6 @@ definition: گذشتن از گناهِ کسی
 english: forgiveness
 register: ادبی
 frequency_rank: 5167
-zipf: 4.28
 difficulty: 3
 examples:
 - sare: بخششش بزرگ بود.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.28

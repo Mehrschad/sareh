@@ -9,7 +9,6 @@ definition: توانِ انجامِ کار در دانشِ فیزیک
 english: energy
 register: دانشی
 frequency_rank: 629
-zipf: 5.31
 difficulty: 3
 examples:
 - sare: کارمایه‌ی این واکنش بالاست.
@@ -31,3 +30,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.31

@@ -9,7 +9,6 @@ definition: آنچه گفته می‌شود؛ گفتار
 english: speech
 register: گفتاری
 frequency_rank: 128
-zipf: 5.88
 difficulty: 1
 examples:
 - sare: سخنت را باور کردم.
@@ -32,3 +31,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.88

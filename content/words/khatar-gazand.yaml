@@ -9,7 +9,6 @@ definition: آسیبی که بیمِ رسیدنش می‌رود
 english: harm
 register: ادبی
 frequency_rank: 936
-zipf: 5.16
 difficulty: 2
 examples:
 - sare: گزندی به تو نمی‌رسد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.16

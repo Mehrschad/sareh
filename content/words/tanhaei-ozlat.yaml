@@ -9,7 +9,6 @@ definition: بی‌کس بودن؛ دوری از مردمان
 english: solitude
 register: ادبی
 frequency_rank: 26728
-zipf: 3.13
 difficulty: 3
 examples:
 - sare: تنهایی را برگزید.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.13

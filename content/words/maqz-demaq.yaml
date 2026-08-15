@@ -9,7 +9,6 @@ definition: اندامِ اندیشه در سر
 english: brain
 register: دانشی
 frequency_rank: 6446
-zipf: 4.14
 difficulty: 3
 examples:
 - sare: مغزش خسته است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.14

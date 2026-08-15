@@ -9,7 +9,6 @@ definition: سودی که از چیزی برده می‌شود
 english: benefit
 register: رسمی
 frequency_rank: 8049
-zipf: 4.0
 difficulty: 3
 examples:
 - sare: بهره‌ای نبرد.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.0

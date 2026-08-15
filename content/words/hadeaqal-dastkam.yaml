@@ -9,7 +9,6 @@ definition: کمینه؛ در پایین‌ترین اندازه
 english: at least
 register: رسمی
 frequency_rank: 597
-zipf: 5.34
 difficulty: 2
 examples:
 - sare: دستِ‌کم ده تن بودند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.34

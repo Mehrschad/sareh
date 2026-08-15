@@ -9,7 +9,6 @@ definition: اندامِ دم‌گرفتن در سینه
 english: lung
 register: دانشی
 frequency_rank: 5241
-zipf: 4.27
 difficulty: 3
 examples:
 - sare: شش‌هایش پر از دود بود.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.27

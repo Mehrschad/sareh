@@ -9,7 +9,6 @@ definition: قاعده‌های ساختِ درستِ جمله
 english: grammar
 register: دانشی
 frequency_rank: 10703
-zipf: 3.81
 difficulty: 3
 examples:
 - sare: دستورِ زبان را خوب می‌داند.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.81

@@ -9,7 +9,6 @@ definition: برگه‌ی رسمیِ اجازه‌ی کاری
 english: permit
 register: رسمی
 frequency_rank: null
-zipf: 4.75
 difficulty: 3
 examples:
 - sare: پروانه‌ی کار گرفت.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.75

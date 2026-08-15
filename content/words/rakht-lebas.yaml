@@ -9,7 +9,6 @@ definition: پوشاکِ تن
 english: clothes
 register: گفتاری
 frequency_rank: 369
-zipf: 5.51
 difficulty: 3
 examples:
 - sare: رختش را پوشید.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.51

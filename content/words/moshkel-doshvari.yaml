@@ -9,7 +9,6 @@ definition: چیزی که از پسش برآمدن سخت است
 english: difficulty
 register: رسمی
 frequency_rank: 272
-zipf: 5.62
 difficulty: 2
 examples:
 - sare: دشواری‌ات را بگو.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.62

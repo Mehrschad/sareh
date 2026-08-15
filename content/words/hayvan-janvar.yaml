@@ -1,0 +1,32 @@
+id: hayvan-janvar
+sare: جانور
+loan: حیوان
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /dʒɒːnˈvæɾ/
+definition: جاندارِ غیرِ آدمی
+english: animal
+register: رسمی
+frequency_rank: 3989
+difficulty: 1
+examples:
+- sare: جانورانِ دشت رمیدند.
+  loan: حیواناتِ دشت رمیدند.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/حیوان
+- source: لغت‌نامه دهخدا
+  ref: مدخل «جانور»
+roots:
+  pahlavi: gyānwar
+  avestan: null
+  old_persian: null
+related:
+- جان
+- جانداران
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.44

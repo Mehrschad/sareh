@@ -9,7 +9,6 @@ definition: دشواری‌ای که آزمونِ توان است
 english: challenge
 register: رسمی
 frequency_rank: 30899
-zipf: 3.02
 difficulty: 3
 examples:
 - sare: چالشِ تازه‌ای پیشِ رو داریم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.02

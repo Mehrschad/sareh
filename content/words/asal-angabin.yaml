@@ -9,7 +9,6 @@ definition: شهدِ شیرینی که زنبور می‌سازد
 english: honey
 register: ادبی
 frequency_rank: 3254
-zipf: 4.56
 difficulty: 3
 examples:
 - sare: انگبین در چای ریخت.
@@ -30,3 +29,4 @@ audio: null
 status: proposed
 contributors:
 - sareh-seed
+zipf: 4.56

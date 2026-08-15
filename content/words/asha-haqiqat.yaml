@@ -1,32 +1,32 @@
 id: asha-haqiqat
-sare: اَشا
+sare: راستی
 loan: حقیقت
 loan_origin: عربی
 pos: اسم
-acceptance: خفته
-ipa: /ʔæˈʃɒː/
-definition: راستی و سامانِ کیهانی در باورِ کهنِ ایرانی
-english: cosmic truth/order
-register: ادبی
+acceptance: زنده
+ipa: /rɒːsˈtiː/
+definition: آنچه با واقعیت می‌خواند؛ نه دروغ
+english: truth
+register: رسمی
 frequency_rank: 1154
-zipf: 5.07
-difficulty: 5
+difficulty: 2
 examples:
-- sare: پیروِ اَشا بود.
-  loan: پیروِ حقیقت بود.
+- sare: راستی را گفت.
+  loan: حقیقت را گفت.
 citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/حقیقت
 - source: لغت‌نامه دهخدا
-  ref: مدخل «اشا»
-- source: فرهنگ فارسی معین
-  ref: مدخل «اشه»
+  ref: مدخل «راستی»
 roots:
-  pahlavi: ard
+  pahlavi: rāstīh
   avestan: aša-
   old_persian: null
 related:
-- ارتا
-- راستی
+- درستی
+- راست
 audio: null
-status: proposed
+status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.07

@@ -9,7 +9,6 @@ definition: اندازه‌ی چیزی از این سر تا آن سر
 english: length
 register: دانشی
 frequency_rank: 366
-zipf: 5.51
 difficulty: 2
 examples:
 - sare: درازای اتاق چهار گام است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.51

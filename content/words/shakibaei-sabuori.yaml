@@ -9,7 +9,6 @@ definition: پیشه‌کردنِ شکیب در سختی
 english: forbearance
 register: رسمی
 frequency_rank: 12475
-zipf: 3.7
 difficulty: 3
 examples:
 - sare: شکیبایی‌اش ستودنی بود.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.7

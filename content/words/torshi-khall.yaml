@@ -9,7 +9,6 @@ definition: خوردنیِ خوابانده در سرکه
 english: pickle
 register: گفتاری
 frequency_rank: null
-zipf: 4.17
 difficulty: 4
 examples:
 - sare: ترشی کنارِ خوراک بگذار.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.17

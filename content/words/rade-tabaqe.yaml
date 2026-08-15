@@ -9,7 +9,6 @@ definition: گروهی از چیزهای هم‌سان در یک سامانه
 english: class
 register: دانشی
 frequency_rank: 1080
-zipf: 5.1
 difficulty: 3
 examples:
 - sare: در رده‌ی نخست جای گرفت.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 5.1

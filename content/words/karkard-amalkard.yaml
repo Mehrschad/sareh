@@ -9,7 +9,6 @@ definition: آنچه چیزی در عمل انجام می‌دهد
 english: function
 register: دانشی
 frequency_rank: 1373
-zipf: 4.99
 difficulty: 2
 examples:
 - sare: کارکردِ سامانه خوب است.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.99

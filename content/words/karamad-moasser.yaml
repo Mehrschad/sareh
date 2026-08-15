@@ -9,7 +9,6 @@ definition: آنچه کار را به بار می‌نشاند
 english: effective
 register: رسمی
 frequency_rank: 3861
-zipf: 4.46
 difficulty: 3
 examples:
 - sare: روشی کارآمد یافت.
@@ -31,3 +30,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.46

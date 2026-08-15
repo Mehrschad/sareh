@@ -9,7 +9,6 @@ definition: واژه‌ی وداع؛ درودِ هنگام جدایی
 english: farewell
 register: رسمی
 frequency_rank: 6059
-zipf: 4.18
 difficulty: 1
 examples:
 - sare: بدرود تا دیدار دیگر.
@@ -29,3 +28,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.18

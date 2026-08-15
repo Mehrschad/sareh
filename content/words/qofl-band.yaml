@@ -9,7 +9,6 @@ definition: آنچه در را بسته نگه می‌دارد
 english: lock
 register: گفتاری
 frequency_rank: 2567
-zipf: 4.69
 difficulty: 2
 examples:
 - sare: بندِ در را باز کن.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.69

@@ -9,7 +9,6 @@ definition: نیازِ تن به آب
 english: thirst
 register: ادبی
 frequency_rank: 10943
-zipf: 3.79
 difficulty: 3
 examples:
 - sare: تشنگی از پایش انداخت.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.79

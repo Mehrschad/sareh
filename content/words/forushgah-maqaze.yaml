@@ -9,7 +9,6 @@ definition: جایی که کالا می‌فروشند
 english: store
 register: گفتاری
 frequency_rank: 1981
-zipf: 4.82
 difficulty: 2
 examples:
 - sare: به فروشگاه رفتم.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.82

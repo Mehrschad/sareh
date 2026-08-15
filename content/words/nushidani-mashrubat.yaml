@@ -9,7 +9,6 @@ definition: آنچه نوشیده می‌شود
 english: beverage
 register: رسمی
 frequency_rank: 13015
-zipf: 3.67
 difficulty: 3
 examples:
 - sare: نوشیدنیِ سرد می‌خواهی؟
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 3.67

@@ -9,7 +9,6 @@ definition: دفترچه‌ی رسمیِ گذر از مرز
 english: passport
 register: رسمی
 frequency_rank: 4872
-zipf: 4.32
 difficulty: 2
 examples:
 - sare: گذرنامه‌ات را بردار.
@@ -30,3 +29,4 @@ audio: null
 status: reviewed
 contributors:
 - sareh-seed
+zipf: 4.32
