@@ -125,6 +125,110 @@ final class RishehyabQuestion extends Question {
   List<String> get answer => [for (final step in steps) step.form];
 }
 
+/// واژه‌چین — جمله‌ای واقعی به کاشی‌های به‌هم‌ریخته شکسته شده؛ دوباره بچینش.
+///
+/// جمله از نمونه‌های خودِ مدخل می‌آید، پس واژه‌ی سره در بافتی دیده می‌شود که
+/// یک آدم نوشته، نه در فهرست.
+@immutable
+final class VajechinQuestion extends Question {
+  const VajechinQuestion({
+    required super.word,
+    required this.tiles,
+    required this.sentence,
+  }) : super(kind: ExerciseKind.vajechin);
+
+  /// کاشی‌ها، به‌هم‌ریخته.
+  final List<String> tiles;
+
+  /// نشانه‌های جمله به ترتیبِ درست.
+  final List<String> sentence;
+}
+
+/// نویسش — برابر را بنویس.
+///
+/// تنها گونه‌ای که پاسخ را تایپ می‌گیرد، پس تنها گونه‌ای که `answers_match`
+/// هسته‌ی Rust را به کار می‌برد: نیم‌فاصله، «ی» و «ک» عربی، اعراب و اعداد
+/// همه نادیده گرفته می‌شوند. کاربر باید واژه را بداند، نه صفحه‌کلید را.
+@immutable
+final class NeviseshQuestion extends Question {
+  const NeviseshQuestion({required super.word, required this.hint})
+      : super(kind: ExerciseKind.nevisesh);
+
+  /// تعریفِ واژه — راهنمای نوشتن.
+  final String hint;
+
+  String get answer => word.sare;
+}
+
+/// داستانک — پاراگرافی کوتاه با سه جای خالی.
+///
+/// بافتِ بلندتر از یک جمله: سه جمله‌ی پیاپی که هرکدام یک واژه‌ی منزل را در
+/// خود دارند. کاربر هر سه را از یک انبانِ مشترک پر می‌کند، پس نمی‌تواند
+/// جای خالی را از روی جای دیگر حدس بزند.
+@immutable
+final class DastanakQuestion extends Question {
+  const DastanakQuestion({
+    required super.word,
+    required this.blanks,
+    required this.options,
+  }) : super(kind: ExerciseKind.dastanak);
+
+  /// جمله‌ها به ترتیب؛ در هر کدام جای خالی با [blankMark] نشان شده.
+  final List<DastanakBlank> blanks;
+
+  /// انبانِ مشترکِ گزینه‌ها.
+  final List<String> options;
+
+  static const String blankMark = '▁▁▁';
+
+  List<String> get answer => [for (final b in blanks) b.answer];
+}
+
+@immutable
+class DastanakBlank {
+  const DastanakBlank({required this.sentence, required this.answer});
+
+  /// جمله با [DastanakQuestion.blankMark] به‌جای واژه.
+  final String sentence;
+  final String answer;
+}
+
+/// تیر آرش — شصت ثانیه، هرچه بیشتر.
+///
+/// تنها تایمرِ مجازِ سره. ETHICS §۱ شمارشِ معکوس را ممنوع کرده، ولی این را
+/// استثنا می‌کند: کاربر خودش واردش شده و پایانش چیزی را نمی‌سوزاند — نه
+/// زنجیره‌ای می‌شکند، نه امتیازی پس گرفته می‌شود.
+///
+/// برخلافِ گونه‌های دیگر، این پرسش چند واژه دارد. هر واژه‌ای که در این شصت
+/// ثانیه پاسخ داده شود، جداگانه برای مرورِ فاصله‌دار ثبت می‌شود؛ ولی منزل
+/// یک گام جلو می‌رود، نه چند گام.
+@immutable
+final class TirArashQuestion extends Question {
+  const TirArashQuestion({
+    required super.word,
+    required this.rounds,
+    required this.seconds,
+    required this.passRatio,
+  }) : super(kind: ExerciseKind.tirArash);
+
+  /// پرسش‌های تندِ پیاپی.
+  final List<TirArashRound> rounds;
+  final int seconds;
+
+  /// نسبتِ درستی که برای «گذراندن» بس است.
+  final double passRatio;
+}
+
+@immutable
+class TirArashRound {
+  const TirArashRound({required this.word, required this.options});
+
+  final Word word;
+  final List<String> options;
+
+  String get answer => word.sare;
+}
+
 @immutable
 class LessonState {
   const LessonState({
@@ -228,6 +332,26 @@ class LessonController extends StateNotifier<LessonState> {
     );
   }
 
+  /// پاسخی که برای مرورِ فاصله‌دار ثبت می‌شود ولی منزل را جلو نمی‌برد.
+  ///
+  /// «تیر آرش» در شصت ثانیه ده‌ها واژه را از جلوی چشم می‌گذراند. اگر تنها
+  /// واژه‌ی لنگرِ آن پرسش ثبت شود، کاربر کار کرده و حافظه‌اش ثبت نشده.
+  void practise({
+    required Word word,
+    required bool correct,
+    required int answerMs,
+    required ExerciseKind kind,
+  }) {
+    unawaited(
+      recorder?.record(
+        wordId: word.id,
+        correct: correct,
+        answerMs: answerMs,
+        exercise: kind.label,
+      ),
+    );
+  }
+
   /// پس از دیدنِ بازخورد. انیمیشن هیچ‌گاه تعامل را بلوکه نمی‌کند، پس کاربر
   /// می‌تواند پیش از پایانِ جشن این را صدا بزند (بخش ۷٫۴).
   void next() {
@@ -280,8 +404,12 @@ class LessonController extends StateNotifier<LessonState> {
         ExerciseKind.joftsaz => _joftsaz(word, words, random),
         ExerciseKind.beityab => _beityab(word, bundle, pool, random),
         ExerciseKind.rishehyab => _rishehyab(word, pool, random),
-        // گونه‌های دیگر (شنیدار، گفتار، واژه‌چین، نویسش، تیر آرش، داستانک،
-        // رویارویی) روی همین موتور سوار می‌شوند؛ هنوز ساخته نشده‌اند.
+        ExerciseKind.vajechin => _vajechin(word),
+        ExerciseKind.nevisesh => _nevisesh(word),
+        ExerciseKind.dastanak => _dastanak(word, words, pool, random),
+        ExerciseKind.tirArash => _tirArash(word, words, pool, random),
+        // «گفتار» به میکروفون نیاز دارد و در مادرْ‌سند اختیاری است؛
+        // «رویارویی» به بک‌اند نیاز دارد و فازِ دوم است.
         _ => null,
       };
 
@@ -342,6 +470,97 @@ class LessonController extends StateNotifier<LessonState> {
   ///
   /// حواس‌پرت‌کن‌ها از واژه‌های هم‌دشواری برداشته می‌شوند تا پرسش نه بی‌معنا
   /// آسان باشد نه ناعادلانه.
+  /// کمترین شمارِ کاشی. سه کاشی شش چیدمان دارد — به سختیِ یک گزینشِ
+  /// چهارگزینه‌ای، پس تمرین است نه تشریفات. با چهار کاشی، نیمی از واژه‌ها
+  /// نمونه‌ی بلندِ کافی ندارند و به گزینش برمی‌گردند؛ با سه، ۹۲٪ می‌سازند.
+  static const int _minTiles = 3;
+
+  /// شمارِ جای خالی در داستانک — مادرْ‌سند سه گفته است.
+  static const int _dastanakBlanks = 3;
+
+  static const int _tirArashSeconds = 60;
+  static const double _tirArashPass = 0.7;
+  static const int _tirArashRounds = 12;
+
+  static VajechinQuestion? _vajechin(Word word) {
+    for (final example in word.examples) {
+      final tokens = example.sare.split(' ').where((t) => t.isNotEmpty).toList();
+      if (tokens.length < _minTiles) continue;
+      // چرخشی به‌هم می‌ریزیم، نه تصادفی: تضمین می‌کند هیچ کاشی سرِ جای
+      // خودش نماند، پس تمرین هیچ‌وقت از پیش حل‌شده نیست.
+      final shuffled = [
+        for (var i = 0; i < tokens.length; i++) tokens[(i + 1) % tokens.length],
+      ];
+      return VajechinQuestion(word: word, tiles: shuffled, sentence: tokens);
+    }
+    return null;
+  }
+
+  static NeviseshQuestion _nevisesh(Word word) =>
+      NeviseshQuestion(word: word, hint: word.definition);
+
+  static DastanakQuestion? _dastanak(
+    Word word,
+    List<Word> words,
+    List<Word> pool,
+    Random random,
+  ) {
+    // سه واژه‌ی همین منزل، تا داستانک با آنچه کاربر همین‌جا می‌آموزد بخواند.
+    final companions = [...words.where((w) => w.id != word.id)]..shuffle(random);
+    final chosen = [word, ...companions.take(_dastanakBlanks - 1)];
+    if (chosen.length < _dastanakBlanks) return null;
+
+    final blanks = <DastanakBlank>[];
+    for (final each in chosen) {
+      final example = each.examples
+          .where((e) => e.sare.contains(each.sare))
+          .firstOrNull;
+      if (example == null) return null;
+      blanks.add(
+        DastanakBlank(
+          sentence: example.sare
+              .replaceFirst(each.sare, DastanakQuestion.blankMark),
+          answer: each.sare,
+        ),
+      );
+    }
+
+    // انبانِ مشترک: پاسخ‌ها به‌علاوه‌ی چند فریب. اگر انبان فقط پاسخ‌ها باشد،
+    // جای خالیِ سوم را می‌شود از راهِ حذف پر کرد.
+    final options = {for (final b in blanks) b.answer};
+    final distractors = [...pool.where((w) => !options.contains(w.sare))]
+      ..shuffle(random);
+    for (final candidate in distractors) {
+      if (options.length >= blanks.length + 2) break;
+      options.add(candidate.sare);
+    }
+
+    return DastanakQuestion(
+      word: word,
+      blanks: blanks,
+      options: options.toList()..shuffle(random),
+    );
+  }
+
+  static TirArashQuestion _tirArash(
+    Word word,
+    List<Word> words,
+    List<Word> pool,
+    Random random,
+  ) {
+    final others = [...words.where((w) => w.id != word.id)]..shuffle(random);
+    final line = [word, ...others].take(_tirArashRounds).toList();
+    return TirArashQuestion(
+      word: word,
+      rounds: [
+        for (final each in line)
+          TirArashRound(word: each, options: _optionsFor(each, pool, random)),
+      ],
+      seconds: _tirArashSeconds,
+      passRatio: _tirArashPass,
+    );
+  }
+
   /// شمارِ ثابتِ گزینه‌ها. هر چه پله بیشتر، فریب کمتر — تا دشواری با شمارِ
   /// صورت‌های ثبت‌شده بالا و پایین نرود.
   static const int _rishehyabOptions = 5;

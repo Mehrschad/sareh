@@ -109,6 +109,13 @@ class _LessonView extends ConsumerWidget {
                       HapticFeedback.lightImpact();
                       controller.answer(correct: correct);
                     },
+                    onPractice: (word, {required correct, required answerMs}) =>
+                        controller.practise(
+                      word: word,
+                      correct: correct,
+                      answerMs: answerMs,
+                      kind: question.kind,
+                    ),
                   ),
                 ),
               ),
@@ -127,10 +134,16 @@ class _LessonView extends ConsumerWidget {
 }
 
 class _QuestionView extends StatelessWidget {
-  const _QuestionView({super.key, required this.question, required this.onAnswer});
+  const _QuestionView({
+    super.key,
+    required this.question,
+    required this.onAnswer,
+    required this.onPractice,
+  });
 
   final Question question;
   final AnswerCallback onAnswer;
+  final PracticeCallback onPractice;
 
   @override
   Widget build(BuildContext context) => switch (question) {
@@ -140,6 +153,17 @@ class _QuestionView extends StatelessWidget {
         final BeityabQuestion q => BeityabExercise(question: q, onAnswer: onAnswer),
         final RishehyabQuestion q =>
           RishehyabExercise(question: q, onAnswer: onAnswer),
+        final VajechinQuestion q =>
+          VajechinExercise(question: q, onAnswer: onAnswer),
+        final NeviseshQuestion q =>
+          NeviseshExercise(question: q, onAnswer: onAnswer),
+        final DastanakQuestion q =>
+          DastanakExercise(question: q, onAnswer: onAnswer),
+        final TirArashQuestion q => TirArashExercise(
+            question: q,
+            onAnswer: onAnswer,
+            onPractice: onPractice,
+          ),
       };
 }
 

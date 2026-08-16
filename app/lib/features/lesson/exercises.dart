@@ -1,17 +1,31 @@
-// پنج گونه‌ی تمرین.
+// نه گونه‌ی تمرین.
 //
 // همه یک قرارداد دارند: `onAnswer(bool correct)`. موتور نمی‌داند کاربر چگونه
 // پاسخ داده؛ گونه نمی‌داند پس از پاسخ چه می‌شود. بنابراین افزودنِ گونه‌ی پنجم
 // هیچ فایلِ دیگری را دست نمی‌زند.
+
+import 'dart:async';
 
 import 'package:flutter/material.dart';
 
 import '../../design/tokens.g.dart';
 import '../../design/widgets.dart';
 import '../../shared/models.dart';
+import '../../src/rust/api.dart';
 import 'lesson_controller.dart';
 
 typedef AnswerCallback = void Function({required bool correct});
+
+/// پاسخی که برای مرورِ فاصله‌دار ثبت می‌شود ولی منزل را جلو نمی‌برد.
+///
+/// تنها «تیر آرش» به آن نیاز دارد: در شصت ثانیه ده‌ها واژه از جلوی چشم
+/// می‌گذرند و هر کدام باید زمان‌بندیِ خودش را بگیرد، وگرنه کاربر کار کرده و
+/// حافظه‌اش ثبت نشده.
+typedef PracticeCallback = void Function(
+  Word word, {
+  required bool correct,
+  required int answerMs,
+});
 
 /// گزینه‌ی چهارتاییِ مشترکِ «گزینش»، «جای‌گزینی» و «بیت‌یاب».
 class _OptionGrid extends StatelessWidget {
@@ -824,6 +838,569 @@ class _FormChip extends StatelessWidget {
               child: Text(
                 form,
                 textDirection: TextDirection.ltr,
+                style: TextStyle(
+                  fontFamily: SarehType.bodyFamily,
+                  fontSize: SarehType.lg,
+                  height: SarehType.lgLine,
+                  color: colors.onSurface,
+                ),
+              ),
+            ),
+          ),
+        ),
+      );
+}
+
+/// واژه‌چین — جمله را از کاشی‌ها دوباره بچین.
+class VajechinExercise extends StatefulWidget {
+  const VajechinExercise({
+    super.key,
+    required this.question,
+    required this.onAnswer,
+  });
+
+  final VajechinQuestion question;
+  final AnswerCallback onAnswer;
+
+  @override
+  State<VajechinExercise> createState() => _VajechinExerciseState();
+}
+
+class _VajechinExerciseState extends State<VajechinExercise> {
+  /// نمایه‌ی کاشی‌های برداشته‌شده، به ترتیبِ برداشتن.
+  final List<int> _picked = [];
+  bool _answered = false;
+
+  void _pick(int index) {
+    if (_answered || _picked.contains(index)) return;
+    setState(() => _picked.add(index));
+    if (_picked.length < widget.question.tiles.length) return;
+
+    setState(() => _answered = true);
+    final built = [for (final i in _picked) widget.question.tiles[i]];
+    final correct = built.join(' ') == widget.question.sentence.join(' ');
+    widget.onAnswer(correct: correct);
+  }
+
+  void _undo() {
+    if (_answered || _picked.isEmpty) return;
+    setState(_picked.removeLast);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = context.colors;
+    final question = widget.question;
+    final built = [for (final i in _picked) question.tiles[i]];
+    final right = built.join(' ') == question.sentence.join(' ');
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        _Prompt(hint: 'جمله را بچین', focus: question.word.sare),
+        const SizedBox(height: SarehSpace.lg),
+        SarehCard(
+          borderColour: _answered ? (right ? colors.action : colors.error) : null,
+          padding: const EdgeInsets.symmetric(
+            horizontal: SarehSpace.md,
+            vertical: SarehSpace.md,
+          ),
+          child: SizedBox(
+            width: double.infinity,
+            child: Wrap(
+              alignment: WrapAlignment.center,
+              spacing: SarehSpace.xs,
+              runSpacing: SarehSpace.xs,
+              children: [
+                if (built.isEmpty)
+                  Text(
+                    'کاشی‌ها را به ترتیب بزن',
+                    style: Theme.of(context).textTheme.bodyMedium,
+                  ),
+                for (final token in _answered ? question.sentence : built)
+                  Text(token, style: Theme.of(context).textTheme.titleMedium),
+              ],
+            ),
+          ),
+        ),
+        const SizedBox(height: SarehSpace.lg),
+        Wrap(
+          alignment: WrapAlignment.center,
+          spacing: SarehSpace.sm,
+          runSpacing: SarehSpace.sm,
+          children: [
+            for (var i = 0; i < question.tiles.length; i++)
+              _Tile(
+                label: question.tiles[i],
+                used: _picked.contains(i),
+                onTap: _answered ? null : () => _pick(i),
+                colors: colors,
+              ),
+          ],
+        ),
+        if (!_answered && _picked.isNotEmpty) ...[
+          const SizedBox(height: SarehSpace.md),
+          Align(
+            child: TextButton(onPressed: _undo, child: const Text('واپس')),
+          ),
+        ],
+      ],
+    );
+  }
+}
+
+/// نویسش — برابر را بنویس.
+///
+/// سنجش با `answers_match` هسته‌ی Rust است، پس نیم‌فاصله و «ی» عربی و اعراب
+/// پاسخ را رد نمی‌کنند. سنجه‌گر تزریق‌شدنی است تا آزمون به پل نیاز نداشته
+/// باشد.
+class NeviseshExercise extends StatefulWidget {
+  const NeviseshExercise({
+    super.key,
+    required this.question,
+    required this.onAnswer,
+    this.grader = answersMatch,
+  });
+
+  final NeviseshQuestion question;
+  final AnswerCallback onAnswer;
+  final Future<bool> Function({required String typed, required String expected})
+      grader;
+
+  @override
+  State<NeviseshExercise> createState() => _NeviseshExerciseState();
+}
+
+class _NeviseshExerciseState extends State<NeviseshExercise> {
+  final TextEditingController _input = TextEditingController();
+  bool _answered = false;
+  bool _right = false;
+
+  @override
+  void dispose() {
+    _input.dispose();
+    super.dispose();
+  }
+
+  Future<void> _submit() async {
+    if (_answered || _input.text.trim().isEmpty) return;
+    final right = await widget.grader(
+      typed: _input.text,
+      expected: widget.question.answer,
+    );
+    if (!mounted) return;
+    setState(() {
+      _answered = true;
+      _right = right;
+    });
+    widget.onAnswer(correct: right);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = context.colors;
+    final question = widget.question;
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        _Prompt(hint: question.hint, focus: question.word.loan),
+        const SizedBox(height: SarehSpace.lg),
+        TextField(
+          controller: _input,
+          enabled: !_answered,
+          autofocus: true,
+          textAlign: TextAlign.center,
+          textDirection: TextDirection.rtl,
+          textInputAction: TextInputAction.done,
+          onSubmitted: (_) => _submit(),
+          style: TextStyle(
+            fontFamily: SarehType.bodyFamily,
+            fontSize: SarehType.xl,
+            height: SarehType.xlLine,
+            color: colors.onSurface,
+          ),
+          decoration: InputDecoration(
+            hintText: 'برابرِ پارسی',
+            filled: true,
+            fillColor: colors.surface,
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(SarehRadius.input),
+              borderSide: BorderSide(color: colors.outline),
+            ),
+            focusedBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(SarehRadius.input),
+              borderSide: BorderSide(color: colors.action, width: 2),
+            ),
+            disabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(SarehRadius.input),
+              borderSide: BorderSide(
+                color: _right ? colors.action : colors.error,
+                width: 2,
+              ),
+            ),
+          ),
+        ),
+        if (_answered && !_right) ...[
+          const SizedBox(height: SarehSpace.md),
+          // پاسخِ درست همیشه نشان داده می‌شود — یاد گرفتن مهم‌تر از داوری است.
+          Text(
+            question.answer,
+            textAlign: TextAlign.center,
+            style: Theme.of(context).textTheme.titleLarge,
+          ),
+        ],
+        if (!_answered) ...[
+          const SizedBox(height: SarehSpace.lg),
+          SarehButton(label: 'بسنج', onPressed: _submit),
+        ],
+      ],
+    );
+  }
+}
+
+/// داستانک — پاراگرافی کوتاه با سه جای خالی.
+class DastanakExercise extends StatefulWidget {
+  const DastanakExercise({
+    super.key,
+    required this.question,
+    required this.onAnswer,
+  });
+
+  final DastanakQuestion question;
+  final AnswerCallback onAnswer;
+
+  @override
+  State<DastanakExercise> createState() => _DastanakExerciseState();
+}
+
+class _DastanakExerciseState extends State<DastanakExercise> {
+  late final List<String?> _filled =
+      List<String?>.filled(widget.question.blanks.length, null);
+  bool _answered = false;
+
+  int get _nextEmpty => _filled.indexOf(null);
+
+  void _place(String option) {
+    if (_answered || _filled.contains(option)) return;
+    final slot = _nextEmpty;
+    if (slot < 0) return;
+    setState(() => _filled[slot] = option);
+    if (_nextEmpty >= 0) return;
+
+    setState(() => _answered = true);
+    final answer = widget.question.answer;
+    var correct = true;
+    for (var i = 0; i < answer.length; i++) {
+      if (_filled[i] != answer[i]) correct = false;
+    }
+    widget.onAnswer(correct: correct);
+  }
+
+  void _lift(int slot) {
+    if (_answered) return;
+    setState(() => _filled[slot] = null);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = context.colors;
+    final question = widget.question;
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Text(
+          'داستانک را کامل کن',
+          textAlign: TextAlign.center,
+          style: Theme.of(context).textTheme.bodyMedium,
+        ),
+        const SizedBox(height: SarehSpace.md),
+        SarehCard(
+          padding: const EdgeInsets.symmetric(
+            horizontal: SarehSpace.md,
+            vertical: SarehSpace.lg,
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              for (var i = 0; i < question.blanks.length; i++)
+                Padding(
+                  padding: const EdgeInsets.only(bottom: SarehSpace.sm),
+                  child: GestureDetector(
+                    onTap: _filled[i] == null ? null : () => _lift(i),
+                    child: _BlankLine(
+                      sentence: question.blanks[i].sentence,
+                      filled: _answered && _filled[i] != question.answer[i]
+                          ? question.answer[i]
+                          : _filled[i],
+                      state: switch ((_answered, _filled[i])) {
+                        (true, final f) when f == question.answer[i] =>
+                          _OptionState.correct,
+                        (true, _) => _OptionState.wrong,
+                        _ => _OptionState.idle,
+                      },
+                      colors: colors,
+                    ),
+                  ),
+                ),
+            ],
+          ),
+        ),
+        const SizedBox(height: SarehSpace.lg),
+        Wrap(
+          alignment: WrapAlignment.center,
+          spacing: SarehSpace.sm,
+          runSpacing: SarehSpace.sm,
+          children: [
+            for (final option in question.options)
+              _Tile(
+                label: option,
+                used: _filled.contains(option),
+                onTap: _answered ? null : () => _place(option),
+                colors: colors,
+              ),
+          ],
+        ),
+      ],
+    );
+  }
+}
+
+/// یک جمله‌ی داستانک، با جای خالی‌اش.
+class _BlankLine extends StatelessWidget {
+  const _BlankLine({
+    required this.sentence,
+    required this.filled,
+    required this.state,
+    required this.colors,
+  });
+
+  final String sentence;
+  final String? filled;
+  final _OptionState state;
+  final SarehColors colors;
+
+  @override
+  Widget build(BuildContext context) {
+    final parts = sentence.split(DastanakQuestion.blankMark);
+    final ink = switch (state) {
+      _OptionState.correct => colors.action,
+      _OptionState.wrong => colors.error,
+      _OptionState.idle => colors.accentSoft,
+    };
+    final body = Theme.of(context).textTheme.titleMedium;
+
+    return Text.rich(
+      TextSpan(
+        children: [
+          TextSpan(text: parts.first, style: body),
+          TextSpan(
+            text: filled ?? DastanakQuestion.blankMark,
+            style: body?.copyWith(
+              color: filled == null ? colors.onSurfaceMuted : ink,
+              decoration: TextDecoration.underline,
+              decorationColor: ink,
+            ),
+          ),
+          if (parts.length > 1) TextSpan(text: parts.last, style: body),
+        ],
+      ),
+      textAlign: TextAlign.right,
+    );
+  }
+}
+
+/// تیر آرش — شصت ثانیه، هرچه بیشتر.
+///
+/// تنها تایمرِ مجازِ سره (ETHICS §۱): کاربر خودش واردش شده و پایانش چیزی را
+/// نمی‌سوزاند. پس از پایان، هیچ زنجیره‌ای نمی‌شکند و هیچ امتیازی پس گرفته
+/// نمی‌شود؛ تنها شمارش می‌ایستد.
+class TirArashExercise extends StatefulWidget {
+  const TirArashExercise({
+    super.key,
+    required this.question,
+    required this.onAnswer,
+    this.onPractice,
+  });
+
+  final TirArashQuestion question;
+  final AnswerCallback onAnswer;
+
+  /// هر واژه‌ی این دور جداگانه برای مرورِ فاصله‌دار ثبت می‌شود.
+  final PracticeCallback? onPractice;
+
+  @override
+  State<TirArashExercise> createState() => _TirArashExerciseState();
+}
+
+class _TirArashExerciseState extends State<TirArashExercise> {
+  Timer? _clock;
+  int _left = 0;
+  int _round = 0;
+  int _hits = 0;
+  bool _running = false;
+  bool _done = false;
+  DateTime _roundStartedAt = DateTime.now();
+
+  @override
+  void initState() {
+    super.initState();
+    _left = widget.question.seconds;
+  }
+
+  @override
+  void dispose() {
+    _clock?.cancel();
+    super.dispose();
+  }
+
+  void _start() {
+    setState(() {
+      _running = true;
+      _roundStartedAt = DateTime.now();
+    });
+    _clock = Timer.periodic(const Duration(seconds: 1), (_) {
+      if (!mounted) return;
+      setState(() => _left--);
+      if (_left <= 0) _finish();
+    });
+  }
+
+  void _answer(String choice) {
+    if (!_running || _done) return;
+    final current = widget.question.rounds[_round];
+    final right = choice == current.answer;
+    if (right) _hits++;
+    widget.onPractice?.call(
+      current.word,
+      correct: right,
+      answerMs: DateTime.now().difference(_roundStartedAt).inMilliseconds,
+    );
+    if (_round + 1 >= widget.question.rounds.length) {
+      _finish();
+      return;
+    }
+    setState(() {
+      _round++;
+      _roundStartedAt = DateTime.now();
+    });
+  }
+
+  void _finish() {
+    if (_done) return;
+    _clock?.cancel();
+    setState(() {
+      _done = true;
+      _running = false;
+    });
+    final attempted = _round + 1;
+    widget.onAnswer(
+      correct: _hits / attempted >= widget.question.passRatio,
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = context.colors;
+    final question = widget.question;
+
+    if (!_running && !_done) {
+      return Column(
+        children: [
+          _Prompt(
+            hint: 'تیر آرش — ${_persian(question.seconds)} ثانیه، هرچه بیشتر',
+            focus: 'آماده‌ای؟',
+          ),
+          const SizedBox(height: SarehSpace.lg),
+          SarehButton(label: 'رها کن', onPressed: _start),
+        ],
+      );
+    }
+
+    if (_done) {
+      return _Prompt(
+        hint: 'از ${_persian(_round + 1)} پرسش',
+        focus: '${_persian(_hits)} درست',
+      );
+    }
+
+    final current = question.rounds[_round];
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        // شمارنده وضعیت را نشان می‌دهد، نه تهدید را: نه رنگ سرخ می‌شود، نه
+        // می‌لرزد. پایانش چیزی را نمی‌گیرد.
+        Text(
+          '${_persian(_left)} ثانیه  ·  ${_persian(_hits)} درست',
+          textAlign: TextAlign.center,
+          style: Theme.of(context).textTheme.labelLarge,
+        ),
+        const SizedBox(height: SarehSpace.sm),
+        SarehProgressBar(value: _left / question.seconds),
+        const SizedBox(height: SarehSpace.lg),
+        _Prompt(hint: 'برابرِ پارسی؟', focus: current.word.loan),
+        const SizedBox(height: SarehSpace.lg),
+        for (final option in current.options)
+          Padding(
+            padding: const EdgeInsets.only(bottom: SarehSpace.sm),
+            child: _OptionTile(
+              label: option,
+              state: _OptionState.idle,
+              onTap: () => _answer(option),
+              colors: colors,
+            ),
+          ),
+      ],
+    );
+  }
+
+  static String _persian(int value) => value
+      .toString()
+      .split('')
+      .map((d) => String.fromCharCode(d.codeUnitAt(0) - 48 + 0x06F0))
+      .join();
+}
+
+class _Tile extends StatelessWidget {
+  const _Tile({
+    required this.label,
+    required this.used,
+    required this.onTap,
+    required this.colors,
+  });
+
+  final String label;
+  final bool used;
+  final VoidCallback? onTap;
+  final SarehColors colors;
+
+  @override
+  Widget build(BuildContext context) => Semantics(
+        button: onTap != null,
+        selected: used,
+        label: label,
+        child: GestureDetector(
+          onTap: used ? null : onTap,
+          child: AnimatedOpacity(
+            duration: SarehMotion.element,
+            curve: SarehMotion.elementCurve,
+            opacity: used ? SarehOpacity.disabled : 1,
+            child: Container(
+              constraints:
+                  const BoxConstraints(minHeight: SarehA11y.minTouchTarget),
+              padding: const EdgeInsets.symmetric(
+                horizontal: SarehSpace.md,
+                vertical: SarehSpace.sm,
+              ),
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: colors.surface,
+                borderRadius: BorderRadius.circular(SarehRadius.capsule),
+                border: Border.all(color: colors.outline),
+              ),
+              child: Text(
+                label,
                 style: TextStyle(
                   fontFamily: SarehType.bodyFamily,
                   fontSize: SarehType.lg,

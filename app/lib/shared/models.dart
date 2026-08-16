@@ -180,7 +180,6 @@ enum ExerciseKind {
   joftsaz('جفت‌ساز'),
   jaygozini('جای‌گزینی'),
   vajechin('واژه‌چین'),
-  shenidar('شنیدار'),
   goftar('گفتار'),
   beityab('بیت‌یاب'),
   rishehyab('ریشه‌یاب'),
