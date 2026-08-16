@@ -149,7 +149,7 @@ class _Filament extends StatelessWidget {
         fontFamily: SarehType.displayFamily,
         fontSize: fontSize,
         height: SarehType.h2Line,
-        fontWeight: FontWeight.w700,
+        fontWeight: SarehType.displayWeight,
         color: ink,
       ),
     );
@@ -259,7 +259,10 @@ class _GoldParticles extends StatelessWidget {
     final local = ((progress - start) / (1 - start)).clamp(0.0, 1.0);
     return IgnorePointer(
       child: CustomPaint(
-        size: Size(SarehSignature.particleRise * 3, SarehSignature.particleRise * 2),
+        size: const Size(
+          SarehSignature.particleRise * 3,
+          SarehSignature.particleRise * 2,
+        ),
         painter: _ParticlePainter(progress: local, colour: colour),
       ),
     );

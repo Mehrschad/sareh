@@ -112,7 +112,7 @@ class ContentRepository {
 }
 
 final contentRepositoryProvider = Provider<ContentRepository>(
-  (ref) => const ContentRepository(rootBundle),
+  (ref) => ContentRepository(rootBundle),
 );
 
 /// محتوا یک بار خوانده می‌شود و تا پایانِ عمرِ اپ می‌ماند.

@@ -61,17 +61,11 @@ flutter:
           weight: 600
         - asset: ../design/fonts/Vazirmatn-Bold.ttf
           weight: 700
-    - family: Morabba
-      fonts:
-        - asset: ../design/fonts/Morabba-Medium.ttf
-          weight: 500
-        - asset: ../design/fonts/Morabba-Bold.ttf
-          weight: 700
-        - asset: ../design/fonts/Morabba-Black.ttf
-          weight: 900
     - family: Estedad
       fonts:
         - asset: ../design/fonts/Estedad-Regular.ttf
           weight: 400
         - asset: ../design/fonts/Estedad-Bold.ttf
           weight: 700
+        - asset: ../design/fonts/Estedad-Black.ttf
+          weight: 900

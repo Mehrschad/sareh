@@ -31,15 +31,28 @@ content-sync: ## کپیِ content/ به دارایی‌های اپ
 	@echo "✓ $$(find $(APP_ASSETS)/words -name '*.yaml' | wc -l | tr -d ' ') واژه همگام شد."
 
 fonts: ## گرفتنِ قلم‌ها (پروانه‌شان جداست، پس در مخزن نیستند)
+	@# هر دو زیر SIL OFL 1.1 اند و آزادانه پخش می‌شوند؛ در مخزن نیستند تا
+	@# پروانه‌ی قلم با پروانه‌ی کد قاتی نشود. اینجا از خودِ مخزنِ سازنده
+	@# گرفته می‌شوند، پس همیشه نسخه‌ی رسمی است.
 	@mkdir -p $(FONT_DIR)
-	@if [ -f "$(FONT_DIR)/Vazirmatn-Regular.ttf" ]; then \
-		echo "✓ قلم‌ها هستند."; \
-	else \
-		echo "قلم‌ها را دستی بگذارید در $(FONT_DIR)/ :"; \
-		echo "  وزیرمتن (SIL OFL)  https://github.com/rastikerdar/vazirmatn"; \
-		echo "  مربا    (SIL OFL)  https://github.com/sahaf-io/Morabba"; \
-		echo "  استعداد (SIL OFL)  https://github.com/aminabedi68/Estedad"; \
-	fi
+	@set -e; \
+	for spec in \
+		"rastikerdar/vazirmatn:Vazirmatn-Regular" \
+		"rastikerdar/vazirmatn:Vazirmatn-Medium" \
+		"rastikerdar/vazirmatn:Vazirmatn-SemiBold" \
+		"rastikerdar/vazirmatn:Vazirmatn-Bold" \
+		"aminabedi68/Estedad:Estedad-Regular" \
+		"aminabedi68/Estedad:Estedad-Bold" \
+		"aminabedi68/Estedad:Estedad-Black" ; \
+	do \
+		repo=$${spec%%:*}; name=$${spec##*:}; \
+		if [ -f "$(FONT_DIR)/$$name.ttf" ]; then continue; fi; \
+		echo "  گرفتنِ $$name…"; \
+		curl -sSLf -o "$(FONT_DIR)/$$name.ttf" \
+			"https://raw.githubusercontent.com/$$repo/master/fonts/ttf/$$name.ttf" \
+			|| { echo "✗ $$name گرفته نشد"; rm -f "$(FONT_DIR)/$$name.ttf"; exit 1; }; \
+	done; \
+	echo "✓ قلم‌ها آماده‌اند (SIL OFL 1.1)."
 
 tokens: ## بازتولیدِ tokens.g.dart از tokens.json
 	dart run tools/gen_tokens.dart

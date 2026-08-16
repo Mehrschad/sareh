@@ -133,8 +133,7 @@ class LessonController extends StateNotifier<LessonState> {
     required Station station,
     required ContentBundle bundle,
     Random? random,
-  })  : _random = random ?? Random(),
-        super(
+  }) : super(
           LessonState(
             stationId: station.id,
             questions: buildQuestions(
@@ -150,7 +149,6 @@ class LessonController extends StateNotifier<LessonState> {
           ),
         );
 
-  final Random _random;
   DateTime _questionShownAt = DateTime.now();
 
   /// میلی‌ثانیه‌ای که کاربر روی پرسشِ کنونی گذرانده — خوراکِ درجه‌بندیِ FSRS.

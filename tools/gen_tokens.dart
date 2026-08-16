@@ -100,6 +100,8 @@ String _render(Map<String, dynamic> tokens) {
     ..writeln('//')
     ..writeln('// زبانِ طراحی: ${meta['name']}  ·  نسخه: ${meta['version']}')
     ..writeln()
+    // animation.dart برای Cubic، painting.dart برای Color و FontWeight.
+    ..writeln("import 'package:flutter/animation.dart';")
     ..writeln("import 'package:flutter/painting.dart';")
     ..writeln()
     ..writeln('/// رنگ‌های یک پوسته. دو نمونه دارد: [dark] و [light].')
@@ -137,6 +139,8 @@ String _render(Map<String, dynamic> tokens) {
   out
     ..writeln()
     ..writeln("  static const String displayFamily = '${(fonts['display'] as Map)['family']}';")
+    ..writeln('  static const FontWeight displayWeight = '
+        'FontWeight.w${(fonts['display'] as Map)['weight']};')
     ..writeln("  static const String bodyFamily = '${(fonts['body'] as Map)['family']}';")
     ..writeln("  static const String dyslexicFamily = '${(fonts['dyslexic'] as Map)['family']}';")
     ..writeln('  static const double dyslexicLetterSpacing = '

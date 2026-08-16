@@ -6,6 +6,7 @@
 //
 // زبانِ طراحی: کنگره و نور  ·  نسخه: 1.0.0
 
+import 'package:flutter/animation.dart';
 import 'package:flutter/painting.dart';
 
 /// رنگ‌های یک پوسته. دو نمونه دارد: [dark] و [light].
@@ -98,7 +99,8 @@ class SarehType {
   static const double h1 = 61.0;
   static const double h1Line = 1.7;
 
-  static const String displayFamily = 'Morabba';
+  static const String displayFamily = 'Estedad';
+  static const FontWeight displayWeight = FontWeight.w900;
   static const String bodyFamily = 'Vazirmatn';
   static const String dyslexicFamily = 'Estedad';
   static const double dyslexicLetterSpacing = 0.06;
