@@ -212,7 +212,9 @@ Riverpod ۲، بدون کدژن:
 | Provider | گونه | زندگی |
 |---|---|---|
 | `contentProvider` | `FutureProvider<ContentBundle>` | یک بار، تا پایانِ عمرِ اپ |
-| `progressProvider` | `StateNotifierProvider` | تا پایانِ عمرِ اپ |
+| `databaseProvider` | `Provider<SarehDatabase>` | تا پایانِ عمرِ اپ؛ با `onDispose` بسته می‌شود |
+| `progressRepositoryProvider` | `Provider<ProgressRepository>` | تا پایانِ عمرِ اپ |
+| `progressProvider` | `StateNotifierProvider` | تا پایانِ عمرِ اپ؛ از Drift پر می‌شود |
 | `lessonControllerProvider(stationId)` | `.autoDispose.family` | تا خروج از صفحه |
 | `settingsProvider` | `StateProvider<AppSettings>` | تا پایانِ عمرِ اپ |
 
@@ -230,15 +232,12 @@ Riverpod ۲، بدون کدژن:
 | رنگ و اندازه‌ی هارد‌کد | همان | tokens.json تنها منبعِ حقیقت |
 | هم‌خوانیِ توکن‌ها | `dart run tools/gen_tokens.dart --check` | فایلِ تولیدشده کهنه نماند |
 | آزمون‌های هسته | `cargo test --workspace` | FSRS و نرمال‌سازی |
-| آزمون‌های اپ | `flutter test` | موتورِ تمرین و طراحی |
+| آزمون‌های اپ | `flutter test` | موتورِ تمرین، طراحی، و ماندگاری روی SQLite واقعی |
 
 ## ۸. آنچه هنوز ساخته نشده
 
 راست‌گویی درباره‌ی وضعیت، خودش بخشی از معماری است:
 
-- **Drift هنوز سیم‌کشی نشده.** طرح‌واره‌ی بالا نهایی است ولی
-  `features/journey/progress.dart` فعلاً در حافظه کار می‌کند. پیشرفت با بستنِ
-  اپ می‌رود.
 - **هشت گونه از دوازده گونه‌ی تمرین** هنوز نیامده‌اند. موتور آماده‌ی آنهاست:
   یک زیرگونه‌ی `Question` و یک ویجت، و `_build` یک شاخه‌ی تازه می‌گیرد.
 - **بسته‌های نمادِ دوم و سوم** («کهن» و «هندسی») هنوز نیامده‌اند؛ تنها

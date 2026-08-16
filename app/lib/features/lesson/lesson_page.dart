@@ -272,7 +272,11 @@ class _StationCompleteState extends ConsumerState<_StationComplete> {
     super.initState();
     // پیشرفت همان‌جا ثبت می‌شود، نه پس از پایانِ انیمیشنِ جشن.
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      ref.read(progressProvider.notifier).completeStation(widget.stationId);
+      final total = widget.state.questions.length;
+      ref.read(progressProvider.notifier).completeStation(
+            widget.stationId,
+            ratio: total == 0 ? 0 : widget.state.correct / total,
+          );
     });
   }
 

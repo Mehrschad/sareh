@@ -68,9 +68,18 @@ jobs:
           cache: true
       - name: همگام‌سازیِ محتوا
         run: make content-sync
+      - name: گرفتنِ قلم‌ها
+        run: make fonts
       - name: هم‌خوانیِ توکن‌ها با tokens.json
         run: dart run tools/gen_tokens.dart --check
       - run: flutter pub get
+        working-directory: app
+      # کدِ تولیدشده‌ی Drift در git است؛ اگر جدولی عوض شود و کسی
+      # build_runner را نزند، همین‌جا معلوم می‌شود.
+      - name: تازگیِ کدِ تولیدشده‌ی Drift
+        run: |
+          dart run build_runner build
+          git diff --exit-code lib/data
         working-directory: app
       - run: flutter analyze
         working-directory: app
