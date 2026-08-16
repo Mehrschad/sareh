@@ -3,7 +3,7 @@
 // زمان‌بندیِ لحظه‌ی پاسخِ درست (بخش ۷٫۳):
 //   0ms       بازخوردِ لمسی
 //   0–120ms   گزینه به فیروزه می‌رود و ۱٫۰۳ برابر می‌شود  (در exercises.dart)
-//   100–700ms رشته‌ی نور مسیرِ نستعلیقِ واژه را می‌پیماید  (NureVajeh)
+//   100–700ms رشته‌ی نور از راست به چپ واژه را روشن می‌کند  (NureVajeh)
 //   250ms     نوارِ پیشرفت با کششِ فنری پر می‌شود
 //   400ms     سه ذره‌ی زر از واژه بلند می‌شوند
 //
@@ -206,10 +206,7 @@ class _CorrectPanelState extends State<_CorrectPanel> {
         SizedBox(
           height: SarehType.h2 * 1.6,
           child: _showLight
-              ? NureVajeh(
-                  word: word.sare,
-                  calligraphy: WordPathCache.instance[word.id],
-                )
+              ? NureVajeh(word: word.sare)
               : const SizedBox.shrink(),
         ),
         const SizedBox(height: SarehSpace.sm),

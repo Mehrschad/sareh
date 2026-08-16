@@ -7,7 +7,7 @@ import 'dart:math' as math;
 import 'dart:ui';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sareh/design/svg_path.dart';
+import 'package:sareh/design/kongere.dart';
 import 'package:sareh/design/tokens.g.dart';
 
 double _luminance(Color colour) {
@@ -94,9 +94,14 @@ void main() {
       expect(SarehA11y.minTouchTarget, greaterThanOrEqualTo(48.0));
     });
 
-    test('گره‌چینی در محدوده‌ی نامحسوس می‌ماند', () {
-      expect(SarehOpacity.gerehchiniMin, greaterThanOrEqualTo(0.03));
-      expect(SarehOpacity.gerehchiniMax, lessThanOrEqualTo(0.06));
+    test('کنگره در محدوده‌ی نامحسوس می‌ماند', () {
+      expect(SarehOpacity.kongereMin, greaterThanOrEqualTo(0.03));
+      expect(SarehOpacity.kongereMax, lessThanOrEqualTo(0.10));
+    });
+
+    test('قلمِ نمایشی هندسی است، نه نستعلیق', () {
+      // اگر روزی به نستعلیق برگشتیم، این آزمون باید آگاهانه عوض شود.
+      expect(SarehType.displayFamily, isNot('Gulzar'));
     });
 
     test('زمان‌بندی‌ها از ریزکنش تا جشن بالا می‌روند', () {
@@ -115,56 +120,56 @@ void main() {
     });
   });
 
-  group('تجزیه‌ی مسیرِ SVG', () {
-    test('خطِ ساده را می‌خواند', () {
-      final path = parseSvgPath('M 0 0 L 10 0 L 10 10 Z');
-      expect(path.getBounds(), const Rect.fromLTRB(0, 0, 10, 10));
+  group('کنگره', () {
+    // دندانه‌ی هخامنشی: سراسر خطِ راست، و آینه‌وار قرینه. اگر این بشکند،
+    // نقش دیگر کنگره نیست.
+    Path merlon({int steps = 3}) =>
+        merlonPath(width: 64, height: 32, steps: steps);
+
+    List<Offset> corners(Path path) {
+      final points = <Offset>[];
+      for (final metric in path.computeMetrics()) {
+        for (var i = 0; i <= 200; i++) {
+          final d = metric.length * i / 200;
+          points.add(metric.getTangentForOffset(d)!.position);
+        }
+      }
+      return points;
+    }
+
+    test('از پای دیوار آغاز و به پای دیوار ختم می‌شود', () {
+      final points = corners(merlon());
+      expect(points.first.dx, closeTo(0, 0.01));
+      expect(points.first.dy, closeTo(32, 0.01));
+      expect(points.last.dx, closeTo(64, 0.01));
+      expect(points.last.dy, closeTo(32, 0.01));
     });
 
-    test('فرمانِ نسبی همان جای فرمانِ مطلق می‌رسد', () {
-      final absolute = parseSvgPath('M 10 10 L 20 10');
-      final relative = parseSvgPath('m 10 10 l 10 0');
-      expect(relative.getBounds(), absolute.getBounds());
+    test('تمامِ پهنا و بلندای خشت را می‌گیرد', () {
+      final bounds = merlon().getBounds();
+      expect(bounds.left, closeTo(0, 0.01));
+      expect(bounds.right, closeTo(64, 0.01));
+      expect(bounds.top, closeTo(0, 0.01));
+      expect(bounds.bottom, closeTo(32, 0.01));
     });
 
-    test('جفت‌مختصاتِ پس از moveto، lineto ضمنی است', () {
-      final implicit = parseSvgPath('M 0 0 10 0 10 10');
-      final explicit = parseSvgPath('M 0 0 L 10 0 L 10 10');
-      expect(implicit.getBounds(), explicit.getBounds());
+    test('قرینه‌ی آینه‌ای است', () {
+      final points = corners(merlon());
+      for (var i = 0; i < points.length; i++) {
+        final mirrored = points[points.length - 1 - i];
+        expect(64 - mirrored.dx, closeTo(points[i].dx, 0.05));
+        expect(mirrored.dy, closeTo(points[i].dy, 0.05));
+      }
     });
 
-    test('منحنی‌ها طول می‌سازند تا نور چیزی برای پیمودن داشته باشد', () {
-      final path = parseSvgPath('M 0 0 C 10 0 20 10 20 20');
-      final metric = path.computeMetrics().first;
-      expect(metric.length, greaterThan(20));
+    test('تختِ بالا در میانه می‌نشیند', () {
+      final flat = corners(merlon()).where((p) => p.dy < 0.05).toList();
+      final centre = (flat.first.dx + flat.last.dx) / 2;
+      expect(centre, closeTo(32, 0.1));
     });
 
-    test('S و T از نقطه‌ی مهارِ پیشین بازتاب می‌گیرند', () {
-      final path = parseSvgPath('M 0 0 C 5 0 10 5 10 10 S 20 20 30 10');
-      expect(path.getBounds().width, closeTo(30, 1));
-    });
-
-    test('کمان بسته می‌شود و ابعادِ درست دارد', () {
-      final path = parseSvgPath('M 0 10 A 10 10 0 0 1 20 10');
-      final bounds = path.getBounds();
-      expect(bounds.width, closeTo(20, 0.5));
-    });
-
-    test('کمانِ درجازده به خط تبدیل می‌شود، نه به خطا', () {
-      final path = parseSvgPath('M 0 0 A 0 0 0 0 1 10 10');
-      expect(path.getBounds(), const Rect.fromLTRB(0, 0, 10, 10));
-    });
-
-    test('ورودیِ نامعتبر خطای روشن می‌دهد', () {
-      expect(() => parseSvgPath('L 10 10'), throwsA(isA<SvgPathParseException>()));
-      expect(() => parseSvgPath('M 0 0 X 5'), throwsA(isA<SvgPathParseException>()));
-    });
-
-    test('جداکننده‌های کاما و فاصله یکسان‌اند', () {
-      expect(
-        parseSvgPath('M0,0L10,10').getBounds(),
-        parseSvgPath('M 0 0 L 10 10').getBounds(),
-      );
+    test('شمارِ پله‌ها را می‌پذیرد', () {
+      expect(merlon(steps: 2).getBounds(), merlon(steps: 4).getBounds());
     });
   });
 }

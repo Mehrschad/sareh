@@ -37,7 +37,7 @@ fonts: ## گرفتنِ قلم‌ها (پروانه‌شان جداست، پس د
 	else \
 		echo "قلم‌ها را دستی بگذارید در $(FONT_DIR)/ :"; \
 		echo "  وزیرمتن (SIL OFL)  https://github.com/rastikerdar/vazirmatn"; \
-		echo "  گلزار   (SIL OFL)  https://github.com/sahaf-io/Gulzar"; \
+		echo "  مربا    (SIL OFL)  https://github.com/sahaf-io/Morabba"; \
 		echo "  استعداد (SIL OFL)  https://github.com/aminabedi68/Estedad"; \
 	fi
 

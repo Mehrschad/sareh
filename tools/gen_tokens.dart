@@ -208,7 +208,11 @@ String _render(Map<String, dynamic> tokens) {
         'Duration(milliseconds: ${signature['durationMs']});')
     ..writeln('  static const double strokeWidth = ${_num(signature['strokeWidth'] as num)};')
     ..writeln('  static const double glowSigma = ${_num(signature['glowSigma'] as num)};')
-    ..writeln('  static const double trailFraction = ${_num(signature['trailFraction'] as num)};');
+    ..writeln('  static const double trailFraction = ${_num(signature['trailFraction'] as num)};')
+    ..writeln('  static const double unlitAlpha = ${_num(signature['unlitAlpha'] as num)};')
+    ..writeln('  static const double haloAlpha = ${_num(signature['haloAlpha'] as num)};')
+    ..writeln('  static const double frontSharpness = '
+        '${_num(signature['frontSharpness'] as num)};');
   final particles = signature['goldParticles'] as Map<String, dynamic>;
   out
     ..writeln('  static const int particleCount = ${particles['count']};')

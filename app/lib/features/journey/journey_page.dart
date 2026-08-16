@@ -1,7 +1,7 @@
 // صفحه‌ی هفت‌خان — درختِ مهارت.
 //
-// منزل‌ها روی یک مسیرِ اسلیمیِ پیچان بالا می‌روند، نه روی خطِ عمودیِ ساده
-// (بخش ۳٫۳). پس‌زمینه گره‌چینی است که با اسکرول بسیار کند پارالاکس می‌خورد.
+// منزل‌ها روی پلکانِ رفت‌وبرگشتیِ آپادانا بالا می‌روند، نه روی خطِ عمودیِ ساده
+// (بخش ۳٫۳). پس‌زمینه کنگره است که با اسکرول بسیار کند پارالاکس می‌خورد.
 //
 // حالت‌های یک منزل (بخش ۷٫۳):
 //   قفل‌شده  — خاکستری، کدر ۰٫۴
@@ -14,7 +14,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../design/gerehchini.dart';
+import '../../design/kongere.dart';
 import '../../design/tokens.g.dart';
 import '../../design/widgets.dart';
 import '../../shared/content_repository.dart';
@@ -56,7 +56,7 @@ class _JourneyPageState extends ConsumerState<JourneyPage> {
     final progress = ref.watch(progressProvider);
 
     return Scaffold(
-      body: Gerehchini(
+      body: Kongere(
         colour: colors.onBackground,
         scrollOffset: _offset,
         child: SafeArea(
@@ -125,8 +125,8 @@ class _JourneyHeader extends StatelessWidget {
             ],
           ),
         ),
-        // سرصفحه با لبه‌ی مقرنس‌وار تمام می‌شود، نه با خطِ صاف.
-        MoqarnasEdge(colour: colors.surface),
+        // سرصفحه با لبه‌ی کنگره‌دار تمام می‌شود، نه با خطِ صاف.
+        KongereEdge(colour: colors.surface),
       ],
     );
   }
@@ -187,7 +187,7 @@ class _KhanSection extends StatelessWidget {
                   children: [
                     Positioned.fill(
                       child: CustomPaint(
-                        painter: _EslimiPainter(
+                        painter: _PelekanPainter(
                           points: positions,
                           colour: colors.action.withValues(alpha: 0.35),
                         ),
@@ -214,79 +214,82 @@ class _KhanSection extends StatelessWidget {
     );
   }
 
-  /// منزل‌ها روی یک موجِ آرام می‌نشینند — همان پیچشی که مسیر اسلیمی می‌گیرد.
+  /// منزل‌ها یک‌درمیان چپ و راست می‌نشینند — رفت‌وبرگشتِ پلکان.
   static List<Offset> _positions(double width, int count) => [
         for (var i = 0; i < count; i++)
           Offset(
-            width / 2 + math.sin(i * 0.9) * width * 0.26,
+            width / 2 + (i.isEven ? -1 : 1) * width * 0.24,
             SarehSpace.lg + i * _stationGap,
           ),
       ];
 }
 
-/// مسیرِ اسلیمی — نه خطِ راست، نه زیگزاگ؛ یک ساقه‌ی پیچانِ گیاهی.
-class _EslimiPainter extends CustomPainter {
-  _EslimiPainter({required this.points, required this.colour});
+/// پلکانِ آپادانا — مسیرِ منزل‌ها.
+///
+/// نه ساقه‌ی پیچان، نه خطِ راست: پلکانی رفت‌وبرگشتی، همان که در تختِ جمشید
+/// از حیاط تا ایوان بالا می‌رود. سراسر زاویه‌ی قائم است، پس هم هخامنشی است و
+/// هم مدرن به چشم می‌آید — برخلافِ پیچشِ گیاهی که کهنه می‌نماید.
+class _PelekanPainter extends CustomPainter {
+  _PelekanPainter({required this.points, required this.colour});
 
   final List<Offset> points;
   final Color colour;
+
+  /// پخِ گوشه‌ها. صفر یعنی گوشه‌ی تیز؛ اندکی پخ، همان دندانه‌ی کنگره را
+  /// یادآوری می‌کند بی‌آنکه مسیر را نرم و گیاهی کند.
+  static const double _chamfer = 10;
 
   @override
   void paint(Canvas canvas, Size size) {
     if (points.length < 2) return;
 
-    final stem = Paint()
+    final rail = Paint()
       ..style = PaintingStyle.stroke
       ..strokeWidth = 2
-      ..strokeCap = StrokeCap.round
+      ..strokeJoin = StrokeJoin.miter
       ..color = colour;
 
     final path = Path()..moveTo(points.first.dx, points.first.dy);
     for (var i = 1; i < points.length; i++) {
       final from = points[i - 1];
       final to = points[i];
-      // مهارها را افقی می‌گیریم تا پیچش نرم و گیاهی بماند، نه مکانیکی.
-      final sway = (to.dx - from.dx).abs() * 0.6 + 24;
-      path.cubicTo(
-        from.dx + (to.dx > from.dx ? sway : -sway),
-        from.dy + (to.dy - from.dy) * 0.35,
-        to.dx + (to.dx > from.dx ? -sway : sway),
-        to.dy - (to.dy - from.dy) * 0.35,
-        to.dx,
-        to.dy,
-      );
+      final midY = (from.dy + to.dy) / 2;
+      final towardRight = to.dx > from.dx;
+      final step = towardRight ? _chamfer : -_chamfer;
+      path
+        // پایین آمدن تا نیمه‌ی فاصله
+        ..lineTo(from.dx, midY - _chamfer)
+        ..lineTo(from.dx + step, midY)
+        // پاگردِ افقی
+        ..lineTo(to.dx - step, midY)
+        ..lineTo(to.dx, midY + _chamfer)
+        // پایین آمدن تا منزلِ بعد
+        ..lineTo(to.dx, to.dy);
     }
-    canvas.drawPath(path, stem);
+    canvas.drawPath(path, rail);
 
-    // برگ‌های اسلیمی: قلاب‌های کوچکی که از ساقه می‌رویند.
-    final leaf = Paint()
+    // پله‌ها: خط‌های کوتاهِ عمود بر پاگرد، مثلِ کفِ پله‌های آپادانا.
+    final tread = Paint()
       ..style = PaintingStyle.stroke
       ..strokeWidth = 1.4
       ..color = colour;
-    for (final metric in path.computeMetrics()) {
-      for (var t = 0.18; t < 1.0; t += 0.22) {
-        final tangent = metric.getTangentForOffset(metric.length * t);
-        if (tangent == null) continue;
-        final normal = Offset(-tangent.vector.dy, tangent.vector.dx);
-        final base = tangent.position;
-        final tip = base + normal * 16;
-        canvas.drawPath(
-          Path()
-            ..moveTo(base.dx, base.dy)
-            ..quadraticBezierTo(
-              base.dx + normal.dx * 12 + tangent.vector.dx * 10,
-              base.dy + normal.dy * 12 + tangent.vector.dy * 10,
-              tip.dx,
-              tip.dy,
-            ),
-          leaf,
-        );
+    for (var i = 1; i < points.length; i++) {
+      final from = points[i - 1];
+      final to = points[i];
+      final midY = (from.dy + to.dy) / 2;
+      final left = math.min(from.dx, to.dx) + _chamfer;
+      final right = math.max(from.dx, to.dx) - _chamfer;
+      const treads = 4;
+      for (var t = 1; t <= treads; t++) {
+        final x = left + (right - left) * t / (treads + 1);
+        canvas.drawLine(Offset(x, midY - 5), Offset(x, midY + 5), tread);
       }
     }
   }
 
   @override
-  bool shouldRepaint(_EslimiPainter old) => old.points != points || old.colour != colour;
+  bool shouldRepaint(_PelekanPainter old) =>
+      old.points != points || old.colour != colour;
 }
 
 class _StationNode extends StatefulWidget {

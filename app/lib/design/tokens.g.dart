@@ -4,7 +4,7 @@
 // سازنده:    tools/gen_tokens.dart
 // بازتولید:  dart run tools/gen_tokens.dart
 //
-// زبانِ طراحی: خَط و نور  ·  نسخه: 1.0.0
+// زبانِ طراحی: کنگره و نور  ·  نسخه: 1.0.0
 
 import 'package:flutter/painting.dart';
 
@@ -24,7 +24,7 @@ class SarehColors {
     required this.error,
     required this.outline,
     required this.scrim,
-    required this.gerehchini,
+    required this.kongere,
   });
 
   final Color background;
@@ -40,40 +40,40 @@ class SarehColors {
   final Color error;
   final Color outline;
   final Color scrim;
-  final Color gerehchini;
+  final Color kongere;
 
   static const SarehColors dark = SarehColors(
-    background: Color(0xFF0A1730),
-    surface: Color(0xFF122A4E),
-    surfaceRaised: Color(0x90173460),
-    onBackground: Color(0xFFF5F0E6),
-    onSurface: Color(0xFFF5F0E6),
-    onSurfaceMuted: Color(0xFFD9C7A7),
-    action: Color(0xFF2BA8A8),
-    onAction: Color(0xFF0A1730),
-    accentSoft: Color(0xFF5FD3C4),
-    achievement: Color(0xFFE8B04B),
-    error: Color(0xFFD9503F),
-    outline: Color(0x3D2BA8A8),
-    scrim: Color(0xCC0A1730),
-    gerehchini: Color(0x0FF5F0E6),
+    background: Color(0xFF070D1C),
+    surface: Color(0xFF101A33),
+    surfaceRaised: Color(0x90162445),
+    onBackground: Color(0xFFF2F5FA),
+    onSurface: Color(0xFFF2F5FA),
+    onSurfaceMuted: Color(0xFFA9B6CC),
+    action: Color(0xFF19D9C6),
+    onAction: Color(0xFF070D1C),
+    accentSoft: Color(0xFF7CF5E3),
+    achievement: Color(0xFFF0B94F),
+    error: Color(0xFFFF5F49),
+    outline: Color(0x3D19D9C6),
+    scrim: Color(0xCC070D1C),
+    kongere: Color(0x12F2F5FA),
   );
 
   static const SarehColors light = SarehColors(
-    background: Color(0xFFF5F0E6),
+    background: Color(0xFFF2F5FA),
     surface: Color(0xFFFFFFFF),
-    surfaceRaised: Color(0x0A0A1730),
-    onBackground: Color(0xFF0A1730),
-    onSurface: Color(0xFF0A1730),
-    onSurfaceMuted: Color(0xFF5A6A82),
+    surfaceRaised: Color(0x0A070D1C),
+    onBackground: Color(0xFF070D1C),
+    onSurface: Color(0xFF070D1C),
+    onSurfaceMuted: Color(0xFF5A6780),
     action: Color(0xFF15716D),
     onAction: Color(0xFFFFFFFF),
     accentSoft: Color(0xFF17685C),
     achievement: Color(0xFF8A6520),
     error: Color(0xFFB83A2B),
-    outline: Color(0x290A1730),
-    scrim: Color(0x660A1730),
-    gerehchini: Color(0x0D0A1730),
+    outline: Color(0x29070D1C),
+    scrim: Color(0x66070D1C),
+    kongere: Color(0x0D070D1C),
   );
 }
 
@@ -98,7 +98,7 @@ class SarehType {
   static const double h1 = 61.0;
   static const double h1Line = 1.7;
 
-  static const String displayFamily = 'Gulzar';
+  static const String displayFamily = 'Morabba';
   static const String bodyFamily = 'Vazirmatn';
   static const String dyslexicFamily = 'Estedad';
   static const double dyslexicLetterSpacing = 0.06;
@@ -124,8 +124,8 @@ class SarehRadius {
 
 /// کدری‌ها.
 class SarehOpacity {
-  static const double gerehchiniMin = 0.03;
-  static const double gerehchiniMax = 0.06;
+  static const double kongereMin = 0.04;
+  static const double kongereMax = 0.09;
   static const double lockedStation = 0.4;
   static const double disabled = 0.38;
 }
@@ -167,6 +167,9 @@ class SarehSignature {
   static const double strokeWidth = 3.0;
   static const double glowSigma = 6.0;
   static const double trailFraction = 0.18;
+  static const double unlitAlpha = 0.14;
+  static const double haloAlpha = 0.55;
+  static const double frontSharpness = 0.03;
   static const int particleCount = 3;
   static const Duration particleAt = Duration(milliseconds: 400);
   static const double particleRise = 28.0;

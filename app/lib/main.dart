@@ -26,7 +26,7 @@ class AppSettings {
     this.dyslexic = false,
   });
 
-  /// پس‌زمینه‌ی تیره پیش‌فرض است — مثل شبستانِ مسجد که نور از کاشی می‌تابد.
+  /// پس‌زمینه‌ی تیره پیش‌فرض است — شبِ لاجورد، و نور که از دلِ آن می‌زند.
   final ThemeMode themeMode;
   final double textScale;
   final bool reducedMotion;

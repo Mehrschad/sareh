@@ -1,21 +1,19 @@
 // «نورِ واژه» — عنصرِ امضای سره (بخش ۳٫۵).
 //
-// وقتی کاربر پاسخِ درست می‌دهد، واژه‌ی سره با قلمِ نستعلیق ظاهر می‌شود و یک
-// رشته‌ی نور دقیقاً مسیرِ قلم را — از سرِ حرف تا پایانِ کشیده‌گی — در ۶۰۰
-// میلی‌ثانیه می‌پیماید، انگار خطاط همان لحظه نوشته باشد.
+// وقتی کاربر پاسخِ درست می‌دهد، واژه‌ی سره با قلمِ نمایشیِ هندسی ظاهر می‌شود و
+// یک رشته‌ی نور از **راست به چپ** — جهتِ نوشتنِ فارسی — در ۶۰۰ میلی‌ثانیه از
+// رویش می‌گذرد. پیشِ رشته، حرف‌ها خاموش‌اند؛ پشتِ سرش روشن و درخشان.
+// مثلِ تابلوی نئون که بند‌بند روشن می‌شود.
 //
-// این تنها جایی است که ولخرجیِ بصری مجاز است. باقیِ رابط ساکت و منضبط می‌ماند.
+// چرا این و نه ردیابیِ نستعلیق: طرحِ نخست، مسیرِ قلمِ خطاط را می‌پیمود. زیبا
+// بود ولی دو ایراد داشت — به داده‌ی خوشنویسیِ دستیِ هر واژه نیاز داشت که
+// هرگز ساخته نشد، و لحنش کهنه بود. سره برای کسی است که امروز فارسی حرف
+// می‌زند، نه برای قابِ روی دیوار. حرکتِ نور همان است؛ آنچه نور رویش می‌رود
+// عوض شده.
 //
-// دو حالت:
+// جهتِ راست‌به‌چپ خودش امضاست: هیچ اپِ انگلیسی‌زبانی این حرکت را ندارد.
 //
-//   ۱. **ردیابی** — وقتی مسیرِ خوشنویسیِ واژه را داریم. `PathMetric` طولِ مسیر
-//      را می‌دهد و رشته‌ی نور روی آن حرکت می‌کند. واژه پشتِ سرِ نور نوشته
-//      می‌شود، نه پیش از آن.
-//   ۲. **پشتیبان** — وقتی مسیر نداریم. واژه با همان قلم نوشته می‌شود و یک
-//      درخششِ باریک از راست به چپ (جهتِ نوشتنِ فارسی) از رویش می‌گذرد.
-//      کم‌جان‌تر است، ولی هرگز چیزی نمایش داده نمی‌شود که خطاط نمی‌نوشت.
-//
-// در حالتِ «بدون حرکت» هر دو حالت واژه را یک‌باره و کامل نشان می‌دهند. هیچ
+// در حالتِ «بدون حرکت» واژه یک‌باره و کامل و روشن نمایش داده می‌شود. هیچ
 // کارکردی از دست نمی‌رود (بخش ۷٫۴).
 
 import 'dart:math' as math;
@@ -25,39 +23,16 @@ import 'package:flutter/material.dart';
 
 import 'tokens.g.dart';
 
-/// مسیرهای خوشنویسیِ از پیش محاسبه‌شده.
-///
-/// استخراج مسیر از قلم گران است؛ برای واژه‌های پرتکرار یک بار حساب و کش
-/// می‌شود (بخش ۳٫۵).
-class WordPathCache {
-  WordPathCache._();
-  static final WordPathCache instance = WordPathCache._();
-
-  final Map<String, Path> _paths = {};
-
-  Path? operator [](String wordId) => _paths[wordId];
-
-  void put(String wordId, Path path) => _paths[wordId] = path;
-
-  bool contains(String wordId) => _paths.containsKey(wordId);
-
-  void clear() => _paths.clear();
-}
-
 class NureVajeh extends StatefulWidget {
   const NureVajeh({
     super.key,
     required this.word,
-    this.calligraphy,
     this.fontSize = SarehType.h2,
     this.onComplete,
   });
 
   /// واژه‌ی سره — همان که رونمایی می‌شود.
   final String word;
-
-  /// مسیرِ قلمِ واژه در دستگاهِ مختصاتِ خودش. اگر null باشد حالتِ پشتیبان.
-  final Path? calligraphy;
 
   final double fontSize;
 
@@ -124,22 +99,13 @@ class _NureVajehState extends State<NureVajeh> with SingleTickerProviderStateMix
             return Stack(
               alignment: Alignment.center,
               children: [
-                if (widget.calligraphy case final path?)
-                  _TraceView(
-                    path: path,
-                    progress: progress,
-                    ink: colors.onSurface,
-                    glow: colors.accentSoft,
-                    fontSize: widget.fontSize,
-                  )
-                else
-                  _SweepView(
-                    word: widget.word,
-                    progress: progress,
-                    ink: colors.onSurface,
-                    glow: colors.accentSoft,
-                    fontSize: widget.fontSize,
-                  ),
+                _Filament(
+                  word: widget.word,
+                  progress: progress,
+                  ink: colors.onSurface,
+                  glow: colors.accentSoft,
+                  fontSize: widget.fontSize,
+                ),
                 if (!reduced)
                   _GoldParticles(
                     progress: progress,
@@ -154,101 +120,13 @@ class _NureVajehState extends State<NureVajeh> with SingleTickerProviderStateMix
   }
 }
 
-/// حالتِ ردیابی — نور روی مسیرِ واقعیِ قلم.
-class _TraceView extends StatelessWidget {
-  const _TraceView({
-    required this.path,
-    required this.progress,
-    required this.ink,
-    required this.glow,
-    required this.fontSize,
-  });
-
-  final Path path;
-  final double progress;
-  final Color ink;
-  final Color glow;
-  final double fontSize;
-
-  @override
-  Widget build(BuildContext context) {
-    final bounds = path.getBounds();
-    final aspect = bounds.height == 0 ? 1.0 : bounds.width / bounds.height;
-    return SizedBox(
-      height: fontSize * 1.6,
-      width: fontSize * 1.6 * aspect,
-      child: CustomPaint(
-        painter: _TracePainter(path: path, progress: progress, ink: ink, glow: glow),
-      ),
-    );
-  }
-}
-
-class _TracePainter extends CustomPainter {
-  _TracePainter({
-    required this.path,
-    required this.progress,
-    required this.ink,
-    required this.glow,
-  });
-
-  final Path path;
-  final double progress;
-  final Color ink;
-  final Color glow;
-
-  @override
-  void paint(Canvas canvas, Size size) {
-    final bounds = path.getBounds();
-    if (bounds.isEmpty) return;
-
-    // مسیر را در فضای ویجت جا می‌دهیم بی‌آنکه نسبتش را به‌هم بزنیم.
-    final scale = math.min(size.width / bounds.width, size.height / bounds.height);
-    canvas.save();
-    canvas.translate(
-      (size.width - bounds.width * scale) / 2 - bounds.left * scale,
-      (size.height - bounds.height * scale) / 2 - bounds.top * scale,
-    );
-    canvas.scale(scale);
-
-    final inkPaint = Paint()
-      ..style = PaintingStyle.stroke
-      ..strokeWidth = SarehSignature.strokeWidth / scale
-      ..strokeCap = StrokeCap.round
-      ..strokeJoin = StrokeJoin.round
-      ..color = ink;
-
-    final glowPaint = Paint()
-      ..style = PaintingStyle.stroke
-      ..strokeWidth = (SarehSignature.strokeWidth * 1.6) / scale
-      ..strokeCap = StrokeCap.round
-      ..color = glow
-      ..maskFilter = MaskFilter.blur(BlurStyle.normal, SarehSignature.glowSigma / scale);
-
-    for (final metric in path.computeMetrics()) {
-      final length = metric.length;
-      if (length == 0) continue;
-      final head = length * progress;
-      final tail = math.max(0.0, head - length * SarehSignature.trailFraction);
-
-      // مرکّبِ نوشته‌شده: هرچه نور از آن گذشته است.
-      canvas.drawPath(metric.extractPath(0, head), inkPaint);
-      // رشته‌ی نور: تنها سرِ قلم.
-      if (head > tail) {
-        canvas.drawPath(metric.extractPath(tail, head), glowPaint);
-      }
-    }
-    canvas.restore();
-  }
-
-  @override
-  bool shouldRepaint(_TracePainter old) =>
-      old.progress != progress || old.path != path || old.ink != ink || old.glow != glow;
-}
-
-/// حالتِ پشتیبان — درخششی که از راست به چپ، هم‌جهتِ نوشتنِ فارسی، می‌گذرد.
-class _SweepView extends StatelessWidget {
-  const _SweepView({
+/// رشته‌ی نور — واژه‌ای که از راست به چپ روشن می‌شود.
+///
+/// سه لایه روی هم: هاله‌ی محو در پس، حرف‌ها در میان، و تکِ نورِ پیش‌رونده در
+/// پیش. هر سه با یک شیب‌رنگِ مشترک برش می‌خورند، پس هیچ‌وقت از هم جدا
+/// نمی‌افتند.
+class _Filament extends StatelessWidget {
+  const _Filament({
     required this.word,
     required this.progress,
     required this.ink,
@@ -271,35 +149,101 @@ class _SweepView extends StatelessWidget {
         fontFamily: SarehType.displayFamily,
         fontSize: fontSize,
         height: SarehType.h2Line,
+        fontWeight: FontWeight.w700,
         color: ink,
       ),
     );
 
     if (progress >= 1.0) return text;
 
-    // لبه‌ی روشن جلو می‌رود و هرچه پشتِ سرش می‌ماند، نوشته شده است.
-    final edge = progress;
-    return ShaderMask(
-      blendMode: BlendMode.srcATop,
-      shaderCallback: (rect) => ui.Gradient.linear(
-        rect.centerRight,
-        rect.centerLeft,
-        [ink, ink, glow, Colors.transparent],
-        [
-          0.0,
-          math.max(0.0, edge - SarehSignature.trailFraction),
-          edge,
-          math.min(1.0, edge + 0.02),
-        ],
-      ),
-      child: text,
+    // ۰ = لبه‌ی راست، ۱ = لبه‌ی چپ. نور از سرِ واژه می‌آید.
+    //
+    // حرف‌های روشن‌نشده ناپیدا نیستند، کم‌رنگ‌اند (`unlitAlpha`) — لوله‌ی
+    // نئونِ بی‌برق. اگر ناپیدا باشند، واژه «تایپ» می‌شود نه «روشن».
+    ui.Gradient sweep(Rect rect, Color lit, Color front, Color unlit) =>
+        ui.Gradient.linear(
+          rect.centerRight,
+          rect.centerLeft,
+          [lit, lit, front, unlit, unlit],
+          [
+            0.0,
+            math.max(0.0, progress - SarehSignature.trailFraction),
+            progress,
+            math.min(1.0, progress + SarehSignature.frontSharpness),
+            1.0,
+          ],
+        );
+
+    return Stack(
+      alignment: Alignment.center,
+      children: [
+        // هاله: همان واژه، محو و به رنگِ نور. تنها پشتِ سرِ رشته دیده می‌شود.
+        ImageFiltered(
+          imageFilter: ui.ImageFilter.blur(
+            sigmaX: SarehSignature.glowSigma,
+            sigmaY: SarehSignature.glowSigma,
+          ),
+          child: ShaderMask(
+            blendMode: BlendMode.srcIn,
+            shaderCallback: (rect) => sweep(
+              rect,
+              glow.withValues(alpha: SarehSignature.haloAlpha),
+              glow,
+              Colors.transparent,
+            ),
+            child: text,
+          ),
+        ),
+        ShaderMask(
+          blendMode: BlendMode.srcATop,
+          shaderCallback: (rect) => sweep(
+            rect,
+            ink,
+            glow,
+            ink.withValues(alpha: SarehSignature.unlitAlpha),
+          ),
+          child: text,
+        ),
+        // تکِ نور: باریکه‌ای که جلو می‌رود. همان چیزی که چشم دنبالش می‌کند.
+        Positioned.fill(
+          child: CustomPaint(
+            painter: _FrontPainter(progress: progress, colour: glow),
+          ),
+        ),
+      ],
     );
   }
 }
 
-/// سه ذره‌ی زر که در ۴۰۰ میلی‌ثانیه از واژه بلند می‌شوند و محو می‌شوند.
-///
-/// زر تنها برای لحظه‌های دستاورد است؛ اگر همه‌جا باشد دیگر دستاورد نیست.
+class _FrontPainter extends CustomPainter {
+  _FrontPainter({required this.progress, required this.colour});
+
+  final double progress;
+  final Color colour;
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    final x = size.width * (1 - progress);
+    final paint = Paint()
+      ..color = colour
+      ..strokeWidth = SarehSignature.strokeWidth
+      ..strokeCap = StrokeCap.round
+      ..maskFilter = const MaskFilter.blur(
+        BlurStyle.normal,
+        SarehSignature.glowSigma / 2,
+      );
+    canvas.drawLine(
+      Offset(x, size.height * 0.12),
+      Offset(x, size.height * 0.88),
+      paint,
+    );
+  }
+
+  @override
+  bool shouldRepaint(_FrontPainter old) =>
+      old.progress != progress || old.colour != colour;
+}
+
 class _GoldParticles extends StatelessWidget {
   const _GoldParticles({required this.progress, required this.colour});
 
