@@ -7,6 +7,7 @@
 //
 // این فایل هیچ ویجتی نمی‌شناسد تا بی‌نیاز از رابط آزمودنی بماند.
 
+import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -14,6 +15,8 @@ import 'package:meta/meta.dart';
 
 import '../../shared/content_repository.dart';
 import '../../shared/models.dart';
+import '../journey/progress.dart';
+import 'review_recorder.dart';
 
 /// یک پرسش. هر گونه‌ی تمرین یک زیرگونه دارد.
 @immutable
@@ -133,6 +136,7 @@ class LessonController extends StateNotifier<LessonState> {
     required Station station,
     required ContentBundle bundle,
     Random? random,
+    this.recorder,
   }) : super(
           LessonState(
             stationId: station.id,
@@ -149,6 +153,10 @@ class LessonController extends StateNotifier<LessonState> {
           ),
         );
 
+  /// اگر null باشد، پاسخ‌ها زمان‌بندی نمی‌شوند. آزمون‌های موتور آن را
+  /// نمی‌دهند تا بی‌نیاز از پایگاه داده و پل بمانند.
+  final ReviewRecorder? recorder;
+
   DateTime _questionShownAt = DateTime.now();
 
   /// میلی‌ثانیه‌ای که کاربر روی پرسشِ کنونی گذرانده — خوراکِ درجه‌بندیِ FSRS.
@@ -157,11 +165,23 @@ class LessonController extends StateNotifier<LessonState> {
   void answer({required bool correct}) {
     if (state.isFinished || state.lastAnswerCorrect != null) return;
     final question = state.current!;
+    final answerMs = elapsedMs;
     state = state.copyWith(
       correct: correct ? state.correct + 1 : state.correct,
       wrong: correct ? state.wrong : [...state.wrong, question.word],
       lastAnswerCorrect: correct,
       shakeCounter: correct ? state.shakeCounter : state.shakeCounter + 1,
+    );
+    // زمان‌بندی پشتِ سر انجام می‌شود. بازخوردِ کاربر نباید منتظرِ SQLite و
+    // پل بماند؛ دیرکردِ چند میلی‌ثانیه‌ای در نوشتن، هیچ‌کس را نمی‌آزارد،
+    // ولی رابطِ کند می‌آزارد.
+    unawaited(
+      recorder?.record(
+        wordId: question.word.id,
+        correct: correct,
+        answerMs: answerMs,
+        exercise: question.kind.label,
+      ),
     );
   }
 
@@ -305,6 +325,10 @@ final lessonControllerProvider =
     final station = bundle.khans
         .expand((k) => k.stations)
         .firstWhere((s) => s.id == stationId);
-    return LessonController(station: station, bundle: bundle);
+    return LessonController(
+      station: station,
+      bundle: bundle,
+      recorder: ReviewRecorder(ref.watch(progressRepositoryProvider)),
+    );
   },
 );
