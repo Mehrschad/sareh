@@ -138,6 +138,8 @@ class _QuestionView extends StatelessWidget {
         final JaygoziniQuestion q => JaygoziniExercise(question: q, onAnswer: onAnswer),
         final JoftsazQuestion q => JoftsazExercise(question: q, onAnswer: onAnswer),
         final BeityabQuestion q => BeityabExercise(question: q, onAnswer: onAnswer),
+        final RishehyabQuestion q =>
+          RishehyabExercise(question: q, onAnswer: onAnswer),
       };
 }
 

@@ -82,6 +82,49 @@ final class BeityabQuestion extends Question {
   String get answer => verse.blankSurface;
 }
 
+/// یک پله از زنجیره‌ی ریشه — یک زبان و صورتِ واژه در آن.
+@immutable
+class EtymologyStep {
+  const EtymologyStep({required this.language, required this.form});
+
+  /// «اوستایی»، «پارسی باستان»، «پهلوی».
+  final String language;
+
+  /// صورتِ آوانویسی‌شده: `druj-`، `rōšn`.
+  final String form;
+}
+
+/// ریشه‌یاب ⭐ — زنجیره‌ی ریشه‌ی واژه را از صورت‌های به‌هم‌ریخته بازبساز.
+///
+/// مادرْ‌سند این را «درختِ ریشه‌شناسیِ به‌هم‌ریخته را مرتب کن» نوشته بود. با
+/// داده‌ی واقعی آن‌گونه در نمی‌آید: از ۴۷۷ واژه تنها ۳۱ تا بیش از یک صورتِ
+/// کهن دارند، و مرتب‌کردنِ زنجیره‌ی دوتایی (پهلوی ← امروز) تمرین نیست.
+///
+/// پس شکلِ تمرین این است: واژه‌ی امروز داده می‌شود و برای هر زبانِ کهنی که
+/// ثبت شده یک جای خالی هست. صورت‌های پیشنهادی، درست‌ها به‌علاوه‌ی فریب‌هایی
+/// از **همان زبان**‌اند — صورتِ پهلویِ واژه‌ای دیگر در برابرِ صورتِ پهلوی —
+/// وگرنه از روی شکلِ خط هم می‌شد پاسخ داد.
+///
+/// اوستایی و پارسیِ باستان هم‌دوره‌اند، نه پیاپی. چون هر جای خالی نامِ زبانِ
+/// خودش را دارد، از کاربر پرسیده نمی‌شود کدام کهن‌تر است — پرسیده می‌شود کدام
+/// صورت از آنِ کدام زبان است. ادعای نادرستی در کار نیست.
+@immutable
+final class RishehyabQuestion extends Question {
+  const RishehyabQuestion({
+    required super.word,
+    required this.steps,
+    required this.options,
+  }) : super(kind: ExerciseKind.rishehyab);
+
+  /// پله‌ها، کهن‌ترین نخست. واژه‌ی امروز پله نیست؛ پرسش است.
+  final List<EtymologyStep> steps;
+
+  /// صورت‌های به‌هم‌ریخته: درست‌ها و فریب‌های هم‌زبان.
+  final List<String> options;
+
+  List<String> get answer => [for (final step in steps) step.form];
+}
+
 @immutable
 class LessonState {
   const LessonState({
@@ -236,8 +279,9 @@ class LessonController extends StateNotifier<LessonState> {
         ExerciseKind.jaygozini => _jaygozini(word, pool, random),
         ExerciseKind.joftsaz => _joftsaz(word, words, random),
         ExerciseKind.beityab => _beityab(word, bundle, pool, random),
-        // گونه‌های دیگر (شنیدار، گفتار، واژه‌چین، ریشه‌یاب، نویسش، تیر آرش،
-        // داستانک، رویارویی) روی همین موتور سوار می‌شوند؛ هنوز ساخته نشده‌اند.
+        ExerciseKind.rishehyab => _rishehyab(word, pool, random),
+        // گونه‌های دیگر (شنیدار، گفتار، واژه‌چین، نویسش، تیر آرش، داستانک،
+        // رویارویی) روی همین موتور سوار می‌شوند؛ هنوز ساخته نشده‌اند.
         _ => null,
       };
 
@@ -298,6 +342,64 @@ class LessonController extends StateNotifier<LessonState> {
   ///
   /// حواس‌پرت‌کن‌ها از واژه‌های هم‌دشواری برداشته می‌شوند تا پرسش نه بی‌معنا
   /// آسان باشد نه ناعادلانه.
+  /// شمارِ ثابتِ گزینه‌ها. هر چه پله بیشتر، فریب کمتر — تا دشواری با شمارِ
+  /// صورت‌های ثبت‌شده بالا و پایین نرود.
+  static const int _rishehyabOptions = 5;
+
+  static RishehyabQuestion? _rishehyab(Word word, List<Word> pool, Random random) {
+    final steps = <EtymologyStep>[
+      if (word.avestan case final form?)
+        EtymologyStep(language: 'اوستایی', form: form),
+      if (word.oldPersian case final form?)
+        EtymologyStep(language: 'پارسی باستان', form: form),
+      if (word.pahlavi case final form?)
+        EtymologyStep(language: 'پهلوی', form: form),
+    ];
+    if (steps.isEmpty) return null;
+
+    final correct = {for (final step in steps) step.form};
+    final options = {...correct};
+
+    // فریب‌ها به نوبت از زبانِ هر پله می‌آیند، تا هر جای خالی دستِ‌کم یک
+    // رقیبِ هم‌زبان داشته باشد.
+    final byLanguage = {
+      for (final step in steps)
+        step.language: pool
+            .map((w) => _formIn(w, step.language))
+            .whereType<String>()
+            .where((form) => !correct.contains(form))
+            .toSet()
+            .toList()
+          ..shuffle(random),
+    };
+    var round = 0;
+    while (options.length < _rishehyabOptions) {
+      var added = false;
+      for (final step in steps) {
+        final candidates = byLanguage[step.language]!;
+        if (round < candidates.length) {
+          options.add(candidates[round]);
+          added = true;
+          if (options.length == _rishehyabOptions) break;
+        }
+      }
+      if (!added) break; // پیکره بیش از این صورتِ هم‌زبان ندارد
+      round++;
+    }
+
+    return RishehyabQuestion(
+      word: word,
+      steps: steps,
+      options: options.toList()..shuffle(random),
+    );
+  }
+
+  static String? _formIn(Word word, String language) => switch (language) {
+        'اوستایی' => word.avestan,
+        'پارسی باستان' => word.oldPersian,
+        _ => word.pahlavi,
+      };
+
   static List<String> _optionsFor(Word word, List<Word> pool, Random random) {
     final sameDifficulty = pool
         .where((w) => w.id != word.id && (w.difficulty - word.difficulty).abs() <= 1)

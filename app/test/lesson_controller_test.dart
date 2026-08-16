@@ -16,6 +16,9 @@ Word word(
   double zipf = 5.0,
   int difficulty = 2,
   List<WordExample> examples = const [],
+  String? pahlavi,
+  String? avestan,
+  String? oldPersian,
 }) =>
     Word(
       id: id,
@@ -35,6 +38,9 @@ Word word(
       citations: const [Citation(source: 'لغت‌نامه دهخدا', ref: 'مدخل')],
       related: const [],
       status: ReviewStatus.reviewed,
+      pahlavi: pahlavi,
+      avestan: avestan,
+      oldPersian: oldPersian,
     );
 
 ContentBundle bundleOf(List<Word> words, {List<Verse> verses = const []}) => ContentBundle(

@@ -1,4 +1,4 @@
-// چهار گونه‌ی تمرین.
+// پنج گونه‌ی تمرین.
 //
 // همه یک قرارداد دارند: `onAnswer(bool correct)`. موتور نمی‌داند کاربر چگونه
 // پاسخ داده؛ گونه نمی‌داند پس از پاسخ چه می‌شود. بنابراین افزودنِ گونه‌ی پنجم
@@ -554,6 +554,289 @@ class _Hemistich extends StatelessWidget {
 }
 
 /// سرِ پرسش: راهنمای کوتاه، سپس واژه‌ی کانونی.
+/// ریشه‌یاب ⭐ — زنجیره‌ی ریشه‌ی واژه را بازبساز.
+///
+/// واژه‌ی امروز پایینِ زنجیره ایستاده و از پیش پر است. بالای آن، برای هر
+/// زبانِ کهنی که ثبت شده یک جای خالی هست. کاربر صورت‌ها را از میان
+/// پیشنهادها برمی‌دارد و در جای خودشان می‌گذارد؛ با پر شدنِ آخرین جای خالی
+/// پاسخ سنجیده می‌شود.
+///
+/// زنجیره از بالا به پایین خوانده می‌شود — کهن‌ترین در بالا — تا حرکتِ چشم
+/// همان حرکتِ زمان باشد.
+class RishehyabExercise extends StatefulWidget {
+  const RishehyabExercise({
+    super.key,
+    required this.question,
+    required this.onAnswer,
+  });
+
+  final RishehyabQuestion question;
+  final AnswerCallback onAnswer;
+
+  @override
+  State<RishehyabExercise> createState() => _RishehyabExerciseState();
+}
+
+class _RishehyabExerciseState extends State<RishehyabExercise> {
+  late final List<String?> _placed =
+      List<String?>.filled(widget.question.steps.length, null);
+  bool _answered = false;
+
+  int get _nextEmpty => _placed.indexOf(null);
+
+  void _place(String form) {
+    if (_answered || _placed.contains(form)) return;
+    final slot = _nextEmpty;
+    if (slot < 0) return;
+    setState(() => _placed[slot] = form);
+    if (_nextEmpty >= 0) return;
+
+    // آخرین جای خالی پر شد — همین‌جا داوری می‌شود، بی‌دکمه‌ی «ثبت».
+    setState(() => _answered = true);
+    final answer = widget.question.answer;
+    var correct = true;
+    for (var i = 0; i < answer.length; i++) {
+      if (_placed[i] != answer[i]) correct = false;
+    }
+    widget.onAnswer(correct: correct);
+  }
+
+  void _lift(int slot) {
+    if (_answered) return;
+    setState(() => _placed[slot] = null);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = context.colors;
+    final question = widget.question;
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Text(
+          _answered ? 'ریشه‌ی واژه' : 'هر صورت را در زبانِ خودش بگذار',
+          textAlign: TextAlign.center,
+          style: Theme.of(context).textTheme.bodyMedium,
+        ),
+        const SizedBox(height: SarehSpace.md),
+        SarehCard(
+          padding: const EdgeInsets.symmetric(
+            horizontal: SarehSpace.md,
+            vertical: SarehSpace.md,
+          ),
+          child: Column(
+            children: [
+              for (var i = 0; i < question.steps.length; i++) ...[
+                _ChainSlot(
+                  language: question.steps[i].language,
+                  form: _placed[i],
+                  expected: question.answer[i],
+                  answered: _answered,
+                  onLift: () => _lift(i),
+                  colors: colors,
+                ),
+                const _ChainLink(),
+              ],
+              _ChainSlot(
+                language: 'امروز',
+                form: question.word.sare,
+                expected: question.word.sare,
+                answered: true,
+                given: true,
+                onLift: null,
+                colors: colors,
+              ),
+            ],
+          ),
+        ),
+        const SizedBox(height: SarehSpace.lg),
+        Wrap(
+          alignment: WrapAlignment.center,
+          spacing: SarehSpace.sm,
+          runSpacing: SarehSpace.sm,
+          children: [
+            for (final option in question.options)
+              _FormChip(
+                form: option,
+                used: _placed.contains(option),
+                onTap: _answered ? null : () => _place(option),
+                colors: colors,
+              ),
+          ],
+        ),
+      ],
+    );
+  }
+}
+
+/// یک حلقه از زنجیره: نامِ زبان، و صورتی که در آن نشسته.
+class _ChainSlot extends StatelessWidget {
+  const _ChainSlot({
+    required this.language,
+    required this.form,
+    required this.expected,
+    required this.answered,
+    required this.onLift,
+    required this.colors,
+    this.given = false,
+  });
+
+  final String language;
+  final String? form;
+  final String expected;
+  final bool answered;
+  final bool given;
+  final VoidCallback? onLift;
+  final SarehColors colors;
+
+  @override
+  Widget build(BuildContext context) {
+    final right = form == expected;
+    // شنگرف تنها روی حاشیه می‌نشیند؛ خطا صفحه را قرمز نمی‌کند (بخش ۷٫۳).
+    final border = switch ((answered, form)) {
+      (true, _) when right => colors.action,
+      (true, final chosen) when chosen != null => colors.error,
+      (_, null) => colors.outline,
+      _ => colors.accentSoft,
+    };
+    // پس از پاسخ، صورتِ درست همیشه نشان داده می‌شود — یاد گرفتن مهم‌تر از
+    // داوری است.
+    final shown = answered && !right ? expected : form;
+
+    return Semantics(
+      label: '$language: ${shown ?? 'خالی'}',
+      button: onLift != null && form != null,
+      child: GestureDetector(
+        onTap: form == null ? null : onLift,
+        child: AnimatedContainer(
+          duration: SarehMotion.element,
+          curve: SarehMotion.elementCurve,
+          constraints: const BoxConstraints(minHeight: SarehA11y.minTouchTarget),
+          padding: const EdgeInsets.symmetric(
+            horizontal: SarehSpace.md,
+            vertical: SarehSpace.sm,
+          ),
+          decoration: BoxDecoration(
+            color: given ? colors.action : colors.surface,
+            borderRadius: BorderRadius.circular(SarehRadius.input),
+            border: Border.all(
+              color: border,
+              width: form == null ? 1 : 2,
+            ),
+          ),
+          child: Row(
+            children: [
+              SizedBox(
+                width: 92,
+                child: Text(
+                  language,
+                  style: TextStyle(
+                    fontFamily: SarehType.bodyFamily,
+                    fontSize: SarehType.sm,
+                    height: SarehType.smLine,
+                    color: given ? colors.onAction : colors.onSurfaceMuted,
+                  ),
+                ),
+              ),
+              Expanded(
+                child: Text(
+                  shown ?? '—',
+                  // آوانویسیِ لاتین است؛ راست‌به‌چپ خواندنش خراب می‌کند.
+                  textDirection:
+                      given ? TextDirection.rtl : TextDirection.ltr,
+                  textAlign: given ? TextAlign.right : TextAlign.left,
+                  style: TextStyle(
+                    fontFamily: SarehType.bodyFamily,
+                    fontSize: SarehType.lg,
+                    height: SarehType.lgLine,
+                    color: given
+                        ? colors.onAction
+                        : form == null
+                            ? colors.onSurfaceMuted
+                            : colors.onSurface,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// پیوندِ میانِ دو حلقه — نشانه‌ی «از این، آن شد».
+class _ChainLink extends StatelessWidget {
+  const _ChainLink();
+
+  @override
+  Widget build(BuildContext context) => SizedBox(
+        height: SarehSpace.md,
+        child: Center(
+          child: Container(
+            width: 2,
+            height: SarehSpace.md,
+            color: context.colors.outline,
+          ),
+        ),
+      );
+}
+
+/// صورتِ پیشنهادی — برداشته می‌شود و در زنجیره می‌نشیند.
+class _FormChip extends StatelessWidget {
+  const _FormChip({
+    required this.form,
+    required this.used,
+    required this.onTap,
+    required this.colors,
+  });
+
+  final String form;
+  final bool used;
+  final VoidCallback? onTap;
+  final SarehColors colors;
+
+  @override
+  Widget build(BuildContext context) => Semantics(
+        button: onTap != null,
+        selected: used,
+        label: form,
+        child: GestureDetector(
+          onTap: used ? null : onTap,
+          child: AnimatedOpacity(
+            duration: SarehMotion.element,
+            curve: SarehMotion.elementCurve,
+            opacity: used ? SarehOpacity.disabled : 1,
+            child: Container(
+              constraints:
+                  const BoxConstraints(minHeight: SarehA11y.minTouchTarget),
+              padding: const EdgeInsets.symmetric(
+                horizontal: SarehSpace.md,
+                vertical: SarehSpace.sm,
+              ),
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: colors.surface,
+                borderRadius: BorderRadius.circular(SarehRadius.capsule),
+                border: Border.all(color: colors.outline),
+              ),
+              child: Text(
+                form,
+                textDirection: TextDirection.ltr,
+                style: TextStyle(
+                  fontFamily: SarehType.bodyFamily,
+                  fontSize: SarehType.lg,
+                  height: SarehType.lgLine,
+                  color: colors.onSurface,
+                ),
+              ),
+            ),
+          ),
+        ),
+      );
+}
+
 class _Prompt extends StatelessWidget {
   const _Prompt({required this.hint, required this.focus});
 
