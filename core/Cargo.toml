@@ -15,3 +15,5 @@ crate-type = ["lib", "staticlib", "cdylib"]
 [dependencies]
 serde = { workspace = true }
 serde_yaml = { workspace = true }
+# تنها برای تولیدِ چسبِ Dart؛ منطقِ هسته به آن دست نمی‌زند.
+flutter_rust_bridge = "=2.12.0"

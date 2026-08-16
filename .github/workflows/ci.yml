@@ -66,10 +66,18 @@ jobs:
         with:
           channel: stable
           cache: true
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
       - name: همگام‌سازیِ محتوا
         run: make content-sync
       - name: گرفتنِ قلم‌ها
         run: make fonts
+      # پل تولیدشده است و در git نیست؛ اگر امضای core/src/api.rs عوض شود و
+      # چسب دوباره ساخته نشود، آزمونِ پل همین‌جا می‌شکند.
+      - name: ساختِ پلِ Rust
+        run: |
+          cargo install flutter_rust_bridge_codegen --version ^2 --locked
+          make bridge
       - name: هم‌خوانیِ توکن‌ها با tokens.json
         run: dart run tools/gen_tokens.dart --check
       - run: flutter pub get

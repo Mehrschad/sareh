@@ -152,13 +152,44 @@ pub fn to_persian_digits(input: &str) -> String {
 
 /// آیا دو نوشته پس از تاکردن یکی‌اند؟ The comparison the exercise engine uses
 /// when grading a typed answer.
+///
+/// Whitespace is dropped as well as ZWNJ, which `fold_for_search` keeps. A
+/// learner who types «گفت وگو» for «گفت‌وگو» knew the word; on most phone
+/// keyboards the half-space is buried two layers deep, and marking that
+/// wrong grades the keyboard rather than the vocabulary.
+///
+/// This is deliberately *not* what the search index does: there, a space
+/// separates tokens and dropping it would collapse distinct multi-word
+/// entries onto one key.
 pub fn equivalent(a: &str, b: &str) -> bool {
-    fold_for_search(a) == fold_for_search(b)
+    fn tight(input: &str) -> String {
+        fold_for_search(input)
+            .chars()
+            .filter(|c| !c.is_whitespace())
+            .collect()
+    }
+    tight(a) == tight(b)
 }
 
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn typed_space_stands_in_for_a_half_space() {
+        // On a phone keyboard the ZWNJ is buried; the learner still knew it.
+        assert!(equivalent("گفت وگو", "گفت\u{200C}وگو"));
+        assert!(equivalent("پیام رسان", "پیام\u{200C}رسان"));
+        // But two genuinely different words still differ.
+        assert!(!equivalent("سخن", "دشواری"));
+    }
+
+    #[test]
+    fn search_folding_still_keeps_word_boundaries() {
+        // equivalent() drops spaces; the search key must not, or multi-word
+        // entries would collide.
+        assert_ne!(fold_for_search("راجع به"), fold_for_search("راجعبه"));
+    }
 
     #[test]
     fn arabic_yeh_and_kaf_become_persian() {

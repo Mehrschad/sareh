@@ -5,7 +5,7 @@
 #   make run         اجرای اپ
 
 .DEFAULT_GOAL := help
-.PHONY: help bootstrap content-sync fonts tokens validate design core app check run clean
+.PHONY: help bootstrap bridge content-sync fonts tokens validate design core app check run clean
 
 APP        := app
 CONTENT    := content
@@ -16,10 +16,21 @@ help: ## این فهرست
 	@grep -hE '^[a-z-]+:.*?## ' $(MAKEFILE_LIST) \
 		| awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-14s\033[0m %s\n", $$1, $$2}'
 
-bootstrap: content-sync fonts ## نصبِ همه‌چیز پس از clone
-	cargo fetch
+bootstrap: content-sync fonts bridge ## نصبِ همه‌چیز پس از clone
 	cd $(APP) && flutter pub get
 	@echo "✓ آماده. حالا: make check"
+
+bridge: ## تولیدِ چسبِ Dart↔Rust و ساختِ کتابخانه‌ی بومی
+	@# خروجی در git نیست: کدِ تولیدشده به نسخه‌ی codegen گره خورده و
+	@# نگه‌داشتنش در مخزن یعنی دو حقیقت.
+	@command -v flutter_rust_bridge_codegen >/dev/null 2>&1 || { \
+		echo "flutter_rust_bridge_codegen نیست. نصب:"; \
+		echo "  cargo install flutter_rust_bridge_codegen --version ^2 --locked"; \
+		exit 1; }
+	flutter_rust_bridge_codegen generate
+	@# آزمون‌ها کتابخانه را از target/ برمی‌دارند، پس همین‌جا ساخته می‌شود.
+	cargo build --release -p sareh-core
+	@echo "✓ پل آماده است."
 
 content-sync: ## کپیِ content/ به دارایی‌های اپ
 	@# content/ بیرونِ بسته‌ی Flutter است تا یک منبعِ حقیقت بیشتر نداشته باشیم؛

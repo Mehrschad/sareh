@@ -32,8 +32,9 @@ doc/api/
 /target/
 **/*.rs.bk
 
-# Generated bridge glue (regenerate with flutter_rust_bridge_codegen)
+# چسبِ تولیدشده‌ی پل (با `make bridge` بازساخته می‌شود)
 app/lib/src/rust/
+core/src/frb_generated.rs
 
 # محتوای همگام‌شده (make content-sync) — یک منبعِ حقیقت بیشتر نداریم
 app/assets/content/

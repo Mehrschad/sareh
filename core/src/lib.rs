@@ -10,6 +10,10 @@
 //! `api` is the surface `flutter_rust_bridge` generates glue for. Everything
 //! else is plain Rust with no Flutter knowledge.
 
+/// چسبِ تولیدشده‌ی `flutter_rust_bridge`. با `make bridge` ساخته می‌شود و در
+/// git نیست؛ کدِ دست‌نویس هرگز به آن ارجاع نمی‌دهد.
+mod frb_generated;
+
 pub mod api;
 pub mod fsrs;
 pub mod normalize;

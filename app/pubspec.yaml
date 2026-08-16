@@ -26,6 +26,9 @@ dependencies:
   # انیمیشن‌های ساده‌ی زنجیره‌ای
   flutter_animate: ^4.5.0
   meta: ^1.15.0
+  # پلِ هسته‌ی Rust. نسخه باید مو‌به‌مو با core/Cargo.toml و با
+  # flutter_rust_bridge_codegen یکی باشد؛ کدِ تولیدشده نسخه‌محور است.
+  flutter_rust_bridge: 2.12.0
 
 dev_dependencies:
   flutter_test:
