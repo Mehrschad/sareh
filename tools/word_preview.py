@@ -21,6 +21,10 @@ WORDS = "content/words"
 
 PERSIAN_DIGITS = str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")
 
+# کامنتِ گیت‌هاب سقفِ ۶۵۵۳۶ نویسه دارد و از آن بگذرد، کلِ کارِ CI می‌شکند.
+# با فاصله می‌مانیم: کارت‌ها را می‌شماریم و پیش از رسیدن به سقف می‌ایستیم.
+COMMENT_LIMIT = 60_000
+
 
 def fa(value: object) -> str:
     """اعداد در سره پارسی‌اند — در پیش‌نمایش هم."""
@@ -109,15 +113,30 @@ def main() -> int:
         return 0
 
     out = [f"## پیش‌نمایشِ واژه ({fa(len(paths))} مدخل)", ""]
+    shown = 0
+    budget = COMMENT_LIMIT
     for path in sorted(paths):
         if not path.exists():
             continue
         try:
             word = yaml.safe_load(path.read_text(encoding="utf-8"))
         except yaml.YAMLError as error:
-            out += [f"### `{path.name}`", "", f"⚠️ YAML خوانده نشد: `{error}`", ""]
-            continue
-        out += [card(word), "", "---", ""]
+            block = [f"### `{path.name}`", "", f"⚠️ YAML خوانده نشد: `{error}`", ""]
+        else:
+            block = [card(word), "", "---", ""]
+        cost = sum(len(line) + 1 for line in block)
+        if cost > budget:
+            break
+        budget -= cost
+        shown += 1
+        out += block
+
+    if shown < len(paths):
+        out += [
+            f"_{fa(len(paths) - shown)} مدخلِ دیگر اینجا نیامد؛ کامنتِ گیت‌هاب "
+            f"جا نداشت. همه‌شان در diff هستند._",
+            "",
+        ]
 
     out.append(
         "<sub>ساخته‌ی `tools/word_preview.py` · "

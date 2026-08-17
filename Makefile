@@ -29,7 +29,7 @@ bridge: ## تولیدِ چسبِ Dart↔Rust و ساختِ کتابخانه‌ی
 		exit 1; }
 	flutter_rust_bridge_codegen generate
 	@# آزمون‌ها کتابخانه را از target/ برمی‌دارند، پس همین‌جا ساخته می‌شود.
-	cargo build --release -p sareh-core
+	cargo build --release -p sareh-core --features bridge
 	@echo "✓ پل آماده است."
 
 content-sync: ## کپیِ content/ به دارایی‌های اپ

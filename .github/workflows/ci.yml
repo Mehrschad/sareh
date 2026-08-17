@@ -72,12 +72,10 @@ jobs:
         run: make content-sync
       - name: گرفتنِ قلم‌ها
         run: make fonts
-      # پل تولیدشده است و در git نیست؛ اگر امضای core/src/api.rs عوض شود و
-      # چسب دوباره ساخته نشود، آزمونِ پل همین‌جا می‌شکند.
-      - name: ساختِ پلِ Rust
-        run: |
-          cargo install flutter_rust_bridge_codegen --version ^2 --locked
-          make bridge
+      # چسبِ پل در مخزن است، پس تنها کتابخانه‌ی بومی ساخته می‌شود —
+      # نه تولیدِ دوباره‌ی چسب، که نصبِ codegen را لازم می‌کرد.
+      - name: ساختِ کتابخانه‌ی بومی
+        run: cargo build --release -p sareh-core --features bridge
       - name: هم‌خوانیِ توکن‌ها با tokens.json
         run: dart run tools/gen_tokens.dart --check
       - run: flutter pub get

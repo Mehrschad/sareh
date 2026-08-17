@@ -15,5 +15,14 @@ crate-type = ["lib", "staticlib", "cdylib"]
 [dependencies]
 serde = { workspace = true }
 serde_yaml = { workspace = true }
-# تنها برای تولیدِ چسبِ Dart؛ منطقِ هسته به آن دست نمی‌زند.
-flutter_rust_bridge = "=2.12.0"
+# تنها برای چسبِ Dart؛ منطقِ هسته به آن دست نمی‌زند.
+flutter_rust_bridge = { version = "=2.12.0", optional = true }
+
+[features]
+# چسبِ تولیدشده‌ی پل. `core/src/frb_generated.rs` در git نیست و تنها
+# `make bridge` می‌سازدش، پس مدخلش باید مشروط باشد — وگرنه `cargo build`
+# روی یک checkoutِ تمیز می‌شکند، همان‌طور که در نخستین اجرای CI شکست.
+#
+# سودِ جانبی‌اش مهم‌تر است: `sareh-core` و `sareh-tools` به Flutter وابسته
+# نیستند. اعتبارسنجِ محتوا نباید برای اجرا به پل نیاز داشته باشد.
+bridge = ["dep:flutter_rust_bridge"]
