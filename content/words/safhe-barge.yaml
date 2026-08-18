@@ -1,0 +1,34 @@
+id: safhe-barge
+sare: برگه
+loan: صفحه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bæɾˈɡe/
+definition: یک رویه از کتاب یا کاغذ
+english: page
+register: رسمی
+frequency_rank: 610
+difficulty: 2
+examples:
+- sare: برگه‌ی سوم را بخوان.
+  loan: صفحه‌ی سوم را بخوان.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «برگه»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «برگه»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/برگه
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- برگ
+- برگه‌دان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.33

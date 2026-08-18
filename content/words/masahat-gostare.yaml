@@ -1,0 +1,32 @@
+id: masahat-gostare
+sare: گستره
+loan: مساحت
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /ɡosˈtæɾe/
+definition: اندازه‌ی رویه‌ی یک جا
+english: area
+register: دانشی
+frequency_rank: 4211
+difficulty: 3
+examples:
+- sare: گستره‌ی زمین را سنجیدند.
+  loan: مساحتِ زمین را سنجیدند.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/مساحت
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «گستره»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- پهنه
+- گستردن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.41

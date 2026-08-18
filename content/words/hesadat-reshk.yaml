@@ -1,0 +1,34 @@
+id: hesadat-reshk
+sare: رشک
+loan: حسادت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ɾeʃk/
+definition: آرزوی داشتنِ آنچه دیگری دارد
+english: envy
+register: ادبی
+frequency_rank: 5489
+difficulty: 3
+examples:
+- sare: رشکش آمد.
+  loan: حسادتش شد.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/حسادت
+- source: لغت‌نامه دهخدا
+  ref: مدخل «رشک»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/رشک
+roots:
+  pahlavi: ʾlyšk'
+  avestan: null
+  old_persian: null
+related:
+- بدخواهی
+- رشک‌بردن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.24

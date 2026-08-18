@@ -1,0 +1,34 @@
+id: khater-bahr
+sare: بهر
+loan: خاطر
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /bæhɾ/
+definition: برای؛ از برای
+english: sake
+register: ادبی
+frequency_rank: 320
+difficulty: 3
+examples:
+- sare: از بهرِ تو آمدم.
+  loan: به‌خاطرِ تو آمدم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بهر»
+- source: شاهنامه فردوسی
+  book: داستان سیاوش
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/بهر
+roots:
+  pahlavi: bahr
+  avestan: null
+  old_persian: null
+related:
+- از بهر
+- برای
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.55

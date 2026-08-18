@@ -1,0 +1,32 @@
+id: shavand-ellat
+sare: شوند
+loan: علّت
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /ʃæˈvænd/
+definition: آنچه چیزی را پدید می‌آورد
+english: cause
+register: دانشی
+frequency_rank: null
+difficulty: 4
+examples:
+- sare: شوندِ آتش‌سوزی روشن نیست.
+  loan: علّتِ آتش‌سوزی روشن نیست.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «شوند»
+- source: فرهنگ فارسی معین
+  ref: مدخل «شوند»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- شدن
+- فرنود
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.25

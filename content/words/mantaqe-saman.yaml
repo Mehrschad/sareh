@@ -1,0 +1,34 @@
+id: mantaqe-saman
+sare: سامان
+loan: منطقه
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /sɒːˈmɒːn/
+definition: کرانه‌ای از سرزمین؛ ناحیه
+english: region
+register: ادبی
+frequency_rank: 291
+difficulty: 3
+examples:
+- sare: در این سامان کسی نمانده.
+  loan: در این منطقه کسی نمانده.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سامان»
+- source: شاهنامه فردوسی
+  book: پادشاهی کیخسرو
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/سامان
+roots:
+  pahlavi: sāmān
+  avestan: null
+  old_persian: null
+related:
+- سامان‌مند
+- مرز
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.59

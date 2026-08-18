@@ -1,0 +1,33 @@
+id: vajename-dictionary
+sare: واژه‌نامه
+loan: دیکشنری
+loan_origin: انگلیسی
+pos: اسم
+acceptance: نوساخته
+ipa: /vɒːʒenɒːˈme/
+definition: کتابی که واژه‌ها را با معنی گرد آورده
+english: dictionary
+register: دانشی
+frequency_rank: 17366
+difficulty: 3
+examples:
+- sare: واژه‌نامه را باز کن.
+  loan: دیکشنری را باز کن.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «واژه‌نامه»
+- source: لغت‌نامه دهخدا
+  ref: مدخل «واژه»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- فرهنگ
+- نامه
+- واژه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.46

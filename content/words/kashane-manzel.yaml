@@ -1,0 +1,34 @@
+id: kashane-manzel
+sare: کاشانه
+loan: منزل
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /kɒːʃɒːˈne/
+definition: خانه؛ جایگاهِ آرمیدن
+english: dwelling
+register: ادبی
+frequency_rank: 2668
+difficulty: 3
+examples:
+- sare: به کاشانه بازگشت.
+  loan: به منزل بازگشت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «کاشانه»
+- source: فرهنگ فارسی معین
+  ref: مدخل «کاشانه»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/کاشانه
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- خانه
+- سرا
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.67

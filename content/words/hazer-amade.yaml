@@ -1,0 +1,34 @@
+id: hazer-amade
+sare: آماده
+loan: حاضر
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /ʔɒːmɒːˈde/
+definition: مهیا؛ در دسترس
+english: ready
+register: گفتاری
+frequency_rank: 571
+difficulty: 1
+examples:
+- sare: آماده‌ام.
+  loan: حاضرم.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/حاضر
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=حاضر
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/آماده
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- آمادگی
+- فراهم
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.36

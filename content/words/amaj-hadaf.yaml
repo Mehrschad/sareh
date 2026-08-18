@@ -1,0 +1,34 @@
+id: amaj-hadaf
+sare: آماج
+loan: هدف
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /ʔɒːˈmɒːdʒ/
+definition: نشانه‌ای که تیر به سوی آن می‌رود؛ مقصود
+english: target
+register: ادبی
+frequency_rank: 485
+difficulty: 3
+examples:
+- sare: آماجِ ما روشن است.
+  loan: هدفِ ما روشن است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آماج»
+- source: شاهنامه فردوسی
+  book: داستان رستم و اسفندیار
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/آماج
+roots:
+  pahlavi: āmāj
+  avestan: null
+  old_persian: null
+related:
+- آماجگاه
+- نشانه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.42

@@ -1,0 +1,34 @@
+id: avvalin-nokhostin
+sare: نخستین
+loan: اولین
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /noxosˈtiːn/
+definition: نخستین‌بار؛ پیش از همه
+english: the first
+register: رسمی
+frequency_rank: 239
+difficulty: 1
+examples:
+- sare: نخستین کسی بود که آمد.
+  loan: اولین کسی بود که آمد.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/اولین
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «نخستین»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/نخستین
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- نخست
+- واپسین
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.65

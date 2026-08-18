@@ -1,0 +1,34 @@
+id: tanhaei-ozlat
+sare: تنهایی
+loan: عزلت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /tænhɒːˈjiː/
+definition: بی‌کس بودن؛ دوری از مردمان
+english: solitude
+register: ادبی
+frequency_rank: 26728
+difficulty: 3
+examples:
+- sare: تنهایی را برگزید.
+  loan: عزلت را برگزید.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «تنهایی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «تنها»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/تنهایی
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- تنها
+- خلوت
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.13

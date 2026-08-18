@@ -1,0 +1,35 @@
+id: dad-edalat
+sare: داد
+loan: عدالت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /dɒːd/
+definition: هر کس را به سزای خویش رساندن
+english: justice
+register: ادبی
+frequency_rank: 1561
+difficulty: 2
+examples:
+- sare: داد را بر همه گستراند.
+  loan: عدالت را بر همه گستراند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «داد»
+- source: شاهنامه فردوسی
+  book: پادشاهی نوشین‌روان
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/داد
+roots:
+  pahlavi: dād
+  avestan: null
+  old_persian: dātam
+related:
+- بیداد
+- دادگاه
+- دادگر
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.93

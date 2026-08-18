@@ -1,0 +1,34 @@
+id: sarparast-raees
+sare: سرپرست
+loan: رئیس
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /sæɾpæˈɾæst/
+definition: کسی که کارِ گروهی را می‌گرداند
+english: supervisor
+register: رسمی
+frequency_rank: 305
+difficulty: 2
+examples:
+- sare: سرپرستِ گروه آمد.
+  loan: رئیسِ گروه آمد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سرپرست»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «سرپرست»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/سرپرست
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- سر
+- پرستیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.57

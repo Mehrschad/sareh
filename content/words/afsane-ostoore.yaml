@@ -1,0 +1,34 @@
+id: afsane-ostoore
+sare: افسانه
+loan: اسطوره
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʔæfsɒːˈne/
+definition: داستانِ کهنِ نمادین درباره‌ی آغازها
+english: myth
+register: ادبی
+frequency_rank: 5469
+difficulty: 3
+examples:
+- sare: افسانه‌ی ضحّاک را می‌داند.
+  loan: اسطوره‌ی ضحّاک را می‌داند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «افسانه»
+- source: فرهنگ فارسی معین
+  ref: مدخل «افسانه»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/افسانه
+roots:
+  pahlavi: afsān
+  avestan: null
+  old_persian: null
+related:
+- اسطوره‌ای
+- داستان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.24

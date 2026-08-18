@@ -1,0 +1,34 @@
+id: pazhuhesh-tahqiq
+sare: پژوهش
+loan: تحقیق
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /pæʒuːˈheʃ/
+definition: جست‌وجوی سامان‌مند برای یافتنِ دانشِ نو
+english: research
+register: دانشی
+frequency_rank: 1446
+difficulty: 2
+examples:
+- sare: پژوهشش سه سال کشید.
+  loan: تحقیقش سه سال کشید.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پژوهش»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «پژوهش»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/پژوهش
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- پژوهشگر
+- پژوهیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.96

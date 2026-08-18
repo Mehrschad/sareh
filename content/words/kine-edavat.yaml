@@ -1,0 +1,34 @@
+id: kine-edavat
+sare: کینه
+loan: عداوت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /kiːˈne/
+definition: دشمنیِ نهفته در دل
+english: grudge
+register: ادبی
+frequency_rank: 28880
+difficulty: 3
+examples:
+- sare: کینه‌ای در دل نداشت.
+  loan: عداوتی در دل نداشت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «کینه»
+- source: شاهنامه فردوسی
+  book: داستان بیژن و منیژه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/کینه
+roots:
+  pahlavi: kēn
+  avestan: null
+  old_persian: null
+related:
+- کین
+- کینه‌توز
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.07

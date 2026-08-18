@@ -1,0 +1,34 @@
+id: paziresh-qabul
+sare: پذیرش
+loan: قبول
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /pæziːˈɾeʃ/
+definition: پذیرفتنِ کس یا چیزی
+english: acceptance
+register: رسمی
+frequency_rank: 483
+difficulty: 2
+examples:
+- sare: پذیرشش قطعی شد.
+  loan: قبولش قطعی شد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پذیرش»
+- source: فرهنگ فارسی معین
+  ref: مدخل «پذیرفتن»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/پذیرش
+roots:
+  pahlavi: padīrišn
+  avestan: null
+  old_persian: null
+related:
+- پذیرا
+- پذیرفتن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.42

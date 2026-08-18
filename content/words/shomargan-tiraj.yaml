@@ -1,0 +1,32 @@
+id: shomargan-tiraj
+sare: شمارگان
+loan: تیراژ
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /ʃomɒːɾˈɡɒːn/
+definition: شمارِ نسخه‌های چاپ‌شده‌ی کتاب
+english: print run
+register: دانشی
+frequency_rank: 19063
+difficulty: 4
+examples:
+- sare: شمارگانش هزار نسخه بود.
+  loan: تیراژش هزار نسخه بود.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «شمارگان»
+- source: لغت‌نامه دهخدا
+  ref: مدخل «شمار»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- شمار
+- چاپ
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.39

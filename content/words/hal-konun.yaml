@@ -1,0 +1,34 @@
+id: hal-konun
+sare: کنون
+loan: حال
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /koˈnuːn/
+definition: این زمان؛ هم‌اینک
+english: now
+register: ادبی
+frequency_rank: 96
+difficulty: 2
+examples:
+- sare: کنون چه باید کرد؟
+  loan: حال چه باید کرد؟
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/حال
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=حال
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/کنون
+roots:
+  pahlavi: aknūn
+  avestan: null
+  old_persian: null
+related:
+- اکنون
+- هم‌اکنون
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.97

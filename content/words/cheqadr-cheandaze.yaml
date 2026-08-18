@@ -1,0 +1,32 @@
+id: cheqadr-cheandaze
+sare: چه‌اندازه
+loan: چقدر
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /tʃe ʔænˈdɒːze/
+definition: به چه مقدار
+english: how much
+register: گفتاری
+frequency_rank: 264
+difficulty: 2
+examples:
+- sare: چه‌اندازه ماندی؟
+  loan: چقدر ماندی؟
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/چقدر
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «اندازه»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- اندازه
+- چند
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.63

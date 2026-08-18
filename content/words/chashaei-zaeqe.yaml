@@ -1,0 +1,34 @@
+id: chashaei-zaeqe
+sare: چشایی
+loan: ذائقه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /tʃeʃɒːˈjiː/
+definition: حسِ زبان؛ توانِ دریافتنِ مزه
+english: taste (sense)
+register: دانشی
+frequency_rank: 19339
+difficulty: 4
+examples:
+- sare: چشایی‌اش را از دست داد.
+  loan: ذائقه‌اش را از دست داد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «چشایی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «چشیدن»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/چشایی
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- مزه
+- چشیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.38

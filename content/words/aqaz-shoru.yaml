@@ -1,0 +1,34 @@
+id: aqaz-shoru
+sare: آغاز
+loan: شروع
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʔɒːˈqɒːz/
+definition: نقطه‌ای که کار از آن سر می‌گیرد
+english: beginning
+register: رسمی
+frequency_rank: 229
+difficulty: 1
+examples:
+- sare: آغازِ راه دشوار است.
+  loan: شروعِ راه دشوار است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آغاز»
+- source: شاهنامه فردوسی
+  book: دیباچه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/آغاز
+roots:
+  pahlavi: āgāz
+  avestan: null
+  old_persian: null
+related:
+- آغازیدن
+- سرآغاز
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.68

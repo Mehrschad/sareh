@@ -1,0 +1,34 @@
+id: ziyan-zarar
+sare: زیان
+loan: ضرر
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ziːˈjɒːn/
+definition: آسیبی که به دارایی یا کار می‌رسد
+english: loss
+register: رسمی
+frequency_rank: 3655
+difficulty: 2
+examples:
+- sare: زیانش را پذیرفت.
+  loan: ضررش را پذیرفت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «زیان»
+- source: شاهنامه فردوسی
+  book: پادشاهی نوشین‌روان
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/زیان
+roots:
+  pahlavi: ziyān
+  avestan: null
+  old_persian: null
+related:
+- زیان‌بار
+- سود
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.49

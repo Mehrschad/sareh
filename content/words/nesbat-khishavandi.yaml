@@ -1,0 +1,34 @@
+id: nesbat-khishavandi
+sare: خویشاوندی
+loan: نسبت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /xiːʃɒːvænˈdiː/
+definition: پیوندِ خونی یا سببی میانِ کسان
+english: kinship
+register: رسمی
+frequency_rank: 343
+difficulty: 3
+examples:
+- sare: خویشاوندی‌شان دور است.
+  loan: نسبتشان دور است.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/نسبت
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=نسبت
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/خویشاوندی
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- خویش
+- خویشاوند
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.54

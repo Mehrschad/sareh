@@ -1,0 +1,36 @@
+id: dam-nafas
+sare: دَم
+loan: نفس
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /dæm/
+definition: هوایی که به شش فرو می‌رود و بازمی‌گردد
+english: breath
+register: ادبی
+frequency_rank: 718
+difficulty: 3
+examples:
+- sare: دَمی ژرف بکش.
+  loan: نفسی عمیق بکش.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دم»
+- source: شاهنامه فردوسی
+  book: پادشاهی گشتاسپ
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/دم
+- source: فرهنگ فارسی معین
+  ref: https://www.vajehyab.com/moein/دم
+roots:
+  pahlavi: dam
+  avestan: null
+  old_persian: null
+related:
+- بازدم
+- دمیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.27

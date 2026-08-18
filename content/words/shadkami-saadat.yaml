@@ -1,0 +1,35 @@
+id: shadkami-saadat
+sare: شادکامی
+loan: سعادت
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /ʃɒːdkɒːˈmiː/
+definition: کامروایی و شادی در زندگی
+english: happiness
+register: ادبی
+frequency_rank: 5089
+difficulty: 4
+examples:
+- sare: شادکامی‌اش پایدار باد.
+  loan: سعادتش پایدار باد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «شادکام»
+- source: شاهنامه فردوسی
+  book: پادشاهی جمشید
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/شادکامی
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- شاد
+- شادمانی
+- کام
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.29

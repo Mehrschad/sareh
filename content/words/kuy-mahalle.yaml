@@ -1,0 +1,34 @@
+id: kuy-mahalle
+sare: کوی
+loan: محلّه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /kuːj/
+definition: بخشی از شهر که مردمانش همسایه‌اند
+english: quarter
+register: ادبی
+frequency_rank: null
+difficulty: 3
+examples:
+- sare: در همین کوی زندگی می‌کند.
+  loan: در همین محلّه زندگی می‌کند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «کوی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «کوی»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/کوی
+roots:
+  pahlavi: kōy
+  avestan: null
+  old_persian: null
+related:
+- برزن
+- کوچه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.75

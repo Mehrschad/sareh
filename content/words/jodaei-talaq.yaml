@@ -1,0 +1,34 @@
+id: jodaei-talaq
+sare: جدایی
+loan: طلاق
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /dʒodɒːˈjiː/
+definition: گسستنِ پیوندِ دو تن
+english: separation
+register: رسمی
+frequency_rank: 2402
+difficulty: 3
+examples:
+- sare: جداییِ آنان دشوار بود.
+  loan: طلاقِ آنان دشوار بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «جدایی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «جدا»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/جدایی
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- جدا
+- گسست
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.72

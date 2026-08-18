@@ -1,0 +1,34 @@
+id: amas-varam
+sare: آماس
+loan: ورم
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /ʔɒːˈmɒːs/
+definition: برآمدن و پف‌کردنِ اندام از بیماری
+english: swelling
+register: ادبی
+frequency_rank: 7696
+difficulty: 4
+examples:
+- sare: پایش آماس کرده بود.
+  loan: پایش ورم کرده بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آماس»
+- source: فرهنگ فارسی معین
+  ref: مدخل «آماس»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/آماس
+roots:
+  pahlavi: āmāh
+  avestan: null
+  old_persian: null
+related:
+- آماسیدن
+- برآماسیدن
+audio: null
+status: proposed
+contributors:
+- sareh-seed
+zipf: 4.03

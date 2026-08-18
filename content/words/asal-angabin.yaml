@@ -1,0 +1,34 @@
+id: asal-angabin
+sare: انگبین
+loan: عسل
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /ʔænɡæˈbiːn/
+definition: شهدِ شیرینی که زنبور می‌سازد
+english: honey
+register: ادبی
+frequency_rank: 3254
+difficulty: 3
+examples:
+- sare: انگبین در چای ریخت.
+  loan: عسل در چای ریخت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «انگبین»
+- source: فرهنگ فارسی معین
+  ref: مدخل «انگبین»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/انگبین
+roots:
+  pahlavi: angubēn
+  avestan: null
+  old_persian: null
+related:
+- شهد
+- شیرینی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.56

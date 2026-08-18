@@ -1,0 +1,34 @@
+id: minu-malakut
+sare: مینو
+loan: ملکوت
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /miːˈnuː/
+definition: جهانِ نادیدنی و مینوی؛ بهشت
+english: the spiritual realm
+register: ادبی
+frequency_rank: 16684
+difficulty: 5
+examples:
+- sare: از مینو سخن می‌گفت.
+  loan: از ملکوت سخن می‌گفت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «مینو»
+- source: فرهنگ فارسی معین
+  ref: مدخل «مینو»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/مینو
+roots:
+  pahlavi: mēnōg
+  avestan: mainyu-
+  old_persian: null
+related:
+- مینوی
+- گیتی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.49

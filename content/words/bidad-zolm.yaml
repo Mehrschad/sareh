@@ -1,0 +1,35 @@
+id: bidad-zolm
+sare: بیداد
+loan: ظلم
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /biːˈdɒːd/
+definition: ستم؛ نبودِ داد
+english: injustice
+register: ادبی
+frequency_rank: 4550
+difficulty: 3
+examples:
+- sare: بیدادِ ضحّاک به سر آمد.
+  loan: ظلمِ ضحّاک به سر آمد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بیداد»
+- source: شاهنامه فردوسی
+  book: ضحّاک و کاوه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/بیداد
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- بی
+- داد
+- ستم
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.36

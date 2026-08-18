@@ -1,0 +1,34 @@
+id: runevesht-copy
+sare: رونوشت
+loan: کپی
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /ɾuːneˈveʃt/
+definition: نسخه‌ای همانندِ نوشته‌ی اصلی
+english: copy
+register: رسمی
+frequency_rank: 1882
+difficulty: 3
+examples:
+- sare: رونوشتش را نگه دار.
+  loan: کپی‌اش را نگه دار.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «رونوشت»
+- source: لغت‌نامه دهخدا
+  ref: مدخل «رونوشت»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/رونوشت
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- رو
+- نوشتن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.85

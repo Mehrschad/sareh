@@ -1,0 +1,34 @@
+id: ahmaq-nadan
+sare: نادان
+loan: احمق
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /nɒːˈdɒːn/
+definition: بی‌دانش؛ کم‌خرد
+english: foolish
+register: رسمی
+frequency_rank: 1888
+difficulty: 2
+examples:
+- sare: نادان مباش.
+  loan: احمق نباش.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نادان»
+- source: شاهنامه فردوسی
+  book: دیباچه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/نادان
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- بی‌خرد
+- دانا
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.84

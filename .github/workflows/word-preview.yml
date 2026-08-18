@@ -1,0 +1,31 @@
+name: پیش‌نمایشِ واژه
+
+# روی هر PR که واژه‌ای می‌افزاید یا عوض می‌کند، کارتِ واژه را در کامنت
+# می‌گذارد تا بازبین بدون clone کردن ببیند چه اضافه شده است.
+
+on:
+  pull_request:
+    paths:
+      - 'content/words/**'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: ساختِ پیش‌نمایش
+        id: preview
+        run: |
+          python3 tools/word_preview.py \
+            "${{ github.event.pull_request.base.sha }}" \
+            > preview.md
+      - uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: word-preview
+          path: preview.md

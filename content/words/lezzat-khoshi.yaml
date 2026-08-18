@@ -1,0 +1,34 @@
+id: lezzat-khoshi
+sare: خوشی
+loan: لذت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /xoˈʃiː/
+definition: شادکامیِ برخاسته از چیزی خوشایند
+english: pleasure
+register: گفتاری
+frequency_rank: 686
+difficulty: 2
+examples:
+- sare: خوشیِ این کار کم نیست.
+  loan: لذتِ این کار کم نیست.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/لذت
+- source: فرهنگ فارسی معین
+  ref: مدخل «خوشی»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/خوشی
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- خوش
+- شادی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.29

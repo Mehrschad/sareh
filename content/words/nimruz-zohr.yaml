@@ -1,0 +1,32 @@
+id: nimruz-zohr
+sare: نیم‌روز
+loan: ظهر
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /niːmˈɾuːz/
+definition: میانه‌ی روز
+english: noon
+register: ادبی
+frequency_rank: 2122
+difficulty: 3
+examples:
+- sare: نیم‌روز رسیدیم.
+  loan: ظهر رسیدیم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نیمروز»
+- source: فرهنگ فارسی معین
+  ref: مدخل «نیم‌روز»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- روز
+- نیم
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.78

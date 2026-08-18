@@ -1,0 +1,34 @@
+id: zibaei-jamal
+sare: زیبایی
+loan: جمال
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ziːbɒːˈjiː/
+definition: خوش‌آیندیِ دیدار
+english: beauty
+register: ادبی
+frequency_rank: 4908
+difficulty: 2
+examples:
+- sare: زیبایی‌اش چشم‌گیر بود.
+  loan: جمالش چشم‌گیر بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «زیبایی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «زیبا»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/زیبایی
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- زیبا
+- زیبنده
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.31

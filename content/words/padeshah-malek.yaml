@@ -1,0 +1,34 @@
+id: padeshah-malek
+sare: پادشاه
+loan: ملک
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /pɒːdeʃɒːh/
+definition: فرمانروای بزرگ
+english: king
+register: ادبی
+frequency_rank: 2184
+difficulty: 2
+examples:
+- sare: پادشاهِ ایران‌زمین.
+  loan: ملکِ ایران‌زمین.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پادشاه»
+- source: شاهنامه فردوسی
+  book: پادشاهی جمشید
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/پادشاه
+roots:
+  pahlavi: pādixšāy
+  avestan: null
+  old_persian: null
+related:
+- شاه
+- شهریار
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.77

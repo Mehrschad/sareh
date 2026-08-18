@@ -1,0 +1,34 @@
+id: farayand-process
+sare: فرآیند
+loan: پروسه
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /fæɾɒːˈjænd/
+definition: زنجیره‌ی گام‌هایی که به فرآورده می‌رسد
+english: process
+register: دانشی
+frequency_rank: 6504
+difficulty: 3
+examples:
+- sare: فرآیندِ ساخت دراز است.
+  loan: پروسه‌ی ساخت دراز است.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «فرآیند»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «فرایند»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/فرآیند
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- روند
+- فرآورده
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.14

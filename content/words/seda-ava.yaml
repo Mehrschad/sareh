@@ -1,0 +1,34 @@
+id: seda-ava
+sare: آوا
+loan: صدا
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʔɒːˈvɒː/
+definition: آنچه گوش می‌شنود
+english: sound
+register: ادبی
+frequency_rank: 543
+difficulty: 2
+examples:
+- sare: آوای پرنده آمد.
+  loan: صدای پرنده آمد.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/صدا
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آوا»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/آوا
+roots:
+  pahlavi: āwāz
+  avestan: null
+  old_persian: null
+related:
+- آواز
+- بانگ
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.38

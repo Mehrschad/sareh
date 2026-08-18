@@ -1,0 +1,32 @@
+id: qatan-bichonocera
+sare: بی‌چون‌وچرا
+loan: قطعاً
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /biːtʃuːnotʃæˈɾɒː/
+definition: بی‌جای گفت‌وگو؛ بی‌تردید
+english: definitely
+register: رسمی
+frequency_rank: null
+difficulty: 3
+examples:
+- sare: بی‌چون‌وچرا درست است.
+  loan: قطعاً درست است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «چون و چرا»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «بی‌چون‌وچرا»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- چرا
+- چون
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.97

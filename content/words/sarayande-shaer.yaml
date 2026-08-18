@@ -1,0 +1,34 @@
+id: sarayande-shaer
+sare: سراینده
+loan: شاعر
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /sæɾɒːjænˈde/
+definition: کسی که چامه می‌سراید
+english: poet
+register: ادبی
+frequency_rank: 2656
+difficulty: 3
+examples:
+- sare: سراینده‌ی این بیت کیست؟
+  loan: شاعرِ این بیت کیست؟
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سراینده»
+- source: شاهنامه فردوسی
+  book: دیباچه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/سراینده
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- سرودن
+- چامه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.67

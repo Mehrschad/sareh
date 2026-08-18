@@ -1,0 +1,34 @@
+id: avval-nokhost
+sare: نخست
+loan: اول
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /noˈxost/
+definition: یکم؛ پیش از همه
+english: first
+register: رسمی
+frequency_rank: 86
+difficulty: 1
+examples:
+- sare: نخست این را بخوان.
+  loan: اول این را بخوان.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/اول
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نخست»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/نخست
+roots:
+  pahlavi: naxust
+  avestan: null
+  old_persian: null
+related:
+- نخستین
+- یکم
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 6.0

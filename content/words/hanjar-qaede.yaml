@@ -1,0 +1,34 @@
+id: hanjar-qaede
+sare: هنجار
+loan: قاعده
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /hænˈdʒɒːɾ/
+definition: قانونِ پذیرفته‌ی رفتار یا کار
+english: norm
+register: دانشی
+frequency_rank: 4849
+difficulty: 3
+examples:
+- sare: هنجارِ گروه را نشکن.
+  loan: قاعده‌ی گروه را نشکن.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «هنجار»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «هنجار»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/هنجار
+roots:
+  pahlavi: hanjār
+  avestan: null
+  old_persian: null
+related:
+- ناهنجار
+- هنجارمند
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.32

@@ -1,0 +1,34 @@
+id: talash-kushesh
+sare: کوشش
+loan: تلاش
+loan_origin: ترکی
+pos: اسم
+acceptance: زنده
+ipa: /kuːˈʃeʃ/
+definition: به‌کار بردنِ توان برای رسیدن به چیزی
+english: effort
+register: رسمی
+frequency_rank: 537
+difficulty: 1
+examples:
+- sare: کوششت را کردی.
+  loan: تلاشت را کردی.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/تلاش
+- source: لغت‌نامه دهخدا
+  ref: مدخل «کوشش»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/کوشش
+roots:
+  pahlavi: kōxšišn
+  avestan: null
+  old_persian: null
+related:
+- کوشا
+- کوشیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.38

@@ -1,0 +1,34 @@
+id: buyaei-shamme
+sare: بویایی
+loan: شامّه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /buːjɒːˈjiː/
+definition: حسِ بینی؛ توانِ دریافتنِ بو
+english: smell (sense)
+register: دانشی
+frequency_rank: null
+difficulty: 4
+examples:
+- sare: بویایی‌اش تیز است.
+  loan: شامّه‌اش تیز است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بویایی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «بویا»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/بویایی
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- بو
+- بوییدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.08

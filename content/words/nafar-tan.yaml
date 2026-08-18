@@ -1,0 +1,34 @@
+id: nafar-tan
+sare: تن
+loan: نفر
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /tæn/
+definition: یکای شمارشِ مردمان
+english: person
+register: گفتاری
+frequency_rank: 110
+difficulty: 1
+examples:
+- sare: ده تن آمدند.
+  loan: ده نفر آمدند.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/نفر
+- source: لغت‌نامه دهخدا
+  ref: مدخل «تن»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/تن
+roots:
+  pahlavi: tan
+  avestan: null
+  old_persian: tanūš
+related:
+- تنها
+- کس
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.94

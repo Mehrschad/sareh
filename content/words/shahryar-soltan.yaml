@@ -1,0 +1,35 @@
+id: shahryar-soltan
+sare: شهریار
+loan: سلطان
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʃæhɾiːˈjɒːɾ/
+definition: فرمانروای کشور
+english: sovereign
+register: ادبی
+frequency_rank: 2219
+difficulty: 4
+examples:
+- sare: شهریارِ دادگر بود.
+  loan: سلطانِ عادل بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «شهریار»
+- source: شاهنامه فردوسی
+  book: پادشاهی کیقباد
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/شهریار
+roots:
+  pahlavi: šahryār
+  avestan: null
+  old_persian: null
+related:
+- دار
+- شهر
+- پادشاه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.76

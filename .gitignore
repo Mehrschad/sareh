@@ -27,3 +27,20 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# Rust
+/target/
+**/*.rs.bk
+
+# چسبِ تولیدشده‌ی پل **در مخزن است**، مثلِ کدِ تولیدشده‌ی Drift.
+# سه دلیل: `cargo fmt` هر `mod` را حل می‌کند حتی آنکه `cfg` خاموشش کرده،
+# پس بی این فایل هیچ checkoutِ تمیزی fmt نمی‌شود؛ مشارکت‌کننده بی‌نصبِ
+# codegen می‌تواند بسازد و آزمون بدهد؛ و CI دیگر لازم نیست هر بار
+# codegen را کامپایل کند. بازتولید: `make bridge`.
+
+# محتوای همگام‌شده (make content-sync) — یک منبعِ حقیقت بیشتر نداریم
+app/assets/content/
+
+# قلم‌ها پروانه‌ی جدا دارند (make fonts)
+design/fonts/*.ttf
+design/fonts/*.otf

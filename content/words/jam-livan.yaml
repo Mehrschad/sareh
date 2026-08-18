@@ -1,0 +1,36 @@
+id: jam-livan
+sare: جام
+loan: لیوان
+loan_origin: ترکی
+pos: اسم
+acceptance: زنده
+ipa: /dʒɒːm/
+definition: آوندِ نوشیدن
+english: glass
+register: ادبی
+frequency_rank: 4209
+difficulty: 3
+examples:
+- sare: جام را پر کرد.
+  loan: لیوان را پر کرد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «جام»
+- source: شاهنامه فردوسی
+  book: پادشاهی کیخسرو
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/جام
+- source: فرهنگ فارسی معین
+  ref: https://www.vajehyab.com/moein/جام
+roots:
+  pahlavi: ǰām
+  avestan: null
+  old_persian: null
+related:
+- جام جم
+- پیاله
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.41

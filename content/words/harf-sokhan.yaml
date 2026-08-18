@@ -1,0 +1,36 @@
+id: harf-sokhan
+sare: سخن
+loan: حرف
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /soˈxæn/
+definition: آنچه گفته می‌شود؛ گفتار
+english: speech
+register: گفتاری
+frequency_rank: 128
+difficulty: 1
+examples:
+- sare: سخنت را باور کردم.
+  loan: حرفت را باور کردم.
+- sare: سخن بزن.
+  loan: حرف بزن.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سخن»
+- source: شاهنامه فردوسی
+  book: دیباچه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/سخن
+roots:
+  pahlavi: saxwan
+  avestan: null
+  old_persian: null
+related:
+- سخنور
+- گفتار
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.88

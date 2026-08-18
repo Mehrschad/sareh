@@ -1,0 +1,36 @@
+id: shomar-tedad
+sare: شمار
+loan: تعداد
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʃoˈmɒːɾ/
+definition: چندی چیزها؛ اندازه‌ی عددی
+english: count
+register: رسمی
+frequency_rank: 398
+difficulty: 2
+examples:
+- sare: شمار واژه‌ها را بنویس.
+  loan: تعداد کلمات را بنویس.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «شمار»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «شمار»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/شمار
+- source: فرهنگ فارسی معین
+  ref: https://www.vajehyab.com/moein/شمار
+roots:
+  pahlavi: ōšmar
+  avestan: null
+  old_persian: null
+related:
+- شمارگان
+- شمردن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.48

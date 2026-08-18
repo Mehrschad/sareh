@@ -1,0 +1,34 @@
+id: ahl-khandan
+sare: خاندان
+loan: اهل
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /xɒːnˈdɒːn/
+definition: کسانِ یک خانه یا یک تبار
+english: household
+register: ادبی
+frequency_rank: 499
+difficulty: 3
+examples:
+- sare: خاندانش کهن‌اند.
+  loan: اهلش قدیمی‌اند.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/اهل
+- source: لغت‌نامه دهخدا
+  ref: مدخل «خاندان»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/خاندان
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- خانه
+- دودمان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.4

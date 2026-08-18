@@ -1,0 +1,34 @@
+id: hararat-garma
+sare: گرما
+loan: حرارت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ɡæɾˈmɒː/
+definition: تفتگی؛ وارونه‌ی سرما
+english: heat
+register: رسمی
+frequency_rank: 3195
+difficulty: 1
+examples:
+- sare: گرمای تابستان سخت بود.
+  loan: حرارتِ تابستان سخت بود.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/حرارت
+- source: لغت‌نامه دهخدا
+  ref: مدخل «گرما»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/گرما
+roots:
+  pahlavi: garmāg
+  avestan: null
+  old_persian: null
+related:
+- سرما
+- گرم
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.57

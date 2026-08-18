@@ -1,0 +1,34 @@
+id: vojud-hasti
+sare: هستی
+loan: وجود
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /hæsˈtiː/
+definition: بودن؛ آنچه هست
+english: existence
+register: ادبی
+frequency_rank: 82
+difficulty: 2
+examples:
+- sare: هستیِ او را باور دارم.
+  loan: وجودِ او را باور دارم.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/وجود
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=وجود
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/هستی
+roots:
+  pahlavi: astīh
+  avestan: null
+  old_persian: null
+related:
+- بودن
+- هست
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 6.02

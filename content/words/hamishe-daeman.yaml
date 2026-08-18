@@ -1,0 +1,33 @@
+id: hamishe-daeman
+sare: همیشه
+loan: دائماً
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /hæmiːˈʃe/
+definition: در همه‌ی زمان‌ها؛ بی‌گسست
+english: always
+register: گفتاری
+frequency_rank: null
+difficulty: 2
+examples:
+- sare: همیشه همین را می‌گوید.
+  loan: دائماً همین را می‌گوید.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «همیشه»
+- source: فرهنگ فارسی معین
+  ref: مدخل «همیشه»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/همیشه
+roots:
+  pahlavi: hamēšag
+  avestan: null
+  old_persian: null
+related:
+- همیشگی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.99

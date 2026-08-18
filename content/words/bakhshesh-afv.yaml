@@ -1,0 +1,34 @@
+id: bakhshesh-afv
+sare: بخشش
+loan: عفو
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bæxˈʃeʃ/
+definition: گذشتن از گناهِ کسی
+english: forgiveness
+register: ادبی
+frequency_rank: 5167
+difficulty: 3
+examples:
+- sare: بخششش بزرگ بود.
+  loan: عفوش بزرگ بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بخشش»
+- source: شاهنامه فردوسی
+  book: پادشاهی نوشین‌روان
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/بخشش
+roots:
+  pahlavi: baxšišn
+  avestan: null
+  old_persian: null
+related:
+- بخشنده
+- بخشیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.28

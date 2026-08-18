@@ -1,0 +1,34 @@
+id: movaffaq-piruz
+sare: پیروز
+loan: موفق
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /piːˈɾuːz/
+definition: کامیاب؛ آن‌که به آماج رسیده
+english: successful
+register: رسمی
+frequency_rank: 562
+difficulty: 2
+examples:
+- sare: پیروز بازگشت.
+  loan: موفق بازگشت.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/موفق
+- source: شاهنامه فردوسی
+  book: پادشاهی کیخسرو
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/پیروز
+roots:
+  pahlavi: pērōz
+  avestan: null
+  old_persian: null
+related:
+- پیروزی
+- کامیاب
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.37

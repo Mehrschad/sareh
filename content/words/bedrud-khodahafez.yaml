@@ -1,0 +1,33 @@
+id: bedrud-khodahafez
+sare: بدرود
+loan: خداحافظ
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bedˈɾuːd/
+definition: واژه‌ی وداع؛ درودِ هنگام جدایی
+english: farewell
+register: رسمی
+frequency_rank: 6059
+difficulty: 1
+examples:
+- sare: بدرود تا دیدار دیگر.
+  loan: خداحافظ تا دیدار دیگر.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بدرود»
+- source: فرهنگ فارسی معین
+  ref: مدخل «بدرود»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/بدرود
+roots:
+  pahlavi: pad drōd
+  avestan: null
+  old_persian: null
+related:
+- درود
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.18

@@ -1,0 +1,34 @@
+id: noskhe-negaresh
+sare: نگارش
+loan: نسخه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /neɡɒːˈɾeʃ/
+definition: صورتی از یک نوشته یا نرم‌افزار
+english: version
+register: دانشی
+frequency_rank: 706
+difficulty: 3
+examples:
+- sare: نگارشِ تازه بیرون آمد.
+  loan: نسخه‌ی جدید بیرون آمد.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/نسخه
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=نسخه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/نگارش
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- نگاشتن
+- ویرایش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.28

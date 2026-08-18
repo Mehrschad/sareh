@@ -1,0 +1,34 @@
+id: karkard-amalkard
+sare: کارکرد
+loan: عملکرد
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /kɒːɾˈkæɾd/
+definition: آنچه چیزی در عمل انجام می‌دهد
+english: function
+register: دانشی
+frequency_rank: 1373
+difficulty: 2
+examples:
+- sare: کارکردِ سامانه خوب است.
+  loan: عملکردِ سیستم خوب است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «کارکرد»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «کارکرد»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/کارکرد
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- کار
+- کردن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.99

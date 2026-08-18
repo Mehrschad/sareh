@@ -1,0 +1,34 @@
+id: nirou-qovvat
+sare: نیرو
+loan: قوّت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /niːˈɾuː/
+definition: توانِ کارکردن و ایستادگی
+english: strength
+register: رسمی
+frequency_rank: null
+difficulty: 2
+examples:
+- sare: نیرویش بازگشت.
+  loan: قوّتش بازگشت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نیرو»
+- source: شاهنامه فردوسی
+  book: داستان رستم و اسفندیار
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/نیرو
+roots:
+  pahlavi: nērōg
+  avestan: null
+  old_persian: null
+related:
+- توان
+- نیرومند
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.3

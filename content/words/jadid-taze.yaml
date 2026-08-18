@@ -1,0 +1,34 @@
+id: jadid-taze
+sare: تازه
+loan: جدید
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /tɒːˈze/
+definition: نو؛ آنچه تازه پدید آمده
+english: new
+register: گفتاری
+frequency_rank: 171
+difficulty: 1
+examples:
+- sare: خبرِ تازه‌ای دارم.
+  loan: خبرِ جدیدی دارم.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/جدید
+- source: لغت‌نامه دهخدا
+  ref: مدخل «تازه»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/تازه
+roots:
+  pahlavi: tāzag
+  avestan: null
+  old_persian: null
+related:
+- نو
+- نوین
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.79

@@ -1,0 +1,34 @@
+id: shakibaei-sabuori
+sare: شکیبایی
+loan: صبوری
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʃekiːbɒːˈjiː/
+definition: پیشه‌کردنِ شکیب در سختی
+english: forbearance
+register: رسمی
+frequency_rank: 12475
+difficulty: 3
+examples:
+- sare: شکیبایی‌اش ستودنی بود.
+  loan: صبوری‌اش ستودنی بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «شکیبایی»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «شکیبایی»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/شکیبایی
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- بردباری
+- شکیب
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.7

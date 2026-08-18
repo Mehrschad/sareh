@@ -1,0 +1,34 @@
+id: omq-zharfa
+sare: ژرفا
+loan: عمق
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʒæɾˈfɒː/
+definition: اندازه‌ی فرورفتگی از رویه به پایین
+english: depth
+register: دانشی
+frequency_rank: 2462
+difficulty: 2
+examples:
+- sare: ژرفای دریا را نمی‌دانیم.
+  loan: عمقِ دریا را نمی‌دانیم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «ژرفا»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «ژرف»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/ژرفا
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- بلندا
+- ژرف
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.71

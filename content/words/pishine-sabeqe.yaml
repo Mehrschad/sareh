@@ -1,0 +1,34 @@
+id: pishine-sabeqe
+sare: پیشینه
+loan: سابقه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /piːʃiːˈne/
+definition: آنچه پیش‌تر بوده است
+english: background
+register: رسمی
+frequency_rank: 1425
+difficulty: 2
+examples:
+- sare: پیشینه‌ی کاری‌اش روشن است.
+  loan: سابقه‌ی کاری‌اش روشن است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پیشینه»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «پیشینه»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/پیشینه
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- پیش
+- پیشین
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.97

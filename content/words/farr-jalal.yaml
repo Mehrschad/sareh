@@ -1,0 +1,38 @@
+id: farr-jalal
+sare: فَرّ
+loan: جلال
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /fær/
+definition: فروغِ ایزدیِ شکوه و بزرگی
+english: divine glory
+register: ادبی
+frequency_rank: 3709
+difficulty: 5
+examples:
+- sare: فَرِّ کیانی از او رفت.
+  loan: جلالِ پادشاهی از او رفت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «فر»
+- source: شاهنامه فردوسی
+  book: پادشاهی جمشید
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/فر
+- source: فرهنگ فارسی معین
+  ref: https://www.vajehyab.com/moein/فر
+- source: فرهنگستان زبان و ادب فارسی
+  ref: https://www.vajehyab.com/farhangestan/فر
+roots:
+  pahlavi: xwarrah
+  avestan: xᵛarənah-
+  old_persian: null
+related:
+- فرهمند
+- فرّه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.48

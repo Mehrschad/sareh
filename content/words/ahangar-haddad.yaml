@@ -1,0 +1,34 @@
+id: ahangar-haddad
+sare: آهنگر
+loan: حدّاد
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʔɒːhænˈɡæɾ/
+definition: کسی که آهن را می‌کوبد و می‌سازد
+english: blacksmith
+register: ادبی
+frequency_rank: null
+difficulty: 4
+examples:
+- sare: کاوه‌ی آهنگر درفش برافراشت.
+  loan: کاوه‌ی حدّاد پرچم برافراشت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آهنگر»
+- source: شاهنامه فردوسی
+  book: ضحّاک و کاوه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/آهنگر
+roots:
+  pahlavi: āsīnkar
+  avestan: null
+  old_persian: null
+related:
+- آهن
+- درفش کاویانی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.77

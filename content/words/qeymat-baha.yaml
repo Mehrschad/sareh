@@ -1,0 +1,34 @@
+id: qeymat-baha
+sare: بها
+loan: قیمت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bæˈhɒː/
+definition: ارزشِ چیزی به پول
+english: price
+register: گفتاری
+frequency_rank: 442
+difficulty: 1
+examples:
+- sare: بهایش چند است؟
+  loan: قیمتش چند است؟
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بها»
+- source: فرهنگ فارسی معین
+  ref: مدخل «بها»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/بها
+roots:
+  pahlavi: wahāg
+  avestan: null
+  old_persian: null
+related:
+- ارزش
+- گران‌بها
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.45

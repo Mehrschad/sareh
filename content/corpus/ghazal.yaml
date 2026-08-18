@@ -1,0 +1,84 @@
+# پیکره‌ی ابیات — غزل و بوستان و گلستان
+#
+# همان هشدارِ درستیِ shahnameh.yaml اینجا هم برقرار است: بی‌سنجش با ویراستِ
+# معتبر (قزوینی‌ـ‌غنی برای حافظ، فروغی برای سعدی) هیچ بیتی verified نمی‌شود.
+# وزن‌ها تنها جایی نوشته شده‌اند که قطعی‌اند؛ باقی null است تا کسی نادرست
+# نخواندشان — تمرین «بیت‌یاب» ضربِ تنبک را فقط روی بیتِ وزن‌دار پخش می‌کند.
+
+verses:
+  - id: gh-001
+    poet: حافظ
+    work: دیوان حافظ
+    book: غزلیات
+    hemistich_1: درخت دوستی بنشان که کام دل به بار آرد
+    hemistich_2: نهال دشمنی برکن که رنج بی‌شمار آرد
+    meter: مضارع مثمن اخرب مکفوف محذوف
+    blank_word_id: dusti-refaqat
+    blank_surface: دوستی
+    blank_hemistich: 1
+    status: needs_review
+
+  - id: gh-002
+    poet: حافظ
+    work: دیوان حافظ
+    book: غزلیات
+    hemistich_1: درخت دوستی بنشان که کام دل به بار آرد
+    hemistich_2: نهال دشمنی برکن که رنج بی‌شمار آرد
+    meter: مضارع مثمن اخرب مکفوف محذوف
+    blank_word_id: doshman-adoo
+    blank_surface: دشمنی
+    blank_hemistich: 2
+    status: needs_review
+
+  - id: gh-003
+    poet: حافظ
+    work: دیوان حافظ
+    book: غزلیات
+    hemistich_1: یاری اندر کس نمی‌بینیم یاران را چه شد
+    hemistich_2: دوستی کی آخر آمد دوستداران را چه شد
+    meter: null
+    blank_word_id: dusti-refaqat
+    blank_surface: دوستی
+    blank_hemistich: 2
+    status: needs_review
+
+  - id: gh-004
+    poet: حافظ
+    work: دیوان حافظ
+    book: غزلیات
+    hemistich_1: مزرع سبز فلک دیدم و داس مه نو
+    hemistich_2: یادم از کشته خویش آمد و هنگام درو
+    meter: null
+    blank_word_id: hengam-mowqe
+    blank_surface: هنگام
+    blank_hemistich: 2
+    status: needs_review
+
+  - id: gh-005
+    poet: سعدی
+    work: گلستان
+    book: باب اول
+    hemistich_1: بنی‌آدم اعضای یک پیکرند
+    hemistich_2: که در آفرینش ز یک گوهرند
+    meter: متقارب مثمن محذوف
+    blank_word_id: peykare-mojassame
+    blank_surface: پیکر
+    blank_hemistich: 1
+    status: needs_review
+    note: صورتِ بیت «پیکر» است، نه «پیکره»؛ در تمرین باید ریشه‌ی یکسان پذیرفته شود.
+
+  - id: gh-006
+    poet: حافظ
+    work: دیوان حافظ
+    book: غزلیات
+    hemistich_1: بیا تا گل برافشانیم و می در ساغر اندازیم
+    hemistich_2: فلک را سقف بشکافیم و طرحی نو دراندازیم
+    meter: هزج مثمن سالم
+    blank_word_id: null            # «سقف» وام‌واژه است — بیتِ نمونه برای «بام/سقف»
+    blank_surface: سقف
+    blank_hemistich: 2
+    status: needs_review
+    note: >-
+      اینجا وام‌واژه در خودِ بیت است. تمرین نباید حافظ را «تصحیح» کند؛ این بیت
+      تنها در کارتِ توضیحِ «بام/سقف» به‌عنوان نمونه‌ی کاربردِ تاریخی نشان داده
+      می‌شود.

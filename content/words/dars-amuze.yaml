@@ -1,0 +1,34 @@
+id: dars-amuze
+sare: آموزه
+loan: درس
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /ʔɒːmuːˈze/
+definition: آنچه آموخته می‌شود
+english: lesson
+register: رسمی
+frequency_rank: 654
+difficulty: 3
+examples:
+- sare: آموزه‌ی امروز دشوار بود.
+  loan: درسِ امروز دشوار بود.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/درس
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «آموزه»
+- source: فرهنگ فارسی معین
+  ref: https://www.vajehyab.com/moein/آموزه
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- آموختن
+- آموزش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.3

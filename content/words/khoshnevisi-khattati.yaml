@@ -1,0 +1,34 @@
+id: khoshnevisi-khattati
+sare: خوشنویسی
+loan: خطّاطی
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /xoʃneviːˈsiː/
+definition: هنرِ زیبانوشتنِ خط
+english: calligraphy
+register: ادبی
+frequency_rank: null
+difficulty: 4
+examples:
+- sare: خوشنویسیِ نستعلیق آموخت.
+  loan: خطّاطیِ نستعلیق آموخت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «خوشنویس»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «خوشنویسی»
+- source: فرهنگستان زبان و ادب فارسی
+  ref: https://www.vajehyab.com/farhangestan/خوشنویسی
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- خوش
+- نوشتن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.36

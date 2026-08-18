@@ -1,0 +1,133 @@
+id: khan-6-arzhang
+khan: 6
+guardian: ارژنگ
+realm: مردم، مهر و رفتار
+stations:
+- id: khan-6-arzhang-manzel-1
+  title: منزلِ 1
+  exercises: &id001
+  - گزینش
+  - جفت‌ساز
+  - جای‌گزینی
+  - واژه‌چین
+  words:
+  - nafar-tan
+  - khanom-banu
+  - shakhs-kas
+  - aziz-gerami
+  - dust-rafiq
+  - afrad-kasan
+  - ensan-adami
+  - hamle-tazesh
+  - ejtemaee-goruhi
+- id: khan-6-arzhang-manzel-2
+  title: منزلِ 2
+  exercises:
+  - گزینش
+  - واژه‌چین
+  - نویسش
+  - داستانک
+  words:
+  - omumi-hamegani
+  - rabete-bastegi
+  - kharejii-bigane
+  - aqa-sarvar
+  - fard-tak
+  - qatl-koshtan
+  - delbastegi-alaqe
+  - davat-farakhan
+  - ehteram-arj
+- id: khan-6-arzhang-manzel-3
+  title: منزلِ 3
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - ریشه‌یاب
+  - تیر آرش
+  words:
+  - ashti-solh
+  - mehrabani-lotf
+  - dad-edalat
+  - yad-khatere
+  - niki-kheyr
+  - anduh-qam
+  - dava-keshmakesh
+  - hamsar-zowj
+  - niyaz-ehtiyaj
+- id: khan-6-arzhang-manzel-4
+  title: منزلِ 4
+  exercises:
+  - جفت‌ساز
+  - بیت‌یاب
+  - گزینش
+  - نویسش
+  words:
+  - mehr-mohabbat
+  - rasti-sedaqat
+  - zibaei-jamal
+  - mazlum-setamdide
+  - zalem-setamgar
+  - afsus-heyf
+  - doruq-kezb
+  - dusti-refaqat
+  - arezu-tamanna
+- id: khan-6-arzhang-manzel-5
+  title: منزلِ 5
+  exercises:
+  - گزینش
+  - داستانک
+  - تیر آرش
+  - واژه‌چین
+  words:
+  - tars-khof
+  - tavajjoh-parva
+  - nesbat-khishavandi
+  - peyvand-ezdevaj
+  - ahl-khandan
+  - defa-padafand
+  - mobareze-peykar
+  - sarbolandi-eftekhar
+  - bordbari-tahammol
+  - khordegiri-enteqad
+- id: khan-6-arzhang-manzel-6
+  title: منزلِ 6
+  exercises:
+  - جای‌گزینی
+  - گزینش
+  - تیر آرش
+  - بیت‌یاب
+  words:
+  - jodaei-talaq
+  - bim-vahshat
+  - khorsandi-rezayat
+  - badi-sharr
+  - delavari-shojaat
+  - bidad-zolm
+  - bakhshesh-afv
+  - delhore-eztarab
+  - setayesh-tahsin
+  - delsuzi-tarahhom
+- id: khan-6-arzhang-manzel-7
+  title: منزلِ 7
+  exercises: *id001
+  words:
+  - setiz-nezaa
+  - sharm-haya
+  - forutani-tavazo
+  - sug-aza
+  - sarzanesh-malamat
+  - naumidi-yaas
+  - tanhaei-ozlat
+  - kine-edavat
+  - shadkami-saadat
+  - khodpasandi-takabbor
+boss:
+  id: khan-6-arzhang-negahban
+  title: نگهبانِ خان — ارژنگ
+  word_count: 12
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - بیت‌یاب
+  - تیر آرش
+  pass_ratio: 0.8

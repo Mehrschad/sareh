@@ -1,0 +1,34 @@
+id: engare-farziye
+sare: انگاره
+loan: فرضیه
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /ʔenɡɒːˈɾe/
+definition: گمانی که برای آزمودن پیش می‌نهند
+english: hypothesis
+register: دانشی
+frequency_rank: 7553
+difficulty: 4
+examples:
+- sare: انگاره‌ات را بیازما.
+  loan: فرضیه‌ات را بیازما.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «انگاره»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «انگاره»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/انگاره
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- انگاشتن
+- پنداشت
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.04

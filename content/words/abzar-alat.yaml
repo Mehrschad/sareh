@@ -1,0 +1,34 @@
+id: abzar-alat
+sare: ابزار
+loan: آلات
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʔæbˈzɒːɾ/
+definition: آنچه با آن کاری انجام می‌دهند
+english: tool
+register: رسمی
+frequency_rank: 6938
+difficulty: 2
+examples:
+- sare: ابزارت را بردار.
+  loan: آلاتت را بردار.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «ابزار»
+- source: فرهنگ فارسی معین
+  ref: مدخل «ابزار»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/ابزار
+roots:
+  pahlavi: abzār
+  avestan: null
+  old_persian: null
+related:
+- ابزارمند
+- دستگاه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.09

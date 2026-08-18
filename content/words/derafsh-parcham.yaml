@@ -1,0 +1,34 @@
+id: derafsh-parcham
+sare: درفش
+loan: پرچم
+loan_origin: ترکی
+pos: اسم
+acceptance: زنده
+ipa: /deˈɾæfʃ/
+definition: نشانِ برافراشته‌ی گروه یا کشور
+english: banner
+register: ادبی
+frequency_rank: 2134
+difficulty: 4
+examples:
+- sare: درفشِ کاویانی برافراشته شد.
+  loan: پرچمِ کاویانی برافراشته شد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «درفش»
+- source: شاهنامه فردوسی
+  book: ضحّاک و کاوه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/درفش
+roots:
+  pahlavi: drafš
+  avestan: null
+  old_persian: null
+related:
+- بیرق
+- درفش کاویانی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.78

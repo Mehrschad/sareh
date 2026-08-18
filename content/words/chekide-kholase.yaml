@@ -1,0 +1,34 @@
+id: chekide-kholase
+sare: چکیده
+loan: خلاصه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /tʃekiːˈde/
+definition: فشرده‌ی یک نوشته یا سخن
+english: abstract
+register: دانشی
+frequency_rank: 1028
+difficulty: 3
+examples:
+- sare: چکیده‌ی جستار را بخوان.
+  loan: خلاصه‌ی مقاله را بخوان.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «چکیده»
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «چکیده»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/چکیده
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- فشرده
+- چکیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.12

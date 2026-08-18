@@ -1,0 +1,34 @@
+id: mani-cham
+sare: چم
+loan: معنی
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /tʃæm/
+definition: آنچه واژه یا سخن می‌رساند
+english: meaning
+register: ادبی
+frequency_rank: 802
+difficulty: 3
+examples:
+- sare: چمِ این واژه چیست؟
+  loan: معنیِ این کلمه چیست؟
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «چم»
+- source: فرهنگ فارسی معین
+  ref: مدخل «چم»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/چم
+roots:
+  pahlavi: cim
+  avestan: null
+  old_persian: null
+related:
+- چم و خم
+- چیستی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.23

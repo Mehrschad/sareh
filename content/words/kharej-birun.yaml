@@ -1,0 +1,34 @@
+id: kharej-birun
+sare: بیرون
+loan: خارج
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /biːˈɾuːn/
+definition: سوی برونی؛ نه درون
+english: outside
+register: گفتاری
+frequency_rank: 388
+difficulty: 1
+examples:
+- sare: بیرونِ خانه ماند.
+  loan: خارجِ خانه ماند.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/خارج
+- source: فرهنگ فارسی معین
+  ref: مدخل «بیرون»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/بیرون
+roots:
+  pahlavi: bērōn
+  avestan: null
+  old_persian: null
+related:
+- برون
+- درون
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.49

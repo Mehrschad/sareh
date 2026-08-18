@@ -1,0 +1,32 @@
+id: pishtar-qablan
+sare: پیش‌تر
+loan: قبلاً
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /piːʃˈtæɾ/
+definition: در زمانی جلوتر از این
+english: previously
+register: گفتاری
+frequency_rank: null
+difficulty: 2
+examples:
+- sare: پیش‌تر گفته بودم.
+  loan: قبلاً گفته بودم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پیش»
+- source: فرهنگ فارسی معین
+  ref: مدخل «پیشتر»
+roots:
+  pahlavi: pēš
+  avestan: null
+  old_persian: null
+related:
+- پیشین
+- پیشینه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.1

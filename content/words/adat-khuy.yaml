@@ -1,0 +1,34 @@
+id: adat-khuy
+sare: خوی
+loan: عادت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /xuːj/
+definition: رفتاری که با تکرار در کسی نشسته
+english: habit
+register: ادبی
+frequency_rank: 1647
+difficulty: 2
+examples:
+- sare: خویِ بدی نیست.
+  loan: عادتِ بدی نیست.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «خوی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «خوی»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/خوی
+roots:
+  pahlavi: xwēy
+  avestan: null
+  old_persian: null
+related:
+- خوگرفتن
+- منش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.9

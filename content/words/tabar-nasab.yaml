@@ -1,0 +1,36 @@
+id: tabar-nasab
+sare: تبار
+loan: نسب
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /tæˈbɒːɾ/
+definition: پیشینه‌ی خانوادگی و نژادی
+english: lineage
+register: ادبی
+frequency_rank: 7575
+difficulty: 4
+examples:
+- sare: تبارش به کیانیان می‌رسد.
+  loan: نسبش به کیانیان می‌رسد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «تبار»
+- source: شاهنامه فردوسی
+  book: پادشاهی کیقباد
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/تبار
+- source: فرهنگ فارسی معین
+  ref: https://www.vajehyab.com/moein/تبار
+roots:
+  pahlavi: tōhmag
+  avestan: null
+  old_persian: null
+related:
+- دودمان
+- نیاکان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.04

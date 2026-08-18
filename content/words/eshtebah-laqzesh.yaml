@@ -1,0 +1,34 @@
+id: eshtebah-laqzesh
+sare: لغزش
+loan: اشتباه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /læqˈzeʃ/
+definition: خطای ناخواسته
+english: mistake
+register: رسمی
+frequency_rank: 422
+difficulty: 2
+examples:
+- sare: لغزشی کوچک بود.
+  loan: اشتباهِ کوچکی بود.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/اشتباه
+- source: لغت‌نامه دهخدا
+  ref: مدخل «لغزش»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/لغزش
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- لغزیدن
+- کوتاهی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.46

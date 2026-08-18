@@ -1,0 +1,36 @@
+id: sepas-tashakkor
+sare: سپاس
+loan: تشکر
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /seˈpɒːs/
+definition: ابراز قدردانی؛ آنچه در برابر نیکی گفته می‌شود
+english: thanks
+register: گفتاری
+frequency_rank: 1316
+difficulty: 1
+examples:
+- sare: سپاس که آمدی.
+  loan: تشکر که آمدی.
+- sare: سپاسگزارم از راهنمایی‌ات.
+  loan: تشکر می‌کنم از راهنمایی‌ات.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سپاس»
+- source: شاهنامه فردوسی
+  book: دیباچه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/سپاس
+roots:
+  pahlavi: spās
+  avestan: null
+  old_persian: null
+related:
+- سپاسمند
+- سپاسگزار
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.01

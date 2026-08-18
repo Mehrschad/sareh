@@ -1,0 +1,36 @@
+id: baad-pas
+sare: پس
+loan: بعد
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /pæs/
+definition: پس از آن؛ در پیِ آن
+english: after
+register: گفتاری
+frequency_rank: 59
+difficulty: 1
+examples:
+- sare: پس از خوراک می‌آیم.
+  loan: بعد از غذا می‌آیم.
+- sare: پسِ آن چه شد؟
+  loan: بعدِ آن چه شد؟
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پس»
+- source: فرهنگ فارسی معین
+  ref: مدخل «پس»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/پس
+roots:
+  pahlavi: pas
+  avestan: null
+  old_persian: pasā
+related:
+- سپس
+- پسین
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 6.13

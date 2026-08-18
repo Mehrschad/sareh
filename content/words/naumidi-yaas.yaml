@@ -1,0 +1,32 @@
+id: naumidi-yaas
+sare: نومیدی
+loan: یأس
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /nɒːʔomiːˈdiː/
+definition: از دست‌رفتنِ امید
+english: despair
+register: ادبی
+frequency_rank: 21588
+difficulty: 3
+examples:
+- sare: نومیدی راه ندارد.
+  loan: یأس راه ندارد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نومیدی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «نومید»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- امید
+- نومید
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.3

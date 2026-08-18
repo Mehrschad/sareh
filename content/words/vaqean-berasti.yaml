@@ -1,0 +1,32 @@
+id: vaqean-berasti
+sare: به‌راستی
+loan: واقعاً
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /beɾɒːsˈtiː/
+definition: در حقیقت؛ بی‌دروغ
+english: really
+register: رسمی
+frequency_rank: null
+difficulty: 2
+examples:
+- sare: به‌راستی نمی‌دانستم.
+  loan: واقعاً نمی‌دانستم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «راستی»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «به‌راستی»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- راست
+- راستی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.88

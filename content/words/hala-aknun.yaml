@@ -1,0 +1,34 @@
+id: hala-aknun
+sare: اکنون
+loan: حالا
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /ʔækˈnuːn/
+definition: در همین دم؛ هم‌اینک
+english: now
+register: رسمی
+frequency_rank: 87
+difficulty: 1
+examples:
+- sare: اکنون بگو.
+  loan: حالا بگو.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «اکنون»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «اکنون»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/اکنون
+roots:
+  pahlavi: ēdōn
+  avestan: null
+  old_persian: null
+related:
+- هم‌اکنون
+- کنون
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 6.0

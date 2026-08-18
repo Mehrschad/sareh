@@ -1,0 +1,38 @@
+id: naqsh-negar
+sare: نگار
+loan: نقش
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /neˈɡɒːɾ/
+definition: نگاره‌ای که بر چیزی کشیده شده
+english: pattern
+register: ادبی
+frequency_rank: 407
+difficulty: 3
+examples:
+- sare: نگارِ فرش کهن بود.
+  loan: نقشِ فرش کهن بود.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/نقش
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=نقش
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/نگار
+- source: لغت‌نامه دهخدا
+  ref: https://www.vajehyab.com/dehkhoda/نگار
+- source: فرهنگ فارسی معین
+  ref: https://www.vajehyab.com/moein/نگار
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- نگاره
+- نگارگری
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.48

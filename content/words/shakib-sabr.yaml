@@ -1,0 +1,34 @@
+id: shakib-sabr
+sare: شکیب
+loan: صبر
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /ʃeˈkiːb/
+definition: توانِ تاب‌آوردن و درنگ‌کردن
+english: patience
+register: ادبی
+frequency_rank: 1158
+difficulty: 3
+examples:
+- sare: شکیب کن تا بازگردد.
+  loan: صبر کن تا بازگردد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «شکیب»
+- source: شاهنامه فردوسی
+  book: داستان سیاوش
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/شکیب
+roots:
+  pahlavi: škēb
+  avestan: null
+  old_persian: null
+related:
+- شکیبا
+- شکیبایی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.07

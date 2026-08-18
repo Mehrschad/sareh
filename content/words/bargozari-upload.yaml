@@ -1,0 +1,30 @@
+id: bargozari-upload
+sare: بارگذاری
+loan: آپلود
+loan_origin: انگلیسی
+pos: اسم
+acceptance: نوساخته
+ipa: /bɒːɾɡozɒːˈɾiː/
+definition: فرستادنِ داده از دستگاه خود به شبکه
+english: upload
+register: دانشی
+frequency_rank: 7960
+difficulty: 2
+examples:
+- sare: پرونده را بارگذاری کن.
+  loan: فایل را آپلود کن.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «بارگذاری»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- بارگیری
+- گذاشتن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.0

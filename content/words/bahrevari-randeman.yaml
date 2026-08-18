@@ -1,0 +1,32 @@
+id: bahrevari-randeman
+sare: بهره‌وری
+loan: راندمان
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /bæhɾevæˈɾiː/
+definition: نسبتِ بازده به آنچه هزینه شده
+english: productivity
+register: دانشی
+frequency_rank: 13654
+difficulty: 4
+examples:
+- sare: بهره‌وری بالا رفت.
+  loan: راندمان بالا رفت.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «بهره‌وری»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «بهره‌وری»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- بهره
+- کارآمد
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.63

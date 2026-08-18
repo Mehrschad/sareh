@@ -1,0 +1,32 @@
+id: miyansara-hayat
+sare: میان‌سرا
+loan: حیاط
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /miːjɒːnsæˈɾɒː/
+definition: فضای باز در میانِ خانه
+english: courtyard
+register: ادبی
+frequency_rank: 3405
+difficulty: 5
+examples:
+- sare: در میان‌سرا نشسته بود.
+  loan: در حیاط نشسته بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «میانسرا»
+- source: فرهنگ فارسی معین
+  ref: مدخل «میان‌سرا»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- سرا
+- میان
+audio: null
+status: proposed
+contributors:
+- sareh-seed
+zipf: 4.53

@@ -1,0 +1,130 @@
+id: khan-1-shir
+khan: 1
+guardian: شیر
+realm: گفت‌وگوی هرروز
+stations:
+- id: khan-1-shir-manzel-1
+  title: منزلِ 1
+  exercises: &id001
+  - گزینش
+  - جفت‌ساز
+  - جای‌گزینی
+  - واژه‌چین
+  words:
+  - tanha-faqat
+  - baad-pas
+  - mored-bare
+  - kheyli-faravan
+  - avval-nokhost
+  - hala-aknun
+  - mesl-manand
+  - tamam-hame
+  - harf-sokhan
+- id: khan-1-shir-manzel-2
+  title: منزلِ 2
+  exercises:
+  - گزینش
+  - واژه‌چین
+  - نویسش
+  - داستانک
+  words:
+  - jadid-taze
+  - qabl-pish
+  - aslan-hich
+  - avvalin-nokhostin
+  - dorud-salam
+  - nam-esm
+  - taht-zir
+  - kharej-birun
+  - moqabel-ruberu
+- id: khan-1-shir-manzel-3
+  title: منزلِ 3
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - ریشه‌یاب
+  - تیر آرش
+  words:
+  - dakhel-darun
+  - besyar-ziad
+  - chetour-chegune
+  - bazi-barkhi
+  - asan-rahat
+  - sayer-digar
+  - aksar-bishtar
+  - sepas-tashakkor
+  - dorost-sahih
+- id: khan-1-shir-manzel-4
+  title: منزلِ 4
+  exercises:
+  - جفت‌ساز
+  - بیت‌یاب
+  - گزینش
+  - نویسش
+  words:
+  - aknun-alan
+  - bedrud-khodahafez
+  - ari-bale
+  - amma-lik
+  - hal-konun
+  - vaqean-berasti
+  - tavassot-bedast
+  - cheqadr-cheandaze
+  - qeyr-joz
+- id: khan-1-shir-manzel-5
+  title: منزلِ 5
+  exercises:
+  - گزینش
+  - داستانک
+  - تیر آرش
+  - واژه‌چین
+  words:
+  - hatman-bigoman
+  - jam-ruyeham
+  - lotfan-khaheshmandam
+  - hodud-nazdike
+  - kolli-faragir
+  - sohbat-goftar
+  - hadeaqal-dastkam
+  - badi-pasin
+  - montazer-cheshmberah
+- id: khan-1-shir-manzel-6
+  title: منزلِ 6
+  exercises:
+  - جای‌گزینی
+  - گزینش
+  - تیر آرش
+  - بیت‌یاب
+  words:
+  - shayad-ehtemalan
+  - tebq-paye
+  - alave-afzun
+  - taqriban-nazdik
+  - pishtar-qablan
+  - raje-darbare
+  - sepas-baadan
+  - faalan-hamaknun
+  - nadorost-qalat
+- id: khan-1-shir-manzel-7
+  title: منزلِ 7
+  exercises: *id001
+  words:
+  - puzesh-ozrkhahi
+  - hamishe-daeman
+  - hargez-abadan
+  - albatte-harayene
+  - khater-bahr
+  - akharin-vapasin
+  - shamel-darbargirande
+  - tour-san
+  - qatan-bichonocera
+boss:
+  id: khan-1-shir-negahban
+  title: نگهبانِ خان — شیر
+  word_count: 12
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - بیت‌یاب
+  - تیر آرش
+  pass_ratio: 0.8

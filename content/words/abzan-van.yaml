@@ -1,0 +1,34 @@
+id: abzan-van
+sare: آبزن
+loan: وان
+loan_origin: فرانسه
+pos: اسم
+acceptance: خفته
+ipa: /ʔɒːbˈzæn/
+definition: ظرفِ بزرگِ آب برای تن‌شویی
+english: bathtub
+register: ادبی
+frequency_rank: 2714
+difficulty: 5
+examples:
+- sare: آبزن را پر کرد.
+  loan: وان را پر کرد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آبزن»
+- source: فرهنگ فارسی معین
+  ref: مدخل «آبزن»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/آبزن
+roots:
+  pahlavi: ʾp̄zn'
+  avestan: null
+  old_persian: null
+related:
+- آب
+- گرمابه
+audio: null
+status: proposed
+contributors:
+- sareh-seed
+zipf: 4.66

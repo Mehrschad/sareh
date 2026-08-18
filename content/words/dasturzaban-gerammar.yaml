@@ -1,0 +1,34 @@
+id: dasturzaban-gerammar
+sare: دستور زبان
+loan: گرامر
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /dæsˈtuːɾe zæˈbɒːn/
+definition: قاعده‌های ساختِ درستِ جمله
+english: grammar
+register: دانشی
+frequency_rank: 10703
+difficulty: 3
+examples:
+- sare: دستورِ زبان را خوب می‌داند.
+  loan: گرامر را خوب می‌داند.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «دستور زبان»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «دستور»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/دستور
+roots:
+  pahlavi: dastwar
+  avestan: null
+  old_persian: null
+related:
+- دستور
+- زبان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.81

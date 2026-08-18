@@ -1,0 +1,34 @@
+id: didgah-nazar
+sare: دیدگاه
+loan: نظر
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /diːdˈɡɒːh/
+definition: زاویه‌ای که کسی از آن به چیزی می‌نگرد
+english: viewpoint
+register: رسمی
+frequency_rank: 95
+difficulty: 2
+examples:
+- sare: دیدگاهت چیست؟
+  loan: نظرت چیست؟
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دیدگاه»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «دیدگاه»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/دیدگاه
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- دید
+- نگرش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.98

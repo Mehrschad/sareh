@@ -1,0 +1,36 @@
+id: tarif-shenase
+sare: شناسه
+loan: تعریف
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /ʃenɒːˈse/
+definition: گزاره‌ای که چیستیِ چیزی را می‌گوید
+english: definition
+register: دانشی
+frequency_rank: 653
+difficulty: 3
+examples:
+- sare: شناسه‌ی این واژه چیست؟
+  loan: تعریفِ این کلمه چیست؟
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/تعریف
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=تعریف
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «شناسه»
+- source: فرهنگ فارسی معین
+  ref: https://www.vajehyab.com/moein/شناسه
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- شناختن
+- شناسنامه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.3

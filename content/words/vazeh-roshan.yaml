@@ -1,0 +1,34 @@
+id: vazeh-roshan
+sare: روشن
+loan: واضح
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /ɾoʃæn/
+definition: بی‌ابهام؛ آنچه به‌روشنی دیده یا فهمیده می‌شود
+english: obvious
+register: گفتاری
+frequency_rank: 3229
+difficulty: 1
+examples:
+- sare: سخنش روشن بود.
+  loan: حرفش واضح بود.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/واضح
+- source: لغت‌نامه دهخدا
+  ref: مدخل «روشن»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/روشن
+roots:
+  pahlavi: rōšn
+  avestan: null
+  old_persian: '*rauxšnā'
+related:
+- تاریک
+- روشنی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.57

@@ -1,0 +1,34 @@
+id: khanom-banu
+sare: بانو
+loan: خانم
+loan_origin: ترکی
+pos: اسم
+acceptance: زنده
+ipa: /bɒːˈnuː/
+definition: واژه‌ی ادب برای زن
+english: lady
+register: رسمی
+frequency_rank: 330
+difficulty: 1
+examples:
+- sare: بانو، بفرمایید.
+  loan: خانم، بفرمایید.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بانو»
+- source: شاهنامه فردوسی
+  book: داستان بیژن و منیژه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/بانو
+roots:
+  pahlavi: bānūg
+  avestan: null
+  old_persian: null
+related:
+- بانوی
+- کدبانو
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.54

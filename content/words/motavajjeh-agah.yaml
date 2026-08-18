@@ -1,0 +1,34 @@
+id: motavajjeh-agah
+sare: آگاه
+loan: متوجه
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /ʔɒːˈɡɒːh/
+definition: کسی که چیزی را دریافته است
+english: aware
+register: گفتاری
+frequency_rank: 643
+difficulty: 1
+examples:
+- sare: آگاه شدم.
+  loan: متوجه شدم.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/متوجه
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=متوجه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/آگاه
+roots:
+  pahlavi: āgāh
+  avestan: null
+  old_persian: null
+related:
+- آگاهی
+- ناآگاه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.31

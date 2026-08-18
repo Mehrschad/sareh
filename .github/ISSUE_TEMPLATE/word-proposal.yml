@@ -1,0 +1,89 @@
+name: پیشنهاد واژه
+description: یک واژه‌ی سره برای افزودن به سره پیشنهاد بده
+title: "واژه: "
+labels: [content, word-proposal]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        سپاس که وقت می‌گذارید. لازم نیست همه‌ی میدان‌ها را پر کنید — نامِ واژه،
+        وام‌واژه و منبع کف است؛ باقی را با هم کامل می‌کنیم.
+
+        پیش از فرستادن، در [واژه‌نامه](https://github.com/mehrschad/sareh/tree/main/content/words)
+        بگردید که تکراری نباشد.
+
+  - type: input
+    id: sare
+    attributes:
+      label: واژه‌ی سره
+      placeholder: پرماس
+    validations:
+      required: true
+
+  - type: input
+    id: loan
+    attributes:
+      label: وام‌واژه‌ای که جایگزینش می‌شود
+      placeholder: لمس
+    validations:
+      required: true
+
+  - type: dropdown
+    id: acceptance
+    attributes:
+      label: درجه‌ی پذیرش
+      description: |
+        زنده = هنوز به کار می‌رود · خفته = در متونِ کهن هست ولی از گفتار افتاده
+        · نوساخته = ساخته‌ی فرهنگستان یا سره‌گرایانِ معاصر، با سازنده‌ی مشخص
+      options:
+        - زنده
+        - خفته
+        - نوساخته
+        - نمی‌دانم
+    validations:
+      required: true
+
+  - type: textarea
+    id: citation
+    attributes:
+      label: منبع
+      description: |
+        **مدخلِ بی‌منبع پذیرفته نمی‌شود.** مدخلِ دهخدا، معین، سخن، مصوبه‌ی
+        فرهنگستان، یا بیتی از متنِ کهن. «در اینترنت دیدم» منبع نیست.
+      placeholder: |
+        لغت‌نامه دهخدا — مدخل «پرماس»
+        فرهنگ فارسی معین — مدخل «پرماسیدن»
+    validations:
+      required: true
+
+  - type: textarea
+    id: example
+    attributes:
+      label: نمونه‌ی کاربرد
+      description: |
+        دو جمله‌ی یکسان که تنها یک واژه‌شان فرق دارد.
+      placeholder: |
+        سره: انگشتانش را بر تارهای ساز پرماس کرد.
+        وام:  انگشتانش را بر تارهای ساز لمس کرد.
+
+  - type: input
+    id: definition
+    attributes:
+      label: معنی
+      placeholder: دست ساییدن بر چیزی؛ برخورد پوست با چیزی
+
+  - type: input
+    id: roots
+    attributes:
+      label: ریشه (اگر می‌دانید)
+      placeholder: پهلوی parmāsītan
+
+  - type: checkboxes
+    id: honesty
+    attributes:
+      label: صداقتِ محتوایی
+      options:
+        - label: این واژه را خودم نساخته‌ام؛ در منبعی که آوردم هست.
+          required: true
+        - label: تعریف را از فرهنگ رونویسی نکرده‌ام؛ به زبانِ خودم نوشته‌ام.
+          required: true

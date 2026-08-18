@@ -1,0 +1,34 @@
+id: edame-donbale
+sare: دنباله
+loan: ادامه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /donbɒːˈle/
+definition: آنچه در پیِ چیزی می‌آید
+english: continuation
+register: رسمی
+frequency_rank: 208
+difficulty: 2
+examples:
+- sare: دنباله‌اش را بگو.
+  loan: ادامه‌اش را بگو.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/ادامه
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=ادامه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/دنباله
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- دنبال
+- پی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.7

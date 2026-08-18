@@ -1,0 +1,34 @@
+id: albatte-harayene
+sare: هرآینه
+loan: البته
+loan_origin: عربی
+pos: قید
+acceptance: خفته
+ipa: /hæɾɒːjeˈne/
+definition: بی‌گمان؛ در هر حال
+english: of course
+register: ادبی
+frequency_rank: 155
+difficulty: 3
+examples:
+- sare: هرآینه چنین است.
+  loan: البته چنین است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «هرآینه»
+- source: شاهنامه فردوسی
+  book: پادشاهی نوشین‌روان
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/هرآینه
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- آینه
+- بی‌گمان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.82

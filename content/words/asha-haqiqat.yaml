@@ -1,0 +1,34 @@
+id: asha-haqiqat
+sare: راستی
+loan: حقیقت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /rɒːsˈtiː/
+definition: آنچه با واقعیت می‌خواند؛ نه دروغ
+english: truth
+register: رسمی
+frequency_rank: 1154
+difficulty: 2
+examples:
+- sare: راستی را گفت.
+  loan: حقیقت را گفت.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/حقیقت
+- source: لغت‌نامه دهخدا
+  ref: مدخل «راستی»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/راستی
+roots:
+  pahlavi: rāstīh
+  avestan: aša-
+  old_persian: null
+related:
+- درستی
+- راست
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.07

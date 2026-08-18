@@ -1,0 +1,34 @@
+id: qeyr-joz
+sare: جز
+loan: غیر
+loan_origin: عربی
+pos: حرف اضافه
+acceptance: زنده
+ipa: /dʒoz/
+definition: به‌جز؛ مگر
+english: except
+register: رسمی
+frequency_rank: 337
+difficulty: 2
+examples:
+- sare: جز تو کسی نبود.
+  loan: غیر از تو کسی نبود.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/غیر
+- source: لغت‌نامه دهخدا
+  ref: مدخل «جز»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/جز
+roots:
+  pahlavi: juz
+  avestan: null
+  old_persian: null
+related:
+- بی
+- مگر
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.54

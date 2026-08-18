@@ -1,0 +1,32 @@
+id: pushe-folder
+sare: پوشه
+loan: فولدر
+loan_origin: انگلیسی
+pos: اسم
+acceptance: نوساخته
+ipa: /puːˈʃe/
+definition: جایگاهی که پرونده‌ها را در خود می‌گیرد
+english: folder
+register: دانشی
+frequency_rank: 26744
+difficulty: 2
+examples:
+- sare: پوشه‌ی نو بساز.
+  loan: فولدر جدید بساز.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «پوشه»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/پوشه
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- پرونده
+- پوشاندن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.13

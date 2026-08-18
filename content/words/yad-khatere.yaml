@@ -1,0 +1,34 @@
+id: yad-khatere
+sare: یاد
+loan: خاطره
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /jɒːd/
+definition: آنچه از گذشته در ذهن مانده
+english: memory
+register: ادبی
+frequency_rank: 1966
+difficulty: 2
+examples:
+- sare: یادش به خیر.
+  loan: خاطره‌اش به خیر.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «یاد»
+- source: شاهنامه فردوسی
+  book: دیباچه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/یاد
+roots:
+  pahlavi: ayād
+  avestan: null
+  old_persian: null
+related:
+- یادآوری
+- یادگار
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.82

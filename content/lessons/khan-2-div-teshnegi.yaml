@@ -1,0 +1,129 @@
+id: khan-2-div-teshnegi
+khan: 2
+guardian: دیو تشنگی
+realm: تن، تندرستی و احساس
+stations:
+- id: khan-2-div-teshnegi-manzel-1
+  title: منزلِ 1
+  exercises: &id001
+  - گزینش
+  - جفت‌ساز
+  - جای‌گزینی
+  - واژه‌چین
+  words:
+  - qodrat-tavan
+  - hazer-amade
+  - motavajjeh-agah
+  - sari-tond
+  - hararat-garma
+  - hayvan-janvar
+  - mariz-bimar
+  - badan-peykar
+- id: khan-2-div-teshnegi-manzel-2
+  title: منزلِ 2
+  exercises:
+  - گزینش
+  - واژه‌چین
+  - نویسش
+  - داستانک
+  words:
+  - lahze-dam
+  - eshtebah-laqzesh
+  - harekat-jonbesh
+  - asheq-shifte
+  - seda-ava
+  - sorat-tondi
+  - lezzat-khoshi
+  - dark-daryaft
+  - del-qalb
+- id: khan-2-div-teshnegi-manzel-3
+  title: منزلِ 3
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - ریشه‌یاب
+  - تیر آرش
+  words:
+  - omr-zendegani
+  - khatar-gazand
+  - ajib-shegeft
+  - khoshhal-shadman
+  - narahat-delgir
+  - lanat-nefrin
+  - adat-khuy
+  - ahmaq-nadan
+  - asayesh-rahati
+- id: khan-2-div-teshnegi-manzel-4
+  title: منزلِ 4
+  exercises:
+  - جفت‌ساز
+  - بیت‌یاب
+  - گزینش
+  - نویسش
+  words:
+  - zaeef-natavan
+  - tandorosti-salamati
+  - asabani-khashmgin
+  - maze-tam
+  - ajale-shetab
+  - behbud-shafa
+  - nirou-qovvat
+  - darman-moaleje
+  - bimari-maraz
+- id: khan-2-div-teshnegi-manzel-5
+  title: منزلِ 5
+  exercises:
+  - گزینش
+  - داستانک
+  - تیر آرش
+  - واژه‌چین
+  words:
+  - pezeshk-tabib
+  - khashm-qazab
+  - zakhm-jerahat
+  - bu-rayehe
+  - aramesh-sokun
+  - dard-alam
+  - khab-roya
+  - hush-zekavat
+  - dam-nafas
+- id: khan-2-div-teshnegi-manzel-6
+  title: منزلِ 6
+  exercises:
+  - جای‌گزینی
+  - گزینش
+  - تیر آرش
+  - بیت‌یاب
+  words:
+  - ravan-ruh
+  - shakib-sabr
+  - parmas-lams
+  - abestan-hamele
+  - jegar-kabed
+  - shosh-riye
+  - hesadat-reshk
+  - maqz-demaq
+  - mahiche-azole
+- id: khan-2-div-teshnegi-manzel-7
+  title: منزلِ 7
+  exercises: *id001
+  words:
+  - zayman-veladat
+  - galu-halq
+  - teshnegi-atash
+  - shakibaei-sabuori
+  - zehdan-rahem
+  - amas-varam
+  - chashaei-zaeqe
+  - buyaei-shamme
+  - basavesh-lamese
+boss:
+  id: khan-2-div-teshnegi-negahban
+  title: نگهبانِ خان — دیو تشنگی
+  word_count: 12
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - بیت‌یاب
+  - تیر آرش
+  pass_ratio: 0.8

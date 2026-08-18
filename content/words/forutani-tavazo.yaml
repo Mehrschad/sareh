@@ -1,0 +1,34 @@
+id: forutani-tavazo
+sare: فروتنی
+loan: تواضع
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /foɾuːtæˈniː/
+definition: خود را برتر ندانستن
+english: humility
+register: ادبی
+frequency_rank: 14046
+difficulty: 3
+examples:
+- sare: فروتنی‌اش دل می‌برد.
+  loan: تواضعش دل می‌برد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «فروتنی»
+- source: فرهنگ فارسی معین
+  ref: مدخل «فروتن»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/فروتنی
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- خودپسندی
+- فروتن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.61

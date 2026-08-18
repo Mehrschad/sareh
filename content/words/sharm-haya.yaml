@@ -1,0 +1,34 @@
+id: sharm-haya
+sare: شرم
+loan: حیا
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʃæɾm/
+definition: آزرم؛ کشیدگیِ دل از کارِ ناشایست
+english: shame/modesty
+register: ادبی
+frequency_rank: 11220
+difficulty: 3
+examples:
+- sare: شرمش آمد.
+  loan: حیایش آمد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «شرم»
+- source: شاهنامه فردوسی
+  book: داستان سیاوش
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/شرم
+roots:
+  pahlavi: šarm
+  avestan: null
+  old_persian: null
+related:
+- آزرم
+- شرمگین
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.77

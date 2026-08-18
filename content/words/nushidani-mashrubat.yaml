@@ -1,0 +1,32 @@
+id: nushidani-mashrubat
+sare: نوشیدنی
+loan: مشروبات
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /nuːʃiːdæˈniː/
+definition: آنچه نوشیده می‌شود
+english: beverage
+register: رسمی
+frequency_rank: 13015
+difficulty: 3
+examples:
+- sare: نوشیدنیِ سرد می‌خواهی؟
+  loan: مشروباتِ سرد می‌خواهی؟
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نوشیدنی»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «نوشیدنی»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- نوشابه
+- نوشیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.67

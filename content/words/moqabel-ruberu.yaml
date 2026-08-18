@@ -1,0 +1,32 @@
+id: moqabel-ruberu
+sare: روبه‌رو
+loan: مقابل
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ɾuːbeˈɾuː/
+definition: در برابر؛ رویاروی
+english: opposite
+register: گفتاری
+frequency_rank: 432
+difficulty: 1
+examples:
+- sare: روبه‌رویم نشست.
+  loan: مقابلم نشست.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/مقابل
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «روبه‌رو»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- برابر
+- رویارو
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.46

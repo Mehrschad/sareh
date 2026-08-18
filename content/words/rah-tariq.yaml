@@ -1,0 +1,34 @@
+id: rah-tariq
+sare: راه
+loan: طریق
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /rɒːh/
+definition: مسیری که از آن می‌گذرند؛ روشِ رسیدن
+english: path
+register: ادبی
+frequency_rank: 509
+difficulty: 2
+examples:
+- sare: راهِ دیگری هست.
+  loan: طریقِ دیگری هست.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «راه»
+- source: شاهنامه فردوسی
+  book: داستان رستم و سهراب
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/راه
+roots:
+  pahlavi: rāh
+  avestan: null
+  old_persian: null
+related:
+- راهنما
+- روش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.4

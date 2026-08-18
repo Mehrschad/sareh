@@ -1,0 +1,34 @@
+id: bastar-ferash
+sare: بستر
+loan: فراش
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bæsˈtæɾ/
+definition: جایگاهِ خفتن
+english: bed
+register: ادبی
+frequency_rank: 29999
+difficulty: 3
+examples:
+- sare: در بستر افتاد.
+  loan: در فراش افتاد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بستر»
+- source: شاهنامه فردوسی
+  book: داستان سیاوش
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/بستر
+roots:
+  pahlavi: wistarg
+  avestan: null
+  old_persian: null
+related:
+- بالش
+- گستردن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.04

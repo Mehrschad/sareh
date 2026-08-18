@@ -1,0 +1,34 @@
+id: cheshme-manba
+sare: سرچشمه
+loan: منبع
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /sæɾtʃeʃˈme/
+definition: خاستگاهِ چیزی؛ جایی که چیزی از آن برمی‌خیزد
+english: source
+register: ادبی
+frequency_rank: 1160
+difficulty: 3
+examples:
+- sare: سرچشمه‌ی این سخن کجاست؟
+  loan: منبعِ این حرف کجاست؟
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/منبع
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سرچشمه»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/سرچشمه
+roots:
+  pahlavi: čašmag
+  avestan: null
+  old_persian: null
+related:
+- خاستگاه
+- چشمه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.07

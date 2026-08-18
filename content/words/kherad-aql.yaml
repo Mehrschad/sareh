@@ -1,0 +1,34 @@
+id: kherad-aql
+sare: خرد
+loan: عقل
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /xeˈɾæd/
+definition: توانِ سنجیدن و درست‌گزیدن
+english: wisdom/reason
+register: ادبی
+frequency_rank: 2011
+difficulty: 2
+examples:
+- sare: خرد راهنمای آدمی است.
+  loan: عقل راهنمای آدمی است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «خرد»
+- source: شاهنامه فردوسی
+  book: دیباچه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/خرد
+roots:
+  pahlavi: xrad
+  avestan: xratu-
+  old_persian: null
+related:
+- خردمند
+- خردورزی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.81

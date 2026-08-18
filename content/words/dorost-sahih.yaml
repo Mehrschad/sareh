@@ -1,0 +1,34 @@
+id: dorost-sahih
+sare: درست
+loan: صحیح
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /doˈɾost/
+definition: آنچه با راستی و قاعده می‌خواند
+english: correct
+register: گفتاری
+frequency_rank: 2224
+difficulty: 1
+examples:
+- sare: پاسخت درست بود.
+  loan: پاسخت صحیح بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «درست»
+- source: فرهنگ فارسی معین
+  ref: مدخل «درست»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/درست
+roots:
+  pahlavi: drust
+  avestan: null
+  old_persian: '*dᵘruvišta'
+related:
+- درستی
+- نادرست
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.76

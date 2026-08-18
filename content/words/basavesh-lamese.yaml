@@ -1,0 +1,32 @@
+id: basavesh-lamese
+sare: بساوش
+loan: لامسه
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /besɒːˈveʃ/
+definition: حسِ پوست؛ توانِ دریافتن با پرماس
+english: sense of touch
+register: دانشی
+frequency_rank: 30804
+difficulty: 4
+examples:
+- sare: بساوش تیزترین حسِ نوزاد است.
+  loan: لامسه تیزترین حسِ نوزاد است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بساوش»
+- source: فرهنگ فارسی معین
+  ref: مدخل «بساویدن»
+roots:
+  pahlavi: bassāwišn
+  avestan: null
+  old_persian: null
+related:
+- بساویدن
+- پرماس
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.02

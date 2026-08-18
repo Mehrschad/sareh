@@ -1,0 +1,34 @@
+id: sahra-dasht
+sare: دشت
+loan: صحرا
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /dæʃt/
+definition: زمینِ هموارِ گسترده
+english: plain
+register: ادبی
+frequency_rank: 6464
+difficulty: 2
+examples:
+- sare: دشت را پیمودند.
+  loan: صحرا را پیمودند.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/صحرا
+- source: شاهنامه فردوسی
+  book: داستان رستم و سهراب
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/دشت
+roots:
+  pahlavi: dašt
+  avestan: null
+  old_persian: null
+related:
+- بیابان
+- هامون
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.14

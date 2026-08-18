@@ -1,0 +1,34 @@
+id: ajib-shegeft
+sare: شگفت
+loan: عجیب
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /ʃeˈɡeft/
+definition: مایه‌ی شگفتی؛ نادر
+english: strange
+register: گفتاری
+frequency_rank: 1206
+difficulty: 2
+examples:
+- sare: چیزِ شگفتی دیدم.
+  loan: چیزِ عجیبی دیدم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «شگفت»
+- source: شاهنامه فردوسی
+  book: هفت‌خان رستم
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/شگفت
+roots:
+  pahlavi: škeft
+  avestan: null
+  old_persian: null
+related:
+- شگفتی
+- شگفت‌انگیز
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.05

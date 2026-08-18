@@ -1,0 +1,34 @@
+id: peyman-qarardad
+sare: پیمان
+loan: قرارداد
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /pejˈmɒːn/
+definition: بستنِ عهد میان دو سو
+english: pact
+register: ادبی
+frequency_rank: 1590
+difficulty: 2
+examples:
+- sare: پیمان بستند.
+  loan: قرارداد بستند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پیمان»
+- source: شاهنامه فردوسی
+  book: داستان سیاوش
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/پیمان
+roots:
+  pahlavi: paymān
+  avestan: null
+  old_persian: null
+related:
+- هم‌پیمان
+- پیمان‌شکن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.92

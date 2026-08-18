@@ -1,0 +1,32 @@
+id: hatman-bigoman
+sare: بی‌گمان
+loan: حتماً
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /biːɡoˈmɒːn/
+definition: بی‌هیچ دودلی؛ بی‌شک
+english: certainly
+register: رسمی
+frequency_rank: null
+difficulty: 2
+examples:
+- sare: بی‌گمان می‌آیم.
+  loan: حتماً می‌آیم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بی‌گمان»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «بی‌گمان»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- بی‌شک
+- گمان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.51

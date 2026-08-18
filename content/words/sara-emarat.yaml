@@ -1,0 +1,34 @@
+id: sara-emarat
+sare: سرا
+loan: عمارت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /sæˈɾɒː/
+definition: ساختمانِ بزرگِ باشِش
+english: mansion
+register: ادبی
+frequency_rank: 6174
+difficulty: 3
+examples:
+- sare: سرایی کهن داشت.
+  loan: عمارتی کهن داشت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سرا»
+- source: شاهنامه فردوسی
+  book: پادشاهی بهرام گور
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/سرا
+roots:
+  pahlavi: srāy
+  avestan: null
+  old_persian: null
+related:
+- سرای
+- کاروانسرا
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.17

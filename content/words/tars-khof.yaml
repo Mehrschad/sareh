@@ -1,0 +1,34 @@
+id: tars-khof
+sare: ترس
+loan: خوف
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /tæɾs/
+definition: دلهره در برابر گزندِ نزدیک
+english: fear
+register: گفتاری
+frequency_rank: 17093
+difficulty: 2
+examples:
+- sare: ترسی به دل راه نداد.
+  loan: خوفی به دل راه نداد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «ترس»
+- source: شاهنامه فردوسی
+  book: هفت‌خان رستم
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/ترس
+roots:
+  pahlavi: tars
+  avestan: null
+  old_persian: null
+related:
+- ترسو
+- ترسیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.47

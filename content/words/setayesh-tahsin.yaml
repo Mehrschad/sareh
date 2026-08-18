@@ -1,0 +1,34 @@
+id: setayesh-tahsin
+sare: ستایش
+loan: تحسین
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /setɒːˈjeʃ/
+definition: به نیکی یاد کردن از کسی
+english: praise
+register: ادبی
+frequency_rank: 5746
+difficulty: 3
+examples:
+- sare: ستایشش کردند.
+  loan: تحسینش کردند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «ستایش»
+- source: شاهنامه فردوسی
+  book: دیباچه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/ستایش
+roots:
+  pahlavi: stāyišn
+  avestan: null
+  old_persian: null
+related:
+- ستودن
+- ستوده
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.21

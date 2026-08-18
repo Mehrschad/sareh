@@ -1,0 +1,34 @@
+id: makhlut-amikhte
+sare: آمیخته
+loan: مخلوط
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /ʔɒːmiːxˈte/
+definition: درهم‌شده؛ آنچه با هم آمیخته‌اند
+english: mixed
+register: رسمی
+frequency_rank: 3864
+difficulty: 2
+examples:
+- sare: آمیخته‌ای از دو رنگ بود.
+  loan: مخلوطی از دو رنگ بود.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/مخلوط
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آمیختن»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/آمیخته
+roots:
+  pahlavi: āmēxtan
+  avestan: null
+  old_persian: null
+related:
+- آمیختن
+- آمیزه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.46

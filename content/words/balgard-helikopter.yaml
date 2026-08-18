@@ -1,0 +1,31 @@
+id: balgard-helikopter
+sare: بالگرد
+loan: هلیکوپتر
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /bɒːlˈɡæɾd/
+definition: گردونه‌ی پرنده با بالِ چرخان
+english: helicopter
+register: دانشی
+frequency_rank: 7579
+difficulty: 3
+examples:
+- sare: بالگرد بر فراز شهر بود.
+  loan: هلیکوپتر بر فراز شهر بود.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «بالگرد»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- بال
+- هواپیما
+- گردیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.04

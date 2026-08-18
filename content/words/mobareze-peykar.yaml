@@ -1,0 +1,34 @@
+id: mobareze-peykar
+sare: پیکار
+loan: مبارزه
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /pejˈkɒːɾ/
+definition: ستیزِ پیوسته با کسی یا چیزی
+english: struggle
+register: ادبی
+frequency_rank: 740
+difficulty: 3
+examples:
+- sare: پیکار با بیماری دراز است.
+  loan: مبارزه با بیماری دراز است.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/مبارزه
+- source: شاهنامه فردوسی
+  book: داستان رستم و سهراب
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/پیکار
+roots:
+  pahlavi: ptkʾl
+  avestan: null
+  old_persian: p-t-i-š
+related:
+- نبرد
+- پیکارگر
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.26

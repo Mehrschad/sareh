@@ -1,0 +1,35 @@
+id: karamad-moasser
+sare: کارآمد
+loan: مؤثر
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /kɒːɾˈɒːmæd/
+definition: آنچه کار را به بار می‌نشاند
+english: effective
+register: رسمی
+frequency_rank: 3861
+difficulty: 3
+examples:
+- sare: روشی کارآمد یافت.
+  loan: روشی مؤثر یافت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «کارآمد»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «کارآمد»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/کارآمد
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- آمدن
+- بهره‌وری
+- کار
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.46

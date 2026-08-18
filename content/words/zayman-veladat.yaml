@@ -1,0 +1,34 @@
+id: zayman-veladat
+sare: زایمان
+loan: ولادت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /zɒːjeˈmɒːn/
+definition: به‌دنیا‌آوردنِ کودک
+english: childbirth
+register: رسمی
+frequency_rank: 9513
+difficulty: 3
+examples:
+- sare: زایمانش آسان بود.
+  loan: ولادتش آسان بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «زاییدن»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «زایمان»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/زایمان
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- زادن
+- زایش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.89

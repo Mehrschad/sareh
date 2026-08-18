@@ -1,0 +1,34 @@
+id: akharin-vapasin
+sare: واپسین
+loan: آخرین
+loan_origin: عربی
+pos: صفت
+acceptance: خفته
+ipa: /vɒːpæˈsiːn/
+definition: پسین‌ترین؛ آنچه در پایان است
+english: the last
+register: ادبی
+frequency_rank: 395
+difficulty: 3
+examples:
+- sare: واپسین سخنش بود.
+  loan: آخرین حرفش بود.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/آخرین
+- source: لغت‌نامه دهخدا
+  ref: مدخل «واپسین»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/واپسین
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- نخستین
+- پسین
+audio: null
+status: proposed
+contributors:
+- sareh-seed
+zipf: 5.48

@@ -1,0 +1,34 @@
+id: shahrvand-tabee
+sare: شهروند
+loan: تبعه
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /ʃæhɾˈvænd/
+definition: کسی که هموندِ یک کشور است
+english: citizen
+register: رسمی
+frequency_rank: 14236
+difficulty: 3
+examples:
+- sare: شهروندِ این کشور نیست.
+  loan: تبعه‌ی این کشور نیست.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «شهروند»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «شهروند»
+- source: فرهنگ فارسی معین
+  ref: https://www.vajehyab.com/moein/شهروند
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- شهر
+- وند
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.6

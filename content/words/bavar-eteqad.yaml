@@ -1,0 +1,34 @@
+id: bavar-eteqad
+sare: باور
+loan: اعتقاد
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bɒːˈvæɾ/
+definition: آنچه کسی آن را راست می‌داند
+english: belief
+register: رسمی
+frequency_rank: 1606
+difficulty: 2
+examples:
+- sare: باورش این است.
+  loan: اعتقادش این است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «باور»
+- source: فرهنگ فارسی معین
+  ref: مدخل «باور»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/باور
+roots:
+  pahlavi: wāwar
+  avestan: null
+  old_persian: null
+related:
+- باوردار
+- ناباور
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.91

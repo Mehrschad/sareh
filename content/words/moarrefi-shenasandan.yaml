@@ -1,0 +1,34 @@
+id: moarrefi-shenasandan
+sare: شناساندن
+loan: معرفی
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʃenɒːsɒːnˈdæn/
+definition: کسی یا چیزی را به دیگری نمایاندن
+english: introduction
+register: رسمی
+frequency_rank: 449
+difficulty: 2
+examples:
+- sare: شناساندنش کوتاه بود.
+  loan: معرفی‌اش کوتاه بود.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/معرفی
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=معرفی
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/شناساندن
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- شناختن
+- شناسا
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.44

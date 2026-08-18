@@ -1,0 +1,32 @@
+id: etemad-poshtgarmi
+sare: پشت‌گرمی
+loan: اعتماد
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /poʃtɡæɾˈmiː/
+definition: دل‌آسودگی از کسی؛ تکیه‌گاه داشتن
+english: trust
+register: رسمی
+frequency_rank: 628
+difficulty: 3
+examples:
+- sare: پشت‌گرمی‌ام به توست.
+  loan: اعتمادم به توست.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پشت‌گرمی»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «پشت‌گرم»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- پشت
+- گرم
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.31

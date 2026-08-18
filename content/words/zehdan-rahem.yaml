@@ -1,0 +1,34 @@
+id: zehdan-rahem
+sare: زهدان
+loan: رحم
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /zehˈdɒːn/
+definition: اندامی در تنِ زن که کودک در آن می‌بالد
+english: womb
+register: دانشی
+frequency_rank: 2455
+difficulty: 4
+examples:
+- sare: کودک در زهدان می‌بالد.
+  loan: کودک در رحم می‌بالد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «زهدان»
+- source: فرهنگ فارسی معین
+  ref: مدخل «زهدان»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/زهدان
+roots:
+  pahlavi: zahdān
+  avestan: null
+  old_persian: null
+related:
+- آبستن
+- زادن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.71

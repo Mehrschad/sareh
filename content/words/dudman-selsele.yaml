@@ -1,0 +1,34 @@
+id: dudman-selsele
+sare: دودمان
+loan: سلسله
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /duːdˈmɒːn/
+definition: زنجیره‌ی فرمانروایانِ یک تبار
+english: dynasty
+register: ادبی
+frequency_rank: 3584
+difficulty: 4
+examples:
+- sare: دودمانِ ساسانیان.
+  loan: سلسله‌ی ساسانیان.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دودمان»
+- source: شاهنامه فردوسی
+  book: پادشاهی اردشیر
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/دودمان
+roots:
+  pahlavi: dūdmān
+  avestan: null
+  old_persian: null
+related:
+- تبار
+- خاندان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.5

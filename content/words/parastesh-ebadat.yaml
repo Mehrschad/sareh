@@ -1,0 +1,34 @@
+id: parastesh-ebadat
+sare: پرستش
+loan: عبادت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /pæɾæsˈteʃ/
+definition: بندگی‌کردن و بزرگ‌داشتنِ ایزد
+english: worship
+register: ادبی
+frequency_rank: 5870
+difficulty: 3
+examples:
+- sare: پرستشِ یزدان می‌کرد.
+  loan: عبادتِ خدا می‌کرد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پرستش»
+- source: شاهنامه فردوسی
+  book: پادشاهی هوشنگ
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/پرستش
+roots:
+  pahlavi: parastišn
+  avestan: null
+  old_persian: null
+related:
+- پرستشگاه
+- پرستیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.2

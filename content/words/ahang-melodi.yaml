@@ -1,0 +1,34 @@
+id: ahang-melodi
+sare: آهنگ
+loan: ملودی
+loan_origin: فرانسه
+pos: اسم
+acceptance: زنده
+ipa: /ʔɒːˈhænɡ/
+definition: زنجیره‌ی خوش‌نوایِ نغمه‌ها
+english: melody
+register: ادبی
+frequency_rank: 8046
+difficulty: 3
+examples:
+- sare: آهنگش در گوشم مانده.
+  loan: ملودی‌اش در گوشم مانده.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آهنگ»
+- source: فرهنگ فارسی معین
+  ref: مدخل «آهنگ»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/آهنگ
+roots:
+  pahlavi: āhang
+  avestan: null
+  old_persian: null
+related:
+- آهنگساز
+- نوا
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.0

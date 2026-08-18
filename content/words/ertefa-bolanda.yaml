@@ -1,0 +1,34 @@
+id: ertefa-bolanda
+sare: بلندا
+loan: ارتفاع
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bolænˈdɒː/
+definition: اندازه‌ی چیزی از پایین تا بالا
+english: height
+register: دانشی
+frequency_rank: 2240
+difficulty: 2
+examples:
+- sare: بلندای کوه را سنجیدند.
+  loan: ارتفاعِ کوه را سنجیدند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بلندا»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «بلندا»
+- source: فرهنگستان زبان و ادب فارسی
+  ref: https://www.vajehyab.com/farhangestan/بلندا
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- بلند
+- ژرفا
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.75

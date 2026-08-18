@@ -1,0 +1,34 @@
+id: farhangestan-akademi
+sare: فرهنگستان
+loan: آکادمی
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /fæɾhænɡesˈtɒːn/
+definition: نهادی که بر زبان و دانش نگاه می‌دارد
+english: academy
+register: رسمی
+frequency_rank: 5552
+difficulty: 4
+examples:
+- sare: فرهنگستان این واژه را برگزید.
+  loan: آکادمی این واژه را برگزید.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «فرهنگستان»
+- source: لغت‌نامه دهخدا
+  ref: مدخل «فرهنگ»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/فرهنگستان
+roots:
+  pahlavi: frahangδstān
+  avestan: null
+  old_persian: null
+related:
+- ستان
+- فرهنگ
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.23

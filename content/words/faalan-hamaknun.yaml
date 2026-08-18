@@ -1,0 +1,32 @@
+id: faalan-hamaknun
+sare: هم‌اکنون
+loan: فعلاً
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /hæmʔækˈnuːn/
+definition: در همین زمان؛ تا این دم
+english: for now
+register: رسمی
+frequency_rank: null
+difficulty: 2
+examples:
+- sare: هم‌اکنون کاری ندارم.
+  loan: فعلاً کاری ندارم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «هم‌اکنون»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «هم‌اکنون»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- اکنون
+- کنون
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.85

@@ -1,0 +1,34 @@
+id: bonyad-asas
+sare: بنیاد
+loan: اساس
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bonˈjɒːd/
+definition: پایه‌ای که چیزی بر آن ایستاده
+english: foundation
+register: رسمی
+frequency_rank: 435
+difficulty: 2
+examples:
+- sare: بنیادش سست است.
+  loan: اساسش سست است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بنیاد»
+- source: شاهنامه فردوسی
+  book: دیباچه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/بنیاد
+roots:
+  pahlavi: bunyād
+  avestan: null
+  old_persian: null
+related:
+- بن
+- بنیان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.45

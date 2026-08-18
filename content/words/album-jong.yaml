@@ -1,0 +1,40 @@
+id: album-jong
+sare: جُنگ
+loan: آلبوم
+loan_origin: فرانسه
+pos: اسم
+acceptance: خفته
+ipa: /dʒonɡ/
+definition: دفتری که چیزهای گوناگون در آن گرد آمده
+english: album
+register: ادبی
+frequency_rank: 668
+difficulty: 3
+examples:
+- sare: جُنگِ نگاره‌ها را ورق زد.
+  loan: آلبومِ عکس‌ها را ورق زد.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/آلبوم
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=آلبوم
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/جنگ
+- source: لغت‌نامه دهخدا
+  ref: https://www.vajehyab.com/dehkhoda/جنگ
+- source: فرهنگ فارسی معین
+  ref: https://www.vajehyab.com/moein/جنگ
+- source: فرهنگستان زبان و ادب فارسی
+  ref: https://www.vajehyab.com/farhangestan/جنگ
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- دفتر
+- گزیده
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.29

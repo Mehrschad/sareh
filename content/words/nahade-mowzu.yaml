@@ -1,0 +1,34 @@
+id: nahade-mowzu
+sare: نهاده
+loan: موضوع
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /næhɒːˈde/
+definition: آنچه سخن بر سرِ آن است
+english: subject/thesis
+register: دانشی
+frequency_rank: 391
+difficulty: 4
+examples:
+- sare: نهاده‌ی جستار روشن است.
+  loan: موضوعِ مقاله روشن است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نهاده»
+- source: فرهنگ فارسی معین
+  ref: مدخل «نهادن»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/نهاده
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- نهاد
+- نهادن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.49

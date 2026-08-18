@@ -1,0 +1,10 @@
+# پیکربندیِ پلِ Dart↔Rust.
+#
+#   flutter_rust_bridge_codegen generate
+#
+# خروجی (`app/lib/src/rust/` و `core/src/frb_generated*.rs`) تولیدشده است و
+# در git نیست؛ `make bridge` می‌سازدش.
+rust_input: crate::api
+rust_root: core/
+dart_output: app/lib/src/rust
+dart_entrypoint_class_name: SarehRust

@@ -1,0 +1,15 @@
+[package]
+name = "sareh-tools"
+description = "ابزارهای خط فرمان سره"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "validate_words"
+path = "validate_words.rs"
+
+[dependencies]
+sareh-core = { path = "../core" }
+serde_yaml = { workspace = true }

@@ -1,0 +1,168 @@
+# پیکره‌ی ابیات — شاهنامه‌ی فردوسی
+#
+# این ابیات خوراکِ تمرینِ «بیت‌یاب» (گونه‌ی هفتم) هستند: یک واژه‌ی سره از بیت
+# برداشته می‌شود و کاربر آن را بازمی‌گرداند.
+#
+# هشدار درستی: این ابیات از نسخه‌های پرکاربرد و گزیده‌های مشهور برداشته شده‌اند،
+# نه از یک ویراستِ انتقادی. هیچ بیتی نباید status: verified بگیرد مگر آنکه با
+# ویراستِ خالقی‌مطلق (بنیاد میراث ایران، ۱۳۶۶–۱۳۸۶) سنجیده و شماره‌ی بیت آن ثبت
+# شود. تا آن هنگام status همه needs_review است و CI بیتِ verified بی‌شماره را رد
+# می‌کند. بنگرید به content/SOURCES.md.
+
+meter_default: متقارب مثمن محذوف   # فعولن فعولن فعولن فعل
+
+verses:
+  - id: sh-001
+    poet: فردوسی
+    work: شاهنامه
+    book: دیباچه
+    hemistich_1: به نام خداوند جان و خرد
+    hemistich_2: کزین برتر اندیشه برنگذرد
+    blank_word_id: kherad-aql
+    blank_surface: خرد
+    blank_hemistich: 1
+    status: needs_review
+
+  - id: sh-002
+    poet: فردوسی
+    work: شاهنامه
+    book: دیباچه
+    hemistich_1: توانا بود هر که دانا بود
+    hemistich_2: ز دانش دل پیر برنا بود
+    blank_word_id: danesh-elm
+    blank_surface: دانش
+    blank_hemistich: 2
+    status: needs_review
+
+  - id: sh-003
+    poet: فردوسی
+    work: شاهنامه
+    book: دیباچه
+    hemistich_1: خرد رهنمای و خرد دلگشای
+    hemistich_2: خرد دست گیرد به هر دو سرای
+    blank_word_id: kherad-aql
+    blank_surface: خرد
+    blank_hemistich: 2
+    status: needs_review
+
+  - id: sh-004
+    poet: فردوسی
+    work: شاهنامه
+    book: دیباچه
+    hemistich_1: خرد بهتر از هر چه ایزد بداد
+    hemistich_2: ستایش خرد را به از راه داد
+    blank_word_id: setayesh-tahsin
+    blank_surface: ستایش
+    blank_hemistich: 2
+    status: needs_review
+
+  - id: sh-005
+    poet: فردوسی
+    work: شاهنامه
+    book: دیباچه
+    hemistich_1: ز نیرو بود مرد را راستی
+    hemistich_2: ز سستی کژی زاید و کاستی
+    blank_word_id: rasti-sedaqat
+    blank_surface: راستی
+    blank_hemistich: 1
+    status: needs_review
+
+  - id: sh-006
+    poet: فردوسی
+    work: شاهنامه
+    book: دیباچه
+    hemistich_1: ز نیرو بود مرد را راستی
+    hemistich_2: ز سستی کژی زاید و کاستی
+    blank_word_id: nirou-qovvat
+    blank_surface: نیرو
+    blank_hemistich: 1
+    status: needs_review
+
+  - id: sh-007
+    poet: فردوسی
+    work: شاهنامه
+    book: پادشاهی یزدگرد
+    hemistich_1: بیا تا جهان را به بد نسپریم
+    hemistich_2: به کوشش همه دست نیکی بریم
+    blank_word_id: niki-kheyr
+    blank_surface: نیکی
+    blank_hemistich: 2
+    status: needs_review
+
+  - id: sh-008
+    poet: فردوسی
+    work: شاهنامه
+    book: پادشاهی یزدگرد
+    hemistich_1: بیا تا جهان را به بد نسپریم
+    hemistich_2: به کوشش همه دست نیکی بریم
+    blank_word_id: jahan-alam
+    blank_surface: جهان
+    blank_hemistich: 1
+    status: needs_review
+
+  - id: sh-009
+    poet: فردوسی
+    work: شاهنامه
+    book: دیباچه
+    hemistich_1: جهان را بلندی و پستی تویی
+    hemistich_2: ندانم چه‌ای هر چه هستی تویی
+    blank_word_id: jahan-alam
+    blank_surface: جهان
+    blank_hemistich: 1
+    status: needs_review
+
+  - id: sh-010
+    poet: فردوسی
+    work: شاهنامه
+    book: پادشاهی نوشین‌روان
+    hemistich_1: همه سر به سر تن به کشتن دهیم
+    hemistich_2: از آن به که کشور به دشمن دهیم
+    blank_word_id: keshvar-mamlekat
+    blank_surface: کشور
+    blank_hemistich: 2
+    status: needs_review
+
+  - id: sh-011
+    poet: فردوسی
+    work: شاهنامه
+    book: پادشاهی نوشین‌روان
+    hemistich_1: همه سر به سر تن به کشتن دهیم
+    hemistich_2: از آن به که کشور به دشمن دهیم
+    blank_word_id: doshman-adoo
+    blank_surface: دشمن
+    blank_hemistich: 2
+    status: needs_review
+
+  - id: sh-012
+    poet: فردوسی
+    work: شاهنامه
+    book: دیباچه
+    hemistich_1: نمیرم از این پس که من زنده‌ام
+    hemistich_2: که تخم سخن را پراکنده‌ام
+    blank_word_id: null            # «سخن» هنوز مدخل ندارد — نامزدِ افزودن
+    blank_surface: سخن
+    blank_hemistich: 2
+    status: needs_review
+
+  - id: sh-013
+    poet: فردوسی
+    work: شاهنامه
+    book: داستان رستم و اشکبوس
+    hemistich_1: دلیری کجا نام او اشکبوس
+    hemistich_2: همی برخروشید بر سان کوس
+    blank_word_id: delavari-shojaat
+    blank_surface: دلیری
+    blank_hemistich: 1
+    status: needs_review
+
+  - id: sh-014
+    poet: فردوسی
+    work: شاهنامه
+    book: دیباچه
+    hemistich_1: بسی رنج بردم در این سال سی
+    hemistich_2: عجم زنده کردم بدین پارسی
+    blank_word_id: null            # بیتِ نشانِ محصول؛ جای خالی ندارد
+    blank_surface: null
+    blank_hemistich: null
+    status: needs_review
+    note: در صفحه‌ی «درباره» به کار می‌رود، نه در تمرین.

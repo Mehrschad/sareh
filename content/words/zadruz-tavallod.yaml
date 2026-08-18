@@ -1,0 +1,34 @@
+id: zadruz-tavallod
+sare: زادروز
+loan: تولد
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /zɒːdˈɾuːz/
+definition: روزی که کسی زاده شده است
+english: birthday
+register: رسمی
+frequency_rank: 1075
+difficulty: 2
+examples:
+- sare: زادروزت خجسته.
+  loan: تولدت مبارک.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «زاد»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «زادروز»
+- source: فرهنگ فارسی معین
+  ref: https://www.vajehyab.com/moein/زادروز
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- زادن
+- زایش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.1

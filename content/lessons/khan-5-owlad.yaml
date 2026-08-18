@@ -1,0 +1,157 @@
+id: khan-5-owlad
+khan: 5
+guardian: اولاد
+realm: اندیشه، دانش و سخن
+stations:
+- id: khan-5-owlad-manzel-1
+  title: منزلِ 1
+  exercises: &id001
+  - گزینش
+  - جفت‌ساز
+  - جای‌گزینی
+  - واژه‌چین
+  words:
+  - pasokh-javab
+  - mokhtalef-gunagun
+  - bakhsh-qesmat
+  - danesh-elm
+  - vaje-kalame
+  - motalee-khandan
+  - porsesh-soal
+  - vazeh-roshan
+  - vojud-hasti
+  - andishe-fekr
+- id: khan-5-owlad-manzel-2
+  title: منزلِ 2
+  exercises: &id002
+  - گزینش
+  - واژه‌چین
+  - نویسش
+  - داستانک
+  words:
+  - mohem-arzande
+  - asli-bonyadi
+  - taqir-degarguni
+  - eshare-neshan
+  - gune-now
+  - majmue-gozide
+  - dade-etelaat
+  - payamad-natije
+  - dabestan-madrese
+  - shomar-tedad
+- id: khan-5-owlad-manzel-3
+  title: منزلِ 3
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - ریشه‌یاب
+  - تیر آرش
+  words:
+  - moarrefi-shenasandan
+  - moshakhas-ashkar
+  - ertebat-peyvastegi
+  - shive-sabk
+  - azmayesh-tajrobe
+  - vaqei-rastin
+  - hoze-zamine
+  - rishe-asl
+  - neveshtar-matn
+  - nemune-mesal
+  - azmun-emtehan
+- id: khan-5-owlad-manzel-4
+  title: منزلِ 4
+  exercises:
+  - جفت‌ساز
+  - بیت‌یاب
+  - گزینش
+  - نویسش
+  words:
+  - tozih-roshangari
+  - agahi-etela
+  - shomare-adad
+  - karkard-amalkard
+  - pazhuhesh-tahqiq
+  - amuzegar-moallem
+  - bavar-eteqad
+  - daneshmand-alem
+  - kherad-aql
+  - dastan-qesse
+  - goftar-kalam
+- id: khan-5-owlad-manzel-5
+  title: منزلِ 5
+  exercises:
+  - گزینش
+  - داستانک
+  - تیر آرش
+  - واژه‌چین
+  words:
+  - goftogu-mokaleme
+  - amuzesh-taalim
+  - ravesh-metod
+  - nevisande-moallef
+  - vizhegi-khosusiat
+  - daneshju-mohassel
+  - naqsh-negar
+  - tarjome-bargardan
+  - amaj-hadaf
+  - bayan-bazgu
+  - ali-barin
+- id: khan-5-owlad-manzel-6
+  title: منزلِ 6
+  exercises:
+  - جای‌گزینی
+  - گزینش
+  - تیر آرش
+  - بیت‌یاب
+  words:
+  - bahs-goftoshonud
+  - dars-amuze
+  - tarif-shenase
+  - noskhe-negaresh
+  - mani-cham
+  - rade-tabaqe
+  - runevesht-copy
+  - bardasht-tafsir
+  - namayesh-teatr
+  - sarayande-shaer
+  - afsane-ostoore
+- id: khan-5-owlad-manzel-7
+  title: منزلِ 7
+  exercises: *id001
+  words:
+  - ahang-melodi
+  - dasturzaban-gerammar
+  - virayesh-edit
+  - nemudar-graf
+  - vajename-dictionary
+  - bakhshbandi-taqsimbandi
+  - sokhanrani-khetabe
+  - farnud-dalil
+  - gozare-jomle
+  - nahade-mowzu
+  - shavand-ellat
+- id: khan-5-owlad-manzel-8
+  title: منزلِ 8
+  exercises: *id002
+  words:
+  - peykare-mojassame
+  - farhangestan-akademi
+  - engare-farziye
+  - setareshenasi-nojum
+  - zendeginame-biography
+  - shomargan-tiraj
+  - khoshnevisi-khattati
+  - zistshenasi-biology
+  - chame-sher
+  - chakame-qaside
+  - negargari-miniatur
+boss:
+  id: khan-5-owlad-negahban
+  title: نگهبانِ خان — اولاد
+  word_count: 12
+  exercises:
+  - گزینش
+  - جای‌گزینی
+  - بیت‌یاب
+  - تیر آرش
+  pass_ratio: 0.8

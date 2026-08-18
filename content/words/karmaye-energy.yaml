@@ -1,0 +1,35 @@
+id: karmaye-energy
+sare: کارمایه
+loan: انرژی
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /kɒːɾmɒːˈje/
+definition: توانِ انجامِ کار در دانشِ فیزیک
+english: energy
+register: دانشی
+frequency_rank: 629
+difficulty: 3
+examples:
+- sare: کارمایه‌ی این واکنش بالاست.
+  loan: انرژیِ این واکنش بالاست.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «کارمایه»
+- source: لغت‌نامه دهخدا
+  ref: مدخل «کار»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/کارمایه
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- توان
+- مایه
+- کار
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.31

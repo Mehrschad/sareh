@@ -1,0 +1,32 @@
+id: khakrube-ashqal
+sare: خاکروبه
+loan: آشغال
+loan_origin: ترکی
+pos: اسم
+acceptance: زنده
+ipa: /xɒːkɾuːˈbe/
+definition: آنچه دور انداخته می‌شود
+english: rubbish
+register: رسمی
+frequency_rank: 4107
+difficulty: 4
+examples:
+- sare: خاکروبه را بیرون بگذار.
+  loan: آشغال را بیرون بگذار.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «خاکروبه»
+- source: فرهنگ فارسی معین
+  ref: مدخل «خاکروبه»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- خاک
+- روفتن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.42

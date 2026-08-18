@@ -1,0 +1,34 @@
+id: nesf-nim
+sare: نیم
+loan: نصف
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /niːm/
+definition: یکی از دو بخشِ برابرِ چیزی
+english: half
+register: گفتاری
+frequency_rank: 1597
+difficulty: 1
+examples:
+- sare: نیمِ نان را خوردم.
+  loan: نصفِ نان را خوردم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نیم»
+- source: فرهنگ فارسی معین
+  ref: مدخل «نیم»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/نیم
+roots:
+  pahlavi: nēm
+  avestan: null
+  old_persian: null
+related:
+- نیمه
+- نیم‌روز
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.92

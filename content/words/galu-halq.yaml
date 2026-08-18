@@ -1,0 +1,34 @@
+id: galu-halq
+sare: گلو
+loan: حلق
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ɡæˈluː/
+definition: راهِ میانِ دهان و شش و شکم
+english: throat
+register: گفتاری
+frequency_rank: 10609
+difficulty: 3
+examples:
+- sare: گلویش درد می‌کند.
+  loan: حلقش درد می‌کند.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «گلو»
+- source: فرهنگ فارسی معین
+  ref: مدخل «گلو»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/گلو
+roots:
+  pahlavi: gālūg
+  avestan: null
+  old_persian: null
+related:
+- گلودرد
+- گلوگاه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.81

@@ -1,0 +1,33 @@
+id: hamvand-ozv
+sare: هموند
+loan: عضو
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /hæmˈvænd/
+definition: کسی که به گروهی پیوسته است
+english: member
+register: رسمی
+frequency_rank: 682
+difficulty: 3
+examples:
+- sare: هموندِ انجمن شد.
+  loan: عضوِ مجمع شد.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «هموند»
+- source: لغت‌نامه دهخدا
+  ref: مدخل «وند»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- انجمن
+- هم
+- پیوند
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.29

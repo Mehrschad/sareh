@@ -1,0 +1,34 @@
+id: giti-donya
+sare: گیتی
+loan: دنیا
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /ɡiːˈtiː/
+definition: جهانِ مادّی و دیدنی
+english: the material world
+register: ادبی
+frequency_rank: 322
+difficulty: 4
+examples:
+- sare: گیتی بر او تنگ شد.
+  loan: دنیا بر او تنگ شد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «گیتی»
+- source: شاهنامه فردوسی
+  book: پادشاهی کیخسرو
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/گیتی
+roots:
+  pahlavi: gētīg
+  avestan: null
+  old_persian: null
+related:
+- جهان
+- مینو
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.55

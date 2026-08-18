@@ -1,0 +1,34 @@
+id: setiz-nezaa
+sare: ستیز
+loan: نزاع
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /seˈtiːz/
+definition: درگیریِ دو سو با هم
+english: conflict
+register: ادبی
+frequency_rank: 10829
+difficulty: 3
+examples:
+- sare: ستیزشان بالا گرفت.
+  loan: نزاعشان بالا گرفت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «ستیز»
+- source: شاهنامه فردوسی
+  book: داستان رستم و اسفندیار
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/ستیز
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- آشتی
+- ستیزه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.8

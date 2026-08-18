@@ -1,0 +1,35 @@
+id: danesh-elm
+sare: دانش
+loan: علم
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /dɒːˈneʃ/
+definition: آنچه دانسته می‌شود؛ آگاهیِ سامان‌یافته
+english: knowledge
+register: ادبی
+frequency_rank: 739
+difficulty: 1
+examples:
+- sare: دانش را از هر که آموختی، بیاموز.
+  loan: علم را از هر که آموختی، بیاموز.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «دانش»
+- source: شاهنامه فردوسی
+  book: دیباچه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/دانش
+roots:
+  pahlavi: dānišn
+  avestan: null
+  old_persian: null
+related:
+- دانا
+- دانستن
+- دانشگاه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.26

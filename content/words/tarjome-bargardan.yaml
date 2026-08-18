@@ -1,0 +1,34 @@
+id: tarjome-bargardan
+sare: برگردان
+loan: ترجمه
+loan_origin: عربی
+pos: اسم
+acceptance: نوساخته
+ipa: /bæɾɡæɾˈdɒːn/
+definition: گرداندنِ سخن از زبانی به زبانِ دیگر
+english: translation
+register: رسمی
+frequency_rank: 454
+difficulty: 3
+examples:
+- sare: برگردانش روان بود.
+  loan: ترجمه‌اش روان بود.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/ترجمه
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «برگردان»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/برگردان
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- برگرداندن
+- گردانیدن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.43

@@ -1,0 +1,32 @@
+id: bakhshbandi-taqsimbandi
+sare: بخش‌بندی
+loan: تقسیم‌بندی
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bæxʃbænˈdiː/
+definition: جدا کردنِ یک کل به بخش‌های سامان‌مند
+english: division
+register: دانشی
+frequency_rank: 20568
+difficulty: 3
+examples:
+- sare: بخش‌بندی‌ات روشن است.
+  loan: تقسیم‌بندی‌ات روشن است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بخش»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «بخش‌بندی»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- بخش
+- بستن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.33

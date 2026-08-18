@@ -1,0 +1,34 @@
+id: sepas-baadan
+sare: سپس
+loan: بعداً
+loan_origin: عربی
+pos: قید
+acceptance: زنده
+ipa: /seˈpæs/
+definition: پس از آن؛ در پی آن
+english: afterwards
+register: رسمی
+frequency_rank: null
+difficulty: 2
+examples:
+- sare: نخست بخوان، سپس بنویس.
+  loan: اول بخوان، بعداً بنویس.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سپس»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «سپس»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/سپس
+roots:
+  pahlavi: pas
+  avestan: null
+  old_persian: null
+related:
+- پس
+- پسین
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.93

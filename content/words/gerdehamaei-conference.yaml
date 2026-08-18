@@ -1,0 +1,33 @@
+id: gerdehamaei-conference
+sare: گردهمایی
+loan: کنفرانس
+loan_origin: فرانسه
+pos: اسم
+acceptance: نوساخته
+ipa: /ɡeɾdehæmɒːˈjiː/
+definition: گردآمدنِ گروهی بزرگ برای سخن و دانش
+english: conference
+register: رسمی
+frequency_rank: 1985
+difficulty: 3
+examples:
+- sare: در گردهمایی سخن گفت.
+  loan: در کنفرانس سخن گفت.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «گردهمایی»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «گردهمایی»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- نشست
+- هم
+- گرد
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.82

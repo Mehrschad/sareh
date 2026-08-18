@@ -1,0 +1,120 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  content:
+    name: محتوا
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+      # مدخلِ بی‌منبع، جفتِ تکراری، ارجاعِ شکسته‌ی درس‌ها و منزلِ کم‌گونه
+      # همگی همین‌جا رد می‌شوند.
+      - name: اعتبارسنجیِ واژه‌ها
+        run: cargo run --release -p sareh-tools --bin validate_words -- --stats
+      # برابری که در هیچ فرهنگی مدخل ندارد، ساخته‌ی ماست؛ و برابری که خودش
+      # وام‌واژه است، کاری از پیش نمی‌برد. هر دو همین‌جا رد می‌شوند. از کشِ
+      # درون‌مخزنی می‌خواند، پس به شبکه نمی‌رود.
+      - name: هم‌خوانیِ پیکره با فرهنگ‌ها
+        run: python3 tools/verify_corpus.py --strict
+      # منزل‌ها باید بازتابِ content/words/ باشند، نه چیزی که دستی مانده.
+      - name: هم‌سانیِ منزل‌ها با واژه‌ها
+        run: |
+          python3 tools/rebuild_lessons.py
+          git diff --exit-code content/lessons content/khans.yaml
+
+  design:
+    name: طراحی
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # به Flutter نیاز ندارد، پس زودتر از همه نتیجه می‌دهد.
+      - name: کنتراست و توکن‌های هارد‌کد
+        run: python3 tools/check_design.py
+
+  core:
+    name: هسته‌ی Rust
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy, rustfmt
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo fmt --all --check
+      - run: cargo clippy --workspace --all-targets -- -D warnings
+      - run: cargo test --workspace
+      # بودجه‌ی «زیر ۵ms» تنها در حالتِ release معنا دارد.
+      - name: آزمونِ کارایی
+        run: cargo test --release --workspace -- --nocapture search_stays_within_budget
+
+  app:
+    name: اپ Flutter
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+      - name: همگام‌سازیِ محتوا
+        run: make content-sync
+      - name: گرفتنِ قلم‌ها
+        run: make fonts
+      # چسبِ پل در مخزن است، پس تنها کتابخانه‌ی بومی ساخته می‌شود —
+      # نه تولیدِ دوباره‌ی چسب، که نصبِ codegen را لازم می‌کرد.
+      - name: ساختِ کتابخانه‌ی بومی
+        run: cargo build --release -p sareh-core --features bridge
+      - name: هم‌خوانیِ توکن‌ها با tokens.json
+        run: dart run tools/gen_tokens.dart --check
+      - run: flutter pub get
+        working-directory: app
+      # کدِ تولیدشده‌ی Drift در git است؛ اگر جدولی عوض شود و کسی
+      # build_runner را نزند، همین‌جا معلوم می‌شود.
+      - name: تازگیِ کدِ تولیدشده‌ی Drift
+        run: |
+          dart run build_runner build
+          git diff --exit-code lib/data
+        working-directory: app
+      - run: flutter analyze
+        working-directory: app
+      - run: flutter test
+        working-directory: app
+
+  web-demo:
+    name: دموی وب
+    needs: [content, design, app]
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - run: make content-sync
+      - run: flutter build web --release --base-href /sareh/
+        working-directory: app
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: app/build/web
+      - id: deploy
+        uses: actions/deploy-pages@v4

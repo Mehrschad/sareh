@@ -1,0 +1,32 @@
+id: masool-pasokhgu
+sare: پاسخ‌گو
+loan: مسئول
+loan_origin: عربی
+pos: صفت
+acceptance: نوساخته
+ipa: /pɒːsoxˈɡuː/
+definition: کسی که باید پاسخِ کار را بدهد
+english: responsible
+register: رسمی
+frequency_rank: 1210
+difficulty: 3
+examples:
+- sare: پاسخ‌گویِ این کار کیست؟
+  loan: مسئولِ این کار کیست؟
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «پاسخ‌گو»
+- source: لغت‌نامه دهخدا
+  ref: مدخل «پاسخ»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- پاسخ
+- پاسخ‌گویی
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.05

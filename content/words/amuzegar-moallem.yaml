@@ -1,0 +1,34 @@
+id: amuzegar-moallem
+sare: آموزگار
+loan: معلّم
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ʔɒːmuːzeˈɡæɾ/
+definition: کسی که به دیگران می‌آموزاند
+english: teacher
+register: رسمی
+frequency_rank: null
+difficulty: 2
+examples:
+- sare: آموزگارش مهربان بود.
+  loan: معلّمش مهربان بود.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آموزگار»
+- source: فرهنگ فارسی معین
+  ref: مدخل «آموزگار»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/آموزگار
+roots:
+  pahlavi: āmōzgār
+  avestan: null
+  old_persian: null
+related:
+- آموختن
+- آموزش
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.95

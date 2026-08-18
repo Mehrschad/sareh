@@ -1,0 +1,32 @@
+id: rahnemud-dasturolamal
+sare: رهنمود
+loan: دستورالعمل
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ræhnæˈmuːd/
+definition: راهنماییِ گام‌به‌گامِ انجامِ کار
+english: guideline
+register: رسمی
+frequency_rank: 5497
+difficulty: 3
+examples:
+- sare: رهنمودها را خواندی؟
+  loan: دستورالعمل‌ها را خواندی؟
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «رهنمود»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «رهنمود»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- راه
+- نمودن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.24

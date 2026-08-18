@@ -1,0 +1,34 @@
+id: dakhel-darun
+sare: درون
+loan: داخل
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /dæˈɾuːn/
+definition: سوی درونی؛ اندرون
+english: inside
+register: گفتاری
+frequency_rank: 456
+difficulty: 1
+examples:
+- sare: درونِ اتاق بود.
+  loan: داخلِ اتاق بود.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/داخل
+- source: فرهنگ فارسی معین
+  ref: مدخل «درون»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/درون
+roots:
+  pahlavi: andarōn
+  avestan: null
+  old_persian: null
+related:
+- اندرون
+- بیرون
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.43

@@ -1,0 +1,34 @@
+id: tour-san
+sare: سان
+loan: طور
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /sɒːn/
+definition: گونه؛ روش
+english: manner
+register: ادبی
+frequency_rank: 641
+difficulty: 3
+examples:
+- sare: این سان مگو.
+  loan: این طور مگو.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/طور
+- source: لغت‌نامه دهخدا
+  ref: مدخل «سان»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/سان
+roots:
+  pahlavi: sʾn'
+  avestan: null
+  old_persian: null
+related:
+- بدین‌سان
+- گونه
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.31

@@ -1,0 +1,22 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - lib/src/rust/**      # پلِ تولیدشده‌ی flutter_rust_bridge
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+    - windows/**
+    - macos/**
+    - linux/**
+  errors:
+    # هر مقدارِ طراحیِ هارد‌کد یک ایراد است، نه یک سلیقه (بخش ۹٫۴).
+    always_specify_types: ignore
+
+linter:
+  rules:
+    - prefer_const_constructors
+    - prefer_final_locals
+    - avoid_print
+    - require_trailing_commas

@@ -1,0 +1,34 @@
+id: besyar-ziad
+sare: بسیار
+loan: زیاد
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /besˈjɒːɾ/
+definition: به شمار یا اندازه‌ی فراوان
+english: many
+register: گفتاری
+frequency_rank: 542
+difficulty: 1
+examples:
+- sare: بسیار خواندم.
+  loan: زیاد خواندم.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بسیار»
+- source: فرهنگ فارسی معین
+  ref: مدخل «بسیار»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/بسیار
+roots:
+  pahlavi: wisyār
+  avestan: null
+  old_persian: null
+related:
+- بس
+- فراوان
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.38

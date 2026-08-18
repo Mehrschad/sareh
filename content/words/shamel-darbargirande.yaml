@@ -1,0 +1,32 @@
+id: shamel-darbargirande
+sare: دربرگیرنده
+loan: شامل
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /dæɾbæɾɡiːɾænˈde/
+definition: آنچه چیزی را در خود دارد
+english: including
+register: رسمی
+frequency_rank: 574
+difficulty: 3
+examples:
+- sare: دربرگیرنده‌ی سه بخش است.
+  loan: شاملِ سه قسمت است.
+citations:
+- source: به پارسی (beparsi.com)
+  ref: https://www.beparsi.com/q/شامل
+- source: واژه‌یاب (vajehyab.com)
+  ref: https://www.vajehyab.com/?q=شامل
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- دربرگرفتن
+- فراگیر
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.36

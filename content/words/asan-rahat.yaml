@@ -1,0 +1,34 @@
+id: asan-rahat
+sare: آسان
+loan: راحت
+loan_origin: عربی
+pos: صفت
+acceptance: زنده
+ipa: /ʔɒːˈsɒːn/
+definition: آنچه انجامش رنج نمی‌خواهد
+english: easy
+register: گفتاری
+frequency_rank: 734
+difficulty: 1
+examples:
+- sare: این کار آسان است.
+  loan: این کار راحت است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «آسان»
+- source: فرهنگ فارسی معین
+  ref: مدخل «آسان»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/آسان
+roots:
+  pahlavi: āsān
+  avestan: null
+  old_persian: null
+related:
+- آسانی
+- آسوده
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.26

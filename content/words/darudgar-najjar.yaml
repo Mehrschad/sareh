@@ -1,0 +1,34 @@
+id: darudgar-najjar
+sare: درودگر
+loan: نجّار
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /doɾuːdˈɡæɾ/
+definition: کسی که با چوب کار می‌سازد
+english: carpenter
+register: ادبی
+frequency_rank: null
+difficulty: 5
+examples:
+- sare: درودگر در را ساخت.
+  loan: نجّار در را ساخت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «درودگر»
+- source: فرهنگ فارسی معین
+  ref: مدخل «درودگر»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/درودگر
+roots:
+  pahlavi: durūdgar
+  avestan: null
+  old_persian: null
+related:
+- درودگری
+- چوب
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.46

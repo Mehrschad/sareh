@@ -1,0 +1,30 @@
+id: bazkhord-feedback
+sare: بازخورد
+loan: فیدبک
+loan_origin: انگلیسی
+pos: اسم
+acceptance: نوساخته
+ipa: /bɒːzˈxoɾd/
+definition: پاسخی که به کننده‌ی کار بازمی‌گردد
+english: feedback
+register: دانشی
+frequency_rank: 23876
+difficulty: 3
+examples:
+- sare: بازخوردت را بنویس.
+  loan: فیدبکت را بنویس.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «بازخورد»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- باز
+- خوردن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.22

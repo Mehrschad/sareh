@@ -1,0 +1,34 @@
+id: garmabe-hammam
+sare: گرمابه
+loan: حمّام
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /ɡæɾmɒːˈbe/
+definition: جای شستشوی تن با آب گرم
+english: bathhouse
+register: ادبی
+frequency_rank: null
+difficulty: 3
+examples:
+- sare: به گرمابه رفت.
+  loan: به حمّام رفت.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «گرمابه»
+- source: فرهنگ فارسی معین
+  ref: مدخل «گرمابه»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/گرمابه
+roots:
+  pahlavi: garmābag
+  avestan: null
+  old_persian: null
+related:
+- آب
+- گرم
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.63

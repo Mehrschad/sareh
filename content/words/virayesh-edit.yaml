@@ -1,0 +1,34 @@
+id: virayesh-edit
+sare: ویرایش
+loan: ادیت
+loan_origin: انگلیسی
+pos: اسم
+acceptance: نوساخته
+ipa: /viːɾɒːˈjeʃ/
+definition: درست‌کردن و آراستنِ نوشته
+english: editing
+register: دانشی
+frequency_rank: 12184
+difficulty: 3
+examples:
+- sare: ویرایشِ نوشته مانده است.
+  loan: ادیتِ متن مانده است.
+citations:
+- source: فرهنگستان زبان و ادب فارسی
+  ref: دفتر واژه‌های مصوب — «ویرایش»
+- source: فرهنگ بزرگ سخن
+  ref: مدخل «ویرایش»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/ویرایش
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- ویراستار
+- ویراستن
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 3.71

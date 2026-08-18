@@ -1,0 +1,34 @@
+id: bahre-manfaat
+sare: بهره
+loan: منفعت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /bæhˈɾe/
+definition: سودی که از چیزی برده می‌شود
+english: benefit
+register: رسمی
+frequency_rank: 8049
+difficulty: 3
+examples:
+- sare: بهره‌ای نبرد.
+  loan: منفعتی نبرد.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بهره»
+- source: فرهنگ فارسی معین
+  ref: مدخل «بهره»
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/بهره
+roots:
+  pahlavi: bahr
+  avestan: null
+  old_persian: null
+related:
+- بهره‌مند
+- بهره‌وری
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.0

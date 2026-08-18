@@ -1,0 +1,34 @@
+id: nam-esm
+sare: نام
+loan: اسم
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /nɒːm/
+definition: واژه‌ای که کس یا چیزی را با آن می‌خوانند
+english: name
+register: گفتاری
+frequency_rank: 309
+difficulty: 1
+examples:
+- sare: نامت چیست؟
+  loan: اسمت چیست؟
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «نام»
+- source: شاهنامه فردوسی
+  book: دیباچه
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/نام
+roots:
+  pahlavi: nām
+  avestan: nāman-
+  old_persian: nāma
+related:
+- نامه
+- نامور
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.56

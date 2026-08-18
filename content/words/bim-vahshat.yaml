@@ -1,0 +1,34 @@
+id: bim-vahshat
+sare: بیم
+loan: وحشت
+loan_origin: عربی
+pos: اسم
+acceptance: زنده
+ipa: /biːm/
+definition: ترسِ آمیخته به نگرانی از آینده
+english: dread
+register: ادبی
+frequency_rank: 2480
+difficulty: 3
+examples:
+- sare: بیمِ آن دارم که نیاید.
+  loan: وحشتِ آن دارم که نیاید.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «بیم»
+- source: شاهنامه فردوسی
+  book: داستان رستم و اسفندیار
+- source: فرهنگ عمید
+  ref: https://www.vajehyab.com/amid/بیم
+roots:
+  pahlavi: bīm
+  avestan: null
+  old_persian: null
+related:
+- بیمناک
+- ترس
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 4.71

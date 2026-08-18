@@ -1,0 +1,32 @@
+id: farnud-dalil
+sare: فرنود
+loan: دلیل
+loan_origin: عربی
+pos: اسم
+acceptance: خفته
+ipa: /fæɾˈnuːd/
+definition: آنچه درستیِ سخنی را نشان می‌دهد
+english: reason/proof
+register: دانشی
+frequency_rank: 198
+difficulty: 4
+examples:
+- sare: فرنودت پذیرفتنی است.
+  loan: دلیلت پذیرفتنی است.
+citations:
+- source: لغت‌نامه دهخدا
+  ref: مدخل «فرنود»
+- source: فرهنگ فارسی معین
+  ref: مدخل «فرنود»
+roots:
+  pahlavi: null
+  avestan: null
+  old_persian: null
+related:
+- شوند
+- فرنودسار
+audio: null
+status: reviewed
+contributors:
+- sareh-seed
+zipf: 5.73
