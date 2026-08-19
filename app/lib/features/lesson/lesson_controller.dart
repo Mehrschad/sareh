@@ -10,8 +10,8 @@
 import 'dart:async';
 import 'dart:math';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:meta/meta.dart';
 
 import '../../shared/content_repository.dart';
 import '../../shared/models.dart';
@@ -322,13 +322,11 @@ class LessonController extends StateNotifier<LessonState> {
     // زمان‌بندی پشتِ سر انجام می‌شود. بازخوردِ کاربر نباید منتظرِ SQLite و
     // پل بماند؛ دیرکردِ چند میلی‌ثانیه‌ای در نوشتن، هیچ‌کس را نمی‌آزارد،
     // ولی رابطِ کند می‌آزارد.
-    unawaited(
-      recorder?.record(
-        wordId: question.word.id,
-        correct: correct,
-        answerMs: answerMs,
-        exercise: question.kind.label,
-      ),
+    _schedule(
+      question.word.id,
+      correct: correct,
+      answerMs: answerMs,
+      kind: question.kind,
     );
   }
 
@@ -342,13 +340,32 @@ class LessonController extends StateNotifier<LessonState> {
     required int answerMs,
     required ExerciseKind kind,
   }) {
+    _schedule(word.id, correct: correct, answerMs: answerMs, kind: kind);
+  }
+
+  /// زمان‌بندی را در پس‌زمینه می‌فرستد و خطایش را می‌بلعد.
+  ///
+  /// اگر پلِ Rust بالا نیامده باشد (بیلدی بی‌کتابخانه‌ی بومی)، این می‌شکند.
+  /// شکستنش نباید تمرین را متوقف کند: کاربر همچنان می‌آموزد، فقط موعدِ
+  /// مرورش ثبت نمی‌شود. بی این `catch`، یک Future مدیریت‌نشده بالا می‌آید.
+  void _schedule(
+    String wordId, {
+    required bool correct,
+    required int answerMs,
+    required ExerciseKind kind,
+  }) {
+    final pending = recorder?.record(
+      wordId: wordId,
+      correct: correct,
+      answerMs: answerMs,
+      exercise: kind.label,
+    );
+    if (pending == null) return;
     unawaited(
-      recorder?.record(
-        wordId: word.id,
-        correct: correct,
-        answerMs: answerMs,
-        exercise: kind.label,
-      ),
+      pending.catchError((Object error) {
+        debugPrint('زمان‌بندیِ مرور انجام نشد: $error');
+        return DateTime.now();
+      }),
     );
   }
 

@@ -12,9 +12,29 @@ import 'core/transitions.dart';
 import 'design/widgets.dart';
 import 'features/journey/journey_page.dart';
 import 'features/lesson/lesson_page.dart';
+import 'src/rust/frb_generated.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await _startRustCore();
   runApp(const ProviderScope(child: SarehApp()));
+}
+
+/// پلِ هسته‌ی Rust را بالا می‌آورد.
+///
+/// **شکستش اپ را نمی‌کشد.** اگر کتابخانه‌ی بومی نبود — بیلدی که هنوز
+/// jniLibs ندارد، یا نسخه‌ی وب بی‌WASM — کاربر باید بتواند هفت‌خان را
+/// ببیند و تمرین کند؛ آنچه از دست می‌رود زمان‌بندیِ مرور است، نه اپ.
+///
+/// این تابع نبود و هیچ آزمونی نبودش را نگرفت: آزمون‌ها خودشان در
+/// `setUpAll` پل را بالا می‌آورند، پس سبز بودند در حالی که اپِ واقعی
+/// سرِ نخستین پاسخ می‌ترکید. تنها اجرا این را نشان می‌دهد.
+Future<void> _startRustCore() async {
+  try {
+    await SarehRust.init();
+  } catch (error) {
+    debugPrint('هسته‌ی Rust بالا نیامد؛ مرورِ فاصله‌دار خاموش است: $error');
+  }
 }
 
 /// تنظیماتی که کاربر خودش برمی‌گزیند و اپ باید بی‌درنگ به آنها تن بدهد.

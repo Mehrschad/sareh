@@ -56,19 +56,19 @@ flutter:
   fonts:
     - family: Vazirmatn
       fonts:
-        - asset: ../design/fonts/Vazirmatn-Regular.ttf
+        - asset: assets/fonts/Vazirmatn-Regular.ttf
           weight: 400
-        - asset: ../design/fonts/Vazirmatn-Medium.ttf
+        - asset: assets/fonts/Vazirmatn-Medium.ttf
           weight: 500
-        - asset: ../design/fonts/Vazirmatn-SemiBold.ttf
+        - asset: assets/fonts/Vazirmatn-SemiBold.ttf
           weight: 600
-        - asset: ../design/fonts/Vazirmatn-Bold.ttf
+        - asset: assets/fonts/Vazirmatn-Bold.ttf
           weight: 700
     - family: Estedad
       fonts:
-        - asset: ../design/fonts/Estedad-Regular.ttf
+        - asset: assets/fonts/Estedad-Regular.ttf
           weight: 400
-        - asset: ../design/fonts/Estedad-Bold.ttf
+        - asset: assets/fonts/Estedad-Bold.ttf
           weight: 700
-        - asset: ../design/fonts/Estedad-Black.ttf
+        - asset: assets/fonts/Estedad-Black.ttf
           weight: 900
