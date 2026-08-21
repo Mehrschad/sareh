@@ -98,29 +98,8 @@ jobs:
     needs: [app]
     uses: ./.github/workflows/apk.yml
 
-  web-demo:
-    name: دموی وب
-    needs: [content, design, app]
-    if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v4
-      - uses: subosito/flutter-action@v2
-        with:
-          channel: stable
-          cache: true
-      - run: make content-sync
-      - run: flutter build web --release --base-href /sareh/
-        working-directory: app
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: app/build/web
-      - id: deploy
-        uses: actions/deploy-pages@v4
+# کارِ «دموی وب» اینجا بود و روی main شکست: `app/web/` وجود ندارد، پس
+# flutter می‌گوید «this project is not configured for the web» و همان‌جا
+# می‌ایستد. سه چیزِ نبوده لازم دارد — داربستِ وب، Drift روی wasm به‌جای
+# dart:ffi، و ساختِ wasm از هسته‌ی Rust — و تا آن سه نباشد، کاری که هرگز
+# سبز نمی‌شود جز نشانِ سرخِ همیشگی چیزی نمی‌سازد. در نقشه‌ی راه مانده است.
