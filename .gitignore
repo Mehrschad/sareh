@@ -38,9 +38,16 @@ doc/api/
 # codegen می‌تواند بسازد و آزمون بدهد؛ و CI دیگر لازم نیست هر بار
 # codegen را کامپایل کند. بازتولید: `make bridge`.
 
-# محتوای همگام‌شده (make content-sync) — یک منبعِ حقیقت بیشتر نداریم
+# محتوا و قلمِ همگام‌شده (make content-sync / make fonts) — منبعِ حقیقت
+# در content/ و design/fonts/ است، نه اینجا.
 app/assets/content/
+app/assets/fonts/
 
 # قلم‌ها پروانه‌ی جدا دارند (make fonts)
 design/fonts/*.ttf
 design/fonts/*.otf
+
+# ساخته‌های اندروید و کتابخانه‌ی بومیِ کپی‌شده (make android)
+app/android/app/src/main/jniLibs/
+app/android/local.properties
+app/android/.gradle/

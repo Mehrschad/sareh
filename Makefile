@@ -5,11 +5,12 @@
 #   make run         اجرای اپ
 
 .DEFAULT_GOAL := help
-.PHONY: help bootstrap bridge content-sync fonts tokens validate design core app check run clean
+.PHONY: help bootstrap bridge android content-sync fonts tokens validate design core app check run clean
 
 APP        := app
 CONTENT    := content
 APP_ASSETS := $(APP)/assets/content
+APP_FONTS  := $(APP)/assets/fonts
 FONT_DIR   := design/fonts
 
 help: ## این فهرست
@@ -20,9 +21,10 @@ bootstrap: content-sync fonts bridge ## نصبِ همه‌چیز پس از clone
 	cd $(APP) && flutter pub get
 	@echo "✓ آماده. حالا: make check"
 
-bridge: ## تولیدِ چسبِ Dart↔Rust و ساختِ کتابخانه‌ی بومی
-	@# خروجی در git نیست: کدِ تولیدشده به نسخه‌ی codegen گره خورده و
-	@# نگه‌داشتنش در مخزن یعنی دو حقیقت.
+bridge: ## تولیدِ دوباره‌ی چسبِ Dart↔Rust و ساختِ کتابخانه‌ی بومی
+	@# چسب در git است — `core/src/frb_generated.rs` و `app/lib/src/rust/` —
+	@# وگرنه checkoutِ تمیز کامپایل نمی‌شود و CI روی E0583 می‌ایستد. این هدف
+	@# تنها وقتی لازم است که امضای api.rs عوض شود؛ آنگاه خروجی را کامیت کنید.
 	@command -v flutter_rust_bridge_codegen >/dev/null 2>&1 || { \
 		echo "flutter_rust_bridge_codegen نیست. نصب:"; \
 		echo "  cargo install flutter_rust_bridge_codegen --version ^2 --locked"; \
@@ -31,6 +33,20 @@ bridge: ## تولیدِ چسبِ Dart↔Rust و ساختِ کتابخانه‌ی
 	@# آزمون‌ها کتابخانه را از target/ برمی‌دارند، پس همین‌جا ساخته می‌شود.
 	cargo build --release -p sareh-core --features bridge
 	@echo "✓ پل آماده است."
+
+android: content-sync fonts ## ساختِ APK نصب‌شدنی (یکی به‌ازای هر معماری)
+	@# کتابخانه‌ی بومی باید برای خودِ اندروید کامپایل شود، نه برای میزبان.
+	@command -v cargo-ndk >/dev/null 2>&1 || { \
+		echo "cargo-ndk نیست. نصب: cargo install cargo-ndk --locked"; exit 1; }
+	@test -n "$$ANDROID_NDK_HOME" || { \
+		echo "ANDROID_NDK_HOME تهی است. NDK را نصب و نشانی‌اش را بگذارید."; exit 1; }
+	cargo ndk -t arm64-v8a -t armeabi-v7a -t x86_64 \
+		-o $(APP)/android/app/src/main/jniLibs \
+		build --release -p sareh-core --features bridge
+	@# جدا به‌ازای هر معماری: APK یکپارچه ۵۷MB می‌شود، چون سه نسخه از
+	@# libflutter.so را با هم حمل می‌کند. جدا، هرکدام نزدیک ۲۰MB است.
+	cd $(APP) && flutter build apk --release --split-per-abi
+	@echo "✓ APKها در $(APP)/build/app/outputs/flutter-apk/"
 
 content-sync: ## کپیِ content/ به دارایی‌های اپ
 	@# content/ بیرونِ بسته‌ی Flutter است تا یک منبعِ حقیقت بیشتر نداشته باشیم؛
@@ -64,6 +80,12 @@ fonts: ## گرفتنِ قلم‌ها (پروانه‌شان جداست، پس د
 			|| { echo "✗ $$name گرفته نشد"; rm -f "$(FONT_DIR)/$$name.ttf"; exit 1; }; \
 	done; \
 	echo "✓ قلم‌ها آماده‌اند (SIL OFL 1.1)."
+	@# درونِ بسته کپی می‌شوند، وگرنه Flutter آنها را در APK نمی‌گذارد:
+	@# مسیرِ نسبی به بیرونِ ریشه‌ی بسته بی‌صدا نادیده گرفته می‌شود و اپ
+	@# روی دستگاه با قلمِ پیش‌فرضِ سیستم بالا می‌آید.
+	@rm -rf $(APP_FONTS) && mkdir -p $(APP_FONTS)
+	@cp $(FONT_DIR)/*.ttf $(APP_FONTS)/
+	@echo "✓ قلم‌ها در $(APP_FONTS) نشستند."
 
 tokens: ## بازتولیدِ tokens.g.dart از tokens.json
 	dart run tools/gen_tokens.dart

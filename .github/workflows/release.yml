@@ -1,0 +1,83 @@
+# انتشار — APKها را به یک Release می‌چسباند تا نشانیِ مستقیم و همیشگی
+# داشته باشند. artifactهای Actions به ورود نیاز دارند و پس از ۹۰ روز پاک
+# می‌شوند؛ Release نه.
+#
+#   git tag v0.1.0 && git push origin v0.1.0
+#
+# یا از برگه‌ی Actions، «انتشار» → Run workflow (بی‌برچسب هم می‌شود؛ آنگاه
+# شماره از pubspec.yaml برداشته می‌شود).
+
+name: انتشار
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+jobs:
+  apk:
+    uses: ./.github/workflows/apk.yml
+
+  release:
+    name: ساختِ Release
+    needs: [apk]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      # سه artifactِ جدا بالا رفته‌اند؛ اینجا دوباره کنارِ هم می‌نشینند.
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: sareh-*
+          merge-multiple: true
+          path: apk
+      # روی برچسب، همان برچسب؛ روی اجرای دستی، شماره‌ی pubspec — تا دو جا
+      # دو شماره نگویند.
+      - name: یافتنِ شماره‌ی نسخه
+        run: |
+          if [ "${{ github.ref_type }}" = "tag" ]; then
+            tag="${{ github.ref_name }}"
+          else
+            tag="v$(sed -n 's/^version: *\([0-9.]*\).*/\1/p' app/pubspec.yaml)"
+          fi
+          echo "TAG=$tag" >> "$GITHUB_ENV"
+          echo "نسخه: $tag"
+      # نام‌ها را خواناتر می‌کنیم: app-arm64-v8a-release.apk چیزی به کسی
+      # نمی‌گوید، sareh-v0.1.0-arm64-v8a.apk می‌گوید.
+      - name: نام‌گذاری
+        run: |
+          cd apk
+          for f in app-*-release.apk; do
+            abi=${f#app-}; abi=${abi%-release.apk}
+            mv "$f" "sareh-$TAG-$abi.apk"
+          done
+          ls -lh
+      - name: انتشار
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$TAG" apk/*.apk \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "سَره $TAG" \
+            --notes "$(cat <<'EOF'
+          ## نصب
+
+          APKی را بگیرید که با پردازنده‌ی گوشی‌تان می‌خواند:
+
+          | پرونده | برای |
+          |---|---|
+          | `arm64-v8a` | تقریباً همه‌ی گوشی‌های امروزی — **اگر مطمئن نیستید، این** |
+          | `armeabi-v7a` | گوشی‌های قدیمی‌تر ۳۲بیتی |
+          | `x86_64` | شبیه‌ساز |
+
+          اندروید نصب از بیرونِ بازار را نمی‌پذیرد مگر اجازه بدهید:
+          هنگام باز کردنِ پرونده، «اجازه‌ی نصب از این منبع» را روشن کنید.
+
+          امضا با کلیدِ debug است، پس اگر پیش‌تر نسخه‌ای با کلیدِ دیگر نصب
+          کرده‌اید، نخست آن را بردارید.
+
+          اپ آفلاین کار می‌کند و به هیچ اجازه‌ای نیاز ندارد — نه شبکه، نه
+          حافظه، نه جای‌یاب.
+          EOF
+          )"

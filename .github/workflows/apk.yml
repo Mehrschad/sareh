@@ -1,0 +1,65 @@
+# ساختِ APK — از دو جا صدا زده می‌شود: CI (تا هر کامیت یک نصبِ آزمودنی
+# داشته باشد) و انتشار (تا همان‌ها به Release بچسبند). یک‌جا نوشته شده تا
+# آنچه در CI سبز می‌شود، دقیقاً همان باشد که منتشر می‌شود.
+
+name: ساختِ APK
+
+on:
+  workflow_call:
+
+jobs:
+  build:
+    name: APK اندروید
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # افزونه‌ی اندرویدِ Flutter با JDK 17 می‌سازد؛ رانرِ اوبونتو نسخه‌ی
+      # تازه‌تری را پیش‌فرض می‌گذارد که Gradle با آن می‌شکند.
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: aarch64-linux-android, armv7-linux-androideabi, x86_64-linux-android
+      - uses: Swatinem/rust-cache@v2
+      - name: نصبِ cargo-ndk
+        run: cargo install cargo-ndk --locked
+      # NDK روی رانر هست، ولی شماره‌ی نسخه‌اش با هر بازنشرِ تصویر عوض
+      # می‌شود. به‌جای نوشتنِ عدد، تازه‌ترینِ موجود برداشته می‌شود.
+      - name: یافتنِ NDK
+        run: |
+          ndk=$(ls -d "$ANDROID_HOME"/ndk/* | sort -V | tail -1)
+          echo "ANDROID_NDK_HOME=$ndk" >> "$GITHUB_ENV"
+          echo "NDK: $ndk"
+      - name: ساختِ APK
+        run: make android
+      # سه artifactِ جدا، نه یکی با هر سه درونش: کسی که روی گوشی است تنها
+      # معماریِ خودش را می‌خواهد و نباید ۶۳ مگابایت بگیرد تا به ۲۱ برسد.
+      # فشرده‌سازی هم خاموش است — APK خودش یک zip است و دوباره فشردنش
+      # جز وقت چیزی نمی‌برد.
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sareh-arm64-v8a
+          path: app/build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 0
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sareh-armeabi-v7a
+          path: app/build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 0
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sareh-x86_64
+          path: app/build/app/outputs/flutter-apk/app-x86_64-release.apk
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 0

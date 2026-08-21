@@ -90,6 +90,19 @@
 شخصِ ثالث. اگر ۴۵ دقیقه پیوسته کار کنی، خودش پیشنهادِ استراحت می‌دهد. قاعده‌ها
 در [ETHICS](docs/ETHICS.md) نوشته و در کد رعایت شده‌اند.
 
+## نصب روی گوشی
+
+APKها در [برگه‌ی Releases][releases] هستند — `arm64-v8a` برای تقریباً همه‌ی
+گوشی‌های امروزی. اندروید نصب از بیرونِ بازار را نمی‌پذیرد مگر اجازه بدهید؛
+هنگام باز کردنِ پرونده «اجازه‌ی نصب از این منبع» را روشن کنید.
+
+اپ آفلاین است و هیچ اجازه‌ای نمی‌خواهد: نه شبکه، نه حافظه، نه جای‌یاب.
+
+هر کامیت هم APK می‌سازد؛ در [Actions][actions] زیر «APK اندروید» می‌نشیند.
+
+[releases]: https://github.com/mehrschad/sareh/releases
+[actions]: https://github.com/mehrschad/sareh/actions/workflows/ci.yml
+
 ## آغاز
 
 ```bash
@@ -97,6 +110,12 @@ git clone https://github.com/mehrschad/sareh
 cd sareh
 make bootstrap
 make run
+```
+
+و برای ساختِ APK — نیازمندِ `cargo install cargo-ndk` و `ANDROID_NDK_HOME`:
+
+```bash
+make android
 ```
 
 برای مشارکت در محتوا به هیچ‌کدام از اینها نیاز ندارید — یک ویرایشگرِ متن بس
