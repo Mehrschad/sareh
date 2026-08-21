@@ -1,7 +1,7 @@
 name: sareh
 description: واژه‌هایی که فارسی از یاد برد — اپلیکیشن متن‌باز و آفلاین‌اولِ آموزش واژگان سره.
 publish_to: none
-version: 0.1.0
+version: 0.2.0+2
 
 environment:
   # withValues، TextScaler و switch expression‌ها همه به این کف نیاز دارند.
