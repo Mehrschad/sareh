@@ -14,12 +14,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../core/settings.dart';
+import '../../design/emblems.dart';
 import '../../design/kongere.dart';
 import '../../design/tokens.g.dart';
 import '../../design/widgets.dart';
 import '../../shared/content_repository.dart';
 import '../../shared/models.dart';
 import 'progress.dart';
+import 'settings_sheet.dart';
 
 class JourneyPage extends ConsumerStatefulWidget {
   const JourneyPage({super.key});
@@ -32,6 +35,10 @@ class _JourneyPageState extends ConsumerState<JourneyPage> {
   final ScrollController _scroll = ScrollController();
   double _offset = 0;
 
+  /// خوشامد تنها یک بار در عمرِ این صفحه فرستاده می‌شود، حتی اگر تنظیمات
+  /// چند بار بازخوانی شود.
+  bool _welcomed = false;
+
   @override
   void initState() {
     super.initState();
@@ -40,6 +47,15 @@ class _JourneyPageState extends ConsumerState<JourneyPage> {
       if ((_scroll.offset - _offset).abs() > 1) {
         setState(() => _offset = _scroll.offset);
       }
+    });
+  }
+
+  void _maybeWelcome(bool? onboarded) {
+    // null یعنی هنوز از دیسک نخوانده‌ایم — صبر، نه پرش.
+    if (onboarded != false || _welcomed) return;
+    _welcomed = true;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) context.push('/welcome');
     });
   }
 
@@ -54,6 +70,7 @@ class _JourneyPageState extends ConsumerState<JourneyPage> {
     final colors = context.colors;
     final content = ref.watch(contentProvider);
     final progress = ref.watch(progressProvider);
+    _maybeWelcome(ref.watch(settingsProvider.select((s) => s.onboarded)));
 
     return Scaffold(
       body: Kongere(
@@ -96,12 +113,15 @@ class _JourneyPageState extends ConsumerState<JourneyPage> {
   }
 }
 
-class _JourneyHeader extends StatelessWidget {
+class _JourneyHeader extends ConsumerWidget {
   const _JourneyHeader();
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final colors = context.colors;
+    final wallet = ref.watch(walletProvider).valueOrNull;
+    final streak = ref.watch(streakProvider).valueOrNull;
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
@@ -109,18 +129,60 @@ class _JourneyHeader extends StatelessWidget {
           color: colors.surface,
           padding: const EdgeInsets.fromLTRB(
             SarehSpace.lg,
-            SarehSpace.lg,
+            SarehSpace.sm,
             SarehSpace.lg,
             SarehSpace.md,
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text('واژه‌ها منتظرند.', style: Theme.of(context).textTheme.headlineSmall),
+              Row(
+                children: [
+                  Expanded(
+                    child: Text(
+                      'واژه‌ها منتظرند.',
+                      style: Theme.of(context).textTheme.headlineSmall,
+                    ),
+                  ),
+                  Semantics(
+                    button: true,
+                    label: 'تنظیمات',
+                    child: IconButton(
+                      icon: const Icon(Icons.tune),
+                      color: colors.onSurfaceMuted,
+                      onPressed: () => showSettingsSheet(context),
+                    ),
+                  ),
+                ],
+              ),
               const SizedBox(height: SarehSpace.xs),
               Text(
                 'هفت خان، هفت قلمرو.',
                 style: Theme.of(context).textTheme.bodyMedium,
+              ),
+              const SizedBox(height: SarehSpace.md),
+              // شمارگان: فَرّ، زنجیره، گوهر. صفرها هم دیده می‌شوند —
+              // شمارنده‌ای که پنهان شود، انگیزه‌ای هم نمی‌سازد.
+              Row(
+                children: [
+                  _Stat(
+                    icon: FarrIcon(size: SarehType.lg, colour: colors.achievement),
+                    value: wallet?.farr ?? 0,
+                    label: 'فَرّ',
+                  ),
+                  const SizedBox(width: SarehSpace.lg),
+                  _Stat(
+                    icon: AtashIcon(size: SarehType.lg, colour: colors.error),
+                    value: streak?.currentDays ?? 0,
+                    label: 'روزِ پیاپی',
+                  ),
+                  const SizedBox(width: SarehSpace.lg),
+                  _Stat(
+                    icon: GoharIcon(size: SarehType.lg, colour: colors.action),
+                    value: wallet?.gohar ?? 0,
+                    label: 'گوهر',
+                  ),
+                ],
               ),
             ],
           ),
@@ -128,6 +190,44 @@ class _JourneyHeader extends StatelessWidget {
         // سرصفحه با لبه‌ی کنگره‌دار تمام می‌شود، نه با خطِ صاف.
         KongereEdge(colour: colors.surface),
       ],
+    );
+  }
+}
+
+/// یک شمارگان با آیکن، شماره و نامِ کوچک.
+class _Stat extends StatelessWidget {
+  const _Stat({required this.icon, required this.value, required this.label});
+
+  final Widget icon;
+  final int value;
+  final String label;
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = context.colors;
+    return Semantics(
+      label: '$label: ${toPersianDigits(value)}',
+      child: Row(
+        children: [
+          icon,
+          const SizedBox(width: SarehSpace.xs),
+          Text(
+            toPersianDigits(value),
+            style: Theme.of(context)
+                .textTheme
+                .titleMedium
+                ?.copyWith(fontWeight: FontWeight.bold),
+          ),
+          const SizedBox(width: SarehSpace.xs),
+          Text(
+            label,
+            style: Theme.of(context)
+                .textTheme
+                .labelSmall
+                ?.copyWith(color: colors.onSurfaceMuted),
+          ),
+        ],
+      ),
     );
   }
 }
@@ -148,8 +248,10 @@ class _KhanSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final colors = context.colors;
     final height = khan.stations.length * _stationGap + SarehSpace.xl;
+    final dark = Theme.of(context).brightness == Brightness.dark;
+    final accentPair = SarehKhanColors.of(khan.number);
+    final accent = dark ? accentPair.dark : accentPair.light;
 
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: SarehSpace.lg),
@@ -160,6 +262,14 @@ class _KhanSection extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: SarehSpace.lg),
             child: Row(
               children: [
+                // نگهبانِ خان به رنگِ رنگدانه‌ی خودش — کاربر پیش از خواندنِ
+                // نام می‌داند کجاست.
+                GuardianEmblem(
+                  khan: khan.number,
+                  size: SarehSpace.xl + SarehSpace.md,
+                  colour: accent,
+                ),
+                const SizedBox(width: SarehSpace.md),
                 Expanded(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -189,7 +299,7 @@ class _KhanSection extends StatelessWidget {
                       child: CustomPaint(
                         painter: _PelekanPainter(
                           points: positions,
-                          colour: colors.action.withValues(alpha: 0.35),
+                          colour: accent.withValues(alpha: 0.45),
                         ),
                       ),
                     ),
@@ -202,6 +312,7 @@ class _KhanSection extends StatelessWidget {
                           index: i,
                           state: progress.stateOf(khan, i),
                           wordCount: bundle.wordsOf(khan.stations[i]).length,
+                          accent: accent,
                         ),
                       ),
                   ],
@@ -298,6 +409,7 @@ class _StationNode extends StatefulWidget {
     required this.index,
     required this.state,
     required this.wordCount,
+    required this.accent,
   });
 
   static const double diameter = 72;
@@ -306,6 +418,9 @@ class _StationNode extends StatefulWidget {
   final int index;
   final StationState state;
   final int wordCount;
+
+  /// رنگِ خان — منزل هم‌رنگِ قلمروِ خودش است.
+  final Color accent;
 
   @override
   State<_StationNode> createState() => _StationNodeState();
@@ -345,12 +460,12 @@ class _StationNodeState extends State<_StationNode> with SingleTickerProviderSta
     final fill = switch (widget.state) {
       StationState.locked => colors.surface,
       StationState.unlocked => colors.surface,
-      StationState.completed => colors.action,
+      StationState.completed => widget.accent,
     };
     final border = switch (widget.state) {
       StationState.locked => colors.outline,
-      StationState.unlocked => colors.action,
-      StationState.completed => colors.action,
+      StationState.unlocked => widget.accent,
+      StationState.completed => widget.accent,
     };
 
     final node = Container(

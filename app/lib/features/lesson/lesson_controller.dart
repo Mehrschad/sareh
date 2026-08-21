@@ -13,6 +13,7 @@ import 'dart:math';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../data/progress_repository.dart';
 import '../../shared/content_repository.dart';
 import '../../shared/models.dart';
 import '../journey/progress.dart';
@@ -239,6 +240,9 @@ class LessonState {
     required this.wrong,
     required this.lastAnswerCorrect,
     required this.shakeCounter,
+    this.farr = 0,
+    this.comboRun = 0,
+    this.lastGain = 0,
   });
 
   final String stationId;
@@ -255,6 +259,15 @@ class LessonState {
   /// هر بار افزایش می‌یابد تا لرزشِ پاسخِ نادرست دوباره اجرا شود.
   final int shakeCounter;
 
+  /// فَرِّ به‌دست‌آمده در همین منزل. قاعده‌ها در [FarrRules].
+  final int farr;
+
+  /// پاسخ‌های درستِ پیاپی — خوراکِ پاداشِ زنجیره.
+  final int comboRun;
+
+  /// فَرِّ همین پاسخ، برای نمایش در نوارِ بازخورد. صفر یعنی پاسخِ نادرست.
+  final int lastGain;
+
   bool get isFinished => index >= questions.length;
   Question? get current => isFinished ? null : questions[index];
   double get progress => questions.isEmpty ? 1 : index / questions.length;
@@ -266,6 +279,9 @@ class LessonState {
     bool? lastAnswerCorrect,
     bool clearLastAnswer = false,
     int? shakeCounter,
+    int? farr,
+    int? comboRun,
+    int? lastGain,
   }) =>
       LessonState(
         stationId: stationId,
@@ -275,6 +291,9 @@ class LessonState {
         wrong: wrong ?? this.wrong,
         lastAnswerCorrect: clearLastAnswer ? null : (lastAnswerCorrect ?? this.lastAnswerCorrect),
         shakeCounter: shakeCounter ?? this.shakeCounter,
+        farr: farr ?? this.farr,
+        comboRun: comboRun ?? this.comboRun,
+        lastGain: lastGain ?? this.lastGain,
       );
 }
 
@@ -313,11 +332,16 @@ class LessonController extends StateNotifier<LessonState> {
     if (state.isFinished || state.lastAnswerCorrect != null) return;
     final question = state.current!;
     final answerMs = elapsedMs;
+    final run = correct ? state.comboRun + 1 : 0;
+    final gain = correct ? FarrRules.gain(run) : 0;
     state = state.copyWith(
       correct: correct ? state.correct + 1 : state.correct,
       wrong: correct ? state.wrong : [...state.wrong, question.word],
       lastAnswerCorrect: correct,
       shakeCounter: correct ? state.shakeCounter : state.shakeCounter + 1,
+      farr: state.farr + gain,
+      comboRun: run,
+      lastGain: gain,
     );
     // زمان‌بندی پشتِ سر انجام می‌شود. بازخوردِ کاربر نباید منتظرِ SQLite و
     // پل بماند؛ دیرکردِ چند میلی‌ثانیه‌ای در نوشتن، هیچ‌کس را نمی‌آزارد،
@@ -340,6 +364,9 @@ class LessonController extends StateNotifier<LessonState> {
     required int answerMs,
     required ExerciseKind kind,
   }) {
+    if (correct) {
+      state = state.copyWith(farr: state.farr + FarrRules.practise);
+    }
     _schedule(word.id, correct: correct, answerMs: answerMs, kind: kind);
   }
 

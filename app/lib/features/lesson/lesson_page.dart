@@ -10,11 +10,17 @@
 // پاسخِ نادرست: لرزشِ افقی، سپس کارتِ توضیح از پایین. بدونِ صدای تنبیهی،
 // بدونِ قرمزکردنِ صفحه، بدونِ سرزنش.
 
+import 'dart:math' as math;
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../core/settings.dart';
+import '../../core/sound.dart';
+import '../../data/progress_repository.dart';
+import '../../design/emblems.dart';
 import '../../design/nur_e_vajeh.dart';
 import '../../design/nur_glow.dart';
 import '../../design/tokens.g.dart';
@@ -23,6 +29,7 @@ import '../../shared/content_repository.dart';
 import '../../shared/models.dart';
 import '../journey/progress.dart';
 import 'exercises.dart';
+import 'goftar.dart';
 import 'lesson_controller.dart';
 
 class LessonPage extends ConsumerWidget {
@@ -107,6 +114,9 @@ class _LessonView extends ConsumerWidget {
                     question: question,
                     onAnswer: ({required bool correct}) {
                       HapticFeedback.lightImpact();
+                      ref
+                          .read(soundProvider)
+                          .play(correct ? Sfx.dorost : Sfx.nadorost);
                       controller.answer(correct: correct);
                     },
                     onPractice: (word, {required correct, required answerMs}) =>
@@ -124,6 +134,7 @@ class _LessonView extends ConsumerWidget {
               _Feedback(
                 correct: answered,
                 word: question.word,
+                gain: state.lastGain,
                 onNext: controller.next,
               ),
           ],
@@ -169,10 +180,19 @@ class _QuestionView extends StatelessWidget {
 
 /// نوارِ بازخورد. لحنش هرگز شرمنده‌کننده نیست (بخش ۱۴).
 class _Feedback extends StatelessWidget {
-  const _Feedback({required this.correct, required this.word, required this.onNext});
+  const _Feedback({
+    required this.correct,
+    required this.word,
+    required this.gain,
+    required this.onNext,
+  });
 
   final bool correct;
   final Word word;
+
+  /// فَرِّ همین پاسخ — صفر برای پاسخِ نادرست.
+  final int gain;
+
   final VoidCallback onNext;
 
   @override
@@ -190,7 +210,7 @@ class _Feedback extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           if (correct)
-            _CorrectPanel(word: word)
+            _CorrectPanel(word: word, gain: gain)
           else
             _WrongPanel(word: word),
           const SizedBox(height: SarehSpace.md),
@@ -203,8 +223,9 @@ class _Feedback extends StatelessWidget {
 
 /// پاسخِ درست — «نورِ واژه» اینجا اجرا می‌شود.
 class _CorrectPanel extends StatefulWidget {
-  const _CorrectPanel({required this.word});
+  const _CorrectPanel({required this.word, required this.gain});
   final Word word;
+  final int gain;
 
   @override
   State<_CorrectPanel> createState() => _CorrectPanelState();
@@ -225,6 +246,7 @@ class _CorrectPanelState extends State<_CorrectPanel> {
 
   @override
   Widget build(BuildContext context) {
+    final colors = context.colors;
     final word = widget.word;
     return Column(
       mainAxisSize: MainAxisSize.min,
@@ -244,6 +266,25 @@ class _CorrectPanelState extends State<_CorrectPanel> {
           textAlign: TextAlign.center,
           style: Theme.of(context).textTheme.bodyLarge,
         ),
+        if (widget.gain > 0) ...[
+          const SizedBox(height: SarehSpace.sm),
+          // فَرِّ همین پاسخ — شمارِ آشکار، نه ستایشِ تهی. پاداشِ زنجیره
+          // (FarrRules.comboBonus) خودش را همین‌جا نشان می‌دهد.
+          Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              FarrIcon(size: SarehType.md, colour: colors.achievement),
+              const SizedBox(width: SarehSpace.xs),
+              Text(
+                '${toPersianDigits(widget.gain)}+ فَرّ',
+                style: Theme.of(context)
+                    .textTheme
+                    .labelLarge
+                    ?.copyWith(color: colors.achievement),
+              ),
+            ],
+          ),
+        ],
       ],
     );
   }
@@ -281,7 +322,12 @@ class _WrongPanel extends StatelessWidget {
   }
 }
 
-/// پایانِ منزل. جشن هست، ولی رد شدن از آن همیشه ممکن است.
+/// پایانِ منزل — لحظه‌ی جشن. رد شدن از آن همیشه ممکن است.
+///
+/// چرا این‌قدر جدا از باقیِ اپ می‌درخشد: باقیِ رابط عمداً ساکت است تا
+/// لحظه‌ی پاداش برجسته بماند. اینجا سیمرغ سخن می‌گوید، فَرّ از صفر
+/// شمرده می‌شود (شمارشِ صعودی، انتظارِ خوشایند می‌سازد) و باران زر
+/// بالا می‌رود. در حالتِ بی‌حرکت همه‌چیز ساکن و یک‌باره می‌نشیند.
 class _StationComplete extends ConsumerStatefulWidget {
   const _StationComplete({required this.state, required this.stationId});
 
@@ -293,24 +339,44 @@ class _StationComplete extends ConsumerStatefulWidget {
 }
 
 class _StationCompleteState extends ConsumerState<_StationComplete> {
+  late final GoftarLine _line;
+  late final bool _perfect;
+  late final int _awarded;
+
   @override
   void initState() {
     super.initState();
+    final total = widget.state.questions.length;
+    _perfect = total > 0 && widget.state.wrong.isEmpty;
+    _awarded = widget.state.farr +
+        FarrRules.station +
+        (_perfect ? FarrRules.perfectBonus : 0);
+    // سطرِ سیمرغ پیش از ثبتِ پیشرفت برگزیده می‌شود تا شمارنده‌ی چرخش،
+    // خودِ همین منزل را نشمرده باشد.
+    _line = Goftar.forStation(
+      isPerfect: _perfect,
+      hadWrong: widget.state.wrong.isNotEmpty,
+      completedBefore: ref.read(progressProvider).completedStations.length,
+    );
+    ref.read(soundProvider).play(_perfect ? Sfx.gohar : Sfx.manzel);
     // پیشرفت همان‌جا ثبت می‌شود، نه پس از پایانِ انیمیشنِ جشن.
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      final total = widget.state.questions.length;
       ref.read(progressProvider.notifier).completeStation(
             widget.stationId,
             ratio: total == 0 ? 0 : widget.state.correct / total,
+            earnedFarr: widget.state.farr,
+            perfect: _perfect,
           );
     });
   }
 
   @override
   Widget build(BuildContext context) {
+    final colors = context.colors;
     final state = widget.state;
     final total = state.questions.length;
     final ratio = total == 0 ? 0.0 : state.correct / total;
+    final still = MediaQuery.of(context).disableAnimations;
 
     return Scaffold(
       body: SafeArea(
@@ -322,17 +388,61 @@ class _StationCompleteState extends ConsumerState<_StationComplete> {
               padding: EdgeInsets.only(top: SarehSpace.xxl),
               child: NurGlow(),
             ),
+            if (!still) const Positioned.fill(child: _ZarBaran()),
             Padding(
               padding: const EdgeInsets.all(SarehSpace.xl),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
+                  Center(
+                    child: SimorghEmblem(
+                      size: SarehSpace.xxl + SarehSpace.xl,
+                      colour: colors.action,
+                      accent: colors.achievement,
+                    ),
+                  ),
+                  const SizedBox(height: SarehSpace.md),
                   Text(
                     'منزل گذشت.',
                     textAlign: TextAlign.center,
                     style: Theme.of(context).textTheme.displaySmall,
                   ),
+                  const SizedBox(height: SarehSpace.sm),
+                  // گفتارِ سیمرغ — دلگرمی، هرگز سرزنش.
+                  Text(
+                    _line.by == null ? _line.text : '«${_line.text}»',
+                    textAlign: TextAlign.center,
+                    style: Theme.of(context)
+                        .textTheme
+                        .bodyLarge
+                        ?.copyWith(color: colors.accentSoft),
+                  ),
+                  if (_line.by != null)
+                    Text(
+                      '— ${_line.by}',
+                      textAlign: TextAlign.center,
+                      style: Theme.of(context)
+                          .textTheme
+                          .labelSmall
+                          ?.copyWith(color: colors.onSurfaceMuted),
+                    ),
+                  const SizedBox(height: SarehSpace.lg),
+                  _FarrCountUp(total: _awarded, still: still),
+                  if (_perfect) ...[
+                    const SizedBox(height: SarehSpace.sm),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        GoharIcon(size: SarehType.lg, colour: colors.action),
+                        const SizedBox(width: SarehSpace.xs),
+                        Text(
+                          'یک گوهر — منزلِ بی‌لغزش',
+                          style: Theme.of(context).textTheme.bodyMedium,
+                        ),
+                      ],
+                    ),
+                  ],
                   const SizedBox(height: SarehSpace.lg),
                   Text(
                     '${toPersianDigits(state.correct)} از '
@@ -343,7 +453,7 @@ class _StationCompleteState extends ConsumerState<_StationComplete> {
                   const SizedBox(height: SarehSpace.md),
                   SarehProgressBar(value: ratio, semanticLabel: 'درصدِ درست'),
                   if (state.wrong.isNotEmpty) ...[
-                    const SizedBox(height: SarehSpace.xl),
+                    const SizedBox(height: SarehSpace.lg),
                     Text(
                       // نه سرزنش — تنها خبر از اینکه دوباره می‌بینی‌شان.
                       'این‌ها را دوباره می‌بینی:',
@@ -372,4 +482,114 @@ class _StationCompleteState extends ConsumerState<_StationComplete> {
       ),
     );
   }
+}
+
+/// شمارنده‌ی فَرّ — از صفر تا فَرِّ به‌دست‌آمده.
+class _FarrCountUp extends StatelessWidget {
+  const _FarrCountUp({required this.total, required this.still});
+
+  final int total;
+  final bool still;
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = context.colors;
+    final style = Theme.of(context).textTheme.headlineMedium?.copyWith(
+          color: colors.achievement,
+          fontWeight: FontWeight.bold,
+        );
+    return Semantics(
+      label: 'فَرِّ این منزل: ${toPersianDigits(total)}',
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          FarrIcon(size: SarehType.xl, colour: colors.achievement),
+          const SizedBox(width: SarehSpace.sm),
+          still
+              ? Text('${toPersianDigits(total)}+ فَرّ', style: style)
+              : TweenAnimationBuilder<double>(
+                  tween: Tween(begin: 0, end: total.toDouble()),
+                  duration: SarehJashn.countUp,
+                  curve: SarehMotion.heroCurve,
+                  builder: (context, value, _) => Text(
+                    '${toPersianDigits(value.round())}+ فَرّ',
+                    style: style,
+                  ),
+                ),
+        ],
+      ),
+    );
+  }
+}
+
+/// بارانِ زر — ذره‌هایی که از پایین برمی‌خیزند و محو می‌شوند.
+///
+/// بالا رفتن، نه فروافتادن: پیشرفت در همه‌ی فرهنگ‌ها «بالا» است و
+/// فروافتادنِ ذره، حسِ پایانِ چیزی را می‌دهد نه آغازِ چیزی.
+class _ZarBaran extends StatefulWidget {
+  const _ZarBaran();
+
+  @override
+  State<_ZarBaran> createState() => _ZarBaranState();
+}
+
+class _ZarBaranState extends State<_ZarBaran>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _controller = AnimationController(
+    vsync: this,
+    duration: SarehJashn.particleDuration,
+  )..forward();
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = context.colors;
+    return IgnorePointer(
+      child: AnimatedBuilder(
+        animation: _controller,
+        builder: (context, _) => CustomPaint(
+          painter: _ZarBaranPainter(
+            progress: _controller.value,
+            colour: colors.achievement,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _ZarBaranPainter extends CustomPainter {
+  _ZarBaranPainter({required this.progress, required this.colour});
+
+  final double progress;
+  final Color colour;
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    // قطعی، نه تصادفیِ هر فریم: هر ذره سرنوشتِ خودش را از شماره‌اش می‌گیرد.
+    final rng = math.Random(7);
+    for (var i = 0; i < SarehJashn.particleCount; i++) {
+      final x = rng.nextDouble() * size.width;
+      final delay = rng.nextDouble() * 0.5;
+      final t = ((progress - delay) / (1 - delay)).clamp(0.0, 1.0);
+      if (t <= 0 || t >= 1) continue;
+      final eased = SarehMotion.kamanArash.transform(t);
+      final y = size.height - eased * (SarehJashn.particleRise + size.height * 0.3);
+      final alpha = (1 - t) * 0.9;
+      final radius = 1.5 + rng.nextDouble() * 2.5;
+      canvas.drawCircle(
+        Offset(x, y),
+        radius,
+        Paint()..color = colour.withValues(alpha: alpha),
+      );
+    }
+  }
+
+  @override
+  bool shouldRepaint(_ZarBaranPainter old) => old.progress != progress;
 }

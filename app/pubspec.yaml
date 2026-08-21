@@ -29,6 +29,8 @@ dependencies:
   # پلِ هسته‌ی Rust. نسخه باید مو‌به‌مو با core/Cargo.toml و با
   # flutter_rust_bridge_codegen یکی باشد؛ کدِ تولیدشده نسخه‌محور است.
   flutter_rust_bridge: 2.12.0
+  # جلوه‌های صوتی — ضرب‌های سنتورِ ساختگی در assets/sounds
+  audioplayers: ^6.1.0
 
 dev_dependencies:
   flutter_test:
@@ -47,6 +49,8 @@ flutter:
     - assets/content/words/
     - assets/content/lessons/
     - assets/content/corpus/
+    # ضرب‌های سنتور — ساخته‌ی tools/gen_sounds.py، در مخزن کامیت‌شده.
+    - assets/sounds/
 
   shaders:
     - shaders/nur.frag

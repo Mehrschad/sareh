@@ -16,6 +16,39 @@ String localDay(DateTime at) => '${at.year.toString().padLeft(4, '0')}-'
     '${at.month.toString().padLeft(2, '0')}-'
     '${at.day.toString().padLeft(2, '0')}';
 
+/// قاعده‌های فَرّ — امتیازِ سره.
+///
+/// همه ثابت و آشکارند: کاربر همیشه می‌تواند حساب کند چه گرفت و چرا. پاداشِ
+/// تصادفی (لوت‌باکس) در ETHICS ممنوع است؛ آنچه انگیزه می‌سازد پیش‌بینی‌پذیریِ
+/// پاداش است به‌علاوه‌ی لحظه‌ی جشن، نه قمار.
+///
+/// «فَرّ» همان فرّه‌ی ایزدی است: شکوهی که با کارِ درست به دست می‌آید و با
+/// لغزش از دست نمی‌رود — اینجا هم هیچ پاسخِ نادرستی فَرّ را کم نمی‌کند.
+/// تنبیه، یادگیری را می‌ترساند؛ نبودِ پاداش خودش پیامِ کافی است.
+class FarrRules {
+  /// هر پاسخِ درست.
+  static const int correct = 10;
+
+  /// از این تعداد پاسخِ درستِ پیاپی به بعد، هر پاسخ [comboBonus] بیشتر
+  /// می‌گیرد. آستانه ثابت است و پاداش سقف دارد — هیجان بی‌اضطراب.
+  static const int comboThreshold = 3;
+  static const int comboBonus = 5;
+
+  /// هر پاسخِ درستِ «تیر آرش» — تند و پرشمار، پس کوچک.
+  static const int practise = 2;
+
+  /// پایانِ هر منزل.
+  static const int station = 40;
+
+  /// منزلِ بی‌لغزش: فَرِّ افزوده و یک گوهر.
+  static const int perfectBonus = 25;
+  static const int perfectGohar = 1;
+
+  /// فَرِّ یک پاسخِ درست با توجه به زنجیره‌ی درستِ پیاپی.
+  static int gain(int comboRun) =>
+      correct + (comboRun >= comboThreshold ? comboBonus : 0);
+}
+
 /// وضعیتِ زنجیره پس از یک روزِ فعال.
 enum StreakOutcome {
   /// همان روز، بارِ دوم — چیزی عوض نشد.
@@ -146,6 +179,9 @@ class ProgressRepository {
   Future<StreakRow> streak() =>
       (db.select(db.streaks)..where((t) => t.id.equals(1))).getSingle();
 
+  Stream<StreakRow> watchStreak() =>
+      (db.select(db.streaks)..where((t) => t.id.equals(1))).watchSingle();
+
   /// روزِ فعال را ثبت می‌کند و می‌گوید بر سرِ زنجیره چه آمد.
   ///
   /// قاعده‌ها:
@@ -215,6 +251,9 @@ class ProgressRepository {
 
   Future<WalletRow> wallet() =>
       (db.select(db.wallets)..where((t) => t.id.equals(1))).getSingle();
+
+  Stream<WalletRow> watchWallet() =>
+      (db.select(db.wallets)..where((t) => t.id.equals(1))).watchSingle();
 
   Future<void> earn({int farr = 0, int gohar = 0}) async {
     final row = await wallet();

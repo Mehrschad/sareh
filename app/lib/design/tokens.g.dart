@@ -177,3 +177,56 @@ class SarehSignature {
   static const double particleRise = 28.0;
   static const Duration particleFade = Duration(milliseconds: 500);
 }
+
+/// جشنِ پایانِ منزل.
+class SarehJashn {
+  static const int particleCount = 24;
+  static const double particleRise = 140.0;
+  static const Duration particleDuration = Duration(milliseconds: 1600);
+  static const Duration countUp = Duration(milliseconds: 900);
+}
+
+/// سیمرغ — همراهِ راه.
+class SarehSimorgh {
+  static const int rayCount = 7;
+  static const double strokeWidth = 2.2;
+}
+
+/// رنگِ هفت خان — هرکدام یک رنگدانه‌ی کهنِ ایرانی، هم‌معنا با نگهبانش.
+///
+/// شماره‌ی خان (۱ تا ۷) را به [of] بدهید؛ بیرون از بازه، رنگِ خانِ
+/// نخست برمی‌گردد تا محتوای ناهم‌خوان صفحه را نشکند.
+class SarehKhanColors {
+  const SarehKhanColors._(this.dark, this.light);
+
+  final Color dark;
+  final Color light;
+
+  /// کهربا — شیر
+  static const kahroba = SarehKhanColors._(Color(0xFFFFB13D), Color(0xFF8A5E10));
+  /// فیروزه — دیو تشنگی
+  static const firuze = SarehKhanColors._(Color(0xFF19D9C6), Color(0xFF0F7A6E));
+  /// زنگار — اژدها
+  static const zangar = SarehKhanColors._(Color(0xFF53DE83), Color(0xFF1E7A46));
+  /// ارغوان — جادو
+  static const arghavan = SarehKhanColors._(Color(0xFFD989F0), Color(0xFF8A3D9E));
+  /// لاجوردِ روشن — اولاد
+  static const lajevard = SarehKhanColors._(Color(0xFF6FA8FF), Color(0xFF2B5FC4));
+  /// مسِ گداخته — ارژنگ
+  static const mes = SarehKhanColors._(Color(0xFFFF9166), Color(0xFFA44A22));
+  /// سیمینِ برف — دیو سپید
+  static const simin = SarehKhanColors._(Color(0xFFC9E4F5), Color(0xFF44708C));
+
+  static const List<SarehKhanColors> all = [
+    kahroba,
+    firuze,
+    zangar,
+    arghavan,
+    lajevard,
+    mes,
+    simin,
+  ];
+
+  static SarehKhanColors of(int khan) =>
+      khan >= 1 && khan <= all.length ? all[khan - 1] : all.first;
+}

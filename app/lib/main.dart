@@ -7,11 +7,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import 'core/settings.dart';
 import 'core/theme.dart';
 import 'core/transitions.dart';
 import 'design/widgets.dart';
 import 'features/journey/journey_page.dart';
 import 'features/lesson/lesson_page.dart';
+import 'features/onboarding/onboarding_page.dart';
 import 'src/rust/frb_generated.dart';
 
 Future<void> main() async {
@@ -37,38 +39,6 @@ Future<void> _startRustCore() async {
   }
 }
 
-/// تنظیماتی که کاربر خودش برمی‌گزیند و اپ باید بی‌درنگ به آنها تن بدهد.
-class AppSettings {
-  const AppSettings({
-    this.themeMode = ThemeMode.dark,
-    this.textScale = 1.0,
-    this.reducedMotion = false,
-    this.dyslexic = false,
-  });
-
-  /// پس‌زمینه‌ی تیره پیش‌فرض است — شبِ لاجورد، و نور که از دلِ آن می‌زند.
-  final ThemeMode themeMode;
-  final double textScale;
-  final bool reducedMotion;
-  final bool dyslexic;
-
-  AppSettings copyWith({
-    ThemeMode? themeMode,
-    double? textScale,
-    bool? reducedMotion,
-    bool? dyslexic,
-  }) =>
-      AppSettings(
-        themeMode: themeMode ?? this.themeMode,
-        textScale: textScale ?? this.textScale,
-        reducedMotion: reducedMotion ?? this.reducedMotion,
-        dyslexic: dyslexic ?? this.dyslexic,
-      );
-}
-
-final settingsProvider =
-    StateProvider<AppSettings>((ref) => const AppSettings());
-
 final routerProvider = Provider<GoRouter>((ref) {
   return GoRouter(
     routes: [
@@ -81,6 +51,15 @@ final routerProvider = Provider<GoRouter>((ref) {
             pageBuilder: (context, state) => CustomTransitionPage(
               key: state.pageKey,
               child: LessonPage(stationId: state.pathParameters['stationId']!),
+              transitionDuration: SarehPageTransition.duration,
+              transitionsBuilder: SarehPageTransition.build,
+            ),
+          ),
+          GoRoute(
+            path: 'welcome',
+            pageBuilder: (context, state) => CustomTransitionPage(
+              key: state.pageKey,
+              child: const OnboardingPage(),
               transitionDuration: SarehPageTransition.duration,
               transitionsBuilder: SarehPageTransition.build,
             ),

@@ -60,14 +60,29 @@ class ProgressNotifier extends StateNotifier<JourneyProgress> {
     if (stored != null && mounted) state = JourneyProgress(stored);
   }
 
-  /// منزل را تمام‌شده ثبت می‌کند و روزِ فعال را برای زنجیره علامت می‌زند.
+  /// منزل را تمام‌شده ثبت می‌کند، فَرّ و گوهر را می‌ریزد و روزِ فعال را
+  /// برای زنجیره علامت می‌زند.
   ///
   /// حالت **پیش از** نوشتن روی دیسک به‌روز می‌شود: کاربر نباید منتظرِ SQLite
   /// بماند تا در باز شود. اگر نوشتن شکست بخورد، بدترین حالت این است که یک
   /// منزل دوباره باز شود — که از رابطِ یخ‌زده بهتر است.
-  Future<void> completeStation(String stationId, {double ratio = 1.0}) async {
+  ///
+  /// [earnedFarr] فَرِّ جمع‌شده در خودِ منزل است؛ پاداشِ پایان و پاداشِ
+  /// بی‌لغزشی همین‌جا رویش می‌آید تا قاعده یک‌جا بماند ([FarrRules]).
+  Future<void> completeStation(
+    String stationId, {
+    double ratio = 1.0,
+    int earnedFarr = 0,
+    bool perfect = false,
+  }) async {
     state = state.complete(stationId);
     await _repository?.completeStation(stationId, ratio);
+    await _repository?.earn(
+      farr: earnedFarr +
+          FarrRules.station +
+          (perfect ? FarrRules.perfectBonus : 0),
+      gohar: perfect ? FarrRules.perfectGohar : 0,
+    );
     await _repository?.markActiveDay();
   }
 
@@ -89,4 +104,14 @@ final progressRepositoryProvider = Provider<ProgressRepository>(
 final progressProvider =
     StateNotifierProvider<ProgressNotifier, JourneyProgress>(
   (ref) => ProgressNotifier(ref.watch(progressRepositoryProvider)),
+);
+
+/// کیف — فَرّ و گوهر، زنده از پایگاه داده.
+final walletProvider = StreamProvider<WalletRow>(
+  (ref) => ref.watch(progressRepositoryProvider).watchWallet(),
+);
+
+/// زنجیره‌ی روزانه، زنده از پایگاه داده.
+final streakProvider = StreamProvider<StreakRow>(
+  (ref) => ref.watch(progressRepositoryProvider).watchStreak(),
 );
