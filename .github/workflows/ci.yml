@@ -92,6 +92,12 @@ jobs:
       - run: flutter test
         working-directory: app
 
+  # پس از سبز شدنِ اپ، یک APK نصب‌شدنی هم ساخته می‌شود تا هر کامیت روی
+  # گوشی آزمودنی باشد، نه فقط روی CI.
+  apk:
+    needs: [app]
+    uses: ./.github/workflows/apk.yml
+
   web-demo:
     name: دموی وب
     needs: [content, design, app]

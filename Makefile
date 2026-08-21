@@ -21,9 +21,10 @@ bootstrap: content-sync fonts bridge ## نصبِ همه‌چیز پس از clone
 	cd $(APP) && flutter pub get
 	@echo "✓ آماده. حالا: make check"
 
-bridge: ## تولیدِ چسبِ Dart↔Rust و ساختِ کتابخانه‌ی بومی
-	@# خروجی در git نیست: کدِ تولیدشده به نسخه‌ی codegen گره خورده و
-	@# نگه‌داشتنش در مخزن یعنی دو حقیقت.
+bridge: ## تولیدِ دوباره‌ی چسبِ Dart↔Rust و ساختِ کتابخانه‌ی بومی
+	@# چسب در git است — `core/src/frb_generated.rs` و `app/lib/src/rust/` —
+	@# وگرنه checkoutِ تمیز کامپایل نمی‌شود و CI روی E0583 می‌ایستد. این هدف
+	@# تنها وقتی لازم است که امضای api.rs عوض شود؛ آنگاه خروجی را کامیت کنید.
 	@command -v flutter_rust_bridge_codegen >/dev/null 2>&1 || { \
 		echo "flutter_rust_bridge_codegen نیست. نصب:"; \
 		echo "  cargo install flutter_rust_bridge_codegen --version ^2 --locked"; \
