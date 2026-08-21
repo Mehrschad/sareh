@@ -89,6 +89,9 @@ String _render(Map<String, dynamic> tokens) {
   final fonts = tokens['font'] as Map<String, dynamic>;
   final a11y = tokens['a11y'] as Map<String, dynamic>;
   final signature = (tokens['signature'] as Map<String, dynamic>)['noreVajeh'] as Map<String, dynamic>;
+  final jashn = (tokens['signature'] as Map<String, dynamic>)['jashn'] as Map<String, dynamic>;
+  final simorgh = (tokens['signature'] as Map<String, dynamic>)['simorgh'] as Map<String, dynamic>;
+  final khanAccents = (tokens['khan'] as Map<String, dynamic>)['accents'] as List<dynamic>;
   final meta = tokens['meta'] as Map<String, dynamic>;
 
   final out = StringBuffer()
@@ -225,6 +228,54 @@ String _render(Map<String, dynamic> tokens) {
     ..writeln('  static const double particleRise = ${_num(particles['riseDp'] as num)};')
     ..writeln('  static const Duration particleFade = '
         'Duration(milliseconds: ${particles['fadeMs']});')
+    ..writeln('}')
+    ..writeln()
+    ..writeln('/// جشنِ پایانِ منزل.')
+    ..writeln('class SarehJashn {')
+    ..writeln('  static const int particleCount = ${jashn['particleCount']};')
+    ..writeln('  static const double particleRise = '
+        '${_num(jashn['particleRiseDp'] as num)};')
+    ..writeln('  static const Duration particleDuration = '
+        'Duration(milliseconds: ${jashn['particleMs']});')
+    ..writeln('  static const Duration countUp = '
+        'Duration(milliseconds: ${jashn['countUpMs']});')
+    ..writeln('}')
+    ..writeln()
+    ..writeln('/// سیمرغ — همراهِ راه.')
+    ..writeln('class SarehSimorgh {')
+    ..writeln('  static const int rayCount = ${simorgh['rayCount']};')
+    ..writeln('  static const double strokeWidth = '
+        '${_num(simorgh['strokeWidth'] as num)};')
+    ..writeln('}')
+    ..writeln()
+    ..writeln('/// رنگِ هفت خان — هرکدام یک رنگدانه‌ی کهنِ ایرانی، هم‌معنا با نگهبانش.')
+    ..writeln('///')
+    ..writeln('/// شماره‌ی خان (۱ تا ۷) را به [of] بدهید؛ بیرون از بازه، رنگِ خانِ')
+    ..writeln('/// نخست برمی‌گردد تا محتوای ناهم‌خوان صفحه را نشکند.')
+    ..writeln('class SarehKhanColors {')
+    ..writeln('  const SarehKhanColors._(this.dark, this.light);')
+    ..writeln()
+    ..writeln('  final Color dark;')
+    ..writeln('  final Color light;')
+    ..writeln();
+  for (final dynamic entry in khanAccents) {
+    final accent = entry as Map<String, dynamic>;
+    out.writeln('  /// ${accent['fa']} — ${accent['guardian']}');
+    out.writeln('  static const ${accent['id']} = SarehKhanColors._('
+        '${_color(accent['dark'] as String)}, '
+        '${_color(accent['light'] as String)});');
+  }
+  out
+    ..writeln()
+    ..writeln('  static const List<SarehKhanColors> all = [');
+  for (final dynamic entry in khanAccents) {
+    out.writeln('    ${(entry as Map<String, dynamic>)['id']},');
+  }
+  out
+    ..writeln('  ];')
+    ..writeln()
+    ..writeln('  static SarehKhanColors of(int khan) =>')
+    ..writeln('      khan >= 1 && khan <= all.length ? all[khan - 1] : all.first;')
     ..writeln('}');
   return out.toString();
 }

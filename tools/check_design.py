@@ -101,6 +101,31 @@ def check_contrast(tokens: dict) -> list[str]:
     return problems
 
 
+def check_khan_accents(tokens: dict) -> list[str]:
+    """هر رنگِ خان باید روی زمینه‌ی پوسته‌ی خودش دستِ‌کم ۳:۱ باشد.
+
+    این رنگ‌ها مسیر و نشانِ نگهبان را می‌کشند — عنصرِ گرافیکی‌اند، نه متن.
+    """
+    problems = []
+    palette = tokens["palette"]
+    accents = tokens.get("khan", {}).get("accents", [])
+    if len(accents) != 7:
+        problems.append(f"خان‌ها هفت‌تا هستند، نه {len(accents)}")
+    backgrounds = {
+        theme: resolve(spec["background"], palette)
+        for theme, spec in tokens["color"].items()
+    }
+    for accent in accents:
+        for theme, background in backgrounds.items():
+            ratio = contrast(accent[theme], background)
+            if ratio < GRAPHIC_MIN:
+                problems.append(
+                    f"رنگِ خانِ «{accent['fa']}» در پوسته‌ی {theme}: "
+                    f"{ratio:.2f} روی زمینه، کف {GRAPHIC_MIN}"
+                )
+    return problems
+
+
 def check_hardcoded_values() -> list[str]:
     problems = []
     for path in sorted(APP_LIB.rglob("*.dart")):
@@ -128,7 +153,7 @@ def main() -> int:
         return 1
     tokens = json.loads(TOKENS.read_text(encoding="utf-8"))
 
-    problems = check_contrast(tokens)
+    problems = check_contrast(tokens) + check_khan_accents(tokens)
     if APP_LIB.exists():
         problems += check_hardcoded_values()
 
