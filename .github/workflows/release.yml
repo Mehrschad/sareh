@@ -26,9 +26,11 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      # سه artifactِ جدا بالا رفته‌اند؛ اینجا دوباره کنارِ هم می‌نشینند.
       - uses: actions/download-artifact@v4
         with:
-          name: sareh-apk
+          pattern: sareh-*
+          merge-multiple: true
           path: apk
       # روی برچسب، همان برچسب؛ روی اجرای دستی، شماره‌ی pubspec — تا دو جا
       # دو شماره نگویند.

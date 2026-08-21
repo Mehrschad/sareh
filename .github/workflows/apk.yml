@@ -38,12 +38,28 @@ jobs:
           echo "NDK: $ndk"
       - name: ساختِ APK
         run: make android
-      # فشرده‌سازی خاموش است: APK خودش یک zip است و دوباره فشردنش تنها
-      # وقت می‌برد.
+      # سه artifactِ جدا، نه یکی با هر سه درونش: کسی که روی گوشی است تنها
+      # معماریِ خودش را می‌خواهد و نباید ۶۳ مگابایت بگیرد تا به ۲۱ برسد.
+      # فشرده‌سازی هم خاموش است — APK خودش یک zip است و دوباره فشردنش
+      # جز وقت چیزی نمی‌برد.
       - uses: actions/upload-artifact@v4
         with:
-          name: sareh-apk
-          path: app/build/app/outputs/flutter-apk/app-*-release.apk
+          name: sareh-arm64-v8a
+          path: app/build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 0
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sareh-armeabi-v7a
+          path: app/build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 0
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sareh-x86_64
+          path: app/build/app/outputs/flutter-apk/app-x86_64-release.apk
           if-no-files-found: error
           retention-days: 90
           compression-level: 0
