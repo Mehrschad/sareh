@@ -91,11 +91,7 @@ class _OnboardingPageState extends ConsumerState<OnboardingPage> {
                   children: [
                     _Parde(
                       still: still,
-                      art: SimorghEmblem(
-                        size: 180,
-                        colour: colors.action,
-                        accent: colors.achievement,
-                      ),
+                      art: SimorghEmblem(size: 180, colour: colors.action),
                       title: 'درود! من سیمرغم.',
                       body: 'همان که زال را پرورد و رستم را راه نمود. '
                           'این بار همراهِ توام — تا واژه‌هایی را که فارسی '
@@ -134,21 +130,17 @@ class _OnboardingPageState extends ConsumerState<OnboardingPage> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
+                        // نشانگرِ صفحه، گلِ دوازده‌پرِ آپادانا — صفحه‌ی
+                        // کنونی باز و روشن، بقیه کوچک و کم‌رنگ.
                         for (var i = 0; i < _pageCount; i++)
-                          AnimatedContainer(
-                            duration: still ? Duration.zero : SarehMotion.element,
-                            curve: SarehMotion.elementCurve,
-                            margin: const EdgeInsets.symmetric(
+                          Padding(
+                            padding: const EdgeInsets.symmetric(
                               horizontal: SarehSpace.xs,
                             ),
-                            width: i == _page ? SarehSpace.lg : SarehSpace.sm,
-                            height: SarehSpace.sm,
-                            decoration: BoxDecoration(
-                              color: i == _page
-                                  ? colors.action
-                                  : colors.outline,
-                              borderRadius:
-                                  BorderRadius.circular(SarehRadius.capsule),
+                            child: PersepolisRosette(
+                              size: i == _page ? SarehSpace.lg : SarehSpace.md,
+                              colour:
+                                  i == _page ? colors.action : colors.outline,
                             ),
                           ),
                       ],
