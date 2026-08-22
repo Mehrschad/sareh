@@ -137,11 +137,31 @@ class _JourneyHeader extends ConsumerWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
+                  // نشانِ سره: شیر و خورشید. اینجا می‌نشیند چون سرصفحه‌ی
+                  // هفت‌خان نخستین چیزی است که هر بار دیده می‌شود.
+                  Semantics(
+                    label: 'نشانِ سره — شیر و خورشید',
+                    child: ShirOKhorshid(
+                      size: SarehSpace.xl,
+                      colour: colors.achievement,
+                    ),
+                  ),
+                  const SizedBox(width: SarehSpace.sm),
                   Expanded(
-                    child: Text(
-                      'واژه‌ها منتظرند.',
-                      style: Theme.of(context).textTheme.headlineSmall,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          'واژه‌ها منتظرند.',
+                          style: Theme.of(context).textTheme.headlineSmall,
+                        ),
+                        Text(
+                          'هفت خان، هفت قلمرو.',
+                          style: Theme.of(context).textTheme.bodyMedium,
+                        ),
+                      ],
                     ),
                   ),
                   Semantics(
@@ -154,11 +174,6 @@ class _JourneyHeader extends ConsumerWidget {
                     ),
                   ),
                 ],
-              ),
-              const SizedBox(height: SarehSpace.xs),
-              Text(
-                'هفت خان، هفت قلمرو.',
-                style: Theme.of(context).textTheme.bodyMedium,
               ),
               const SizedBox(height: SarehSpace.md),
               // شمارگان: فَرّ، زنجیره، گوهر. صفرها هم دیده می‌شوند —
@@ -477,16 +492,23 @@ class _StationNodeState extends State<_StationNode> with SingleTickerProviderSta
         shape: BoxShape.circle,
         border: Border.all(color: border, width: done ? 2 : 1.5),
       ),
-      child: Text(
-        toPersianDigits(widget.index + 1),
-        style: TextStyle(
-          fontFamily: SarehType.bodyFamily,
-          fontSize: SarehType.lg,
-          height: SarehType.lgLine,
-          fontWeight: FontWeight.w600,
-          color: done ? colors.onAction : colors.onSurface,
-        ),
-      ),
+      // منزلِ گذشته گلِ آپادانا می‌گیرد، نه شماره: شماره می‌گوید «کجایی»،
+      // گل می‌گوید «گذشتی» — و گذشتن همان چیزی است که باید دیده شود.
+      child: done
+          ? PersepolisRosette(
+              size: _StationNode.diameter * 0.5,
+              colour: colors.onAction,
+            )
+          : Text(
+              toPersianDigits(widget.index + 1),
+              style: TextStyle(
+                fontFamily: SarehType.bodyFamily,
+                fontSize: SarehType.lg,
+                height: SarehType.lgLine,
+                fontWeight: FontWeight.w600,
+                color: colors.onSurface,
+              ),
+            ),
     );
 
     return Semantics(

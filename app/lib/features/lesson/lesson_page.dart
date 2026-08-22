@@ -135,6 +135,11 @@ class _LessonView extends ConsumerWidget {
                 correct: answered,
                 word: question.word,
                 gain: state.lastGain,
+                praise: Goftar.forAnswer(state.correct),
+                streak: Goftar.forStreak(
+                  state.comboRun,
+                  threshold: FarrRules.comboThreshold,
+                ),
                 onNext: controller.next,
               ),
           ],
@@ -184,6 +189,8 @@ class _Feedback extends StatelessWidget {
     required this.correct,
     required this.word,
     required this.gain,
+    required this.praise,
+    required this.streak,
     required this.onNext,
   });
 
@@ -192,6 +199,12 @@ class _Feedback extends StatelessWidget {
 
   /// فَرِّ همین پاسخ — صفر برای پاسخِ نادرست.
   final int gain;
+
+  /// ستایشِ کوتاهِ همین پاسخ.
+  final String praise;
+
+  /// سطرِ زنجیره، اگر به آستانه رسیده باشد.
+  final String? streak;
 
   final VoidCallback onNext;
 
@@ -210,7 +223,12 @@ class _Feedback extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           if (correct)
-            _CorrectPanel(word: word, gain: gain)
+            _CorrectPanel(
+              word: word,
+              gain: gain,
+              praise: praise,
+              streak: streak,
+            )
           else
             _WrongPanel(word: word),
           const SizedBox(height: SarehSpace.md),
@@ -223,9 +241,17 @@ class _Feedback extends StatelessWidget {
 
 /// پاسخِ درست — «نورِ واژه» اینجا اجرا می‌شود.
 class _CorrectPanel extends StatefulWidget {
-  const _CorrectPanel({required this.word, required this.gain});
+  const _CorrectPanel({
+    required this.word,
+    required this.gain,
+    required this.praise,
+    required this.streak,
+  });
+
   final Word word;
   final int gain;
+  final String praise;
+  final String? streak;
 
   @override
   State<_CorrectPanel> createState() => _CorrectPanelState();
@@ -258,14 +284,36 @@ class _CorrectPanelState extends State<_CorrectPanel> {
               : const SizedBox.shrink(),
         ),
         const SizedBox(height: SarehSpace.sm),
+        // ستایشِ کوتاه، جدا از خبرِ واژه: چشم نخست این را می‌گیرد و
+        // همین بازخوردِ بی‌درنگ است که کوشش را نگه می‌دارد.
         Text(
-          // «درست. «پرماس» از پهلویِ parmāsītan.» — نه «آفرین! عالی بود!»
+          widget.praise,
+          textAlign: TextAlign.center,
+          style: Theme.of(context)
+              .textTheme
+              .titleMedium
+              ?.copyWith(color: colors.accentSoft, fontWeight: FontWeight.bold),
+        ),
+        const SizedBox(height: SarehSpace.xs),
+        Text(
+          // «پرماس» از پهلویِ parmāsītan. — خبر، نه ستایشِ دوباره.
           word.pahlavi != null
-              ? 'درست. «${word.sare}» از پهلویِ ${word.pahlavi}.'
-              : 'درست. ${word.definition}',
+              ? '«${word.sare}» از پهلویِ ${word.pahlavi}.'
+              : word.definition,
           textAlign: TextAlign.center,
           style: Theme.of(context).textTheme.bodyLarge,
         ),
+        if (widget.streak case final line?) ...[
+          const SizedBox(height: SarehSpace.sm),
+          Text(
+            line,
+            textAlign: TextAlign.center,
+            style: Theme.of(context)
+                .textTheme
+                .bodyMedium
+                ?.copyWith(color: colors.achievement),
+          ),
+        ],
         if (widget.gain > 0) ...[
           const SizedBox(height: SarehSpace.sm),
           // فَرِّ همین پاسخ — شمارِ آشکار، نه ستایشِ تهی. پاداشِ زنجیره
@@ -399,7 +447,6 @@ class _StationCompleteState extends ConsumerState<_StationComplete> {
                     child: SimorghEmblem(
                       size: SarehSpace.xxl + SarehSpace.xl,
                       colour: colors.action,
-                      accent: colors.achievement,
                     ),
                   ),
                   const SizedBox(height: SarehSpace.md),

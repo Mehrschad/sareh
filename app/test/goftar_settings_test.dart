@@ -37,6 +37,36 @@ void main() {
       expect(at(0), at(Goftar.onward.length), reason: 'چرخش کامل');
     });
 
+    test('ستایشِ هر پاسخ می‌چرخد و تهی نیست', () {
+      final seen = {for (var i = 0; i < Goftar.praise.length; i++) Goftar.forAnswer(i)};
+      expect(seen, hasLength(Goftar.praise.length), reason: 'همه‌ی انبان دیده می‌شود');
+      expect(Goftar.forAnswer(0), Goftar.forAnswer(Goftar.praise.length));
+      for (final line in Goftar.praise) {
+        expect(line.trim(), isNotEmpty);
+      }
+    });
+
+    test('سطرِ زنجیره پیش از آستانه نمی‌آید و پس از آن می‌ماند', () {
+      expect(Goftar.forStreak(0, threshold: 3), isNull);
+      expect(Goftar.forStreak(2, threshold: 3), isNull);
+      expect(Goftar.forStreak(3, threshold: 3), Goftar.streak.first);
+      expect(Goftar.forStreak(4, threshold: 3), Goftar.streak[1]);
+      // زنجیره‌ی بسیار بلند از انبان بیرون نمی‌زند.
+      expect(Goftar.forStreak(500, threshold: 3), Goftar.streak.last);
+    });
+
+    test('انبان‌ها آن‌قدر بزرگ‌اند که تکرار زود به چشم نیاید', () {
+      expect(Goftar.praise.length, greaterThanOrEqualTo(10));
+      expect(Goftar.station.length, greaterThanOrEqualTo(10));
+      expect(Goftar.perfect.length, greaterThanOrEqualTo(6));
+      expect(Goftar.onward.length, greaterThanOrEqualTo(6));
+      for (final pool in [Goftar.station, Goftar.perfect, Goftar.onward]) {
+        expect(pool.map((l) => l.text).toSet(), hasLength(pool.length));
+      }
+      expect(Goftar.praise.toSet(), hasLength(Goftar.praise.length));
+      expect(Goftar.streak.toSet(), hasLength(Goftar.streak.length));
+    });
+
     test('تنها سطرهای شاهنامه گوینده دارند', () {
       for (final line in [...Goftar.station, ...Goftar.onward]) {
         expect(line.by, isNull);
